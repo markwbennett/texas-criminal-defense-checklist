@@ -1,0 +1,93 @@
+Home Improvement
+    Kitchen Remodel
+        Cabinets
+            Upper cabinets
+            Lower cabinets
+            Island cabinets
+            Hardware
+        Countertops
+            Measure space
+            Select material
+            Order countertops
+            Install countertops
+        Appliances
+            Refrigerator
+            Range
+            Dishwasher
+            Microwave
+    Bathroom Renovation
+        Plumbing
+            Update pipes
+            Install fixtures
+            Test water pressure
+        Tiling
+            Floor tiles
+            Wall tiles
+            Grout work
+        Fixtures
+            Toilet
+            Sink
+            Shower
+            Vanity
+    Landscaping
+        Front Yard
+            Lawn care
+            Flower beds
+            Trees
+            Walkway
+        Back Yard
+            Patio
+            Garden
+            Fence
+            Lighting
+    Garage Organization
+        Storage
+            Shelving
+            Cabinets
+            Tool organization
+        Floor
+            Epoxy coating
+            Clean surface
+            Apply coating
+            Cure time
+        Lighting
+            Overhead lights
+            Task lighting
+            Motion sensors
+        Workspace
+            Workbench
+            Tool storage
+            Power outlets
+Career Development
+    Skills
+        Programming
+            Python
+            JavaScript
+            SQL
+        Management
+            Team Leadership
+            Project Planning
+            Agile Methods
+    Certifications
+        Cloud
+            AWS Solutions Architect
+            Azure Administrator
+        Project Management
+            PMP
+            Scrum Master
+Personal Goals
+    Fitness
+        Running
+            5K Training
+            Half Marathon Plan
+        Strength Training
+            Upper Body
+            Lower Body
+            Core
+    Learning
+        Languages
+            Spanish
+            Mandarin
+        Music
+            Piano
+            Guitar 
