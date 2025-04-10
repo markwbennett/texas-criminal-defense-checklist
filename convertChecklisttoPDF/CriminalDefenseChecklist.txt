@@ -4,8 +4,8 @@ Prospective Client Meeting
 	Client Information
 		Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])
 		If questionaire: Please fill out this questionnaire as completely as possible (front and back). It is important that you answer each question fully. It is imperative that you be candid and truthful! You should answer all questions relevant to your case. If a question does not apply to your particular situation, please indicate by marking the question “N/A”. Since your answers are being made to your attorney, you are assured of confidentiality and are protected by the attorney-client privilege.
-		Referred by: ___________________________________ 
-		Why do you need an attorney? ____________________________________________________
+		Referred by: _ 
+		Why do you need an attorney? _
 		About You (Client/Defendant)
 		Full Legal Name (First – Middle – Last – Maiden)
 		Birth Date
@@ -19,7 +19,7 @@ Prospective Client Meeting
 		Cell phone
 		Fax number
 		Email
-		==*Check HERE ____ if you would like updates regarding your case sent to your email address.* ==
+		==*Check HERE _ if you would like updates regarding your case sent to your email address.* ==
 		Spouses Name
 		Spouse Telephone number
 		Emergency Contacts (Name, Phone)
@@ -621,7 +621,7 @@ Uncategorized so far:
 	Evidence for Defensive Theme
 	Witnesses (Witness – Issues)
 	Documentary Evidence
-	Defensive Issues To Be Brought out on Cross Examination of State’s Witnesses (Witness ___)
+	Defensive Issues To Be Brought out on Cross Examination of State’s Witnesses (Witness _)
 	Documentary Evidence in support of Defensive Position (Document – Witness)
 	Attack Search (yes/no)
 	Search Issues (Issue – Witnesses)
@@ -788,10 +788,10 @@ Uncategorized so far:
 	Faxed to DPS  Must provide a copy of the return of service 3 days prior to hearing ==
 	Received Final Order from Court (after hearing) 
 	Form letter to Client indicating result of hearing 
-	NOTES _________________________________________________________________________ 
+	NOTES _ 
 	Pre-Trial Motions
 	Brady
-	Motion for Discovery  ___ Sub MDT/Disp
+	Motion for Discovery  _ Sub MDT/Disp
 	Jury election
 	Motion for Discovery Experts
 	Motion to Suppress
@@ -818,7 +818,7 @@ Uncategorized so far:
 	Request ALR Transcript for Impeachment – if necessary
 	Scene Photos / Scene Visit / Google Earth Photo of scene
 	Subpoena hostile witnesses, if any
-	NOTES________________________________________________________________
+	NOTES_
 	==KShipman CHECKLIST – ALR & OCL (merged with ALR list below) 
 	ALR Checklist==
 	If DWI, Draft Petition for ALR Hearing
@@ -846,11 +846,11 @@ Uncategorized so far:
 	Letter to Client indicating result of hearing
 	Request Transcript from ALR Hearing
 	*Reset Request (5 calendar days) or Motion for Continuance (less than 5)
-	*Request/Continuance filed by: Defense_____ State _____ due to ________________________________________
-	*Party responsible for issuance of new subpoenas:_________
+	*Request/Continuance filed by: Defense_ State _ due to _
+	*Party responsible for issuance of new subpoenas:_
 	*New Hearing Date Received and Calendared
 	*If Reset/Continuance, repeat steps as needed.
-	NOTES_______________________________________________________________________________
+	NOTES_
 	Ask client if they want OCL, if lost ALR?
 	Draft Petition for OCL
 	Need the following before applying for OCL:
@@ -981,7 +981,7 @@ Uncategorized so far:
 	Client must carry certified copy of Occupational License Order with them at all times
 	==certified copy may only be used as a license for 30 days==
 	Client must pay reinstatement and occupational license fees and mail an original form SR-22 and certified copy of Petition and Order to DPS in order to obtain an Occupational License
-	NOTES ____________________________________________________________________________
+	NOTES _
 	
 	==Mitigation – Telling the Client’s Story one Client copy - PPT
 	Imagine you are defending this guy…arrested for PCS when police are serving a Blue Warrant at Client’s house and while searching the Client incident to arrest find a baggy of meth and a baggy of cocaine in Client’s shirt pocket. Client had Blue Warrant issued because he allegedly threatened to come back to the district parole office with a gun and shoot the entire place up. Client was a true habitual with Felony convictions going all the way back to 1977. Was a FOUNDING member of the Aryan Brotherhood of Texas and still claimed membership. 
@@ -1334,11 +1334,11 @@ Uncategorized so far:
 	Chris Daniel/Harris County District Clerk
 	Houston Police Department
 	Harris County Sheriff’s Department
-	Harris County Constable Precinct _____
+	Harris County Constable Precinct _
 	Harris County Fire Marshall
-	Other Law Enforcement Agency _____________________________
-	School ___________________________________________________
-	School District, _________________________________ ISD
+	Other Law Enforcement Agency _
+	School _
+	School District, _ ISD
 	N.C.I.C./FBI
 	T.C.I.C.
 	Texas Department of Public Safety/Expungements
@@ -1380,8 +1380,8 @@ Uncategorized so far:
 	Relax, sip coffee/drink.  
 	====
 	
-		    Referred by: ___________________________________ 
-			Why do you need an attorney? ____________________________________________________
+		    Referred by: _ 
+			Why do you need an attorney? _
 			About You (Client/Defendant)
 			Full Legal Name (First – Middle – Last – Maiden)
 			Birth Date
@@ -1395,7 +1395,7 @@ Uncategorized so far:
 			Cell phone
 			Fax number
 			Email
-			==*Check HERE ____ if you would like updates regarding your case sent to your email address.* ==
+			==*Check HERE _ if you would like updates regarding your case sent to your email address.* ==
 			Spouses Name
 			Spouse Telephone number
 			Emergency Contacts (Name, Phone)
@@ -1508,8 +1508,8 @@ Uncategorized so far:
 	Legal defense filed 20 days before omnibus date.
 	State’s discovery submitted to Defendant.
 	Defendant’s discovery submitted to State.
-	Deposition of: ___________________
-	Deposition of: ___________________
+	Deposition of: _
+	Deposition of: _
 	Motion for Suppression of Evidence & Motion in Limine filed.
 	Pre-Trial Statement filed at Initial PTC.
 	Final Pre-Trial Conference.
@@ -1534,7 +1534,7 @@ Uncategorized so far:
 	HIPPA Release Signed
 	Medical Records Requested
 	Medical Records Received
-	Witness List (___Sup’d_)
+	Witness List (_Sup’d_)
 	TCLEOSE Requested
 	TCLEOSE Received
 	MDTs Requested
@@ -1561,12 +1561,12 @@ Uncategorized so far:
 	Limine
 	Punishment Election
 	Community Supervision
-	Investigator: __________
-	Expert _______Hired___
+	Investigator: _
+	Expert _Hired_
 	Subpoena Witnesses 
 	File Business Records 
-	Case Law: _______________________
-	Court Notes: _______________________
+	Case Law: _
+	Court Notes: _
 	Preservation of error, generally
 	Object
 	 Move to Strike 
@@ -2000,7 +2000,7 @@ Uncategorized so far:
 	Evidence for Defensive Theme
 	Witnesses (Witness – Issues)
 	Documentary Evidence
-	Defensive Issues To Be Brought out on Cross Examination of State’s Witnesses (Witness ___)
+	Defensive Issues To Be Brought out on Cross Examination of State’s Witnesses (Witness _)
 	Documentary Evidence in support of Defensive Position (Document – Witness)
 	Attack Search (yes/no)
 	Search Issues (Issue – Witnesses)
@@ -2167,10 +2167,10 @@ Uncategorized so far:
 	Faxed to DPS  Must provide a copy of the return of service 3 days prior to hearing ==
 	Received Final Order from Court (after hearing) 
 	Form letter to Client indicating result of hearing 
-	NOTES _________________________________________________________________________ 
+	NOTES _ 
 	Pre-Trial Motions
 	Brady
-	Motion for Discovery  ___ Sub MDT/Disp
+	Motion for Discovery  _ Sub MDT/Disp
 	Jury election
 	Motion for Discovery Experts
 	Motion to Suppress
@@ -2197,7 +2197,7 @@ Uncategorized so far:
 	Request ALR Transcript for Impeachment – if necessary
 	Scene Photos / Scene Visit / Google Earth Photo of scene
 	Subpoena hostile witnesses, if any
-	NOTES________________________________________________________________
+	NOTES_
 	==KShipman CHECKLIST – ALR & OCL (merged with ALR list below) 
 	ALR Checklist==
 	If DWI, Draft Petition for ALR Hearing
@@ -2225,11 +2225,11 @@ Uncategorized so far:
 	Letter to Client indicating result of hearing
 	Request Transcript from ALR Hearing
 	*Reset Request (5 calendar days) or Motion for Continuance (less than 5)
-	*Request/Continuance filed by: Defense_____ State _____ due to ________________________________________
-	*Party responsible for issuance of new subpoenas:_________
+	*Request/Continuance filed by: Defense_ State _ due to _
+	*Party responsible for issuance of new subpoenas:_
 	*New Hearing Date Received and Calendared
 	*If Reset/Continuance, repeat steps as needed.
-	NOTES_______________________________________________________________________________
+	NOTES_
 	Ask client if they want OCL, if lost ALR?
 	Draft Petition for OCL
 	Need the following before applying for OCL:
@@ -2360,7 +2360,7 @@ Uncategorized so far:
 	Client must carry certified copy of Occupational License Order with them at all times
 	==certified copy may only be used as a license for 30 days==
 	Client must pay reinstatement and occupational license fees and mail an original form SR-22 and certified copy of Petition and Order to DPS in order to obtain an Occupational License
-	NOTES ____________________________________________________________________________
+	NOTES _
 	
 	==Mitigation – Telling the Client’s Story one Client copy - PPT
 	Imagine you are defending this guy…arrested for PCS when police are serving a Blue Warrant at Client’s house and while searching the Client incident to arrest find a baggy of meth and a baggy of cocaine in Client’s shirt pocket. Client had Blue Warrant issued because he allegedly threatened to come back to the district parole office with a gun and shoot the entire place up. Client was a true habitual with Felony convictions going all the way back to 1977. Was a FOUNDING member of the Aryan Brotherhood of Texas and still claimed membership. 
@@ -2713,11 +2713,11 @@ Uncategorized so far:
 	Chris Daniel/Harris County District Clerk
 	Houston Police Department
 	Harris County Sheriff’s Department
-	Harris County Constable Precinct _____
+	Harris County Constable Precinct _
 	Harris County Fire Marshall
-	Other Law Enforcement Agency _____________________________
-	School ___________________________________________________
-	School District, _________________________________ ISD
+	Other Law Enforcement Agency _
+	School _
+	School District, _ ISD
 	N.C.I.C./FBI
 	T.C.I.C.
 	Texas Department of Public Safety/Expungements
