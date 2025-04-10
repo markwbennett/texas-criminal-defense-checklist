@@ -1,6 +1,6 @@
 ---
 title: Criminal Defense Checklist
-created: 2025-04-09
+created: 2025-04-10
 ---
 
 # Main Checklist
@@ -14,32 +14,20 @@ created: 2025-04-09
 <a id='item-stabilize-case'></a>
 ☐ [Stabilize Case](#level-1-stabilize-case)
 
-<a id='item-review-discovery'></a>
-☐ [Review Discovery](#level-1-review-discovery)
-
-<a id='item-plea-offers'></a>
-☐ [Plea Offers?](#level-1-plea-offers)
-
-<a id='item-guilty-plea'></a>
-☐ [Guilty Plea](#level-1-guilty-plea)
-
-<a id='item-jury-trial'></a>
-☐ [Jury Trial](#level-1-jury-trial)
-
-<a id='item-is-client-noncitizen'></a>
-☐ [Is client noncitizen?](#level-1-is-client-noncitizen)
-
-<a id='item-tell-client-how-to-dress-for-court'></a>
-☐ [Tell Client how to dress for court](#level-1-tell-client-how-to-dress-for-court)
-
-<a id='item-identify-mental-health-problems'></a>
-☐ [Identify mental health problems](#level-1-identify-mental-health-problems)
-
 <a id='item-is-the-case-an-unindicted-felony'></a>
 ☐ [Is the case an unindicted felony?](#level-1-is-the-case-an-unindicted-felony)
 
-<a id='item-investigation'></a>
-☐ [Investigation](#level-1-investigation)
+<a id='item-discovery-and-investigation'></a>
+☐ [Discovery and Investigation](#level-1-discovery-and-investigation)
+
+<a id='item-mitigation'></a>
+☐ [Mitigation](#level-1-mitigation)
+
+<a id='item-review-discovery'></a>
+☐ [Review Discovery](#level-1-review-discovery)
+
+<a id='item-scientific-and-technical-issues'></a>
+☐ [Scientific and Technical Issues](#level-1-scientific-and-technical-issues)
 
 <a id='item-consider-pretrial-motions'></a>
 ☐ [Consider pretrial motions.](#level-1-consider-pretrial-motions)
@@ -47,26 +35,14 @@ created: 2025-04-09
 <a id='item-build-a-team'></a>
 ☐ [Build a team](#level-1-build-a-team)
 
-<a id='item-28-01-hearing-set'></a>
-☐ [28.01 hearing set?](#level-1-28-01-hearing-set)
+<a id='item-plea-offers'></a>
+☐ [Plea Offers?](#level-1-plea-offers)
 
-<a id='item-is-it-a-dwi-case'></a>
-☐ [Is it a DWI case?](#level-1-is-it-a-dwi-case)
-
-<a id='item-priors'></a>
-☐ [Priors?](#level-1-priors)
-
-<a id='item-are-there-medical-records-involved'></a>
-☐ [Are there medical records involved?](#level-1-are-there-medical-records-involved)
+<a id='item-guilty-plea'></a>
+☐ [Guilty Plea](#level-1-guilty-plea)
 
 <a id='item-trial'></a>
 ☐ [Trial](#level-1-trial)
-
-<a id='item-preservation-of-error-generally'></a>
-☐ [Preservation of error, generally](#level-1-preservation-of-error-generally)
-
-<a id='item-cop-cross-exam'></a>
-☐ [Cop cross-exam](#level-1-cop-cross-exam)
 
 <a id='item-appeal'></a>
 ☐ [Appeal](#level-1-appeal)
@@ -74,5433 +50,1224 @@ created: 2025-04-09
 <a id='item-specific-problems'></a>
 ☐ [Specific problems:](#level-1-specific-problems)
 
-<a id='item-notice-of-appeal'></a>
-☐ [Notice of Appeal](#level-1-notice-of-appeal)
+<a id='item-close-file'></a>
+☐ [Close file](#level-1-close-file)
 
-<a id='item-withdraw'></a>
-☐ [Withdraw](#level-1-withdraw)
-
-<a id='item-closing-letter-sent'></a>
-☐ [Closing letter sent](#level-1-closing-letter-sent)
-
-<a id='item-expunge-record'></a>
-☐ [Expunge record](#level-1-expunge-record)
-
-<a id='item-file-to-storage'></a>
-☐ [File to storage](#level-1-file-to-storage)
-
-<a id='item-petition-for-nondisclosure'></a>
-☐ [Petition for Nondisclosure](#level-1-petition-for-nondisclosure)
-
-<a id='item-uncategorized-so-far'></a>
-☐ [Uncategorized so far:](#level-1-uncategorized-so-far)
-
-<a id='item'></a>
-☐ [====](#level-1)
+<a id='item-clear-client-s-record'></a>
+☐ [Clear Client's record.](#level-1-clear-client-s-record)
 
 
 \newpage
 
 <a id='level-1-prospective-client-meeting'></a>
-# [Main Checklist](#item-prospective-client-meeting) | Prospective Client Meeting
-☐ Draft agreement.
+# [Main Checklist](#level-1) | Prospective Client Meeting
+<a id='item-conflict-check'></a>
+☐ Conflict Check
 
-☐ Get client's or payor's signature.
-
+<a id='item-client-information'></a>
 ☐ Client Information
 
-☐ Discuss consequences of Conviction:
+<a id='item-language-interpreter-needed'></a>
+☐ Language (interpreter needed?)
+
+<a id='item-education-level'></a>
+☐ Education Level
+
+<a id='item-special-needs'></a>
+☐ Special needs
+
+<a id='item-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction'></a>
+☐ [Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction)
+
+<a id='item-questionnaire'></a>
+☐ [Questionnaire](#level-1-prospective-client-meeting-questionnaire)
+
+<a id='item-spheres-of-influence-sheet-interview'></a>
+☐ Spheres of Influence Sheet [interview]
+
+<a id='item-skills-assessment-what-they-like-to-do-are-good-at-etc-interview'></a>
+☐ Skills Assessment (what they like to do, are good at, etc.) [interview]
+
+<a id='item-medical-records-what-hospitals-hippa-subpoena'></a>
+☐ Medical Records (what hospitals, HIPPA) [subpoena]
+
+<a id='item-school-records-releases-transcripts-college-and-primary-secondary-school-records-subpoena'></a>
+☐ School Records (releases, transcripts, college and primary/secondary school records) [subpoena]
+
+<a id='item-criminal-history-dps-online-database-search'></a>
+☐ Criminal History (DPS) [online database search]
+
+<a id='item-family-background-questionnaire'></a>
+☐ Family Background Questionnaire
+
+<a id='item-social-history-include-questions-on-trauma'></a>
+☐ Social History (include questions on trauma)
+
+<a id='item-references'></a>
+☐ References
+
+<a id='item-psychological-eval-include-explanation-about-all-doing-it-not-to-be-ashamed-etc'></a>
+☐ Psychological Eval (include explanation about all doing it, not to be ashamed, etc.)
+
+<a id='item-drug-tests'></a>
+☐ •Drug Tests?
+
+<a id='item-classes'></a>
+☐ •Classes?
+
+<a id='item-community-service-hours'></a>
+☐ •Community Service Hours?
+
+<a id='item-discuss-consequences-of-conviction'></a>
+☐ [Discuss consequences of Conviction:](#level-1-prospective-client-meeting-discuss-consequences-of-conviction)
+
+<a id='item-identify-mental-health-problems'></a>
+☐ Identify mental-health problems
+
+<a id='item-tell-client-how-to-dress-for-court'></a>
+☐ Tell Client how to dress for court
+
+<a id='item-tell-client-what-to-expect'></a>
+☐ Tell Client what to expect
+
+<a id='item-double-check-with-client-key-information'></a>
+☐ [Double check with client key information.](#level-1-prospective-client-meeting-double-check-with-client-key-information)
+
+<a id='item-draft-agreement'></a>
+☐ Draft agreement.
+
+<a id='item-get-client-s-or-payor-s-signature'></a>
+☐ Get client's or payor's signature.
 
 
 \newpage
 
-<a id='level-1-prospective-client-meeting-client-information'></a>
-# [Main Checklist](#item-prospective-client-meeting) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Client Information
-☐ Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])
+<a id='level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction'></a>
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])
+<a id='item-phone'></a>
+☐ Phone_
 
-☐ If questionaire: Please fill out this questionnaire as completely as possible (front and back). It is important that you answer each question fully. It is imperative that you be candid and truthful! You should answer all questions relevant to your case. If a question does not apply to your particular situation, please indicate by marking the question “N/A”. Since your answers are being made to your attorney, you are assured of confidentiality and are protected by the attorney-client privilege.
+<a id='item-address'></a>
+☐ Address_
 
-☐ Referred by: ___________________________________
+<a id='item-back-up-contact-information'></a>
+☐ Back up contact information_
 
-☐ Why do you need an attorney? ____________________________________________________
+<a id='item-other-active-cases'></a>
+☐ [Other active cases](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases)
 
+<a id='item-education-status'></a>
+☐ Education status_
+
+<a id='item-military-status'></a>
+☐ Military status_
+
+<a id='item-immigration-status'></a>
+☐ Immigration status_
+
+
+\newpage
+
+<a id='level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases'></a>
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction) | Other active cases
+<a id='item-other-cases-in-county'></a>
+☐ Other cases in county?__
+
+<a id='item-other-cases-elsewhere'></a>
+☐ Other cases elsewhere?__
+
+<a id='item-other-probation-parole-pps-matters'></a>
+☐ Other probation/parole/PPS matters?__
+
+
+\newpage
+
+<a id='level-1-prospective-client-meeting-questionnaire'></a>
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Questionnaire
+<a id='item-please-fill-out-this-questionnaire-as-completely-as-possible-front-and-back-it-is-important-that-you-answer-each-question-fully-it-is-imperative-that-you-be-candid-and-truthful-you-should-answer-all-questions-relevant-to-your-case-if-a-question-does-not-apply-to-your-particular-situation-please-indicate-by-marking-the-question-n-a-since-your-answers-are-being-made-to-your-attorney-you-are-assured-of-confidentiality-and-are-protected-by-the-attorney-client-privilege'></a>
+☐ Please fill out this questionnaire as completely as possible (front and back). It is important that you answer each question fully. It is imperative that you be candid and truthful! You should answer all questions relevant to your case. If a question does not apply to your particular situation, please indicate by marking the question “N/A”. Since your answers are being made to your attorney, you are assured of confidentiality and are protected by the attorney-client privilege.
+
+<a id='item-referred-by'></a>
+☐ Referred by:_
+
+<a id='item-why-do-you-need-an-attorney'></a>
+☐ Why do you need an attorney?__
+
+<a id='item-about-you-client-defendant'></a>
 ☐ About You (Client/Defendant)
 
+<a id='item-full-legal-name-first-middle-last-maiden'></a>
 ☐ Full Legal Name (First – Middle – Last – Maiden)
 
-☐ Birth Date
+<a id='item'></a>
+☐ _
 
+<a id='item-birth-date'></a>
+☐ Birth Date_
+
+<a id='item-city-and-state-where-born'></a>
 ☐ City and State where born
 
+<a id='item-us-citizen-yes-or-no'></a>
 ☐ US Citizen? Yes or No
 
+<a id='item-social-security'></a>
 ☐ Social Security #
 
+<a id='item-driver-s-license'></a>
 ☐ Driver’s License #
 
+<a id='item-address-street-city-county-state-zip'></a>
 ☐ Address (Street – City – County – State – Zip)
 
+<a id='item-home-phone'></a>
 ☐ Home phone
 
+<a id='item-work-phone'></a>
 ☐ Work phone
 
+<a id='item-cell-phone'></a>
 ☐ Cell phone
 
+<a id='item-fax-number'></a>
 ☐ Fax number
 
+<a id='item-email'></a>
 ☐ Email
 
+<a id='item-check-here-if-you-would-like-updates-regarding-your-case-sent-to-your-email-address'></a>
 ☐ ==*Check HERE ____ if you would like updates regarding your case sent to your email address.* ==
 
+<a id='item-spouses-name'></a>
 ☐ Spouses Name
 
+<a id='item-spouse-telephone-number'></a>
 ☐ Spouse Telephone number
 
+<a id='item-emergency-contacts-name-phone'></a>
 ☐ Emergency Contacts (Name, Phone)
 
+<a id='item-emergency-contacts-name-phone'></a>
 ☐ Emergency Contacts (Name, Phone)
 
+<a id='item-employer'></a>
 ☐ Employer
 
+<a id='item-work-address'></a>
 ☐ Work address
 
+<a id='item-education-level'></a>
 ☐ Education Level
 
+<a id='item-have-you-ever-been-arrested-before'></a>
 ☐ Have you ever been arrested before
 
+<a id='item-for-what'></a>
 ☐ For what
 
+<a id='item-have-you-ever-been-convicted-of-a-criminal-offense-or-placed-on-deferred-adjudication-or-probation-if-so-please-list-offenses-dates-and-place-of-conviction-city-and-state'></a>
 ☐ Have you ever been convicted of a criminal offense or placed on deferred adjudication or probation? If so, please list offenses, dates, and place of conviction (city and state).
 
+<a id='item-are-you-currently-on-probation-or-parole'></a>
 ☐ Are you currently on probation or parole?
 
+<a id='item-if-so-where-when-and-for-what'></a>
 ☐ If so, where/when and for what?
 
+<a id='item-about-your-case'></a>
 ☐ About Your Case
 
+<a id='item-date-of-arrest'></a>
 ☐ Date of Arrest
 
+<a id='item-arresting-agency'></a>
 ☐ Arresting Agency
 
+<a id='item-place-of-arrest'></a>
 ☐ Place of Arrest
 
+<a id='item-charge-s'></a>
 ☐ Charge(s)
 
+<a id='item-court'></a>
 ☐ Court
 
+<a id='item-next-court-date'></a>
 ☐ Next Court Date
 
+<a id='item-complaining-witness-or-victim-if-known'></a>
 ☐ Complaining Witness or Victim (if known)
 
+<a id='item-your-relationship-to-complaining-witness'></a>
 ☐ Your relationship to Complaining Witness
 
+<a id='item-c-w-s-phone-number'></a>
 ☐ C/W’s Phone number
 
+<a id='item-address'></a>
 ☐ Address
 
+<a id='item-list-co-defendants-charged-and-uncharged'></a>
 ☐ List Co-Defendants (charged and uncharged)
 
+<a id='item-list-any-witnesses-to-offense-not-character-witnesses-along-with-their-telephone-numbers'></a>
 ☐ List Any Witnesses to Offense (not character witnesses) along with their telephone numbers
 
+<a id='item-have-you-consulted-or-retained-another-attorney-on-this-matter-prior-to-coming-to-this-office'></a>
 ☐ Have you consulted or retained another attorney on this matter prior to coming to this office?
 
+<a id='item-if-so-please-state-who-and-when'></a>
 ☐ If so, please state who and when
 
+<a id='item-bonding-company'></a>
 ☐ Bonding Company
 
+<a id='item-amount-of-bond'></a>
 ☐ Amount of Bond
 
+<a id='item-guarantor-of-payment-person-responsible-for-payment'></a>
 ☐ Guarantor of Payment (Person Responsible for Payment)
 
+<a id='item-full-legal-name-first-middle-last-maiden'></a>
 ☐ Full Legal Name (First – Middle – Last – Maiden)
 
+<a id='item-birth-date'></a>
 ☐ Birth Date
 
+<a id='item-relationship-to-defendant'></a>
 ☐ Relationship to Defendant
 
+<a id='item-social-security'></a>
 ☐ Social Security #
 
+<a id='item-driver-s-license'></a>
 ☐ Driver’s License #
 
+<a id='item-address-street-city-county-state-zip'></a>
 ☐ Address (Street – City – County – State – Zip)
 
+<a id='item-home-phone'></a>
 ☐ Home phone
 
+<a id='item-work-phone'></a>
 ☐ Work phone
 
+<a id='item-employer'></a>
 ☐ Employer
 
+<a id='item-work-address'></a>
 ☐ Work address
 
 
 \newpage
 
 <a id='level-1-prospective-client-meeting-discuss-consequences-of-conviction'></a>
-# [Main Checklist](#item-prospective-client-meeting) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Discuss consequences of Conviction:
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Discuss consequences of Conviction:
+<a id='item-jail'></a>
 ☐ Jail
 
+<a id='item-court-costs'></a>
 ☐ Court Costs
 
-☐ Driver’s License Suspension
+<a id='item-driver-s-license-suspension'></a>
+☐ [Driver’s License Suspension](#level-1-prospective-client-meeting-discuss-consequences-of-conviction-driver-s-license-suspension)
 
+<a id='item-immigration'></a>
 ☐ Immigration
 
+<a id='item-sex-offender-registration'></a>
 ☐ Sex-offender registration
 
+<a id='item-reputation'></a>
 ☐ Reputation
+
+<a id='item-school'></a>
+☐ School
+
+<a id='item-employment'></a>
+☐ Employment
+
+<a id='item-licensing'></a>
+☐ Licensing
+
+<a id='item-driver-s-license'></a>
+☐ Driver’s License
+
+
+\newpage
+
+<a id='level-1-prospective-client-meeting-discuss-consequences-of-conviction-driver-s-license-suspension'></a>
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Discuss consequences of Conviction:](#level-1-prospective-client-meeting-discuss-consequences-of-conviction) | Driver’s License Suspension
+<a id='item-admin-date'></a>
+☐ Admin Date
+
+<a id='item-90-days'></a>
+☐ 90 Days
+
+<a id='item-180-restricted'></a>
+☐ 180 Restricted
+
+
+\newpage
+
+<a id='level-1-prospective-client-meeting-double-check-with-client-key-information'></a>
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Double check with client key information.
+<a id='item-immigration'></a>
+☐ Immigration
+
+<a id='item-criminal-history'></a>
+☐ Criminal history
+
+<a id='item-mental-health-medical-health'></a>
+☐ Mental health /Medical Health
+
+<a id='item-have-client-sign-hippa-and-ferpa'></a>
+☐ Have client sign HIPPA and FERPA
+
+<a id='item-military-history'></a>
+☐ Military history
 
 
 \newpage
 
 <a id='level-1-open-file'></a>
-# [Main Checklist](#item-open-file) | Open File
+# [Main Checklist](#level-1) | Open File
+<a id='item-if-hourly-timesheet-in-file'></a>
 ☐ If hourly: Timesheet in file.
 
-☐ Include Criminal Pleadings
+<a id='item-include-criminal-pleadings'></a>
+☐ [Include Criminal Pleadings](#level-1-open-file-include-criminal-pleadings)
 
-☐ Criminal Information and any other documents
-
-☐ Determine all Court dates and list
-
-☐ Place Court dates into calendar
-
+<a id='item-pull-all-applicable-statutes'></a>
 ☐ Pull all applicable statutes
 
+<a id='item-max-sentences-fines'></a>
+☐ Max sentences/fines?
+
+<a id='item-diversion-programs-available'></a>
+☐ Diversion programs available?
+
+<a id='item-codefendants'></a>
+☐ Codefendants?
+
+<a id='item-charges-the-da-missed'></a>
+☐ Charges the DA missed
+
+<a id='item-determine-all-court-dates-and-list'></a>
+☐ Determine all Court dates and list
+
+<a id='item-place-court-dates-into-calendar'></a>
+☐ [Place Court dates into calendar](#level-1-open-file-place-court-dates-into-calendar)
+
+<a id='item-pull-sample-jury-charge'></a>
 ☐ Pull sample jury charge
 
+<a id='item-notice-of-appearance-appearance-of-counsel-motion-to-substitute'></a>
 ☐ Notice of Appearance / Appearance of counsel / Motion to Substitute
 
-☐ Request discovery.
+<a id='item-request-discovery-notice-and-disclosure'></a>
+☐ Request discovery, notice, and disclosure.
 
-☐ Request for Notice
+<a id='item-is-client-noncitizen'></a>
+☐ [Is client noncitizen?](#level-1-open-file-is-client-noncitizen)
 
+<a id='item-start-file-memo'></a>
 ☐ Start file memo.
 
 
 \newpage
 
 <a id='level-1-open-file-include-criminal-pleadings'></a>
-# [Main Checklist](#item-open-file) | [Open File](#level-1-open-file) | Include Criminal Pleadings
+# [Main Checklist](#level-1) | [Open File](#level-1-open-file) | Include Criminal Pleadings
+<a id='item-criminal-information-or-indictment'></a>
 ☐ Criminal Information or Indictment
 
+<a id='item-probable-cause-affidavit-hearing'></a>
 ☐ Probable Cause – Affidavit / Hearing
 
 
 \newpage
 
-<a id='level-1-stabilize-case'></a>
-# [Main Checklist](#item-stabilize-case) | Stabilize Case
-☐ Bond Set – If so, Amount
+<a id='level-1-open-file-place-court-dates-into-calendar'></a>
+# [Main Checklist](#level-1) | [Open File](#level-1-open-file) | Place Court dates into calendar
+<a id='item-next-appearance'></a>
+☐ Next appearance
 
-☐ If no bond, why not? Check Constitution and statute for bases.
-
-☐ Bond Reduction Hearing
-
-
-\newpage
-
-<a id='level-1-review-discovery'></a>
-# [Main Checklist](#item-review-discovery) | Review Discovery
-☐ List possible witnesses and their connections.
-
-☐ Review Video
-
-☐ Transcribe audio
-
-☐ Update file memo.
+<a id='item-other-deadlines'></a>
+☐ Other deadlines
 
 
 \newpage
 
-<a id='level-1-plea-offers'></a>
-# [Main Checklist](#item-plea-offers) | Plea Offers?
-☐ Convey offer to client.
-
-☐ Answer client's concerns.
-
-☐ Get client's response.
-
-☐ Update file memo.
-
-
-\newpage
-
-<a id='level-1-guilty-plea'></a>
-# [Main Checklist](#item-guilty-plea) | Guilty Plea
-☐ Plea Agreement
-
-
-\newpage
-
-<a id='level-1-guilty-plea-plea-agreement'></a>
-# [Main Checklist](#item-guilty-plea) | [Guilty Plea](#level-1-guilty-plea) | Plea Agreement
-☐ Translate
-
-☐ Explain
-
-
-\newpage
-
-<a id='level-1-is-client-noncitizen'></a>
-# [Main Checklist](#item-is-client-noncitizen) | Is client noncitizen?
+<a id='level-1-open-file-is-client-noncitizen'></a>
+# [Main Checklist](#level-1) | [Open File](#level-1-open-file) | Is client noncitizen?
+<a id='item-consult-with-immigration-lawyer'></a>
 ☐ Consult with immigration lawyer
 
+<a id='item-counsel-client-regarding-immigration'></a>
 ☐ Counsel client regarding immigration
 
 
 \newpage
 
+<a id='level-1-stabilize-case'></a>
+# [Main Checklist](#level-1) | Stabilize Case
+<a id='item-instruct-client-and-allies-on-what-to-do-if-police-call'></a>
+☐ Instruct client and allies on what to do if police call.
+
+<a id='item-bond'></a>
+☐ [Bond](#level-1-stabilize-case-bond)
+
+
+\newpage
+
+<a id='level-1-stabilize-case-bond'></a>
+# [Main Checklist](#level-1) | [Stabilize Case](#level-1-stabilize-case) | Bond
+<a id='item-if-so-amount'></a>
+☐ If so, Amount
+
+<a id='item-if-no-bond-why-not-check-constitution-and-statute-for-bases'></a>
+☐ If no bond, why not? Check Constitution and statute for bases.
+
+<a id='item-if-necessary-habeas-to-reduce-bond'></a>
+☐ If necessary, habeas to reduce bond.
+
+<a id='item-connect-family-with-bonding-company'></a>
+☐ Connect family with bonding company.
+
+
+\newpage
+
 <a id='level-1-is-the-case-an-unindicted-felony'></a>
-# [Main Checklist](#item-is-the-case-an-unindicted-felony) | Is the case an unindicted felony?
+# [Main Checklist](#level-1) | Is the case an unindicted felony?
+<a id='item-pre-indictment-negotiation'></a>
+☐ Pre-indictment negotiation
+
+<a id='item-contact-prosecutor-about-grand-jury-packet-get-it-in-writing'></a>
 ☐ Contact Prosecutor about grand jury packet- get it in writing
 
+<a id='item-get-client-to-take-polygraph-exam'></a>
 ☐ Get client to take polygraph exam
 
+<a id='item-write-a-grand-jury-letter'></a>
 ☐ Write a grand-jury letter
 
+<a id='item-send-grand-jury-letter'></a>
 ☐ Send grand-jury letter
 
 
 \newpage
 
-<a id='level-1-investigation'></a>
-# [Main Checklist](#item-investigation) | Investigation
+<a id='level-1-discovery-and-investigation'></a>
+# [Main Checklist](#level-1) | Discovery and Investigation
+<a id='item-make-witness-list-from-client-family-neighbors-and-state-s-file-or-consider-meeting-with-investigator-investigation-see-below'></a>
+☐ Make witness list from Client, family/neighbors, and State’s file / OR; Consider meeting with Investigator / Investigation, See below
+
+<a id='item-visit-scene'></a>
 ☐ Visit Scene
 
+<a id='item-are-there-cell-phones-involved'></a>
 ☐ Are there cell phones involved?
 
-☐ Send cell phone company to preserve texts
+<a id='item-send-cell-phone-company-letter-to-preserve-texts-and-gps-location'></a>
+☐ Send cell phone company letter  to preserve texts and GPS location.
 
+<a id='item-subpoena-cell-phone-records'></a>
 ☐ Subpoena cell phone records
 
+<a id='item-get-cops-cell-numbers'></a>
 ☐ Get cops’ cell numbers
 
-☐ Is it a drug case?
+<a id='item-is-it-a-drug-case'></a>
+☐ [Is it a drug case?](#level-1-discovery-and-investigation-is-it-a-drug-case)
 
+<a id='item-is-it-a-dwi-case'></a>
+☐ [Is it a DWI case?](#level-1-discovery-and-investigation-is-it-a-dwi-case)
+
+<a id='item-priors'></a>
+☐ [Priors?](#level-1-discovery-and-investigation-priors)
+
+<a id='item-are-there-medical-records-involved'></a>
+☐ Are there medical records involved?
+
+<a id='item-identify-healthcare-providers'></a>
+☐ [Identify healthcare providers.](#level-1-discovery-and-investigation-identify-healthcare-providers)
+
+<a id='item-tcleose-requested'></a>
+☐ TCLEOSE Requested
+
+<a id='item-tcleose-received'></a>
+☐ TCLEOSE Received
+
+<a id='item-mdts-requested'></a>
+☐ MDTs Requested
+
+<a id='item-mdts-received'></a>
+☐ MDTs Received
+
+<a id='item-pia-requests'></a>
+☐ [PIA Requests](#level-1-discovery-and-investigation-pia-requests)
+
+<a id='item-do-you-have-all-police-reports'></a>
+☐ Do you have all police reports?
+
+<a id='item-probable-cause-affidavits'></a>
+☐ Probable cause affidavits
+
+<a id='item-lab-reports'></a>
+☐ Lab Reports
+
+<a id='item-dna-serology-reports'></a>
+☐ DNA Serology Reports
+
+<a id='item-jail-documents-pretrial-reports'></a>
+☐ [Jail documents / pretrial reports](#level-1-discovery-and-investigation-jail-documents-pretrial-reports)
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-is-it-a-drug-case'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Is it a drug case?
+<a id='item-drug-test-client'></a>
 ☐ Drug test client
 
 
 \newpage
 
+<a id='level-1-discovery-and-investigation-is-it-a-dwi-case'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Is it a DWI case?
+<a id='item-alr-checklist'></a>
+☐ ALR Checklist
+
+<a id='item-video-requested'></a>
+☐ Video Requested
+
+<a id='item-video-received'></a>
+☐ Video Received
+
+<a id='item-911-requested'></a>
+☐ 911 Requested
+
+<a id='item-911-received'></a>
+☐ 911 Received
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-priors'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Priors?
+<a id='item-investigate-priors'></a>
+☐ Investigate priors.
+
+<a id='item-prior-j-ss-requested'></a>
+☐ Prior J&Ss Requested
+
+<a id='item-prior-j-ss-received'></a>
+☐ Prior J&Ss Received
+
+<a id='item-compare-priors'></a>
+☐ Compare Priors
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-identify-healthcare-providers'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Identify healthcare providers.
+<a id='item-get-hipaa-release-forms-from-providers'></a>
+☐ Get HIPAA release forms from providers.
+
+<a id='item-hippa-release-signed-by-client'></a>
+☐ HIPPA release signed by client.
+
+<a id='item-hippa-motion-filed-on-cw'></a>
+☐ HIPPA motion filed on CW.
+
+<a id='item-medical-records-requested'></a>
+☐ Medical Records Requested
+
+<a id='item-medical-records-subpoenaed'></a>
+☐ Medical records subpoenaed.
+
+<a id='item-medical-records-received'></a>
+☐ Medical Records Received
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-pia-requests'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | PIA Requests
+<a id='item-jail-records'></a>
+☐ Jail records
+
+<a id='item-school-records'></a>
+☐ School records,
+
+<a id='item-juvenile-tdcj-records'></a>
+☐ Juvenile /TDCJ records
+
+
+\newpage
+
+<a id='level-1-mitigation'></a>
+# [Main Checklist](#level-1) | Mitigation
+<a id='item-make-timelines-of-client-s-life'></a>
+☐ Make timelines of client’s life
+
+<a id='item-confront-family-with-records'></a>
+☐ Confront family with records
+
+<a id='item-confront-client-with-records'></a>
+☐ Confront client with records
+
+<a id='item-contact-family-members-neighbors'></a>
+☐ Contact family members/neighbors
+
+
+\newpage
+
+<a id='level-1-review-discovery'></a>
+# [Main Checklist](#level-1) | Review Discovery
+<a id='item-list-possible-witnesses-and-their-connections'></a>
+☐ List possible witnesses and their connections.
+
+<a id='item-client-info-on-witnesses'></a>
+☐ Client info on witnesses
+
+<a id='item-review-video'></a>
+☐ Review Video
+
+<a id='item-transcribe-audio'></a>
+☐ Transcribe audio
+
+<a id='item-location-awareness'></a>
+☐ [Location awareness](#level-1-review-discovery-location-awareness)
+
+<a id='item-update-file-memo'></a>
+☐ Update file memo.
+
+
+\newpage
+
+<a id='level-1-review-discovery-location-awareness'></a>
+# [Main Checklist](#level-1) | [Review Discovery](#level-1-review-discovery) | Location awareness
+<a id='item-google-map'></a>
+☐ Google Map
+
+<a id='item-google-street-view'></a>
+☐ Google Street View
+
+<a id='item-weather-conditions'></a>
+☐ Weather Conditions
+
+<a id='item-lighting'></a>
+☐ Lighting
+
+
+\newpage
+
+<a id='level-1-scientific-and-technical-issues'></a>
+# [Main Checklist](#level-1) | Scientific and Technical Issues
+<a id='item-dna-mixture-case-cpi-evidence-issues-is-it-single-source-dna-evidence'></a>
+☐ [DNA mixture case? CPI evidence issues? Is it single source DNA evidence?](#level-1-scientific-and-technical-issues-dna-mixture-case-cpi-evidence-issues-is-it-single-source-dna-evidence)
+
+<a id='item-other-evidence-which-needs-to-be-tested'></a>
+☐ Other evidence which needs to be tested?
+
+<a id='item-drug-alcohol-reports'></a>
+☐ Drug / Alcohol Reports
+
+<a id='item-blood-analysis-reports'></a>
+☐ Blood Analysis Reports
+
+<a id='item-fingerprint-analysis-reports'></a>
+☐ Fingerprint Analysis Reports
+
+<a id='item-gunshot-residue-analysis-reports'></a>
+☐ Gunshot Residue Analysis Reports
+
+
+\newpage
+
+<a id='level-1-scientific-and-technical-issues-dna-mixture-case-cpi-evidence-issues-is-it-single-source-dna-evidence'></a>
+# [Main Checklist](#level-1) | [Scientific and Technical Issues](#level-1-scientific-and-technical-issues) | DNA mixture case? CPI evidence issues? Is it single source DNA evidence?
+<a id='item-call-the-lab-analyst-ensure-there-are-no-other-supplemental-reports-that-you-have-all-reports-that-there-are-no-calculations-or-other-reports-pending'></a>
+☐ Call the lab analyst, ensure there are no other supplemental reports, that you have all reports, that there are no calculations or other reports pending
+
+<a id='item-discuss-lab-report-data-ask-analyst-to-pin-down-their-interpretation-of-results'></a>
+☐ Discuss lab report data – ask analyst to pin down their interpretation of results
+
+
+\newpage
+
 <a id='level-1-consider-pretrial-motions'></a>
-# [Main Checklist](#item-consider-pretrial-motions) | Consider pretrial motions.
+# [Main Checklist](#level-1) | Consider pretrial motions.
+<a id='item-motion-for-no-solitary-confinement-show-particularized-need'></a>
+☐ Motion for no solitary confinement (show particularized need)
+
+<a id='item-motion-to-suppress'></a>
 ☐ Motion to Suppress
 
+<a id='item-motion-to-quash'></a>
 ☐ Motion to quash.
 
-☐ Ake motions:
+<a id='item-ake-motions'></a>
+☐ [Ake motions:](#level-1-consider-pretrial-motions-ake-motions)
 
-☐ Trial-specific motions
+<a id='item-trial-specific-motions'></a>
+☐ [Trial-specific motions](#level-1-consider-pretrial-motions-trial-specific-motions)
+
+<a id='item-28-01-hearing-set'></a>
+☐ [28.01 hearing set?](#level-1-consider-pretrial-motions-28-01-hearing-set)
 
 
 \newpage
 
 <a id='level-1-consider-pretrial-motions-ake-motions'></a>
-# [Main Checklist](#item-consider-pretrial-motions) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Ake motions:
+# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Ake motions:
+<a id='item-investigators'></a>
 ☐ Investigators
 
+<a id='item-experts'></a>
 ☐ Experts
 
 
 \newpage
 
 <a id='level-1-consider-pretrial-motions-trial-specific-motions'></a>
-# [Main Checklist](#item-consider-pretrial-motions) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Trial-specific motions
+# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Trial-specific motions
+<a id='item-subpoena-applications'></a>
 ☐ Subpoena applications
 
+<a id='item-notices-of-business-records'></a>
 ☐ Notices of business records
 
+<a id='item-motion-in-limine'></a>
 ☐ Motion in Limine
 
+<a id='item-trial-brief'></a>
 ☐ Trial brief.
 
+<a id='item-juror-questionnaire'></a>
 ☐ Juror questionnaire.
 
+<a id='item-punishment-election'></a>
 ☐ Punishment election
 
+<a id='item-application-for-probation'></a>
 ☐ Application for probation
 
 
 \newpage
 
-<a id='level-1-build-a-team'></a>
-# [Main Checklist](#item-build-a-team) | Build a team
-☐ Cocounsel
-
-☐ Law lawyer
-
-☐ Investigators
-
-☐ Experts
-
-
-\newpage
-
-<a id='level-1-28-01-hearing-set'></a>
-# [Main Checklist](#item-28-01-hearing-set) | 28.01 hearing set?
+<a id='level-1-consider-pretrial-motions-28-01-hearing-set'></a>
+# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | 28.01 hearing set?
+<a id='item-file-timely-motions'></a>
 ☐ File timely motions.
 
 
 \newpage
 
-<a id='level-1-is-it-a-dwi-case'></a>
-# [Main Checklist](#item-is-it-a-dwi-case) | Is it a DWI case?
-☐ ALR Checklist
+<a id='level-1-build-a-team'></a>
+# [Main Checklist](#level-1) | Build a team
+<a id='item-cocounsel'></a>
+☐ Cocounsel
 
-☐ Video Requested
+<a id='item-law-lawyer'></a>
+☐ Law lawyer
 
-☐ Video Received
+<a id='item-investigators'></a>
+☐ Investigators
 
-☐ 911 Requested
-
-☐ 911 Received
-
-
-\newpage
-
-<a id='level-1-priors'></a>
-# [Main Checklist](#item-priors) | Priors?
-☐ Investigate priors.
-
-☐ Prior J&Ss Requested
-
-☐ Prior J&Ss Received
-
-☐ Compare Priors
+<a id='item-experts'></a>
+☐ Experts
 
 
 \newpage
 
-<a id='level-1-are-there-medical-records-involved'></a>
-# [Main Checklist](#item-are-there-medical-records-involved) | Are there medical records involved?
-☐ Identify healthcare providers.
+<a id='level-1-plea-offers'></a>
+# [Main Checklist](#level-1) | Plea Offers?
+<a id='item-convey-offer-to-client'></a>
+☐ Convey offer to client.
 
-☐ Get HIPAA release from client
+<a id='item-answer-client-s-concerns'></a>
+☐ Answer client's concerns.
 
-☐ HIPPA Release Signed
+<a id='item-get-client-s-response'></a>
+☐ Get client's response.
 
-☐ Medical Records Requested
+<a id='item-update-file-memo'></a>
+☐ Update file memo.
 
-☐ Medical Records Received
 
-☐ TCLEOSE Requested
+\newpage
 
-☐ TCLEOSE Received
+<a id='level-1-guilty-plea'></a>
+# [Main Checklist](#level-1) | Guilty Plea
+<a id='item-plea-agreement'></a>
+☐ [Plea Agreement](#level-1-guilty-plea-plea-agreement)
 
-☐ MDTs Requested
 
-☐ MDTs Received
+\newpage
+
+<a id='level-1-guilty-plea-plea-agreement'></a>
+# [Main Checklist](#level-1) | [Guilty Plea](#level-1-guilty-plea) | Plea Agreement
+<a id='item-translate'></a>
+☐ Translate
+
+<a id='item-explain'></a>
+☐ Explain
 
 
 \newpage
 
 <a id='level-1-trial'></a>
-# [Main Checklist](#item-trial) | Trial
+# [Main Checklist](#level-1) | Trial
+<a id='item-preservation-of-error-generally'></a>
+☐ [Preservation of error, generally](#level-1-trial-preservation-of-error-generally)
+
+<a id='item-judgment-issued'></a>
 ☐ Judgment issued.
 
+<a id='item-sentencing-date'></a>
 ☐ Sentencing date.
+
+<a id='item-special-problems'></a>
+☐ [Special Problems:](#level-1-trial-special-problems)
+
+<a id='item-notice-of-appeal'></a>
+☐ Notice of Appeal
 
 
 \newpage
 
-<a id='level-1-preservation-of-error-generally'></a>
-# [Main Checklist](#item-preservation-of-error-generally) | Preservation of error, generally
+<a id='level-1-trial-preservation-of-error-generally'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | Preservation of error, generally
+<a id='item-object'></a>
 ☐ Object
 
+<a id='item-move-to-strike'></a>
 ☐ Move to Strike
 
+<a id='item-request-that-jury-be-instructed-to-disregard'></a>
 ☐ Request that jury be instructed to disregard
 
+<a id='item-move-for-mistrial'></a>
 ☐ Move for Mistrial
 
 
 \newpage
 
-<a id='level-1-cop-cross-exam'></a>
-# [Main Checklist](#item-cop-cross-exam) | Cop cross-exam
-☐ Establish reliability of report
+<a id='level-1-trial-special-problems'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | Special Problems:
+<a id='item-cop-cross-exam'></a>
+☐ [Cop cross-exam](#level-1-trial-special-problems-cop-cross-exam)
 
 
 \newpage
 
-<a id='level-1-cop-cross-exam-establish-reliability-of-report'></a>
-# [Main Checklist](#item-cop-cross-exam) | [Cop cross-exam](#level-1-cop-cross-exam) | Establish reliability of report
+<a id='level-1-trial-special-problems-cop-cross-exam'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | [Special Problems:](#level-1-trial-special-problems) | Cop cross-exam
+<a id='item-establish-reliability-of-report'></a>
+☐ [Establish reliability of report](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report)
+
+
+\newpage
+
+<a id='level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | [Special Problems:](#level-1-trial-special-problems) | [Cop cross-exam](#level-1-trial-special-problems-cop-cross-exam) | Establish reliability of report
+<a id='item-trained-to-write'></a>
 ☐ Trained to write
 
+<a id='item-purpose'></a>
 ☐ Purpose
 
-☐ Four principles:
+<a id='item-four-principles'></a>
+☐ [Four principles:](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report-four-principles)
+
+
+\newpage
+
+<a id='level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report-four-principles'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | [Special Problems:](#level-1-trial-special-problems) | [Cop cross-exam](#level-1-trial-special-problems-cop-cross-exam) | [Establish reliability of report](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report) | Four principles:
+<a id='item-chronological-if-the-report-says-a-then-b-a-happened-before-b'></a>
+☐ Chronological (if the report says “A, then B,” A happened before B)
+
+<a id='item-complete-if-it-s-not-in-the-offense-report-you-didn-t-think-it-important'></a>
+☐ Complete (if it’s not in the offense report, you didn’t think it important)
+
+<a id='item-true-if-it-s-in-the-offense-report-it-happened'></a>
+☐ True (if it’s in the offense report, it happened)
+
+<a id='item-literal'></a>
+☐ Literal
 
 
 \newpage
 
 <a id='level-1-appeal'></a>
-# [Main Checklist](#item-appeal) | Appeal
+# [Main Checklist](#level-1) | Appeal
+<a id='item-notice-of-appeal'></a>
+☐ Notice of Appeal
+
+<a id='item-jury-charge-error'></a>
 ☐ Jury-charge error
 
+<a id='item-jury-selection-error'></a>
 ☐ Jury selection error
 
 
 \newpage
 
 <a id='level-1-specific-problems'></a>
-# [Main Checklist](#item-specific-problems) | Specific problems:
+# [Main Checklist](#level-1) | Specific problems:
+<a id='item-noncitizen-client'></a>
 ☐ Noncitizen client
 
+<a id='item-unexpected-extraneous-at-trial'></a>
 ☐ Unexpected extraneous at trial
 
+<a id='item-missing-witness'></a>
 ☐ Missing witness
 
+<a id='item-batson-error'></a>
 ☐ Batson error
 
 
 \newpage
 
-<a id='level-1-expunge-record'></a>
-# [Main Checklist](#item-expunge-record) | Expunge record
-☐ Identify agencies involved
-
-☐ Look for other cases that can be expunged while you’re doing one
-
-☐ Get Client SSN, TDL, address at time of arrest, address now.
-
-☐ Draft petition
-
-☐ Petition to client for notarized signature
-
-☐ File petition
-
-☐ Draft order
-
-☐ Order to respondents for signatures
-
-☐ Signed order to court
-
-☐ Final order to client
-
-☐ Purge SSN, credit card numbers from file
-
-
-\newpage
-
-<a id='level-1-petition-for-nondisclosure'></a>
-# [Main Checklist](#item-petition-for-nondisclosure) | Petition for Nondisclosure
-☐ Eligibility Checklist (VE)==
-
-☐ Petitioner must have received successful discharge and dismissal of DADJ AND
-
-☐ The court where petition filed is the court that granted the DADJ
-
-☐ Petitioner complied with waiting period from date of discharge/dismissal (5 years for felonies; 2 years for misdemeanors under PC Ch. 20-22, 25, 42 or 46), and immediately for all other misdemeanors
-
-☐ There are some offenses for which Petitioner is NEVER eligible if convicted or placed on deferred – check Penal Code, ie Indecency with a Child, Aggravated Sexual Assault, etc.)
-
-☐ Even if eligible, Petitioner becomes Disqualified IF: during period of DADJ or waiting period thereafter, Petitioner gets convicted or placed on DADJ for any offense (other than traffic offense punishable by fine only).
-
-
-\newpage
-
-<a id='level-1-uncategorized-so-far'></a>
-# [Main Checklist](#item-uncategorized-so-far) | Uncategorized so far:
-☐ General Case Assessment
-
-☐ Client interview / Consultation
-
-☐ Language (interpreter needed?)
-
-☐ •Get out of jail! (Bond: family; bond motion, etc.)
-
-☐ Client Info:
-
-☐ •Client Intake Sheet [interview]- see above sample
-
-☐ •Spheres of Influence Sheet [interview]
-
-☐ •Skills Assessment (what they like to do, are good at, etc.) [interview]
-
-☐ •Medical Records (what hospitals, HIPPA) [subpoena]
-
-☐ •School Records (releases, transcripts, college and primary/secondary school records) [subpoena]
-
-☐ •Criminal History (DPS) [online database search]
-
-☐ •Family Background Questionnaire [interview]
-
-☐ •Social History (include questions on trauma) [interview]
-
-☐ •Reference Letters (3 + contact info) [interview]
-
-☐ •Psychological Eval (include explanation about all doing it, not to be ashamed, etc.) [interview]
-
-☐ •Drug Tests?
-
-☐ •Classes?
-
-☐ •Community Service Hours?
-
-☐ •Motion for no solitary confinement (show particularized need)
-
-☐ Double check with client all of the following:
-
-☐ Immigration
-
-☐ Criminal history
-
-☐ Mental health /Medical Health
-
-☐ Have client sign HIPPA and FERPA
-
-☐ Military history
-
-☐ Collateral consequences
-
-☐ School
-
-☐ Employment
-
-☐ Licensing
-
-☐ Driver’s License
-
-☐ Client info on witnesses
-
-☐ File Discovery Demand
-
-☐ Request Witness List
-
-☐ Request Impeachment Materials on State Witnesses
-
-☐ Request jail, school, medical and juvenile /TDCJ record via Open Records Request
-
-☐ Make timelines of client’s life
-
-☐ Confront family with records
-
-☐ Confront client with records
-
-☐ Contact family members/neighbors
-
-☐ Review state’s file and offense report
-
-☐ Make witness list from Client, family/neighbors, and State’s file / OR; Consider meeting with Investigator / Investigation, See below
-
-☐ Charging document
-
-☐ Information v. Grand Jury
-
-☐ •OR!!! [discovery]
-
-☐ •Discovery Request [to DA]
-
-☐ •MDTs, etc. [subpoena]
-
-☐ Police reports (do you have them all?)
-
-☐ Probable cause affidavits
-
-☐ Lab Reports
-
-☐ DNA Serology Reports
-
-☐ ==Is it a DNA mixture case? CPI evidence issues? Is it single source DNA evidence?
-
-☐ Call the lab analyst, ensure there are no other supplemental reports, that you have all reports, that there are no calculations or other reports pending
-
-☐ Discuss lab report data – ask analyst to pin down their interpretation of results
-
-☐ Other evidence which needs to be tested?  ==
-
-☐ Drug / Alcohol Reports
-
-☐ Blood Analysis Reports
-
-☐ Fingerprint Analysis Reports
-
-☐ Gunshot Residue Analysis Reports
-
-☐ Jail documents /Recog Reports
-
-☐ Charges
-
-☐ Charging documents
-
-☐ Statutes
-
-☐ Max sentences/fines?
-
-☐ Demurrers appropriate?
-
-☐ Diversion programs available?
-
-☐ Codefendants?
-
-☐ Types of pre-trial motions (suppression)
-
-☐ Charges the DA missed
-
-☐ Pre-indictment negotiation
-
-☐ Conflict Check
-
-☐ Location awareness
-
-☐ Google Map
-
-☐ Google Street View
-
-☐ Weather Conditions
-
-☐ Lighting
-
-☐ Determine custody status
-
-☐ Release issues?
-
-☐ Bail issues?
-
-☐ Phone
-
-☐ Address
-
-☐ Back up contact information
-
-☐ Other active cases
-
-☐ Other cases in country?
-
-☐ Other probation/parole/PPS matters?
-
-☐ Education status
-
-☐ Military status
-
-☐ Immigration status
-
-☐ Initial Legal Review
-
-☐ Jurisdiction correct?
-
-☐ Demurrer needed
-
-☐ Statute of limitations
-
-☐ Speedy trial issues?
-
-☐ Motion to suppress?
-
-☐ Do any defenses need experts/notices/motions?
-
-☐ Can client aid and assist in own defense
-
-☐ Initial sentencing assessment
-
-☐ Max/Min penalties
-
-☐ Presumptive penalties
-
-☐ Mandatory minimums
-
-☐ Consecutive/concurrent
-
-☐ Same/Separate criminal episodes?
-
-☐ Special rules
-
-☐ Upward departures
-
-☐ Witness Assessment
-
-☐ Witness list
-
-☐ Any statements from witnesses?
-
-☐ Any additional witnesses?
-
-☐ Impeachment material
-
-☐ Criminal history
-
-☐ Other statements
-
-☐ Special subpoenas needed? (medical records)
-
-☐ Gather Additional Information
-
-☐ Any follow-up police reports
-
-☐ BOEC/ 911/ dispatch recordings
-
-☐ Subpoena to:
-
-☐ ==If made to County: Traci Mullins, records custodian, 1301 Franklin, Houston 77002. Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it
-
-☐ If made to City of Houston: HEC, Custodian of Records, 5320 N. Shepherd, Room 1022. Houston, Texas 77091. Contact Joe.Laud@CityOfHouston.net if there are any problems (e.g., runaround). Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it==
-
-☐ MDT data terminal logs
-
-☐ Facebook / Myspace /social media
-
-☐ News articles
-
-☐ Visit the scene
-
-☐ Visit the evidence in evidence locker
-
-☐ Make a Timeline of the Incident
-
-☐ Movements/Actions possible in the timeframe?
-
-☐ Match the witness statements?
-
-☐ Any witnesses that would take exception to the timeline?
-
-☐ Client informed of charges?
-
-☐ Copy of [redacted] police reports provided to Client?
-
-☐ Review exposure on each count
-
-☐ Investigation
-
-☐ Investigation needed? Request investigator and meet with
-
-☐ Investigation request.
-
-☐ Witness list- Interview all Witnesses
-
-☐ Facebook and other social networks, from LinkedIn to MySpace for Client / Witnesses
-
-☐ CW Info.:
-
-☐ •Criminal History (DPS) [online database search]
-
-☐ •Affidavit of Non-Prosecution? [interview]
-
-☐ Visit scene with investigator
-
-☐ Subpoenas to defense witnesses
-
-☐ Investigator to gather:
-
-☐ 911 calls / police data records / dispatch logs- See Subpoena info above
-
-☐ Witness statements
-
-☐ Compile witness list for guilt
-
-☐ Compile witness list for punishment
-
-☐ Investigator to prepare:
-
-☐ Exhibits (maps, photos)
-
-☐ Reports
-
-☐ Restitution?
-
-☐ Determine amount asked for
-
-☐ Outside expert needed to value property?
-
-☐ Civil compromise appropriate?
-
-☐ Officer Info. (for all officers involved):
-
-☐ •TCOLE records (email request) [email request]
-
-☐ TCLEOSE Records
-
-☐ Send e-mail addressed to TCLEOSE to: openrecords@tcleose.state.tx.us. Title email as a “Public Information Request” or “Open Records Request”. Give officer’s name, agency name, and badge number if you have it.
-
-☐ •Personnel files (including complaints) [subpoena]
-
-☐ •IAD investigations and results [subpoena]
-
-☐ •Lawsuits filed against [?]
-
-☐ Scene Visit [drive] (include law stating why all of these are required – IAC if don’t, cite case)
-
-☐ Scene Reconstruction
-
-☐ Make investigative memo to file
-
-☐ Memo to file on investigation/themes
-
-☐ Make timeline of offense
-
-☐ Experts
-
-☐ Request consulting expert
-
-☐ Forensic expert (test/weigh drugs)
-
-☐ Psychologist
-
-☐ Medical doctor
-
-☐ Psychopharmacologist (drug interactions)
-
-☐ Expert to value property or damage
-
-☐ Sentencing mitigation – drug and alcohol evaluation and amenability to treatment
-
-☐ Eyewitness identification
-
-☐ File Requests For Funds From PDSC
-
-☐ Get your experts and investigators their $
-
-☐ File Special Notices
-
-☐ Mental health defenses?
-
-☐ Self-defense?
-
-☐ Contested diversion?
-
-☐ Turn Over Reciprocal Discovery
-
-☐ File Legal Challenges/Motions
-
-☐ Motion to suppress
-
-☐ Demurrer
-
-☐ Speedy trial motions
-
-☐ Challenges to client’s criminal history
-
-☐ Mitigation Preparation
-
-☐ Client employment history
-
-☐ Treatment amenability
-
-☐ Expert reports
-
-☐ Client have $ up front for restitution?
-
-☐ Reassess Case
-
-☐ Review options with client
-
-☐ Any other material needed?
-
-☐ Client understand rights and trial options?
-
-☐ Discussion re Bench v. Jury
-
-☐ Discussion re client testifying
-
-☐ Reassess Trial
-
-☐ What facts are coming into trial
-
-☐ Facts beyond change
-
-☐ What evidence can be suppressed/ excluded
-
-☐ Finalize motions in limine/ motions to suppress
-
-☐ What exhibits will be in trial
-
-☐ What witnesses will actually appear
-
-☐ Client testifying?
-
-☐ Negotiations / Alternate Resolutions
-
-☐ DA have witness statements or discovery you gathered?
-
-☐ Requested offer?
-
-☐ Reviewed offer with client?
-
-☐ Counteroffers?
-
-☐ Civil compromise possible/allowed?
-
-☐ Has client contemplated:
-
-☐ Immigration
-
-☐ Emigration
-
-☐ Expungments
-
-☐ Collateral consequences
-
-☐ Plea Preparation
-
-☐ Got an offer on each count?
-
-☐ Reviewed paperwork with client?
-
-☐ Filled out appeal form
-
-☐ Sentencing mitigation materials
-
-☐ Letters of reference
-
-☐ Job information
-
-☐ Financial
-
-☐ Trial Materials Preparation
-
-☐ Finalize themes and exhibit list
-
-☐ Jury Instructions
-
-☐ Exhibits
-
-☐ Witness list
-
-☐ Motions in limine
-
-☐ Legal Resources
-
-☐ Jury instruction book
-
-☐ Evidence by Kirkpatrick
-
-☐ Criminal Code
-
-☐ Vehicle Code
-
-☐ Exhibits
-
-☐ Audio player
-
-☐ Video player
-
-☐ Interpreters
-
-☐ Closing Materials
-
-☐ Closing letter
-
-☐ File appeal
-
-☐ Close file
-
-☐ ==Checklists for Investigation (almost entirely merged with list above)==
-
-☐ Request sentencing advocate
-
-☐ Letter to client
-
-☐ If applicable, consider Motions for Continuance for more investigation or additional funds for experts
-
-☐ Review what you are unable to obtain for trial for Motion for New Trial/Punishment or Guilt
-
-☐ After motion to withdraw, final memo to file
-
-☐ ==Initial Discovery and 3rd Party Data Assessment Checklist
-
-☐ In cases involving large volumes of data in a variety of media and/or file formats produced as part of the discovery and/or third party data obtained through independent investigation, the trial team should contact the National Litigation Support team and together try to answer the questions below. The answers will direct the work flow and assist the trial team in further planning their strategy and budget.==
-
-☐ Is there any way to estimate the total volume of the discovery production even though some of it may come later?
-
-☐ Will we be able to access all the data?
-
-☐ Is any of the data encrypted?
-
-☐ Are there specific types of documents that will be irrelevant to our case? (i.e. pictures, executable files, junk emails, etc.)
-
-☐ Are there specific types of documents that will be very important to our case? (i.e. emails authored by a particular person, documents created during a specific time period, specific document types such as bank records, etc.)
-
-☐ Are there both paper documents that have been scanned and native electronic files?
-
-☐ Should we objectively code the scanned documents so that they can be integrated into the native file data set for purposes of searching and organization?
-
-☐ Will there continue to be rolling discovery productions?
-
-☐ Do we need to look at the entire production?
-
-☐ Is there information that the government has not provided that needs to explicitly requested?
-
-☐ In what format or formats do you want to request this information?
-
-☐ Is there information that is not under the government’s control that needs to be obtained from 3rd party sources?
-
-☐ In what format or formats is that information currently maintained?
-
-☐ Can you obtain the third party information in a forensically sound manner so as to ensure proper chain of custody?
-
-☐ Will the documents need to be shared among the Federal Defender Office, CJA Panel Attorneys and Retained Counsel?
-
-☐ Does the trial team already have an Evidence Review Platform in their office that could handle the amount and variety of discovery involved?
-
-☐ What is the timeline for completing the review?
-
-☐ ==DISCOVERY CHECKLIST (partially merged with Oconnor’s Iist above) ==
-
-☐ Police personnel/civil service files of cops, including sustained complaints (3x5), as well as payroll records:
-
-☐ Open Records Act request to:
-
-☐ HPD: Roland Bienvenu, HR Dept 611 Walker, 4th Floor, Houston, TX 77002, Roland.Bienvenu@CityOfHouston.net
-
-☐ HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ DPS: Human Resources Department ATTN: Norma Cortez, 5805 N. Lamar Blvd., Bldg. C, Austin, Texas 78752-0251, Voice: (512) 424-2393, Fax (512) 424-2338
-
-☐ Policies and procedures (esp for towing, informants, DWI, canine searches, etc):
-
-☐ Subpoena to:
-
-☐ ==HPD: HPD, Wanda O’ Bryant 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
-
-☐ HCSD: Dalora Miller, Custodian of Records/Legal Department 1200 Baker, Houston, TX 77002==
-
-☐ Breath test/Blood test (court has standard orders that are in our DWI pleadings folder):
-
-☐ Fax blood test court order to:
-
-☐ ==HPD: Theresa Clark at (713) 308-2645 (will accept via fax and call to pick up). Voice: (713) 308-2600==
-
-☐ Fax breath test order to:
-
-☐ ==HPD: DPS handles all HPD breath test records, so send to DPS, ATTN: Lee Nanne Spino at fax (281) 517-1427. Voice: (281) 517-1426==
-
-☐ Inspect drugs or evidence:
-
-☐ Fax court order to:
-
-☐ ==Lab or property room (for property, usually need to contact cop to inspect with him)==
-
-☐ Accident reports
-
-☐ Records Division, 713-808-8585. Can be purchased online 5-8 days after accident at: www.vectrareports.com/Index.aspx. Require two of these three: (1) date of accident, (2) location of accident, and (3) drivers involved
-
-☐ Jail arrest record (HPD city jail)
-
-☐ Open Records Act to:
-
-☐ ==HPD, Public Affairs Division, 1200 Travis, Houston, TX 77002
-
-☐ Specify date of arrest, full name, DoB, TDL and/or SSN of person, and any offense report number. Fax: 713-308-3260==
-
-☐ Dispatch tapes, MDT printouts, AVL/GPD data from patrol car, and all video and audio (including any metadata of when photos/video/audio done)
-
-☐ Subpoena to:
-
-☐ ==HDP: HPD, Wanda O’ Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
-
-☐ HCSD: Dalora Miller. Custodian of Records/Legal Department. 1200 Baker, Houston, TX 77002==
-
-☐ Crime lab documents for tests
-
-☐ Subpoena to relevant lab:
-
-☐ NOTE: Generally, the items subpoenaed at a minimum should be:
-
-☐ ==Case folder documents==
-
-☐ a.Report
-
-☐ b.Chain of custody record
-
-☐ c.Evidence receipt and disposition records
-
-☐ d.Submission/request information (internal and external)
-
-☐ e.Examination Documentation: bench notes, data, observations, photographs, all records pertaining to the observations, analysis, interpretations, and opinions of evidence
-
-☐ f.Case specific records of calibrations and controls
-
-☐ g.Communication Logs
-
-☐ h.Documentation of applicable verification, technical and administrative review of the case
-
-☐ i.Relevant case-specific corrective actions and/or deviations
-
-☐ ==Laboratory Accreditation documentation – certificate of accreditation establishes that our procedures are valid and accepted by the forensic community. Demonstrates with compliance with ISO 17025 standards for testing laboratories and the also the fact that our practices, records and procedures are routinely reviewed and audited (both internally and externally).
-
-☐ Analyst’s statement of qualifications (same as a CV).==
-
-☐ Specifically for Blood Alcohol and Toxicology, the following should be requested:
-
-☐ ==Batch archive (general information that applies to all samples run in a particular batch)==
-
-☐ a.Calibration documents
-
-☐ b.Worklist for batch (shows all specimen notes, QC of the pipettes used, all reagents and solutions used)
-
-☐ c.Batch summary sheet (results of analyses in the batch – all controls for Toxicology and all controls and every case sample for Blood Alcohol)
-
-☐ d.Chromatograms of every control in the batch
-
-☐ e.Documentation of applicable technical review of the batch
-
-☐ NOTE: Youtube videos and testimony of Justin McShane can explain limitations of GCMS.  He is also available to testify as an expert.
-
-☐ For DNA:A copy of all reports, laboratory notes, sketches, and photographs from the analytical AND the database laboratories (if a cold hit is involved), including but not limited to the following:
-
-☐ ==1. Evidence collection, processing and chain of custody documentation pertaining to
-
-☐ evidence items analyzed.
-
-☐ 2. Photographs and descriptions of evidence items analyzed
-
-☐ 3. Laboratory notes related to the screening of evidence items for biological fluids
-
-☐ 4. DNA extraction worksheets, quantitation worksheets, and laboratory notes
-
-☐ 5. Genescan/Genotyper or Genemapper electropherograms from Profiler Plus, Cofiler, Identifiler, Y STR, Powerplex 16, or any other STR DNA typing analysis
-
-☐ 6. Electronic data on CD-ROM including, but not limited to, raw data files, Genescan/Genotyper data, or Genemapper data.
-
-☐ 7. Genetic marker database information used to calculate profile frequencies
-
-☐ 8. A copy of the confirming cold hit case file from the state CODIS laboratory, if a cold hit is involved
-
-☐ 9. Police reports and evidence collection documentation from the investigating agency==
-
-☐ Calls for service
-
-☐ Open Records Act to:
-
-☐ ==HPD: HPD Public Affairs Division, 1200 Travis, Houston, TX 77002
-
-☐ HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ Specify address and time frame==
-
-☐ Mugshots/Booking Photo(HCSD)
-
-☐ Open Records Act to:
-
-☐ ==HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ Include arrest date (or month/year) and arrestee==
-
-☐ Jail cards (HCSD)
-
-☐ Open Records Act request to:
-
-☐ ==HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ Include date (or month/year) and arrestee==
-
-☐ Pen Packets
-
-☐ Open Records Act request to:
-
-☐ ==TDCJ Classification and Records Headquarters in Huntsville. Requests may be sent by internet email (penpacket-AT-tdcj.state.tx.us), fax (936/437-6227) or regular mail (P.O. Box 99, Huntsville, Texas 77342). However, if the request is for a state jail offender, and the requestor knows which facility that state jail offender is assigned to, the request may be sent directly to the state jail, attention Unit Warden or Classification Chief. State jail addresses and phone numbers can be obtained from the unit directory on the TDCJ website (www.tdcj.state.tx.us). Every effort will be made to process the request within seven calendar days. If the pen packet is not received in this time period, or if the request is a “rush order”, you may contact Rachel Williams, TDCJ Classification and Records, at 936/437-8696 or Rachel.williams-AT-tdcj.state.tx.us.”==
-
-☐ Informant files, including criminal record, payment records, lneieny, if he has been deactiviated, if he has been untruthful, etc. (court may need to inspect in camera, in which case entire file needs to be sealed as exhibit), including running informant on Facebook and other social networks.
-
-☐ Subpoena to:
-
-☐ ==HDP: HPD, Wanda O’ Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
-
-☐ HCSD: Dalora Miller. Custodian of Records/Legal Department. 1200 Baker, Houston, TX 77002==
-
-☐ CPS Records
-
-☐ NOTE: Can subpoena but invariably CPS will file a motion to quash and you will in turn need to file a motion with the trial court for an in camera inspection; thus, consider just first filing a motion for disclosure and in camera inspection to avoid hassle of a subpoena.
-
-☐ Offense reports
-
-☐ Open Records Act request to:
-
-☐ ==Harris County (only felonies, not misdemeanors, retained): Email to Brian Rose at with defendant’s name, case number, and court.
-
-☐ PLAN FOR TRIAL==
-
-☐ Facts of Case
-
-☐ Defensive Theme of Case
-
-☐ Defense Pre-Trial Motions and Pleadings
-
-☐ State Pre-Trial Motions and Pleadings
-
-☐ Voir Dire:
-
-☐ Issues to be covered in Voir Dire
-
-☐ Issues to be covered in Questioning Potential Juror Group
-
-☐ Issues to be covered in Individual Questioning of Potential Jurors
-
-☐ Issues to be covered in Opening Statement
-
-☐ Issues to be emphasized throughout and during trial
-
-☐ Requested Instructions for Charge in Guilt/Innocence Phase
-
-☐ Requested Instructions for Charge in Punishment Phase
-
-☐ Matters of concern (those things to worry about)
-
-☐ Evidence for Defensive Theme
-
-☐ Witnesses (Witness – Issues)
-
-☐ Documentary Evidence
-
-☐ Defensive Issues To Be Brought out on Cross Examination of State’s Witnesses (Witness ___)
-
-☐ Documentary Evidence in support of Defensive Position (Document – Witness)
-
-☐ Attack Search (yes/no)
-
-☐ Search Issues (Issue – Witnesses)
-
-☐ State’s Documents (Document/Photographs/Diagrams or Charts – Objections)
-
-☐ Co-Defendants
-
-☐ Issues
-
-☐ Cross Xam
-
-☐ Statements of Defendant
-
-☐ Oral
-
-☐ When
-
-☐ To Whom
-
-☐ Content
-
-☐ Objections
-
-☐ Written
-
-☐ When
-
-☐ To Whom
-
-☐ Content
-
-☐ Objections
-
-☐ State’s Case
-
-☐ Witnesses
-
-☐ Witness (Testimony will cover – Cross Xam Issues)
-
-☐ Closing Argument Guilt/Innocence Phase of Trial
-
-☐ Defense Issues to be covered in Closing Argument Punishment Phase
-
-☐ State Issues which will be covered in Closing Argument Punishment Phase
-
-☐ Punishment Phase of Trial
-
-☐ Defense Character Witnesses (Witness – what will establish)
-
-☐ Defense Expert Witnesses for Punishment (Witness – what will establish)
-
-☐ Defense Documentary Evidence for Punishment (Document)
-
-☐ Defense Photograph Evidence for Punishment
-
-☐ Other Defense Evidence for Punishment
-
-☐ State’s Evidence Punishment Phase
-
-☐ ==Witnesses (Witness – Testimony)
-
-☐ State’s Documentary Evidence (Document – Objection)==
-
-☐ Defense Issues to be covered in Closing Argument Punishment Phase
-
-☐ State Issues which will be covered in Closing Argument Punishment Phase
-
-☐ Points of Law to Research
-
-☐ ==3-Initial Meeting with Individual Charged with DWI (Merged with TCDLA DWI Checklist) ==
-
-☐ Intro:
-
-☐ Client Information Sheet
-
-☐ JIMS Information (or other system for out of county)
-
-☐ Contract for Representation Executed
-
-☐ File Folder created
-
-☐ Initial Court Appearance Calendared
-
-☐ Enter Client Information in Contacts (SOS and Outlook)
-
-☐ Engagement Letter to Client (opening letter)
-
-☐ Billing Information Entered
-
-☐ ==An individual charged with driving while intoxicated has three main concerns: ==
-
-☐ Driving Privileges
-
-☐ The first concern is the State is trying to suspend his/her driving privileges because of the pending charges. Start by asking if the arresting officers took their driver’s license. If they still have their driver’s license, make a copy for your file, you may need the information later in your representation if you are hired.
-
-☐ Explain to them how important it is to have an administrative license revocation (ALR) hearing. Make them aware the hearing occurs in a different court and a different location from his/her criminal case. Advise them you will make this hearing on their behalf and they will not need to attend. It is actually in their best interest not to attend the hearing because the State could call them as a witness against himself/herself.
-
-☐ Timely filing an application for this hearing will keep the driving privileges from being suspended until the hearing can be held. The hearing before the administrative law judge must be requested no later than 15 days from the date of the State’s notice of the State’s intent to revoke the driving privileges. Date of notice is usually the day of arrest. If the 15 days have lapsed explain how their driving privileges will be automatically suspended 40 days after the notice. Make this hearing a part of your representation if it is not too late to file a request for the hearing.
-
-☐ Regarding their driving privilege:
-
-☐ What type of license do they have?
-
-☐ Does their job require them to drive?
-
-☐ What happens if they are not allowed to drive?
-
-☐ What are the necessary driving times needed for work and/or personal errands?
-
-☐ Have their driving privileges ever been suspended?
-
-☐ Explain the effects on their driving privileges of an arrest and/or conviction for driving while intoxicated. For the suspension periods related to the client, refer to the DWI Suspension Period (cheat sheet) produced by the Texas Criminal Defense Lawyers Association, sheet no. 7. Make sure they understand what they are facing regarding possible suspension of their driving privileges and assure them you will work diligently on their behalf to try and prevent the revocation of his/her driving privileges.
-
-☐ The second concern is the criminal charge and the possible consequences of a conviction. Make sure they completely know and understand the range of punishment he/she faces.
-
-☐ About the Criminal Charge
-
-☐ Questions regarding the criminal charge of driving while intoxicated: (know the affect of his/her answers and make sure they understand how he/she will be affected)
-
-☐ What is their anticipation of what can be accomplish through your representation?
-
-☐ Have they, or anyone, made any prior court appearances on this charge?
-
-☐ When is the next scheduled appearance?
-
-☐ Have they ever been convicted of driving while intoxicated?
-
-☐ Do they have any prior convictions?
-
-☐ Will the pending charge or a conviction for driving while intoxication effect their job?
-
-☐ Will the pending charge or a conviction affect their ability to travel out of the country?
-
-☐ Do they feel they were intoxicated?
-
-☐ Where there any admissions to being intoxicated to any authority?
-
-☐ Have they posted anything about the arrest on the internet (social media)?
-
-☐ About The Individual
-
-☐ Information you will need to know about your client after you are hired:
-
-☐ What are the drinking habits of the client?
-
-☐ Was the client taking medication?
-
-☐ Has the client had any prior injuries?
-
-☐ Do they have any physical or mental disabilities?
-
-☐ Are they under a doctor’s care?
-
-☐ What is their prior driving history?
-
-☐ Do they use unlawful drugs?
-
-☐ How much sleep had they had before arrest?
-
-☐ Do they have any speech impediments?
-
-☐ Have they ever been arrested for public intoxication?
-
-☐ About the Arrest
-
-☐ Things you need to ask about the arrest:
-
-☐ What caused them to be arrested?
-
-☐ Date and time of the arrest?
-
-☐ Were they driving when they were arrested by the police officer?
-
-☐ Where were they going when the arrest occurred?
-
-☐ Where were they coming from?
-
-☐ Who saw them driving?
-
-☐ Where did the arrest occur?
-
-☐ Were they involved in any accident?
-
-☐ Were there any open containers of alcohol in the vehicle?
-
-☐ Any closed containers of alcohol in the vehicle?
-
-☐ Was anyone else with them when he/she was arrested?
-
-☐ Did they make statements to the arresting officer?
-
-☐ Did they perform any field sobriety tests?
-
-☐ Did they provide a sample of /her blood, breath or urine to the arresting officers?
-
-☐ How many police vehicles were on the scene of the arrest?
-
-☐ Did the police take them to a video room?
-
-☐ Was their vehicle towed to a storage yard or turned over to someone?
-
-☐ Where were they drinking before arrest?
-
-☐ What was the time of their last drink prior to the arrest?
-
-☐ What time did they eat prior to his/her arrest?
-
-☐ What time did they wake up/get up from sleeping on the day of his/her arrest?
-
-☐ What time did they have his/her first drink on the day of his/her arrest?
-
-☐ Had they had anything to drink on the previous day?
-
-☐ When would they say was the last time he/she was intoxicated?
-
-☐ How much alcohol did they consume on the day of arrest?
-
-☐ Who were they drinking with?
-
-☐ How did they pay for the alcohol?
-
-☐ Do they have any receipts for the alcohol?
-
-☐ Do they believe he/she has a problem with alcohol?
-
-☐ What is the age, weight and height of the client?
-
-☐ Consequences of Arrest and or Conviction
-
-☐ Make sure they understand all the consequences of a conviction and what might occur while the charges are pending. During this phase you might want to discuss possible plea offers you anticipate the State will make. Make sure your client understands the consequences of pleading guilty to driving while intoxicated, even the downside of DIVERT. Make sure your client understands no plea offer should be entertained until the case is fully investigated, making sure the State will be able to make their case.
-
-☐ Petition for Occupational License
-
-☐ The third concern is what will happen if my driving privileges are suspended. You need to discuss the petition for an occupational license and explain the process. Let your client know you can handle the petition and hearing for him/her. Explain the hearing may be in a civil court, which is completely separate from where his criminal charges are pending.
-
-☐ Conclusion
-
-☐ Spending time with a potential client and providing answers for their concerns will pay dividends for the lawyer. A large percentage of individuals charged with driving while intoxicated have never been involved in the criminal justice system. They are concerned, scared and are looking for someone who can tell them what they are facing. Be that “someone”.
-
-☐ ==DWI pretrial==
-
-☐ Information
-
-☐ Discovery
-
-☐ Court:
-
-☐ Charging Instrument in File (information, complaint, or indictment)
-
-☐ Notes or Offense Report obtained
-
-☐ Received copies of all Video Tapes and Recordings (scene and video room)
-
-☐ Defense Motions Filed
-
-☐ ==Request for State Experts
-
-☐ Discovery Motion
-
-☐ Request 404 (b) Notice
-
-☐ Request 37.07 Notice
-
-☐ Request 609 (f) Notice
-
-☐ Motion to Suppress, if any
-
-☐ Copies of All Motions to Client==
-
-☐ ALR
-
-☐ ALR Hearing to be Requested- Refer to ALR Folder
-
-☐ ALR Discovery
-
-☐ ALR Continuance
-
-☐ ALR Subpoena
-
-☐ Order ALR record
-
-☐ Order TCLOESE
-
-☐ Order Personnel file
-
-☐ Trial Prep
-
-☐ TCLEOSE Information on Law Enforcement Witnesses Requested/Received
-
-☐ Request ALR Transcript for Impeachment – if necessary
-
-☐ Scene Photos / Scene Visit / Google Earth Photo of scene
-
-☐ Subpoena hostile witnesses, if any
-
-☐ ALR
-
-☐ ALR Hearing Requested (within 15 days of notice of suspension)
-
-☐ Letter to Texas Department of Public Safety Requesting Hearing
-
-☐ Form letter to Client indicating Hearing Requested
-
-☐ Received Hearing Notification Letter (and placed on office calendar)
-
-☐ ==Continuances (A party requesting a continuance shall supply 3 dates they will be available)==
-
-☐ Form letter to Client indicating Hearing Date
-
-☐ Requested Discovery for Hearing
-
-☐ Received Discovery
-
-☐ Subpoenas Issued (Must be Served 5 calendar days before hearing) (or analysis why witness is not needed)
-
-☐ ==Witness Fee check
-
-☐ Notice of issuance to DPS    Must be served same date as issued
-
-☐ Received from Process server
-
-☐ Filed with SOAH Witness Fee check included
-
-☐ Faxed to DPS  Must provide a copy of the return of service 3 days prior to hearing ==
-
-☐ Received Final Order from Court (after hearing)
-
-☐ Form letter to Client indicating result of hearing
-
-☐ NOTES _________________________________________________________________________
-
-☐ Pre-Trial Motions
-
-☐ Brady
-
-☐ Motion for Discovery  ___ Sub MDT/Disp
-
-☐ Jury election
-
-☐ Motion for Discovery Experts
-
-☐ Motion to Suppress
-
-☐ Notice letter
-
-☐ Application for Community Supervision
-
-☐ Trial Motions
-
-☐ ==DWI Checklist==
-
-☐ Occupational License
-
-☐ Occupational License to be Filed- Refer to Occ. Lic. Folder
-
-☐ Court:
-
-☐ Charging Instrument in File (information, complaint, or indictment)
-
-☐ Notes or Offense Report obtained
-
-☐ Received copies of all Video Tapes & Recordings (scene & video room)
-
-☐ Defense Motions Filed
-
-☐ Request for State Experts
-
-☐ Request 37.07 Notice
-
-☐ Discovery Motion
-
-☐ Request 609 (f) Notice
-
-☐ Request 404 (b) Notice
-
-☐ Motion to Suppress
-
-☐ Copies of Motions to Client
-
-☐ Trial Prep
-
-☐ TCLEOSE Info on Law Enforcement Witnesses Requested/Received
-
-☐ Request ALR Transcript for Impeachment – if necessary
-
-☐ Scene Photos / Scene Visit / Google Earth Photo of scene
-
-☐ Subpoena hostile witnesses, if any
-
-☐ NOTES________________________________________________________________
-
-☐ ==KShipman CHECKLIST – ALR & OCL (merged with ALR list below)
-
-☐ ALR Checklist==
-
-☐ If DWI, Draft Petition for ALR Hearing
-
-☐ File ALR by deadline.
-
-☐ calendar ALR for 10 days & 15 day deadline.
-
-☐ Calendar 3,5,7,10 & 15 Days Before ALR.
-
-☐ ALR Hearing Requested from DPS (within 15 days of notice of suspension)
-
-☐ Letter to Client indicating Hearing Request- Send Letter to Client for Notice of ALR upon Receipt.
-
-☐ Received Hearing Notification Letter
-
-☐ Calendared Hearing Date
-
-☐ Letter to Client indicating Hearing Date
-
-☐ Send subpoena to Austin/Houston 15 Days prior to ALR
-
-☐ Once signed subpoena is returned, get served.
-
-☐ Requested Discovery for Hearing from DPS
-
-☐ If DWI, request tape from agency.
-
-☐ Verify receipt of DWI tape back.
-
-☐ Received Discovery (DPS must provide 9 calendar days before hearing)
-
-☐ Subpoenas Issued and Sent to DPS/SOAH (same day as issued)
-
-☐ Subpoenas sent to Process Server
-
-☐ Witness Fee Check sent to Process Server
-
-☐ Subpoenas Received (5 calendar days before hearing)
-
-☐ Subpoenas and Witness Fee Check filed with SOAH
-
-☐ Executed Subpoenas Faxed to DPS (3 calendar days before hearing)
-
-☐ Received Final Order from Court
-
-☐ Letter to Client indicating result of hearing
-
-☐ Request Transcript from ALR Hearing
-
-☐ *Reset Request (5 calendar days) or Motion for Continuance (less than 5)
-
-☐ *Request/Continuance filed by: Defense_____ State _____ due to ________________________________________
-
-☐ *Party responsible for issuance of new subpoenas:_________
-
-☐ *New Hearing Date Received and Calendared
-
-☐ *If Reset/Continuance, repeat steps as needed.
-
-☐ NOTES_______________________________________________________________________________
-
-☐ Ask client if they want OCL, if lost ALR?
-
-☐ Draft Petition for OCL
-
-☐ Need the following before applying for OCL:
-
-☐ SR-22 Insurance
-
-☐ Class Schedule (If Applicable)
-
-☐ Work Schedule (If Applicable)
-
-☐ Affidavit signed by Client
-
-☐ File Petition for Occupational License with Clerk
-
-☐ Send Waiver to DA upon Receipt of Cause # back from Clerk
-
-☐ Schedule Hearing for OCL (If Applicable)
-
-☐ Notify Client of Hearing Date
-
-☐ ==
-
-☐ Administrative License Suspension – Form Checklist==
-
-☐ DIC-23: OFFICER’S SWORN REPORT
-
-☐ Officer’s signature  officer that wrote the report
-
-☐ Sworn?
-
-☐ ==Not necessary DPS v. Caruana, 363 S.W.3d 558 (Tex. 2012)
-
-☐ Unsworn report admissible unless the source of the information or other circumstances indicate lack of trustworthiness==
-
-☐ Box A checked?
-
-☐ ==Incorporate documents by reference  properly identified w/ correct # of pages specified?==
-
-☐ Not sufficiently identified  object – Vague
-
-☐ # of pages wrong  object – Relevance: description of report not accurate & not properly incorporated
-
-☐ Box B checked?
-
-☐ ==Fill in the blanks  object if additional documents offered==
-
-☐ Certified?
-
-☐ ==DPS stamp & signature of deputy custodian of records==
-
-☐ Object – Hearsay: not certified public record
-
-☐ May be certified by DPS after sent to attorney in discovery  check copy offered
-
-☐ Defendant’s name?
-
-☐ ==Object – Relevance: not connected to arrest of client==
-
-☐ Offense report or Probable Cause Affidavit offered without DIC-23?
-
-☐ ==Object – not a form promulgated by DPS (Trans. Code 524.011d)==
-
-☐ Results of Test in Section V?
-
-☐ ==Object – proper predicate has not been established==
-
-☐ Sufficient facts for each element?
-
-☐ ==Reasonable suspicion or probable cause for stop==
-
-☐ DWI investigation  only need reasonable suspicion
-
-☐ Traffic offense  need probable cause (U.S. v. Cole, 444 F.3d 633 (5th Cir.—Tex. 2006) & State v. Rivenburgh, 933 S.W.2d 698 (Tex. App.—San Antonio 1996))
-
-☐ Nexus for officer to request SFSTs
-
-☐ Texas Dept. of Public Safety v. Rodriguez, 953 S.W. 362 (Tex. App.—Austin 1997)
-
-☐ No bad driving suggesting intox.
-
-☐ No odor of alcohol
-
-☐ Additional detention not justified under 4th Am.
-
-☐ Probable cause for arrest
-
-☐ HGN  officer must be certified to administer (scientific evidence, see Emerson v. State, 880 S.W. 2d 759 (TCCA 1994)==
-
-☐ DIC-24: STATUTORY WARNING
-
-☐ Current version?
-
-☐ 9/11 – good
-
-☐ 9/05 – lacks proper warnings (Trans. Code sec. 724.015)==
-
-☐ Check for:
-
-☐ Information at top against driver’s license
-
-☐ Date of arrest against DIC-23, DIC-56 and breath test slip
-
-☐ Time of arrest  15 minute observation (37 Tex. Admin. Code § 19.4)
-
-☐ ==Amend. v. State, 2010 WL 1782240 (Tec. App.—Dallas, no pet.)==
-
-☐ Object – breath test slip & DIC-56
-
-☐ Ask judge to take judicial notice of pertinent section in Breath Alcohol Testing Manual
-
-☐ DIC-56: BREATH TEST TECHNICAL SUPERVISOR (“TS”) AFFIDAVIT
-
-☐ Admissible by statute (Tec. Trans. Code 524.038)
-
-☐ Check information against breath test slip
-
-☐ Breath Test Officer’s (“BTO”) name
-
-☐ Certificate number (as Intoxilyzer Operator)
-
-☐ Location of Intoxilyzer & serial number
-
-☐ Client’s name and date of birth
-
-☐ Date of test
-
-☐ Both test results
-
-☐ TS’s signature
-
-☐ Notary stamp
-
-☐ Signature of notary
-
-☐ Date notarized
-
-☐ Notary stamp expiration date
-
-☐ BREATH TEST SLIP – Tex. Admin. Code, Title 37, Chapter 17
-
-☐ Valid test:
-
-☐ No “invalid” message
-
-☐ Results clearly printed
-
-☐ All air blanks 0.000
-
-☐ Signature of BTO
-
-☐ Check entered information
-
-☐ Name of client
-
-☐ Date of birth
-
-☐ Date of test
-
-☐ Name of operator
-
-☐ Certificate number
-
-☐ Arresting agency
-
-☐ Reference sample too far off predicated reference
-
-☐ Must be certified
-
-☐ DRIVER RECORD
-
-☐ Must be certified
-
-☐ ==Enhancements for prior conviction/ALR suspension w/in 10 years:
-
-☐ Failure = 1 year suspension (Tex. Trans. Code §524.022)
-
-☐ Refusal = 2 year (Tex. Trans. Code §724.035)==
-
-☐ SUBPOENA  when you can’t win a paper case
-
-☐ Prepare subpoena (http://www.soah.state.tx.us/)
-
-☐ ==Stopping officer
-
-☐ Arresting Officer
-
-☐ BTO & Tech Supervisor (Tex. Trans. Code §524.039)
-
-☐ Must show “good cause”  file affidavit based on personal knowledge that establishes genuine issue of validity of results
-
-☐ Requires witness’ presence to resolve (1 Tex. Admin. Code §159.101)
-
-☐ Request must be made at least 5 days prior to hearing==
-
-☐ Fax to DPW on day issued (1 Tex. Admin. Code §159.103(f)(1))
-
-☐ Serve witness with subpoena
-
-☐ ==Five calendar days before hearing (1 Tex. Admin. Code §159.103(f)(2))==
-
-☐ File signed return w/ $10.00 witness fee check (plus mileage fee) to SOAH
-
-☐ ==Fax return to DPS
-
-☐ No later than 3 calendar days prior to hearing (1 Tex. Admin. Code §159.103(f)(3))==
-
-☐ Witness fails to show after proper service = object to Hearsay when documents entered
-
-☐ Ask for return of witness fee check
-
-☐ VIDEO – Officer must authenticate
-
-☐ Play portion
-
-☐ Ask if he:
-
-☐ Recognizes people on video
-
-☐ Can identify people
-
-☐ Can verify this is the video he made on date of arrest
-
-☐ Enter into evidence
-
-☐ Make judge watch in hearing room
-
-☐ ==Occupational License Checklist==
-
-☐ Contact Clerk about Additional Requirements at Filing (driving record, etc.)
-
-☐ Contact Client Regarding Obtaining Occupational License and notify of following:
-
-☐ Suspension of License, No driving (arrest), Length of Suspension, Reinstatement fees to DPS, Filing Fee, SALCE, any other Requirements of court, i.e. Interlock, etc.
-
-☐ Client needs to provide in writing:
-
-☐ Hours needed to drive (12 in a day, 4 at a time, possible driving log)
-
-☐ Counties needed to drive and copy of SR-22
-
-☐ Obtain SR-22 from Client
-
-☐ Client Signature/Notarization on Petition
-
-☐ File Petition with Court
-
-☐ Calendar Hearing Date
-
-☐ Client must bring original SR-22 and any other requirements by the Court
-
-☐ Pick up Order from Court
-
-☐ Client must carry certified copy of Occupational License Order with them at all times
-
-☐ ==certified copy may only be used as a license for 30 days==
-
-☐ Client must pay reinstatement and occupational license fees and mail an original form SR-22 and certified copy of Petition and Order to DPS in order to obtain an Occupational License
-
-☐ NOTES ____________________________________________________________________________
-
-☐ ==Mitigation – Telling the Client’s Story one Client copy - PPT
-
-☐ Imagine you are defending this guy…arrested for PCS when police are serving a Blue Warrant at Client’s house and while searching the Client incident to arrest find a baggy of meth and a baggy of cocaine in Client’s shirt pocket. Client had Blue Warrant issued because he allegedly threatened to come back to the district parole office with a gun and shoot the entire place up. Client was a true habitual with Felony convictions going all the way back to 1977. Was a FOUNDING member of the Aryan Brotherhood of Texas and still claimed membership.
-
-☐ There was another side to the story.
-
-☐ Protecting those of the Lord’s children who have fallen short of perfection from the wrath of those who have attained it. Stuart Kinnard
-
-☐ Why Mitigation in Noncapital Cases: State Bar Performance Guidelines for Non Capital Defense Representation demand mitigation investigation and presentation. (Guidelines 1.2(c); 2.2(C)(5)(h); 4.1(B)(9)(e); 4.2(B)(3); 4.3; 8.1(c); 8.6(D). The Courts have ruled Defense Counsel has a duty to investigate and present mitigation evidence in noncaptical cases.
-
-☐ US SUPREME COURT: In any criminal case, counsel must first evaluate what “conceivable line(s) of mitigating evidence” exist and then decide whether following any of those lines would likely lead to evidence that “would . . . assist the defendant at sentencing.” Wiggins v. Smith, 539 U.S. 3510, 521-22, 123 S. Ct. 2527, 156 L. Ed. 2d 471 (2003).
-
-☐ TEXAS COURTS: Failure to uncover and present mitigating evidence “cannot be justified as a tactical decision when defense counsel has not conducted a thorough investigation of the defendant’s background.” Shanklin v. State, 190 S.W.3d 154, 164 (Tex. App.—Houston [1st Dist.] 2005, pet. dism’d); see also Bazan v. State, 403 S.W.3d 8, 13 (Tex. App.-Houston [1st Dist.] 2012, pet. ref’d).==
-
-☐ Mitigation in Non-Capital Cases
-
-☐ What is Mitigation
-
-☐ The mitigation investigation
-
-☐ Presenting the mitigation evidence
-
-☐ ==What is Mitigation
-
-☐ Alleviation; abatement or diminution of a penalty or punishment imposed by law.
-
-☐ “Mitigating circumstances” are such as do not constitute a justification or excuse of the offense in question, but which, in fairness and mercy, may be considered as extenuating or reducing the degree of moral culpability.
-
-☐ Another way to look at Mitigation…
-
-☐ Being an effective story teller for your client in order to lessen the severity of the punishment your client is facing or receives
-
-☐ Who is better to have tell your client’s story regarding your client’s punishment? You of the Prosecutor? YOU
-
-☐ Sympathy v. Empathy
-
-☐ Sympathy is defined as feelings of pity and sorry for someone else’s misfortune. Sympathy alone or mere Pity is never an effective Mitigation strategy
-
-☐ Empathy is defined as getting another to understand and share the feelings of another. You always have a much better chance of achieving a positive result for your client if you can gain the Judge’s, Prosecutor’s or both’s empathy
-
-☐ Mitigation is not trying to gain sympathy. Mitigation is about trying to gain an understanding of your client and their circumstances.==
-
-☐ In order to effectively tell your client’s story, you must…
-
-☐ Know your clients story (investigation)
-
-☐ Develop a useful theme
-
-☐ ==How do you know your client’s story? Through a thorough and intensive mitigation investigation.
-
-☐ What are effective Mitigation Circumstances (Themes)==
-
-☐ Remorse: The defendant accepts responsibility and shows remorse. For example, a defendant who confesses upon arrest and is contrite in court has this factor in his favor.
-
-☐ Lack of criminal record: The defendant doesn’t have a criminal record, or only has a relatively minor record.
-
-☐ No harm: The defendant didn’t hurt anyone and committed the crime in a manner unlikely to cause harm. An example would be if a Defendant carjacked a driver by sternly ordering her out of her car without pointing a weapon at the driver and carefully and gently helped driver out of car.
-
-☐ Minor role: The defendant played a relatively minor role in the crime. For example, suppose Defendant, a foot soldier, knowingly drove a Shotcaller in Defendant’s gang to a location where the Shotcaller made a drug deal. At sentencing for his conviction for Delivery of a controlled substance, Defendant has an argument that his small role in the criminal activity should be mitigating.
-
-☐ Victim culpability: The victim willingly participated in the crime or initiated the events leading to it. For instance, if the complaining witness started a fight by attacking Defendant and Defendant responded with more force than was necessary to defend himself, this factor would be a mitigating factor at Defendant’s sentencing.
-
-☐ Unusual circumstance: The defendant committed the crime because of a temporary emotional difficulty or significant provocation and this caused the Defendant to act incongruous to the Defendant’s normal behavior and character. Ie – The perfect storm happened on the day the Defendant committed the crime. This circumstance usually applies when a defendant acts out while under extreme stress.
-
-☐ Relative necessity: The defendant acted out of a desire to provide life necessities. This theme would be potentially used for a recently laid off Defendant with no money who stole a rotisserie chicken from the grocery store so that he could feed his starving family.
-
-☐ Addiction: Drug or alcohol addiction contributed to – but wasn’t just an incentive or excuse to commit – the crime. For instance if a someone continually committing petty thefts to fund drug usage.
-
-☐ Difficult personal history: The Defendant suffered continuous physical or sexual abuse either as a child or an adult. For example, battered woman syndrome.
-
-☐ PTSD: The Defendant served in the military and as a result suffers from PTSD. Another example, a victim of a violent crime overacts during a confrontation and injures the complaining witness.
-
-☐ Mental Illness: Defendant suffers from some form of mental illness, or has a history of mental illness. This is particularly true is not properly treated.
-
-☐ Institutional Failure: An example of institutional failure is the drug addict that has been through the criminal justice system many times but never received treatment to break the cycle of addiction.
-
-☐ Lack of Family Structure/Absent Parent: Depends on the effect the lack of family or parent has on the individual.
-
-☐ ANYTHING YOU THINK CAN GET THE TARGET AUDIENCE TO EMPATHIZE WITH YOUR CLIENT.
-
-☐ ==Don’t only focus on the negative aspects in Mitigation. Positives can be good mitigation themes also:==
-
-☐ Someone is a good mother/father
-
-☐ Someone is a good son/daughter
-
-☐ Someone is a good sibling
-
-☐ Someone I a good spouse
-
-☐ Someone has made a positive impact in another persons life
-
-☐ Someone has served the community (ie – volunteer or a public servant)
-
-☐ Someone is extremely old or particularly young
-
-☐ Someone is a good student
-
-☐ Someone has a bright future ahead of them
-
-☐ ==You can combine together more than one mitigation circumstance or theme==
-
-☐ For instance, someone who forced as a child to prostitute themselves by their mother, was given drugs to help her perform her required sexual acts, was never treated for her addictions despite numerous petty criminal convictions as a young adult is now charged with a crime as a young adult. You could combine as themes or mitigating circumstances – addiction, institutional failure, and difficult personal circumstance.
-
-☐ ==Non-Capital Counsel can take a cue from Capital Counsel in effective Mitigation Themes==
-
-☐ Capital Cases, the mitigation is required to focus on sentencing that takes into account the unique characteristics of the Defendant. – Tennard v. Dretke, 542 U.S. 274 (2004)
-
-☐ ==The same mitigation themes and circumstance that impact capital defendant’s and have been effective for capital defendant’s exist in our client’s Non-Capital cases==
-
-☐ Examples: Poverty, Mental Retardation, Untreated or self treated mental illness, Addiction, Trauma, particularly head trauma, Lack of family structure/missing parent, Childhood history of abuse
-
-☐ How do you perform a mitigation investigation
-
-☐ If at all possible, use a mitigation specialist (should be able to get one appointed under Ake and Greggs or make sure you build the cost into your fee)
-
-☐ Incorporate a mitigation interview questions into counsels initial client interview
-
-☐ Get a detailed family tree with contacts
-
-☐ Mitigation/Punishment Witness interviews
-
-☐ Identify and gather useful documents
-
-☐ Potential People to Interview in Mitigation Investigation
-
-☐ Client
-
-☐ Client’s family
-
-☐ Current Neighbors of Client
-
-☐ Friends
-
-☐ Preachers/Ministers
-
-☐ Coaches
-
-☐ Teachers
-
-☐ Former Probation officers
-
-☐ Former parole officers
-
-☐ CPS workers is SPC was involved in Client’s life
-
-☐ Employers/Co-Workers
-
-☐ ==Why a Mitigation Specialist==
-
-☐ They are going to have expertise in gathering the documents and information necessary to tell the client’s story effectively
-
-☐ They will have a network of experts needed to help develop the Clients story
-
-☐ Mitigation specialists can help “connect the dots” and organize all the mitigation facts into a cohesive persuasive story
-
-☐ Mitigation Specialists are trained to determine a Client’s deficits and create a plan to remedy or cure those deficits
-
-☐ ==Client Resistance to Mitigation Interview Questions==
-
-☐ Clients don’t want to talk about mitigation or punishment because “I’m innocent” or “I didn’t do it” or some other variation
-
-☐ In order to tell the client’s story, you have to get to know the client. Thus ask questions at first that help build a family tree and history, a social history, a medical history, employment history
-
-☐ Let the client know you are just trying to get to know them as a person, as trust develops so will the other mitigation questions
-
-☐ ==Team Building Approach to Mitigation==
-
-☐ Always try to make your client “part” of the team – get them invested in their own mitigation. Give them information to gather if on bond. If incarcerated, get them to give you the names of people to go to get the information you need.
-
-☐ Use your Mitigation Specialist/Investigator to help gather documents and interview witnesses
-
-☐ Look for younger attorneys who need experience and draft them to assist
-
-☐ Develop your own network of experts and consult with them as needed
-
-☐ ==3 main areas of mitigation to look at==
-
-☐ All the good the client has done in the past. This includes the client’s view of what good he has done, even if his view is not consistent with what society would think is good
-
-☐ All the bad, sad and painful things that have happened to the client in their lifetime. Ie – What is the worst memory you have a childhood?
-
-☐ Diagnostic questions designed to identify things such as head injuries, illness, substance abuse. Ie – do you remember as a kid ever having to go to the hospital? What for?
-
-☐ ==Questions you can ask to help develop possible mitigation evidence or themes==
-
-☐ Are you on medications? If so what kinds and for how long?
-
-☐ Ever gone to the hospital? If so what for? Which hospital? When? Where?
-
-☐ Ever been diagnosed with a mental illness? If so what? When? By which doctor?
-
-☐ Ever been hospitalized for mental health reasons? What for? When? Which hospital? By which doctor?
-
-☐ Were you the victim of abuse (physical and/or sexual)? When? By whom? Did you report it to anyone and if so, who?
-
-☐ What is your happiest memory?
-
-☐ What is your favorite memory growing up?
-
-☐ What is your earliest memory?
-
-☐ What is something about you that you think would surprise me?
-
-☐ ==Develop a family tree==
-
-☐ The best people to tell you about your client are the ones who have known him all his life.
-
-☐ Family members can tell you about things so traumatic to the client the client is repressing memories
-
-☐ When a client is trying to minimize events or his actions in the past, family can help disprove the minimizations or help reveal the truth
-
-☐ Family members can lead you to other potential sources of information such as friends of the client growing up, coaches or other close associates.
-
-☐ ==The Family interview==
-
-☐ You have to build a relationship with the family to gain their trust
-
-☐ You will have to overcome the family’s initial desire to only emphasize the good of their loved one or minimize the bad
-
-☐ Realize that you will be potentially asking the family to reveal trauma, and this can be re-traumatizing. This can not be rushed. Requires building trust.
-
-☐ Do not judge
-
-☐ Ask open ended questions
-
-☐ Most importantly…LISTEN
-
-☐ ==Mitigation Witness Interviews==
-
-☐ You have to build a relationship just like with the family to gain their trust
-
-☐ Don’t be afraid to ask difficult questions. This is information you need
-
-☐ Just like with the family, do not judge
-
-☐ Ask open ended questions
-
-☐ Most importantly….LISTEN
-
-☐ ==Goal of family/Witness interviews==
-
-☐ Getting to learn the client’s story so you can effectively tell the client’s story
-
-☐ Allow the defense/mitigation team to be able to see the Client through the eyes of people who see the Client not as a criminal but as a human being. Have to be able to humanize the client in order to effectively tell a story to gain empathy for the client.
-
-☐ ==Releases you will need your client to sign==
-
-☐ A general HIPPA release
-
-☐ A FURPA release for educational background
-
-☐ HIPPA release specific to MHMR
-
-☐ If a military veteran – a Veterans Administration release, a release to get the client’s military records
-
-☐ These are documents you will need to start performing a paper mitigation investigation
-
-☐ ==Information helpful/needed to build a proper mitigation case==
-
-☐ Medical history
-
-☐ Family tree
-
-☐ Mental health history
-
-☐ Education history
-
-☐ Employment history
-
-☐ Military History
-
-☐ Criminal History
-
-☐ Full investigation into the crime itself
-
-☐ ==Presenting the Mitigation==
-
-☐ Sometimes you will be presenting it to the Prosecutor pre-trial
-
-☐ Sometimes you will be presenting it to a judge after a trial or punishment hearing
-
-☐ Sometimes will have to present it to a jury after a trial
-
-☐ This is where you connect the dots
-
-☐ This is where you turn all the facts and data you have into a cohesive, persuasive story
-
-☐ This is where you have to apply what you know into appropriate mitigation themes/mitigation circumstances
-
-☐ The Ultimate goal is to tell your Client’s story in such a way that gets the intended target of your story gains empathy for your client
-
-☐ ==Presenting to the prosecutor==
-
-☐ Have to overcome prosecutors automatic prejudice against client – have to gain empathy for your client
-
-☐ Have to overcome prosecutor’s world view. Their view of justice is true justice. They are always in their minds fair – even when they are not being fair. Most any mitigation circumstance, alone, is an excuse and only an excuse. The Defendant is a liar and will lie to everyone. The defendant’s family are enablers.
-
-☐ If you succeed in getting the prosecutor to see your client as a human being and not just another “Defendant” you can get the prosecutor to start empathizing with your client
-
-☐ ==Presenting to a Judge==
-
-☐ Once again, your story has to gain empathy from the judge
-
-☐ Judges have to get re-elected, so your story should help convince a judge to take a chance on your client and that act of “kindness” won’t be rewarded by the client coming back to haunt the judge
-
-☐ Sometimes have to overcome the same world views you have to overcome when presenting to a prosecutor
-
-☐ ==Presenting to a jury==
-
-☐ Has to start at voir dire. Not only educate the jurors on the punishment range, but also on the mitigation themes. Have to identify jurors predisposed not to listen to your mitigation theme.
-
-☐ Through your client’s story, you have to educate the juror’s to see your Client’s world and the realities they live in. Usually a juror’s view of the world miles away from the reality of your client
-
-☐ Not trying to make excuses for your Client’s conduct, trying to gain empathy from the jury
-
-☐ Try to get the target audience to understand, who must not be defined by the worst thing they ever did
-
-☐ People may forget what you tell them or what you did, but people will never forget how you made them feel.
-
-☐ Tell a cohesive, persuasive story for your client and you will be able to gain the necessary empathy for your client to gain a result that very well may save a significant portion of their life!!!!
-
-☐ ==THE CLIENT INTERVIEW: A TOPICAL CHECKLIST
-
-☐ In developing mitigation for post-Booker sentencings, our clients are often our best and most accessible source of information. In the abstract, the mitigation possibilities seem endless, and it may be difficult to decide what to ask our clients and how to ask it. This checklist is designed to give you some guidance. Although it is not intended as a script for client interviews, it may be useful for attorneys to review the checklist in connection with each case as a brainstorming tool.
-
-☐ In collecting information from clients, remember two important principles: First, try not to be too result-oriented. Sometimes, you just have to listen and let the client take the interview where he/she wants to go. You will not elicit too much useful information if you exert too much control in the conversation. Second, be alert to verbal and non-verbal cues suggesting abuse, mental illness, or cognitive impairment. See Deana Logan, Learning to Observe Signs of Mental Impairment (distributed in connection with May 2005 CJA Panel Training). Sometimes, your client won’t be able to tell you what’s mitigating, but you’ll discern it through careful observation.
-
-☐ If you have any questions about a client’s response to questions or a behaviour you observe, you may want to consult the library of materials on mental health issues in criminal cases and conducting mitigation investigation, assembled by Assistant Federal Public Defenders Denise Barrett and Frank Draper, and available at the FPD’s Baltimore office. Also consider consulting a social worker, a mitigation specialist, or a mental health professional.
-
-☐ Initial Interview
-
-☐ This basic information should be collected early on (at the initial appearance, if possible). These are the questions asked at intake by Assistant Federal Public Defenders. The answers provide the basis for establishing a “family liaison” (a close friend or family member of the client who can become an ally for the attorney during the investigation & litigation), and beginning the investigation (ordering basic documents such as education, criminal, and medical records).==
-
-☐ Charged name
-
-☐ Legal name
-
-☐ Other names used
-
-☐ Age
-
-☐ Date of birth
-
-☐ Place of birth
-
-☐ SSN
-
-☐ Immigration status
-
-☐ Address
-
-☐ With whom living
-
-☐ Marital status
-
-☐ Name/address/phone of spouse
-
-☐ Name/address/phone of children
-
-☐ Name/address/phone of other relatives/friends
-
-☐ Employment
-
-☐ Name/address/phone of employer
-
-☐ Military record
-
-☐ Schools attended
-
-☐ Highest grade completed
-
-☐ Current medical needs
-
-☐ Pending cases
-
-☐ Detainers
-
-☐ FTAs
-
-☐ Probation/Parole (& supervising officer)
-
-☐ Past arrests/convictions
-
-☐ Arrest date/time/place
-
-☐ By whom arrested
-
-☐ Circumstances or searches/seizures (consent, warrant, auto, etc)
-
-☐ Witnesses to arrest
-
-☐ Others arrested
-
-☐ Circumstances of any statements (oral, written, read rights, invoke rights, length, place, method of interrogation)
-
-☐ When taken to magistrate
-
-☐ At the initial meeting, also have the client complete release of information forms (copies distributed in connected with Mary 2005 CJA Training), so you can easily retrieve records now and later on.
-
-☐ ==Subsequent Interviews
-
-☐ During subsequent interviews, you’ll have the chance to get to know your client and his/her history. When you visit to discuss an upcoming court date or a development in the case, try to take the time to ask how the client is doing and to make some simply observations about his/her condition. Also try to introduce one or more of the topics listed below. Try to cover all of these areas over time so that you can be sure you’ve done a thorough mitigation investigation.
-
-☐ As follow-up to your client interviews, gather information from other sources, including friends, family, teachers, neighbors, employers, coworkers, coaches, counsellors, etc. Records also contain invaluable information and frequently corroborate information obtained from the client or witnesses. Consider gathering medical records, school records, jail and correctional records, juvenile records, social welfare records, military records, court records, arrest records, and attorney files.
-
-☐ You may not be able to do a complete social history investigation on each client, but be careful about making the decision that it’s not worthwhile in any individual case. Assistant Federal Public Defenders have recently received sentence reductions in gun and drug cases that, at first glance, appeared relatively ordinary.
-
-☐ Current Condition
-
-☐ Checking in on the client’s current condition is a good way of building a relationship with the client, while at the same time identifying possible mitigation. You may see signs of cognitive impairment or mental illness, or you may learn good character mitigation, such as that the client is serving as a “trusty” on his cellblock or participating in a “Reality” program for school-kids. ==
-
-☐ How are you feeling?
-
-☐ Do you have any complaints?
-
-☐ How are you getting along with the guards?
-
-☐ Any guards having problems with you?
-
-☐ How are you getting along with other inmates?
-
-☐ How are you sleeping?
-
-☐ Are you getting any exercise?
-
-☐ What have you had to eat?
-
-☐ Did you get a shower?
-
-☐ Are you making any phone calls?
-
-☐ Do you have any visits?
-
-☐ How do you spend the day?
-
-☐ Have you seen the doctor/nurse?
-
-☐ Are you taking any new medication?
-
-☐ ==Observations of Client==
-
-☐ Skin (clear, acne, pale, abrasions)
-
-☐ Eyes (dilated, rapid movements, dull, normal)
-
-☐ Hygiene (unclean, clean, food, drool, chapped lips, feces/urine, odor)
-
-☐ Appearance (dishevelled, neat, unshaven, gaunt, tired)
-
-☐ Mood (crying, lethargic, sad, agitated, hopeless, unpleasant, main, irritable, clinging)
-
-☐ Speech (monotonous, loud/soft, incoherent, tangential, shifting, derailment, flighty, stuck on single subject, pressured, minimal)
-
-☐ Thought (delusion, hallucination, paranoia, preoccupation, extreme, confabulation, inflated sense of self)
-
-☐ Feelings (fear, shame, remorse, giddy/silly, anxious, normal)
-
-☐ Movement (touching, licking, rocking, drumming fingers, leg shaking, pacing, slow/fast)
-
-☐ Tics (snorting, clearing throat, grimacing, head twitches, verbalization)
-
-☐ ==Social History
-
-☐ These topics are presented in rough chronological order, but you should feel free to pursue them in whatever order seems appropriate with a given client. Some clients will be unwilling to talk about their childhood at first, but may become more willing after they see the way you handle a discussion of their criminal history, hobbies, or employment background. If your client won’t or can’t answer a question, try asking your “ally.”
-
-☐ Birth, Growth & Development==
-
-☐ Any known complications with mother’s pregnancy (bleeding, toxemia, smoking, alcohol, drugs, physical abuse, depression, accidents, illness) [Sample Q: How was your mother’s health during her pregnancy with you?]
-
-☐ Any complications at birth (premature, respiratory difficulties, jaundice, known defects) [Sample Q: Did your mother ever complain about her labor and delivery? What does your mother say about the day you were born?]
-
-☐ Approximate age at which developmental tasks accomplished (responsive smile, rolling over, crawling, pulling to stand, walking, speaking, self-care) [Sample Q: What has your mother told you about what you were like as a baby? As a child?]
-
-☐ Relationship with parents (emotional support, nurturing, expressions of love, discipline, infliction of physical harm or pain, sexual abuse, sexual modeling, displays of nudity, invasions of privacy) [Sample Q: Tell me about your mom? How did your mom handle it when you did something wrong?]
-
-☐ Relationship with others in household
-
-☐ Relationship with peers in school and neighborhood [Sample Q: What did you do when you weren’t in school? What were your friends like? How did others treat you?]
-
-☐ Police or social workers ever come to house
-
-☐ Client or siblings ever run away
-
-☐ ==School History==
-
-☐ Age began school
-
-☐ Schools attended (dates, addresses, reason for changing schools)
-
-☐ Progress from one grade to next
-
-☐ Placement (advanced, special education)
-
-☐ Behavioral difficulties
-
-☐ Lateness, attendance
-
-☐ Performance
-
-☐ Significant teachers/coaches
-
-☐ Parental involvement in school
-
-☐ Highest grade completed
-
-☐ Extracurricular activities, clubs, sports
-
-☐ ==Environmental Factors==
-
-☐ All addresses where client lived
-
-☐ Name, age, current address of all people with whom client lived
-
-☐ Physical conditions in which client grew up (type of neighborhood, housing conditions, availability of hear, number of rooms, number of people in residence) [Sample Q: Tell me about where you grew up?]
-
-☐ Exposure to toxins (smoking, lead, folk remedies, solvents, glue, industrial area, agricultural area) [Sample Q: Where did you play when you were small?]
-
-☐ Client, family, or caretaker ever in an occupation at risk for neurotoxic exposure (agricultural, chemical, pharmaceutical, degreaser, dry cleaner, dental hygienist, electronics, plastics, painter, rayon, steel, transportation, foundry, scrap metal)
-
-☐ ==Medical & Mental Health History==
-
-☐ Kind of health care child/family received (ER, doctor, clinic)
-
-☐ Injuries, accidents, illnesses, including during childhood
-
-☐ Head trauma (blows, car accidents, falls, sports injuries)
-
-☐ Fevers, headaches
-
-☐ MRI, CAT scan PET, EEG, x-ray of head, neuropsych or psych testing
-
-☐ Hospitalizations
-
-☐ Emergency room visits
-
-☐ Alcohol/drug use [Sample Q: Tell me about the first time you ever used drugs or alcohol?]
-
-☐ Alcohol/drug treatment (where, when)
-
-☐ Mental health evaluations, court-related or otherwise)
-
-☐ Mental health treatment (where, when, who treated)
-
-☐ Medications
-
-☐ ==Military History==
-
-☐ Ever rejected for military service
-
-☐ Name, branch, and dates of service
-
-☐ Highest rank obtained & rank at discharge
-
-☐ Type of discharge
-
-☐ Significant military experiences [Sample Q: What stands out to you when you remember being in the Army?]
-
-☐ Vaccinations, overseas experience, special training
-
-☐ Veteran’s care, post-military trauma or illness
-
-☐ ==Court History==
-
-☐ Prior juvenile or criminal charges (jurisdiction, disposition, name of attorney, date of offense, date of arrest, character of offense, length and place of incarceration or juvenile placement, name of parole/probation officer)
-
-☐ Prison and/or probation record (disciplinary record, compliance with rules, ever granted privileges, work history, participation in programs, ever evaluated or treated, medications administered, noteworthy relationships)
-
-☐ Plaintiff or defendant in civil case
-
-☐ Witness in any court proceeding
-
-☐ Filed bankruptcy
-
-☐ Child support proceedings
-
-☐ Paternity proceedings
-
-☐ ==Contact with Government Agencies==
-
-☐ Arrests, other police contact
-
-☐ Benefits (food stamps, disability, unemployment, social security)
-
-☐ Child welfare
-
-☐ Veteran’s Administration
-
-☐ INS
-
-☐ ==Employment History==
-
-☐ Employment record (name, address, supervisor, dates of employment, reasons for leaving)
-
-☐ Problems with employers/co-workers
-
-☐ Lengthy periods of unemployment (why, collect benefits) [Sample Q: What did you do when you weren’t working? How did you pay the bills?]
-
-☐ Workmen’s compensation claims
-
-☐ ==Religious Background/Community Activity==
-
-☐ Attendance as child/adult (where, name of church, personnel, activities)
-
-☐ Other community groups/service
-
-☐ ==Hobbies==
-
-☐ What client likes to do in spare time
-
-☐ ==Friends & Family==
-
-☐ Name, age, address of parents, step-parents, grandparents, siblings, and other relatives
-
-☐ Name, age, address of friends or mentors [Sample Q: Who are your three best friends/favorite teachers/closest family members?]
-
-☐ Nature and quality of relationships with friends
-
-☐ Name, age, address of boyfriends/girlfriends, current & former spouses
-
-☐ Nature and quality of relationships with “significant others”
-
-☐ Family/caretaker ever diagnosed (or treated or suspected) with mental illness, other illness, injury
-
-☐ Family/caretaker have seizures, memory loss, uncontrolled temper/rages, “crazy behavior,” signs of retardation, etc.
-
-☐ Use of drugs/alcohol by family member/caretaker
-
-☐ Criminal records of family/friends
-
-☐ Court involvement of family/friends
-
-☐ Family/caretaker receive government benefits, have contact with child protective services or other social service agency
-
-☐ ==Juvenile Sealing of Records Check List==
-
-☐ File Folder created
-
-☐ Enter Client Sealing of Records in Contacts (SOS and Outlook)
-
-☐ Draft Motion to Seal Records/Order
-
-☐ Contact Client – Need to Review Motion and Sign/ Notarize verification
-
-☐ Client notification for signature
-
-☐ Client coming to office to sign
-
-☐ Client wants Motion mailed
-
-☐ Draft form letter and mail Motion to Seal Records to Client
-
-☐ Received Motion and Executed verification
-
-☐ Make 3 Copies of Motion and Verification. (One for office, Original and Copy for Court)
-
-☐ Court Process and follow up for hearing date:
-
-☐ File Motion with court and receive court date for hearing
-
-☐ Received Motion and Notice of Hearing from Attorney
-
-☐ Make copies of Motion and Notice of Hearing for each Agency
-
-☐ Calendar date of Hearing for Motion of Sealing
-
-☐ Draft Notice of Hearing to each agency and enclose copy of file stamped Motion and Notice of Hearing.
-
-☐ ==Send regular mail==
-
-☐ Hearing for Motion to Seal:
-
-☐ Hearing date – Motion submitted to court
-
-☐ Date to pick up Order
-
-☐ Received final Motion and Order for Sealing – granted
-
-☐ Attorney to bring back Original Certified Motion /orders (one for each agency, plus one for office and one for the client (Harris County)
-
-☐ Make additional copies of Certified Motion and Order if needed for each Agency
-
-☐ Draft form letter to each agency and to Client – Order granted
-
-☐ Copy of Order with form letter mailed to Agency’s, Certified Mail Return Receipt Requested
-
-☐ Green Cards
-
-☐ Initial OrderReceived
-
-☐ Sent:Green Card:
-
-☐ ==Hon. Devon Anderson/Harris County DA
-
-☐ Tom Brooks/Harris County Juvenile Probation
-
-☐ Chris Daniel/Harris County District Clerk
-
-☐ Houston Police Department
-
-☐ Harris County Sheriff’s Department
-
-☐ Harris County Constable Precinct _____
-
-☐ Harris County Fire Marshall
-
-☐ Other Law Enforcement Agency _____________________________
-
-☐ School ___________________________________________________
-
-☐ School District, _________________________________ ISD
-
-☐ N.C.I.C./FBI
-
-☐ T.C.I.C.
-
-☐ Texas Department of Public Safety/Expungements
-
-☐ Texas Education Agency==
-
-☐ All green cards signed and received in office
-
-☐ Attached Green card to each matching agency and scan in computer.
-
-☐ Close File
-
-☐ Attorney signed off
-
-☐ ==Disaster Checklist==
-
-☐ Find quiet moment
-
-☐ Make/Pour/Order coffee/liquor
-
-☐ Sip and clear mind
-
-☐ Decide whom you can trust with this information
-
-☐ Download forms and fill out (and make 2 copies) for:
-
-☐ Power of Attorney (limited or durable)
-
-☐ Health care Power of Attorney
-
-☐ Will, if you prefer not to leave things to the State
-
-☐ Make 2 lists and copies of all the following, electronic or hard copy
-
-☐ Insurance policies with numbers [btw, consider disability and general umbrella insurance policies for disasters and illness/injury]
-
-☐ Bank accounts, with acct numbers, including IOLTA
-
-☐ Investment/IRA accounts
-
-☐ Deeds and car titles
-
-☐ Assets people may not know about [safes, safe deposit, envelopes of cash
-
-☐ Clients and status of accounts/cases and all passwords to your computers
-
-☐ Office leases/contracts
-
-☐ Credits cards/lines of credit
-
-☐ Make or arrange for electronic copies via scan or upload or portable drive of all office files, including client contact info
-
-☐ ==[Note – locate in your mind coffee shops with wireless, FEDex branches, and public libraries so you will not be shut out of online access]==
-
-☐ Make 2 copies of the following keys and gather them
-
-☐ office
-
-☐ safe or locking file cabinet
-
-☐ car
-
-☐ safe deposit box
-
-☐ home or apartment
-
-☐ Call person you picked
-
-☐ Prepare list of instructions in event of injury/illness
-
-☐ Bring them hard drives, passwords, keys, list, instructions etc. listed above
-
-☐ Take second set of copies to your home and put it in safe place, such as a shoe box, labelled “In case I get hit by a big yellow bus”.
-
-☐ Relax, sip coffee/drink.
-
-☐ ====
-
-☐ Open File
-
-☐ Review Discovery
-
-☐ Plea Offers?
-
-☐ Plea Agreement
-
-☐ Jury Trial
-
-☐ Client Name
-
-☐ Today’s Date
-
-☐ OPEN NEW FILE
-
-☐ Retention Letter/E-Mail Retention Sent
-
-☐ Criminal Information – Obtained Copy
-
-☐ Probable Cause – Affidavit / Hearing
-
-☐ Warrant for Arrest – Yes/No
-
-☐ Bond Set – If so, Amount
-
-☐ Bond Reduction Hearing
-
-☐ Initial hearing held.
-
-☐ Omnibus date set.
-
-☐ Is client noncitizen?
-
-☐ Consult with immigration lawyer
-
-☐ Counsel client regarding immigration
-
-☐ Tell Client how to dress for court
-
-☐ Identify mental health problems
-
-☐ Case Number and Prosecutor Contact Info
-
-☐ Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])
-
-☐ Notice of Appearance / Appearance of counsel / Motion to Substitute
-
-☐ Is the case an unindicted felony?
-
-☐ Contact Prosecutor about grand jury packet- get it in writing
-
-☐ Get client to take polygraph exam
-
-☐ Write a grand-jury letter
-
-☐ Send grand-jury letter
-
-☐ Charging Instrument
-
-☐ Complaint/Information/Indictment
-
-☐ JIMS /PACER printout
-
-☐ Create File
-
-☐ Get Client to sign black reset
-
-☐ Request for Notice
-
-☐ Get copy of offense report
-
-☐ Investigation
-
-☐ Visit Scene
-
-☐ Are there cell phones involved?
-
-☐ Send cell phone company to preserve texts
-
-☐ Subpoena cell phone records
-
-☐ Get cops’ cell numbers
-
-☐ Is it a drug case?
-
-☐ Drug test client
-
-☐ Jury Charge
-
-☐ CRIMINAL DOCUMENTS
-
-☐ ==File GA; J/T Request; Discovery Request; Other Documents==
-
-☐ Legal defense filed 20 days before omnibus date.
-
-☐ State’s discovery submitted to Defendant.
-
-☐ Defendant’s discovery submitted to State.
-
-☐ Deposition of: ___________________
-
-☐ Deposition of: ___________________
-
-☐ Motion for Suppression of Evidence & Motion in Limine filed.
-
-☐ Pre-Trial Statement filed at Initial PTC.
-
-☐ Final Pre-Trial Conference.
-
-☐ Hearing on Pre-Trial Motions held.
-
-☐ Change of Plea Hearing held.
-
-☐ Final Pre-Trial Conference held.
-
-☐ Preliminary instructions filed.
-
-☐ Pretrial Motions filed.
-
-☐ Trial Brief Filed.
-
-☐ Jury Trial Held.
-
-☐ Is it a DWI case? See ALR Checklist
-
-☐ Video Requested
-
-☐ Video Received
-
-☐ 911 Requested
-
-☐ 911 Received
-
-☐ Prior J&Ss Requested
-
-☐ Prior J&Ss Received
-
-☐ Compare Priors
-
-☐ Are there medical records involved?
-
-☐ Identify healthcare providers.
-
-☐ Get HIPAA release from client
-
-☐ HIPPA Release Signed
-
-☐ Medical Records Requested
-
-☐ Medical Records Received
-
-☐ Witness List (___Sup’d_)
-
-☐ TCLEOSE Requested
-
-☐ TCLEOSE Received
-
-☐ MDTs Requested
-
-☐ MDTs Received
-
-☐ OR Requested
-
-☐ OR Received
-
-☐ GPS Requested
-
-☐ GPS Received
-
-☐ PIA/ORR Requested
-
-☐ PIA/ORR Received
-
-☐ Review Video
-
-☐ File Motions
-
-☐ Discovery
-
-☐ Extraneous
-
-☐ Brady
-
-☐ Experts
-
-☐ Motion to Identify Experts
-
-☐ Bld/Brth Disc
-
-☐ Arraigned
-
-☐ Quash
-
-☐ Suppress
-
-☐ Investigator
-
-☐ Trial-Specific Motions
-
-☐ Limine
-
-☐ Punishment Election
-
-☐ Community Supervision
-
-☐ Investigator: __________
-
-☐ Expert _______Hired___
-
-☐ Subpoena Witnesses
-
-☐ File Business Records
-
-☐ Case Law: _______________________
-
-☐ Court Notes: _______________________
-
-☐ Preservation of error, generally
-
-☐ Object
-
-☐ Request that jury be instructed to disregard
-
-☐ Move for Mistrial
-
-☐ Cop cross-exam
-
-☐ Establish reliability of report
-
-☐ Trained to write
-
-☐ Purpose
-
-☐ Four principles:
-
-☐ Chronological (if the report says “A, then B,” A happened before B)
-
-☐ Complete (if it’s not in the offense report, you didn’t think it important)
-
-☐ True (if it’s in the offense report, it happened)
-
-☐ Literal
-
-☐ Appeal
-
-☐ Jury-charge error
-
-☐ Jury selection error
-
-☐ Specific problems:
-
-☐ Noncitizen client
-
-☐ Unexpected extraneous at trial
-
-☐ Missing witness
-
-☐ Batson error
-
+<a id='level-1-close-file'></a>
+# [Main Checklist](#level-1) | Close file
+<a id='item-withdraw'></a>
 ☐ Withdraw
 
-☐ ==Master Checklist (Mark Bennett’s conflicted copy 2017-01-20)==
+<a id='item-send-closing-letter'></a>
+☐ Send closing letter.
 
-☐ Expunge record
-
-☐ Identify agencies involved
-
-☐ Look for other cases that can be expunged while you’re doing one
-
-☐ Get Client SSN, TDL, address at time of arrest, address now.
-
-☐ Draft petition
-
-☐ Petition to client for notarized signature
-
-☐ File petition
-
-☐ Draft order
-
-☐ Order to respondents for signatures
-
-☐ Signed order to court
-
-☐ Final order to client
-
-☐ Purge SSN, credit card numbers from file
-
+<a id='item-file-to-storage'></a>
 ☐ File to storage
 
-☐ ==Petition for Nondisclosure – Eligibility Checklist (VE)==
 
+\newpage
+
+<a id='level-1-clear-client-s-record'></a>
+# [Main Checklist](#level-1) | Clear Client's record.
+<a id='item-expunge-record'></a>
+☐ [Expunge record](#level-1-clear-client-s-record-expunge-record)
+
+<a id='item-petition-for-nondisclosure'></a>
+☐ [Petition for Nondisclosure](#level-1-clear-client-s-record-petition-for-nondisclosure)
+
+<a id='item-juvenile-sealing-of-records-check-list'></a>
+☐ [Juvenile Sealing of Records Check List==](#level-1-clear-client-s-record-juvenile-sealing-of-records-check-list)
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-expunge-record'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | Expunge record
+<a id='item-identify-agencies-involved'></a>
+☐ Identify agencies involved
+
+<a id='item-look-for-other-cases-that-can-be-expunged-while-you-re-doing-one'></a>
+☐ Look for other cases that can be expunged while you’re doing one
+
+<a id='item-get-client-ssn-tdl-address-at-time-of-arrest-address-now'></a>
+☐ Get Client SSN, TDL, address at time of arrest, address now.
+
+<a id='item-draft-petition'></a>
+☐ Draft petition
+
+<a id='item-petition-to-client-for-notarized-signature'></a>
+☐ Petition to client for notarized signature
+
+<a id='item-file-petition'></a>
+☐ File petition
+
+<a id='item-draft-order'></a>
+☐ Draft order
+
+<a id='item-order-to-respondents-for-signatures'></a>
+☐ Order to respondents for signatures
+
+<a id='item-signed-order-to-court'></a>
+☐ Signed order to court
+
+<a id='item-final-order-to-client'></a>
+☐ Final order to client
+
+<a id='item-purge-ssn-credit-card-numbers-from-file'></a>
+☐ Purge SSN, credit card numbers from file
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-petition-for-nondisclosure'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | Petition for Nondisclosure
+<a id='item-eligibility-checklist'></a>
+☐ [Eligibility Checklist](#level-1-clear-client-s-record-petition-for-nondisclosure-eligibility-checklist)
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-petition-for-nondisclosure-eligibility-checklist'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Petition for Nondisclosure](#level-1-clear-client-s-record-petition-for-nondisclosure) | Eligibility Checklist
+<a id='item-petitioner-must-have-received-successful-discharge-and-dismissal-of-dadj-and'></a>
 ☐ Petitioner must have received successful discharge and dismissal of DADJ AND
 
+<a id='item-the-court-where-petition-filed-is-the-court-that-granted-the-dadj'></a>
 ☐ The court where petition filed is the court that granted the DADJ
 
+<a id='item-petitioner-complied-with-waiting-period-from-date-of-discharge-dismissal-5-years-for-felonies-2-years-for-misdemeanors-under-pc-ch-20-22-25-42-or-46-and-immediately-for-all-other-misdemeanors'></a>
 ☐ Petitioner complied with waiting period from date of discharge/dismissal (5 years for felonies; 2 years for misdemeanors under PC Ch. 20-22, 25, 42 or 46), and immediately for all other misdemeanors
 
+<a id='item-there-are-some-offenses-for-which-petitioner-is-never-eligible-if-convicted-or-placed-on-deferred-check-penal-code-ie-indecency-with-a-child-aggravated-sexual-assault-etc'></a>
 ☐ There are some offenses for which Petitioner is NEVER eligible if convicted or placed on deferred – check Penal Code, ie Indecency with a Child, Aggravated Sexual Assault, etc.)
 
+<a id='item-even-if-eligible-petitioner-becomes-disqualified-if-during-period-of-dadj-or-waiting-period-thereafter-petitioner-gets-convicted-or-placed-on-dadj-for-any-offense-other-than-traffic-offense-punishable-by-fine-only'></a>
 ☐ Even if eligible, Petitioner becomes Disqualified IF: during period of DADJ or waiting period thereafter, Petitioner gets convicted or placed on DADJ for any offense (other than traffic offense punishable by fine only).
 
-☐ ==CRIMINAL ACTION CHECKLIST (almost entirely merged with list above) ==
 
-☐ Change of Plea
+\newpage
 
-☐ Conviction:
-
-☐ Jail
-
-☐ Court Costs
-
-☐ Driver’s License Suspension
-
-☐ ==Admin Date
-
-☐ 90 Days
-
-☐ 180 Restricted
-
-☐ Other==
-
-☐ Other
-
-☐ Judgment issued.
-
-☐ Sentencing date.
-
-☐ Motion to Correct Errors/Praecipe filed.
-
-☐ See Appeal Checklist
-
-☐ FINAL BILLING STATEMENT – AKL
-
-☐ Closing Letter Sent.
-
-☐ CLOSED FILE
-
-☐ NOTES/COMMENTS
-
-☐ ==COConnor General Case Assessment (merged with Checklist for Investigation and Information Gathering Checklist and Discovery Checklist) ==
-
-☐ General Case Assessment
-
-☐ Client interview / Consultation
-
-☐ Language (interpreter needed?)
-
-☐ •Get out of jail! (Bond: family; bond motion, etc.)
-
-☐ Client Info:
-
-☐ •Client Intake Sheet [interview]- see above sample
-
-☐ •Spheres of Influence Sheet [interview]
-
-☐ •Skills Assessment (what they like to do, are good at, etc.) [interview]
-
-☐ •Medical Records (what hospitals, HIPPA) [subpoena]
-
-☐ •School Records (releases, transcripts, college and primary/secondary school records) [subpoena]
-
-☐ •Criminal History (DPS) [online database search]
-
-☐ •Family Background Questionnaire [interview]
-
-☐ •Social History (include questions on trauma) [interview]
-
-☐ •Reference Letters (3 + contact info) [interview]
-
-☐ •Psychological Eval (include explanation about all doing it, not to be ashamed, etc.) [interview]
-
-☐ •Drug Tests?
-
-☐ •Classes?
-
-☐ •Community Service Hours?
-
-☐ •Motion for no solitary confinement (show particularized need)
-
-☐ Double check with client all of the following:
-
-☐ Immigration
-
-☐ Criminal history
-
-☐ Mental health /Medical Health
-
-☐ Have client sign HIPPA and FERPA
-
-☐ Military history
-
-☐ Collateral consequences
-
-☐ School
-
-☐ Employment
-
-☐ Licensing
-
-☐ Driver’s License
-
-☐ Client info on witnesses
-
-☐ File Discovery Demand
-
-☐ Request Witness List
-
-☐ Request Impeachment Materials on State Witnesses
-
-☐ Request jail, school, medical and juvenile /TDCJ record via Open Records Request
-
-☐ Make timelines of client’s life
-
-☐ Confront family with records
-
-☐ Confront client with records
-
-☐ Contact family members/neighbors
-
-☐ Review state’s file and offense report
-
-☐ Make witness list from Client, family/neighbors, and State’s file / OR; Consider meeting with Investigator / Investigation, See below
-
-☐ Charging document
-
-☐ Information v. Grand Jury
-
-☐ •OR!!! [discovery]
-
-☐ •Discovery Request [to DA]
-
-☐ •MDTs, etc. [subpoena]
-
-☐ Police reports (do you have them all?)
-
-☐ Probable cause affidavits
-
-☐ Lab Reports
-
-☐ DNA Serology Reports
-
-☐ ==Is it a DNA mixture case? CPI evidence issues? Is it single source DNA evidence?
-
-☐ Call the lab analyst, ensure there are no other supplemental reports, that you have all reports, that there are no calculations or other reports pending
-
-☐ Discuss lab report data – ask analyst to pin down their interpretation of results
-
-☐ Other evidence which needs to be tested?  ==
-
-☐ Drug / Alcohol Reports
-
-☐ Blood Analysis Reports
-
-☐ Fingerprint Analysis Reports
-
-☐ Gunshot Residue Analysis Reports
-
-☐ Jail documents /Recog Reports
-
-☐ Charges
-
-☐ Charging documents
-
-☐ Statutes
-
-☐ Max sentences/fines?
-
-☐ Demurrers appropriate?
-
-☐ Diversion programs available?
-
-☐ Codefendants?
-
-☐ Types of pre-trial motions (suppression)
-
-☐ Charges the DA missed
-
-☐ Pre-indictment negotiation
-
-☐ Conflict Check
-
-☐ Location awareness
-
-☐ Google Map
-
-☐ Google Street View
-
-☐ Weather Conditions
-
-☐ Lighting
-
-☐ Determine custody status
-
-☐ Release issues?
-
-☐ Bail issues?
-
-☐ Phone
-
-☐ Address
-
-☐ Back up contact information
-
-☐ Other active cases
-
-☐ Other cases in country?
-
-☐ Other probation/parole/PPS matters?
-
-☐ Education status
-
-☐ Military status
-
-☐ Immigration status
-
-☐ Initial Legal Review
-
-☐ Jurisdiction correct?
-
-☐ Demurrer needed
-
-☐ Statute of limitations
-
-☐ Speedy trial issues?
-
-☐ Motion to suppress?
-
-☐ Do any defenses need experts/notices/motions?
-
-☐ Can client aid and assist in own defense
-
-☐ Initial sentencing assessment
-
-☐ Max/Min penalties
-
-☐ Presumptive penalties
-
-☐ Mandatory minimums
-
-☐ Consecutive/concurrent
-
-☐ Same/Separate criminal episodes?
-
-☐ Special rules
-
-☐ Upward departures
-
-☐ Witness Assessment
-
-☐ Witness list
-
-☐ Any statements from witnesses?
-
-☐ Any additional witnesses?
-
-☐ Impeachment material
-
-☐ Criminal history
-
-☐ Other statements
-
-☐ Special subpoenas needed? (medical records)
-
-☐ Gather Additional Information
-
-☐ Any follow-up police reports
-
-☐ BOEC/ 911/ dispatch recordings
-
-☐ Subpoena to:
-
-☐ ==If made to County: Traci Mullins, records custodian, 1301 Franklin, Houston 77002. Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it
-
-☐ If made to City of Houston: HEC, Custodian of Records, 5320 N. Shepherd, Room 1022. Houston, Texas 77091. Contact Joe.Laud@CityOfHouston.net if there are any problems (e.g., runaround). Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it==
-
-☐ MDT data terminal logs
-
-☐ Facebook / Myspace /social media
-
-☐ News articles
-
-☐ Visit the scene
-
-☐ Visit the evidence in evidence locker
-
-☐ Make a Timeline of the Incident
-
-☐ Movements/Actions possible in the timeframe?
-
-☐ Match the witness statements?
-
-☐ Any witnesses that would take exception to the timeline?
-
-☐ Client informed of charges?
-
-☐ Copy of [redacted] police reports provided to Client?
-
-☐ Review exposure on each count
-
-☐ Investigation
-
-☐ Investigation needed? Request investigator and meet with
-
-☐ Investigation request.
-
-☐ Witness list- Interview all Witnesses
-
-☐ Facebook and other social networks, from LinkedIn to MySpace for Client / Witnesses
-
-☐ CW Info.:
-
-☐ •Criminal History (DPS) [online database search]
-
-☐ •Affidavit of Non-Prosecution? [interview]
-
-☐ Visit scene with investigator
-
-☐ Subpoenas to defense witnesses
-
-☐ Investigator to gather:
-
-☐ 911 calls / police data records / dispatch logs- See Subpoena info above
-
-☐ Witness statements
-
-☐ Compile witness list for guilt
-
-☐ Compile witness list for punishment
-
-☐ Investigator to prepare:
-
-☐ Exhibits (maps, photos)
-
-☐ Reports
-
-☐ Restitution?
-
-☐ Determine amount asked for
-
-☐ Outside expert needed to value property?
-
-☐ Civil compromise appropriate?
-
-☐ Officer Info. (for all officers involved):
-
-☐ •TCOLE records (email request) [email request]
-
-☐ TCLEOSE Records
-
-☐ Send e-mail addressed to TCLEOSE to: openrecords@tcleose.state.tx.us. Title email as a “Public Information Request” or “Open Records Request”. Give officer’s name, agency name, and badge number if you have it.
-
-☐ •Personnel files (including complaints) [subpoena]
-
-☐ •IAD investigations and results [subpoena]
-
-☐ •Lawsuits filed against [?]
-
-☐ Scene Visit [drive] (include law stating why all of these are required – IAC if don’t, cite case)
-
-☐ Scene Reconstruction
-
-☐ Make investigative memo to file
-
-☐ Memo to file on investigation/themes
-
-☐ Make timeline of offense
-
-☐ Experts
-
-☐ Request consulting expert
-
-☐ Forensic expert (test/weigh drugs)
-
-☐ Psychologist
-
-☐ Medical doctor
-
-☐ Psychopharmacologist (drug interactions)
-
-☐ Expert to value property or damage
-
-☐ Sentencing mitigation – drug and alcohol evaluation and amenability to treatment
-
-☐ Eyewitness identification
-
-☐ File Requests For Funds From PDSC
-
-☐ Get your experts and investigators their $
-
-☐ File Special Notices
-
-☐ Mental health defenses?
-
-☐ Self-defense?
-
-☐ Contested diversion?
-
-☐ Turn Over Reciprocal Discovery
-
-☐ File Legal Challenges/Motions
-
-☐ Motion to suppress
-
-☐ Demurrer
-
-☐ Speedy trial motions
-
-☐ Challenges to client’s criminal history
-
-☐ Mitigation Preparation
-
-☐ Client employment history
-
-☐ Treatment amenability
-
-☐ Expert reports
-
-☐ Client have $ up front for restitution?
-
-☐ Reassess Case
-
-☐ Review options with client
-
-☐ Any other material needed?
-
-☐ Client understand rights and trial options?
-
-☐ Discussion re Bench v. Jury
-
-☐ Discussion re client testifying
-
-☐ Reassess Trial
-
-☐ What facts are coming into trial
-
-☐ Facts beyond change
-
-☐ What evidence can be suppressed/ excluded
-
-☐ Finalize motions in limine/ motions to suppress
-
-☐ What exhibits will be in trial
-
-☐ What witnesses will actually appear
-
-☐ Client testifying?
-
-☐ Negotiations / Alternate Resolutions
-
-☐ DA have witness statements or discovery you gathered?
-
-☐ Requested offer?
-
-☐ Reviewed offer with client?
-
-☐ Counteroffers?
-
-☐ Civil compromise possible/allowed?
-
-☐ Has client contemplated:
-
-☐ Immigration
-
-☐ Emigration
-
-☐ Expungments
-
-☐ Collateral consequences
-
-☐ Plea Preparation
-
-☐ Got an offer on each count?
-
-☐ Reviewed paperwork with client?
-
-☐ Filled out appeal form
-
-☐ Sentencing mitigation materials
-
-☐ Letters of reference
-
-☐ Job information
-
-☐ Financial
-
-☐ Trial Materials Preparation
-
-☐ Finalize themes and exhibit list
-
-☐ Jury Instructions
-
-☐ Exhibits
-
-☐ Witness list
-
-☐ Motions in limine
-
-☐ Legal Resources
-
-☐ Jury instruction book
-
-☐ Evidence by Kirkpatrick
-
-☐ Criminal Code
-
-☐ Vehicle Code
-
-☐ Exhibits
-
-☐ Audio player
-
-☐ Video player
-
-☐ Interpreters
-
-☐ Closing Materials
-
-☐ Closing letter
-
-☐ File appeal
-
-☐ Close file
-
-☐ ==Checklists for Investigation (almost entirely merged with list above)==
-
-☐ Request sentencing advocate
-
-☐ Letter to client
-
-☐ If applicable, consider Motions for Continuance for more investigation or additional funds for experts
-
-☐ Review what you are unable to obtain for trial for Motion for New Trial/Punishment or Guilt
-
-☐ After motion to withdraw, final memo to file
-
-☐ ==Initial Discovery and 3rd Party Data Assessment Checklist
-
-☐ In cases involving large volumes of data in a variety of media and/or file formats produced as part of the discovery and/or third party data obtained through independent investigation, the trial team should contact the National Litigation Support team and together try to answer the questions below. The answers will direct the work flow and assist the trial team in further planning their strategy and budget.==
-
-☐ Is there any way to estimate the total volume of the discovery production even though some of it may come later?
-
-☐ Will we be able to access all the data?
-
-☐ Is any of the data encrypted?
-
-☐ Are there specific types of documents that will be irrelevant to our case? (i.e. pictures, executable files, junk emails, etc.)
-
-☐ Are there specific types of documents that will be very important to our case? (i.e. emails authored by a particular person, documents created during a specific time period, specific document types such as bank records, etc.)
-
-☐ Are there both paper documents that have been scanned and native electronic files?
-
-☐ Should we objectively code the scanned documents so that they can be integrated into the native file data set for purposes of searching and organization?
-
-☐ Will there continue to be rolling discovery productions?
-
-☐ Do we need to look at the entire production?
-
-☐ Is there information that the government has not provided that needs to explicitly requested?
-
-☐ In what format or formats do you want to request this information?
-
-☐ Is there information that is not under the government’s control that needs to be obtained from 3rd party sources?
-
-☐ In what format or formats is that information currently maintained?
-
-☐ Can you obtain the third party information in a forensically sound manner so as to ensure proper chain of custody?
-
-☐ Will the documents need to be shared among the Federal Defender Office, CJA Panel Attorneys and Retained Counsel?
-
-☐ Does the trial team already have an Evidence Review Platform in their office that could handle the amount and variety of discovery involved?
-
-☐ What is the timeline for completing the review?
-
-☐ ==DISCOVERY CHECKLIST (partially merged with Oconnor’s Iist above) ==
-
-☐ Police personnel/civil service files of cops, including sustained complaints (3x5), as well as payroll records:
-
-☐ Open Records Act request to:
-
-☐ HPD: Roland Bienvenu, HR Dept 611 Walker, 4th Floor, Houston, TX 77002, Roland.Bienvenu@CityOfHouston.net
-
-☐ HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ DPS: Human Resources Department ATTN: Norma Cortez, 5805 N. Lamar Blvd., Bldg. C, Austin, Texas 78752-0251, Voice: (512) 424-2393, Fax (512) 424-2338
-
-☐ Policies and procedures (esp for towing, informants, DWI, canine searches, etc):
-
-☐ Subpoena to:
-
-☐ ==HPD: HPD, Wanda O’ Bryant 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
-
-☐ HCSD: Dalora Miller, Custodian of Records/Legal Department 1200 Baker, Houston, TX 77002==
-
-☐ Breath test/Blood test (court has standard orders that are in our DWI pleadings folder):
-
-☐ Fax blood test court order to:
-
-☐ ==HPD: Theresa Clark at (713) 308-2645 (will accept via fax and call to pick up). Voice: (713) 308-2600==
-
-☐ Fax breath test order to:
-
-☐ ==HPD: DPS handles all HPD breath test records, so send to DPS, ATTN: Lee Nanne Spino at fax (281) 517-1427. Voice: (281) 517-1426==
-
-☐ Inspect drugs or evidence:
-
-☐ Fax court order to:
-
-☐ ==Lab or property room (for property, usually need to contact cop to inspect with him)==
-
-☐ Accident reports
-
-☐ Records Division, 713-808-8585. Can be purchased online 5-8 days after accident at: www.vectrareports.com/Index.aspx. Require two of these three: (1) date of accident, (2) location of accident, and (3) drivers involved
-
-☐ Jail arrest record (HPD city jail)
-
-☐ Open Records Act to:
-
-☐ ==HPD, Public Affairs Division, 1200 Travis, Houston, TX 77002
-
-☐ Specify date of arrest, full name, DoB, TDL and/or SSN of person, and any offense report number. Fax: 713-308-3260==
-
-☐ Dispatch tapes, MDT printouts, AVL/GPD data from patrol car, and all video and audio (including any metadata of when photos/video/audio done)
-
-☐ Subpoena to:
-
-☐ ==HDP: HPD, Wanda O’ Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
-
-☐ HCSD: Dalora Miller. Custodian of Records/Legal Department. 1200 Baker, Houston, TX 77002==
-
-☐ Crime lab documents for tests
-
-☐ Subpoena to relevant lab:
-
-☐ NOTE: Generally, the items subpoenaed at a minimum should be:
-
-☐ ==Case folder documents==
-
-☐ a.Report
-
-☐ b.Chain of custody record
-
-☐ c.Evidence receipt and disposition records
-
-☐ d.Submission/request information (internal and external)
-
-☐ e.Examination Documentation: bench notes, data, observations, photographs, all records pertaining to the observations, analysis, interpretations, and opinions of evidence
-
-☐ f.Case specific records of calibrations and controls
-
-☐ g.Communication Logs
-
-☐ h.Documentation of applicable verification, technical and administrative review of the case
-
-☐ i.Relevant case-specific corrective actions and/or deviations
-
-☐ ==Laboratory Accreditation documentation – certificate of accreditation establishes that our procedures are valid and accepted by the forensic community. Demonstrates with compliance with ISO 17025 standards for testing laboratories and the also the fact that our practices, records and procedures are routinely reviewed and audited (both internally and externally).
-
-☐ Analyst’s statement of qualifications (same as a CV).==
-
-☐ Specifically for Blood Alcohol and Toxicology, the following should be requested:
-
-☐ ==Batch archive (general information that applies to all samples run in a particular batch)==
-
-☐ a.Calibration documents
-
-☐ b.Worklist for batch (shows all specimen notes, QC of the pipettes used, all reagents and solutions used)
-
-☐ c.Batch summary sheet (results of analyses in the batch – all controls for Toxicology and all controls and every case sample for Blood Alcohol)
-
-☐ d.Chromatograms of every control in the batch
-
-☐ e.Documentation of applicable technical review of the batch
-
-☐ NOTE: Youtube videos and testimony of Justin McShane can explain limitations of GCMS.  He is also available to testify as an expert.
-
-☐ For DNA:A copy of all reports, laboratory notes, sketches, and photographs from the analytical AND the database laboratories (if a cold hit is involved), including but not limited to the following:
-
-☐ ==1. Evidence collection, processing and chain of custody documentation pertaining to
-
-☐ evidence items analyzed.
-
-☐ 2. Photographs and descriptions of evidence items analyzed
-
-☐ 3. Laboratory notes related to the screening of evidence items for biological fluids
-
-☐ 4. DNA extraction worksheets, quantitation worksheets, and laboratory notes
-
-☐ 5. Genescan/Genotyper or Genemapper electropherograms from Profiler Plus, Cofiler, Identifiler, Y STR, Powerplex 16, or any other STR DNA typing analysis
-
-☐ 6. Electronic data on CD-ROM including, but not limited to, raw data files, Genescan/Genotyper data, or Genemapper data.
-
-☐ 7. Genetic marker database information used to calculate profile frequencies
-
-☐ 8. A copy of the confirming cold hit case file from the state CODIS laboratory, if a cold hit is involved
-
-☐ 9. Police reports and evidence collection documentation from the investigating agency==
-
-☐ Calls for service
-
-☐ Open Records Act to:
-
-☐ ==HPD: HPD Public Affairs Division, 1200 Travis, Houston, TX 77002
-
-☐ HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ Specify address and time frame==
-
-☐ Mugshots/Booking Photo(HCSD)
-
-☐ Open Records Act to:
-
-☐ ==HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ Include arrest date (or month/year) and arrestee==
-
-☐ Jail cards (HCSD)
-
-☐ Open Records Act request to:
-
-☐ ==HCSD: Dalora Miller, Custodian of Records/Legal Department, 1200 Baker, Houston, TX 77002
-
-☐ Include date (or month/year) and arrestee==
-
-☐ Pen Packets
-
-☐ Open Records Act request to:
-
-☐ ==TDCJ Classification and Records Headquarters in Huntsville. Requests may be sent by internet email (penpacket-AT-tdcj.state.tx.us), fax (936/437-6227) or regular mail (P.O. Box 99, Huntsville, Texas 77342). However, if the request is for a state jail offender, and the requestor knows which facility that state jail offender is assigned to, the request may be sent directly to the state jail, attention Unit Warden or Classification Chief. State jail addresses and phone numbers can be obtained from the unit directory on the TDCJ website (www.tdcj.state.tx.us). Every effort will be made to process the request within seven calendar days. If the pen packet is not received in this time period, or if the request is a “rush order”, you may contact Rachel Williams, TDCJ Classification and Records, at 936/437-8696 or Rachel.williams-AT-tdcj.state.tx.us.”==
-
-☐ Informant files, including criminal record, payment records, lneieny, if he has been deactiviated, if he has been untruthful, etc. (court may need to inspect in camera, in which case entire file needs to be sealed as exhibit), including running informant on Facebook and other social networks.
-
-☐ Subpoena to:
-
-☐ ==HDP: HPD, Wanda O’ Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
-
-☐ HCSD: Dalora Miller. Custodian of Records/Legal Department. 1200 Baker, Houston, TX 77002==
-
-☐ CPS Records
-
-☐ NOTE: Can subpoena but invariably CPS will file a motion to quash and you will in turn need to file a motion with the trial court for an in camera inspection; thus, consider just first filing a motion for disclosure and in camera inspection to avoid hassle of a subpoena.
-
-☐ Offense reports
-
-☐ Open Records Act request to:
-
-☐ ==Harris County (only felonies, not misdemeanors, retained): Email to Brian Rose at with defendant’s name, case number, and court.
-
-☐ PLAN FOR TRIAL==
-
-☐ Facts of Case
-
-☐ Defensive Theme of Case
-
-☐ Defense Pre-Trial Motions and Pleadings
-
-☐ State Pre-Trial Motions and Pleadings
-
-☐ Voir Dire:
-
-☐ Issues to be covered in Voir Dire
-
-☐ Issues to be covered in Questioning Potential Juror Group
-
-☐ Issues to be covered in Individual Questioning of Potential Jurors
-
-☐ Issues to be covered in Opening Statement
-
-☐ Issues to be emphasized throughout and during trial
-
-☐ Requested Instructions for Charge in Guilt/Innocence Phase
-
-☐ Requested Instructions for Charge in Punishment Phase
-
-☐ Matters of concern (those things to worry about)
-
-☐ Evidence for Defensive Theme
-
-☐ Witnesses (Witness – Issues)
-
-☐ Documentary Evidence
-
-☐ Defensive Issues To Be Brought out on Cross Examination of State’s Witnesses (Witness ___)
-
-☐ Documentary Evidence in support of Defensive Position (Document – Witness)
-
-☐ Attack Search (yes/no)
-
-☐ Search Issues (Issue – Witnesses)
-
-☐ State’s Documents (Document/Photographs/Diagrams or Charts – Objections)
-
-☐ Co-Defendants
-
-☐ Issues
-
-☐ Cross Xam
-
-☐ Statements of Defendant
-
-☐ Oral
-
-☐ When
-
-☐ To Whom
-
-☐ Content
-
-☐ Objections
-
-☐ Written
-
-☐ When
-
-☐ To Whom
-
-☐ Content
-
-☐ Objections
-
-☐ State’s Case
-
-☐ Witnesses
-
-☐ Witness (Testimony will cover – Cross Xam Issues)
-
-☐ Closing Argument Guilt/Innocence Phase of Trial
-
-☐ Defense Issues to be covered in Closing Argument Punishment Phase
-
-☐ State Issues which will be covered in Closing Argument Punishment Phase
-
-☐ Punishment Phase of Trial
-
-☐ Defense Character Witnesses (Witness – what will establish)
-
-☐ Defense Expert Witnesses for Punishment (Witness – what will establish)
-
-☐ Defense Documentary Evidence for Punishment (Document)
-
-☐ Defense Photograph Evidence for Punishment
-
-☐ Other Defense Evidence for Punishment
-
-☐ State’s Evidence Punishment Phase
-
-☐ ==Witnesses (Witness – Testimony)
-
-☐ State’s Documentary Evidence (Document – Objection)==
-
-☐ Defense Issues to be covered in Closing Argument Punishment Phase
-
-☐ State Issues which will be covered in Closing Argument Punishment Phase
-
-☐ Points of Law to Research
-
-☐ ==3-Initial Meeting with Individual Charged with DWI (Merged with TCDLA DWI Checklist) ==
-
-☐ Intro:
-
-☐ Client Information Sheet
-
-☐ JIMS Information (or other system for out of county)
-
-☐ Contract for Representation Executed
-
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-check-list'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | Juvenile Sealing of Records Check List==
+<a id='item-file-folder-created'></a>
 ☐ File Folder created
 
-☐ Initial Court Appearance Calendared
-
-☐ Enter Client Information in Contacts (SOS and Outlook)
-
-☐ Engagement Letter to Client (opening letter)
-
-☐ Billing Information Entered
-
-☐ ==An individual charged with driving while intoxicated has three main concerns: ==
-
-☐ Driving Privileges
-
-☐ The first concern is the State is trying to suspend his/her driving privileges because of the pending charges. Start by asking if the arresting officers took their driver’s license. If they still have their driver’s license, make a copy for your file, you may need the information later in your representation if you are hired.
-
-☐ Explain to them how important it is to have an administrative license revocation (ALR) hearing. Make them aware the hearing occurs in a different court and a different location from his/her criminal case. Advise them you will make this hearing on their behalf and they will not need to attend. It is actually in their best interest not to attend the hearing because the State could call them as a witness against himself/herself.
-
-☐ Timely filing an application for this hearing will keep the driving privileges from being suspended until the hearing can be held. The hearing before the administrative law judge must be requested no later than 15 days from the date of the State’s notice of the State’s intent to revoke the driving privileges. Date of notice is usually the day of arrest. If the 15 days have lapsed explain how their driving privileges will be automatically suspended 40 days after the notice. Make this hearing a part of your representation if it is not too late to file a request for the hearing.
-
-☐ Regarding their driving privilege:
-
-☐ What type of license do they have?
-
-☐ Does their job require them to drive?
-
-☐ What happens if they are not allowed to drive?
-
-☐ What are the necessary driving times needed for work and/or personal errands?
-
-☐ Have their driving privileges ever been suspended?
-
-☐ Explain the effects on their driving privileges of an arrest and/or conviction for driving while intoxicated. For the suspension periods related to the client, refer to the DWI Suspension Period (cheat sheet) produced by the Texas Criminal Defense Lawyers Association, sheet no. 7. Make sure they understand what they are facing regarding possible suspension of their driving privileges and assure them you will work diligently on their behalf to try and prevent the revocation of his/her driving privileges.
-
-☐ The second concern is the criminal charge and the possible consequences of a conviction. Make sure they completely know and understand the range of punishment he/she faces.
-
-☐ About the Criminal Charge
-
-☐ Questions regarding the criminal charge of driving while intoxicated: (know the affect of his/her answers and make sure they understand how he/she will be affected)
-
-☐ What is their anticipation of what can be accomplish through your representation?
-
-☐ Have they, or anyone, made any prior court appearances on this charge?
-
-☐ When is the next scheduled appearance?
-
-☐ Have they ever been convicted of driving while intoxicated?
-
-☐ Do they have any prior convictions?
-
-☐ Will the pending charge or a conviction for driving while intoxication effect their job?
-
-☐ Will the pending charge or a conviction affect their ability to travel out of the country?
-
-☐ Do they feel they were intoxicated?
-
-☐ Where there any admissions to being intoxicated to any authority?
-
-☐ Have they posted anything about the arrest on the internet (social media)?
-
-☐ About The Individual
-
-☐ Information you will need to know about your client after you are hired:
-
-☐ What are the drinking habits of the client?
-
-☐ Was the client taking medication?
-
-☐ Has the client had any prior injuries?
-
-☐ Do they have any physical or mental disabilities?
-
-☐ Are they under a doctor’s care?
-
-☐ What is their prior driving history?
-
-☐ Do they use unlawful drugs?
-
-☐ How much sleep had they had before arrest?
-
-☐ Do they have any speech impediments?
-
-☐ Have they ever been arrested for public intoxication?
-
-☐ About the Arrest
-
-☐ Things you need to ask about the arrest:
-
-☐ What caused them to be arrested?
-
-☐ Date and time of the arrest?
-
-☐ Were they driving when they were arrested by the police officer?
-
-☐ Where were they going when the arrest occurred?
-
-☐ Where were they coming from?
-
-☐ Who saw them driving?
-
-☐ Where did the arrest occur?
-
-☐ Were they involved in any accident?
-
-☐ Were there any open containers of alcohol in the vehicle?
-
-☐ Any closed containers of alcohol in the vehicle?
-
-☐ Was anyone else with them when he/she was arrested?
-
-☐ Did they make statements to the arresting officer?
-
-☐ Did they perform any field sobriety tests?
-
-☐ Did they provide a sample of /her blood, breath or urine to the arresting officers?
-
-☐ How many police vehicles were on the scene of the arrest?
-
-☐ Did the police take them to a video room?
-
-☐ Was their vehicle towed to a storage yard or turned over to someone?
-
-☐ Where were they drinking before arrest?
-
-☐ What was the time of their last drink prior to the arrest?
-
-☐ What time did they eat prior to his/her arrest?
-
-☐ What time did they wake up/get up from sleeping on the day of his/her arrest?
-
-☐ What time did they have his/her first drink on the day of his/her arrest?
-
-☐ Had they had anything to drink on the previous day?
-
-☐ When would they say was the last time he/she was intoxicated?
-
-☐ How much alcohol did they consume on the day of arrest?
-
-☐ Who were they drinking with?
-
-☐ How did they pay for the alcohol?
-
-☐ Do they have any receipts for the alcohol?
-
-☐ Do they believe he/she has a problem with alcohol?
-
-☐ What is the age, weight and height of the client?
-
-☐ Consequences of Arrest and or Conviction
-
-☐ Make sure they understand all the consequences of a conviction and what might occur while the charges are pending. During this phase you might want to discuss possible plea offers you anticipate the State will make. Make sure your client understands the consequences of pleading guilty to driving while intoxicated, even the downside of DIVERT. Make sure your client understands no plea offer should be entertained until the case is fully investigated, making sure the State will be able to make their case.
-
-☐ Petition for Occupational License
-
-☐ The third concern is what will happen if my driving privileges are suspended. You need to discuss the petition for an occupational license and explain the process. Let your client know you can handle the petition and hearing for him/her. Explain the hearing may be in a civil court, which is completely separate from where his criminal charges are pending.
-
-☐ Conclusion
-
-☐ Spending time with a potential client and providing answers for their concerns will pay dividends for the lawyer. A large percentage of individuals charged with driving while intoxicated have never been involved in the criminal justice system. They are concerned, scared and are looking for someone who can tell them what they are facing. Be that “someone”.
-
-☐ ==DWI pretrial==
-
-☐ Information
-
-☐ Discovery
-
-☐ Court:
-
-☐ Charging Instrument in File (information, complaint, or indictment)
-
-☐ Notes or Offense Report obtained
-
-☐ Received copies of all Video Tapes and Recordings (scene and video room)
-
-☐ Defense Motions Filed
-
-☐ ==Request for State Experts
-
-☐ Discovery Motion
-
-☐ Request 404 (b) Notice
-
-☐ Request 37.07 Notice
-
-☐ Request 609 (f) Notice
-
-☐ Motion to Suppress, if any
-
-☐ Copies of All Motions to Client==
-
-☐ ALR
-
-☐ ALR Hearing to be Requested- Refer to ALR Folder
-
-☐ ALR Discovery
-
-☐ ALR Continuance
-
-☐ ALR Subpoena
-
-☐ Order ALR record
-
-☐ Order TCLOESE
-
-☐ Order Personnel file
-
-☐ Trial Prep
-
-☐ TCLEOSE Information on Law Enforcement Witnesses Requested/Received
-
-☐ Request ALR Transcript for Impeachment – if necessary
-
-☐ Scene Photos / Scene Visit / Google Earth Photo of scene
-
-☐ Subpoena hostile witnesses, if any
-
-☐ ALR
-
-☐ ALR Hearing Requested (within 15 days of notice of suspension)
-
-☐ Letter to Texas Department of Public Safety Requesting Hearing
-
-☐ Form letter to Client indicating Hearing Requested
-
-☐ Received Hearing Notification Letter (and placed on office calendar)
-
-☐ ==Continuances (A party requesting a continuance shall supply 3 dates they will be available)==
-
-☐ Form letter to Client indicating Hearing Date
-
-☐ Requested Discovery for Hearing
-
-☐ Received Discovery
-
-☐ Subpoenas Issued (Must be Served 5 calendar days before hearing) (or analysis why witness is not needed)
-
-☐ ==Witness Fee check
-
-☐ Notice of issuance to DPS    Must be served same date as issued
-
-☐ Received from Process server
-
-☐ Filed with SOAH Witness Fee check included
-
-☐ Faxed to DPS  Must provide a copy of the return of service 3 days prior to hearing ==
-
-☐ Received Final Order from Court (after hearing)
-
-☐ Form letter to Client indicating result of hearing
-
-☐ NOTES _________________________________________________________________________
-
-☐ Pre-Trial Motions
-
-☐ Brady
-
-☐ Motion for Discovery  ___ Sub MDT/Disp
-
-☐ Jury election
-
-☐ Motion for Discovery Experts
-
-☐ Motion to Suppress
-
-☐ Notice letter
-
-☐ Application for Community Supervision
-
-☐ Trial Motions
-
-☐ ==DWI Checklist==
-
-☐ Occupational License
-
-☐ Occupational License to be Filed- Refer to Occ. Lic. Folder
-
-☐ Court:
-
-☐ Charging Instrument in File (information, complaint, or indictment)
-
-☐ Notes or Offense Report obtained
-
-☐ Received copies of all Video Tapes & Recordings (scene & video room)
-
-☐ Defense Motions Filed
-
-☐ Request for State Experts
-
-☐ Request 37.07 Notice
-
-☐ Discovery Motion
-
-☐ Request 609 (f) Notice
-
-☐ Request 404 (b) Notice
-
-☐ Motion to Suppress
-
-☐ Copies of Motions to Client
-
-☐ Trial Prep
-
-☐ TCLEOSE Info on Law Enforcement Witnesses Requested/Received
-
-☐ Request ALR Transcript for Impeachment – if necessary
-
-☐ Scene Photos / Scene Visit / Google Earth Photo of scene
-
-☐ Subpoena hostile witnesses, if any
-
-☐ NOTES________________________________________________________________
-
-☐ ==KShipman CHECKLIST – ALR & OCL (merged with ALR list below)
-
-☐ ALR Checklist==
-
-☐ If DWI, Draft Petition for ALR Hearing
-
-☐ File ALR by deadline.
-
-☐ calendar ALR for 10 days & 15 day deadline.
-
-☐ Calendar 3,5,7,10 & 15 Days Before ALR.
-
-☐ ALR Hearing Requested from DPS (within 15 days of notice of suspension)
-
-☐ Letter to Client indicating Hearing Request- Send Letter to Client for Notice of ALR upon Receipt.
-
-☐ Received Hearing Notification Letter
-
-☐ Calendared Hearing Date
-
-☐ Letter to Client indicating Hearing Date
-
-☐ Send subpoena to Austin/Houston 15 Days prior to ALR
-
-☐ Once signed subpoena is returned, get served.
-
-☐ Requested Discovery for Hearing from DPS
-
-☐ If DWI, request tape from agency.
-
-☐ Verify receipt of DWI tape back.
-
-☐ Received Discovery (DPS must provide 9 calendar days before hearing)
-
-☐ Subpoenas Issued and Sent to DPS/SOAH (same day as issued)
-
-☐ Subpoenas sent to Process Server
-
-☐ Witness Fee Check sent to Process Server
-
-☐ Subpoenas Received (5 calendar days before hearing)
-
-☐ Subpoenas and Witness Fee Check filed with SOAH
-
-☐ Executed Subpoenas Faxed to DPS (3 calendar days before hearing)
-
-☐ Received Final Order from Court
-
-☐ Letter to Client indicating result of hearing
-
-☐ Request Transcript from ALR Hearing
-
-☐ *Reset Request (5 calendar days) or Motion for Continuance (less than 5)
-
-☐ *Request/Continuance filed by: Defense_____ State _____ due to ________________________________________
-
-☐ *Party responsible for issuance of new subpoenas:_________
-
-☐ *New Hearing Date Received and Calendared
-
-☐ *If Reset/Continuance, repeat steps as needed.
-
-☐ NOTES_______________________________________________________________________________
-
-☐ Ask client if they want OCL, if lost ALR?
-
-☐ Draft Petition for OCL
-
-☐ Need the following before applying for OCL:
-
-☐ SR-22 Insurance
-
-☐ Class Schedule (If Applicable)
-
-☐ Work Schedule (If Applicable)
-
-☐ Affidavit signed by Client
-
-☐ File Petition for Occupational License with Clerk
-
-☐ Send Waiver to DA upon Receipt of Cause # back from Clerk
-
-☐ Schedule Hearing for OCL (If Applicable)
-
-☐ Notify Client of Hearing Date
-
-☐ ==
-
-☐ Administrative License Suspension – Form Checklist==
-
-☐ DIC-23: OFFICER’S SWORN REPORT
-
-☐ Officer’s signature  officer that wrote the report
-
-☐ Sworn?
-
-☐ ==Not necessary DPS v. Caruana, 363 S.W.3d 558 (Tex. 2012)
-
-☐ Unsworn report admissible unless the source of the information or other circumstances indicate lack of trustworthiness==
-
-☐ Box A checked?
-
-☐ ==Incorporate documents by reference  properly identified w/ correct # of pages specified?==
-
-☐ Not sufficiently identified  object – Vague
-
-☐ # of pages wrong  object – Relevance: description of report not accurate & not properly incorporated
-
-☐ Box B checked?
-
-☐ ==Fill in the blanks  object if additional documents offered==
-
-☐ Certified?
-
-☐ ==DPS stamp & signature of deputy custodian of records==
-
-☐ Object – Hearsay: not certified public record
-
-☐ May be certified by DPS after sent to attorney in discovery  check copy offered
-
-☐ Defendant’s name?
-
-☐ ==Object – Relevance: not connected to arrest of client==
-
-☐ Offense report or Probable Cause Affidavit offered without DIC-23?
-
-☐ ==Object – not a form promulgated by DPS (Trans. Code 524.011d)==
-
-☐ Results of Test in Section V?
-
-☐ ==Object – proper predicate has not been established==
-
-☐ Sufficient facts for each element?
-
-☐ ==Reasonable suspicion or probable cause for stop==
-
-☐ DWI investigation  only need reasonable suspicion
-
-☐ Traffic offense  need probable cause (U.S. v. Cole, 444 F.3d 633 (5th Cir.—Tex. 2006) & State v. Rivenburgh, 933 S.W.2d 698 (Tex. App.—San Antonio 1996))
-
-☐ Nexus for officer to request SFSTs
-
-☐ Texas Dept. of Public Safety v. Rodriguez, 953 S.W. 362 (Tex. App.—Austin 1997)
-
-☐ No bad driving suggesting intox.
-
-☐ No odor of alcohol
-
-☐ Additional detention not justified under 4th Am.
-
-☐ Probable cause for arrest
-
-☐ HGN  officer must be certified to administer (scientific evidence, see Emerson v. State, 880 S.W. 2d 759 (TCCA 1994)==
-
-☐ DIC-24: STATUTORY WARNING
-
-☐ Current version?
-
-☐ 9/11 – good
-
-☐ 9/05 – lacks proper warnings (Trans. Code sec. 724.015)==
-
-☐ Check for:
-
-☐ Information at top against driver’s license
-
-☐ Date of arrest against DIC-23, DIC-56 and breath test slip
-
-☐ Time of arrest  15 minute observation (37 Tex. Admin. Code § 19.4)
-
-☐ ==Amend. v. State, 2010 WL 1782240 (Tec. App.—Dallas, no pet.)==
-
-☐ Object – breath test slip & DIC-56
-
-☐ Ask judge to take judicial notice of pertinent section in Breath Alcohol Testing Manual
-
-☐ DIC-56: BREATH TEST TECHNICAL SUPERVISOR (“TS”) AFFIDAVIT
-
-☐ Admissible by statute (Tec. Trans. Code 524.038)
-
-☐ Check information against breath test slip
-
-☐ Breath Test Officer’s (“BTO”) name
-
-☐ Certificate number (as Intoxilyzer Operator)
-
-☐ Location of Intoxilyzer & serial number
-
-☐ Client’s name and date of birth
-
-☐ Date of test
-
-☐ Both test results
-
-☐ TS’s signature
-
-☐ Notary stamp
-
-☐ Signature of notary
-
-☐ Date notarized
-
-☐ Notary stamp expiration date
-
-☐ BREATH TEST SLIP – Tex. Admin. Code, Title 37, Chapter 17
-
-☐ Valid test:
-
-☐ No “invalid” message
-
-☐ Results clearly printed
-
-☐ All air blanks 0.000
-
-☐ Signature of BTO
-
-☐ Check entered information
-
-☐ Name of client
-
-☐ Date of birth
-
-☐ Date of test
-
-☐ Name of operator
-
-☐ Certificate number
-
-☐ Arresting agency
-
-☐ Reference sample too far off predicated reference
-
-☐ Must be certified
-
-☐ DRIVER RECORD
-
-☐ Must be certified
-
-☐ ==Enhancements for prior conviction/ALR suspension w/in 10 years:
-
-☐ Failure = 1 year suspension (Tex. Trans. Code §524.022)
-
-☐ Refusal = 2 year (Tex. Trans. Code §724.035)==
-
-☐ SUBPOENA  when you can’t win a paper case
-
-☐ Prepare subpoena (http://www.soah.state.tx.us/)
-
-☐ ==Stopping officer
-
-☐ Arresting Officer
-
-☐ BTO & Tech Supervisor (Tex. Trans. Code §524.039)
-
-☐ Must show “good cause”  file affidavit based on personal knowledge that establishes genuine issue of validity of results
-
-☐ Requires witness’ presence to resolve (1 Tex. Admin. Code §159.101)
-
-☐ Request must be made at least 5 days prior to hearing==
-
-☐ Fax to DPW on day issued (1 Tex. Admin. Code §159.103(f)(1))
-
-☐ Serve witness with subpoena
-
-☐ ==Five calendar days before hearing (1 Tex. Admin. Code §159.103(f)(2))==
-
-☐ File signed return w/ $10.00 witness fee check (plus mileage fee) to SOAH
-
-☐ ==Fax return to DPS
-
-☐ No later than 3 calendar days prior to hearing (1 Tex. Admin. Code §159.103(f)(3))==
-
-☐ Witness fails to show after proper service = object to Hearsay when documents entered
-
-☐ Ask for return of witness fee check
-
-☐ VIDEO – Officer must authenticate
-
-☐ Play portion
-
-☐ Ask if he:
-
-☐ Recognizes people on video
-
-☐ Can identify people
-
-☐ Can verify this is the video he made on date of arrest
-
-☐ Enter into evidence
-
-☐ Make judge watch in hearing room
-
-☐ ==Occupational License Checklist==
-
-☐ Contact Clerk about Additional Requirements at Filing (driving record, etc.)
-
-☐ Contact Client Regarding Obtaining Occupational License and notify of following:
-
-☐ Suspension of License, No driving (arrest), Length of Suspension, Reinstatement fees to DPS, Filing Fee, SALCE, any other Requirements of court, i.e. Interlock, etc.
-
-☐ Client needs to provide in writing:
-
-☐ Hours needed to drive (12 in a day, 4 at a time, possible driving log)
-
-☐ Counties needed to drive and copy of SR-22
-
-☐ Obtain SR-22 from Client
-
-☐ Client Signature/Notarization on Petition
-
-☐ File Petition with Court
-
-☐ Calendar Hearing Date
-
-☐ Client must bring original SR-22 and any other requirements by the Court
-
-☐ Pick up Order from Court
-
-☐ Client must carry certified copy of Occupational License Order with them at all times
-
-☐ ==certified copy may only be used as a license for 30 days==
-
-☐ Client must pay reinstatement and occupational license fees and mail an original form SR-22 and certified copy of Petition and Order to DPS in order to obtain an Occupational License
-
-☐ NOTES ____________________________________________________________________________
-
-☐ ==Mitigation – Telling the Client’s Story one Client copy - PPT
-
-☐ Imagine you are defending this guy…arrested for PCS when police are serving a Blue Warrant at Client’s house and while searching the Client incident to arrest find a baggy of meth and a baggy of cocaine in Client’s shirt pocket. Client had Blue Warrant issued because he allegedly threatened to come back to the district parole office with a gun and shoot the entire place up. Client was a true habitual with Felony convictions going all the way back to 1977. Was a FOUNDING member of the Aryan Brotherhood of Texas and still claimed membership.
-
-☐ There was another side to the story.
-
-☐ Protecting those of the Lord’s children who have fallen short of perfection from the wrath of those who have attained it. Stuart Kinnard
-
-☐ Why Mitigation in Noncapital Cases: State Bar Performance Guidelines for Non Capital Defense Representation demand mitigation investigation and presentation. (Guidelines 1.2(c); 2.2(C)(5)(h); 4.1(B)(9)(e); 4.2(B)(3); 4.3; 8.1(c); 8.6(D). The Courts have ruled Defense Counsel has a duty to investigate and present mitigation evidence in noncaptical cases.
-
-☐ US SUPREME COURT: In any criminal case, counsel must first evaluate what “conceivable line(s) of mitigating evidence” exist and then decide whether following any of those lines would likely lead to evidence that “would . . . assist the defendant at sentencing.” Wiggins v. Smith, 539 U.S. 3510, 521-22, 123 S. Ct. 2527, 156 L. Ed. 2d 471 (2003).
-
-☐ TEXAS COURTS: Failure to uncover and present mitigating evidence “cannot be justified as a tactical decision when defense counsel has not conducted a thorough investigation of the defendant’s background.” Shanklin v. State, 190 S.W.3d 154, 164 (Tex. App.—Houston [1st Dist.] 2005, pet. dism’d); see also Bazan v. State, 403 S.W.3d 8, 13 (Tex. App.-Houston [1st Dist.] 2012, pet. ref’d).==
-
-☐ Mitigation in Non-Capital Cases
-
-☐ What is Mitigation
-
-☐ The mitigation investigation
-
-☐ Presenting the mitigation evidence
-
-☐ ==What is Mitigation
-
-☐ Alleviation; abatement or diminution of a penalty or punishment imposed by law.
-
-☐ “Mitigating circumstances” are such as do not constitute a justification or excuse of the offense in question, but which, in fairness and mercy, may be considered as extenuating or reducing the degree of moral culpability.
-
-☐ Another way to look at Mitigation…
-
-☐ Being an effective story teller for your client in order to lessen the severity of the punishment your client is facing or receives
-
-☐ Who is better to have tell your client’s story regarding your client’s punishment? You of the Prosecutor? YOU
-
-☐ Sympathy v. Empathy
-
-☐ Sympathy is defined as feelings of pity and sorry for someone else’s misfortune. Sympathy alone or mere Pity is never an effective Mitigation strategy
-
-☐ Empathy is defined as getting another to understand and share the feelings of another. You always have a much better chance of achieving a positive result for your client if you can gain the Judge’s, Prosecutor’s or both’s empathy
-
-☐ Mitigation is not trying to gain sympathy. Mitigation is about trying to gain an understanding of your client and their circumstances.==
-
-☐ In order to effectively tell your client’s story, you must…
-
-☐ Know your clients story (investigation)
-
-☐ Develop a useful theme
-
-☐ ==How do you know your client’s story? Through a thorough and intensive mitigation investigation.
-
-☐ What are effective Mitigation Circumstances (Themes)==
-
-☐ Remorse: The defendant accepts responsibility and shows remorse. For example, a defendant who confesses upon arrest and is contrite in court has this factor in his favor.
-
-☐ Lack of criminal record: The defendant doesn’t have a criminal record, or only has a relatively minor record.
-
-☐ No harm: The defendant didn’t hurt anyone and committed the crime in a manner unlikely to cause harm. An example would be if a Defendant carjacked a driver by sternly ordering her out of her car without pointing a weapon at the driver and carefully and gently helped driver out of car.
-
-☐ Minor role: The defendant played a relatively minor role in the crime. For example, suppose Defendant, a foot soldier, knowingly drove a Shotcaller in Defendant’s gang to a location where the Shotcaller made a drug deal. At sentencing for his conviction for Delivery of a controlled substance, Defendant has an argument that his small role in the criminal activity should be mitigating.
-
-☐ Victim culpability: The victim willingly participated in the crime or initiated the events leading to it. For instance, if the complaining witness started a fight by attacking Defendant and Defendant responded with more force than was necessary to defend himself, this factor would be a mitigating factor at Defendant’s sentencing.
-
-☐ Unusual circumstance: The defendant committed the crime because of a temporary emotional difficulty or significant provocation and this caused the Defendant to act incongruous to the Defendant’s normal behavior and character. Ie – The perfect storm happened on the day the Defendant committed the crime. This circumstance usually applies when a defendant acts out while under extreme stress.
-
-☐ Relative necessity: The defendant acted out of a desire to provide life necessities. This theme would be potentially used for a recently laid off Defendant with no money who stole a rotisserie chicken from the grocery store so that he could feed his starving family.
-
-☐ Addiction: Drug or alcohol addiction contributed to – but wasn’t just an incentive or excuse to commit – the crime. For instance if a someone continually committing petty thefts to fund drug usage.
-
-☐ Difficult personal history: The Defendant suffered continuous physical or sexual abuse either as a child or an adult. For example, battered woman syndrome.
-
-☐ PTSD: The Defendant served in the military and as a result suffers from PTSD. Another example, a victim of a violent crime overacts during a confrontation and injures the complaining witness.
-
-☐ Mental Illness: Defendant suffers from some form of mental illness, or has a history of mental illness. This is particularly true is not properly treated.
-
-☐ Institutional Failure: An example of institutional failure is the drug addict that has been through the criminal justice system many times but never received treatment to break the cycle of addiction.
-
-☐ Lack of Family Structure/Absent Parent: Depends on the effect the lack of family or parent has on the individual.
-
-☐ ANYTHING YOU THINK CAN GET THE TARGET AUDIENCE TO EMPATHIZE WITH YOUR CLIENT.
-
-☐ ==Don’t only focus on the negative aspects in Mitigation. Positives can be good mitigation themes also:==
-
-☐ Someone is a good mother/father
-
-☐ Someone is a good son/daughter
-
-☐ Someone is a good sibling
-
-☐ Someone I a good spouse
-
-☐ Someone has made a positive impact in another persons life
-
-☐ Someone has served the community (ie – volunteer or a public servant)
-
-☐ Someone is extremely old or particularly young
-
-☐ Someone is a good student
-
-☐ Someone has a bright future ahead of them
-
-☐ ==You can combine together more than one mitigation circumstance or theme==
-
-☐ For instance, someone who forced as a child to prostitute themselves by their mother, was given drugs to help her perform her required sexual acts, was never treated for her addictions despite numerous petty criminal convictions as a young adult is now charged with a crime as a young adult. You could combine as themes or mitigating circumstances – addiction, institutional failure, and difficult personal circumstance.
-
-☐ ==Non-Capital Counsel can take a cue from Capital Counsel in effective Mitigation Themes==
-
-☐ Capital Cases, the mitigation is required to focus on sentencing that takes into account the unique characteristics of the Defendant. – Tennard v. Dretke, 542 U.S. 274 (2004)
-
-☐ ==The same mitigation themes and circumstance that impact capital defendant’s and have been effective for capital defendant’s exist in our client’s Non-Capital cases==
-
-☐ Examples: Poverty, Mental Retardation, Untreated or self treated mental illness, Addiction, Trauma, particularly head trauma, Lack of family structure/missing parent, Childhood history of abuse
-
-☐ How do you perform a mitigation investigation
-
-☐ If at all possible, use a mitigation specialist (should be able to get one appointed under Ake and Greggs or make sure you build the cost into your fee)
-
-☐ Incorporate a mitigation interview questions into counsels initial client interview
-
-☐ Get a detailed family tree with contacts
-
-☐ Mitigation/Punishment Witness interviews
-
-☐ Identify and gather useful documents
-
-☐ Potential People to Interview in Mitigation Investigation
-
-☐ Client
-
-☐ Client’s family
-
-☐ Current Neighbors of Client
-
-☐ Friends
-
-☐ Preachers/Ministers
-
-☐ Coaches
-
-☐ Teachers
-
-☐ Former Probation officers
-
-☐ Former parole officers
-
-☐ CPS workers is SPC was involved in Client’s life
-
-☐ Employers/Co-Workers
-
-☐ ==Why a Mitigation Specialist==
-
-☐ They are going to have expertise in gathering the documents and information necessary to tell the client’s story effectively
-
-☐ They will have a network of experts needed to help develop the Clients story
-
-☐ Mitigation specialists can help “connect the dots” and organize all the mitigation facts into a cohesive persuasive story
-
-☐ Mitigation Specialists are trained to determine a Client’s deficits and create a plan to remedy or cure those deficits
-
-☐ ==Client Resistance to Mitigation Interview Questions==
-
-☐ Clients don’t want to talk about mitigation or punishment because “I’m innocent” or “I didn’t do it” or some other variation
-
-☐ In order to tell the client’s story, you have to get to know the client. Thus ask questions at first that help build a family tree and history, a social history, a medical history, employment history
-
-☐ Let the client know you are just trying to get to know them as a person, as trust develops so will the other mitigation questions
-
-☐ ==Team Building Approach to Mitigation==
-
-☐ Always try to make your client “part” of the team – get them invested in their own mitigation. Give them information to gather if on bond. If incarcerated, get them to give you the names of people to go to get the information you need.
-
-☐ Use your Mitigation Specialist/Investigator to help gather documents and interview witnesses
-
-☐ Look for younger attorneys who need experience and draft them to assist
-
-☐ Develop your own network of experts and consult with them as needed
-
-☐ ==3 main areas of mitigation to look at==
-
-☐ All the good the client has done in the past. This includes the client’s view of what good he has done, even if his view is not consistent with what society would think is good
-
-☐ All the bad, sad and painful things that have happened to the client in their lifetime. Ie – What is the worst memory you have a childhood?
-
-☐ Diagnostic questions designed to identify things such as head injuries, illness, substance abuse. Ie – do you remember as a kid ever having to go to the hospital? What for?
-
-☐ ==Questions you can ask to help develop possible mitigation evidence or themes==
-
-☐ Are you on medications? If so what kinds and for how long?
-
-☐ Ever gone to the hospital? If so what for? Which hospital? When? Where?
-
-☐ Ever been diagnosed with a mental illness? If so what? When? By which doctor?
-
-☐ Ever been hospitalized for mental health reasons? What for? When? Which hospital? By which doctor?
-
-☐ Were you the victim of abuse (physical and/or sexual)? When? By whom? Did you report it to anyone and if so, who?
-
-☐ What is your happiest memory?
-
-☐ What is your favorite memory growing up?
-
-☐ What is your earliest memory?
-
-☐ What is something about you that you think would surprise me?
-
-☐ ==Develop a family tree==
-
-☐ The best people to tell you about your client are the ones who have known him all his life.
-
-☐ Family members can tell you about things so traumatic to the client the client is repressing memories
-
-☐ When a client is trying to minimize events or his actions in the past, family can help disprove the minimizations or help reveal the truth
-
-☐ Family members can lead you to other potential sources of information such as friends of the client growing up, coaches or other close associates.
-
-☐ ==The Family interview==
-
-☐ You have to build a relationship with the family to gain their trust
-
-☐ You will have to overcome the family’s initial desire to only emphasize the good of their loved one or minimize the bad
-
-☐ Realize that you will be potentially asking the family to reveal trauma, and this can be re-traumatizing. This can not be rushed. Requires building trust.
-
-☐ Do not judge
-
-☐ Ask open ended questions
-
-☐ Most importantly…LISTEN
-
-☐ ==Mitigation Witness Interviews==
-
-☐ You have to build a relationship just like with the family to gain their trust
-
-☐ Don’t be afraid to ask difficult questions. This is information you need
-
-☐ Just like with the family, do not judge
-
-☐ Ask open ended questions
-
-☐ Most importantly….LISTEN
-
-☐ ==Goal of family/Witness interviews==
-
-☐ Getting to learn the client’s story so you can effectively tell the client’s story
-
-☐ Allow the defense/mitigation team to be able to see the Client through the eyes of people who see the Client not as a criminal but as a human being. Have to be able to humanize the client in order to effectively tell a story to gain empathy for the client.
-
-☐ ==Releases you will need your client to sign==
-
-☐ A general HIPPA release
-
-☐ A FURPA release for educational background
-
-☐ HIPPA release specific to MHMR
-
-☐ If a military veteran – a Veterans Administration release, a release to get the client’s military records
-
-☐ These are documents you will need to start performing a paper mitigation investigation
-
-☐ ==Information helpful/needed to build a proper mitigation case==
-
-☐ Medical history
-
-☐ Family tree
-
-☐ Mental health history
-
-☐ Education history
-
-☐ Employment history
-
-☐ Military History
-
-☐ Criminal History
-
-☐ Full investigation into the crime itself
-
-☐ ==Presenting the Mitigation==
-
-☐ Sometimes you will be presenting it to the Prosecutor pre-trial
-
-☐ Sometimes you will be presenting it to a judge after a trial or punishment hearing
-
-☐ Sometimes will have to present it to a jury after a trial
-
-☐ This is where you connect the dots
-
-☐ This is where you turn all the facts and data you have into a cohesive, persuasive story
-
-☐ This is where you have to apply what you know into appropriate mitigation themes/mitigation circumstances
-
-☐ The Ultimate goal is to tell your Client’s story in such a way that gets the intended target of your story gains empathy for your client
-
-☐ ==Presenting to the prosecutor==
-
-☐ Have to overcome prosecutors automatic prejudice against client – have to gain empathy for your client
-
-☐ Have to overcome prosecutor’s world view. Their view of justice is true justice. They are always in their minds fair – even when they are not being fair. Most any mitigation circumstance, alone, is an excuse and only an excuse. The Defendant is a liar and will lie to everyone. The defendant’s family are enablers.
-
-☐ If you succeed in getting the prosecutor to see your client as a human being and not just another “Defendant” you can get the prosecutor to start empathizing with your client
-
-☐ ==Presenting to a Judge==
-
-☐ Once again, your story has to gain empathy from the judge
-
-☐ Judges have to get re-elected, so your story should help convince a judge to take a chance on your client and that act of “kindness” won’t be rewarded by the client coming back to haunt the judge
-
-☐ Sometimes have to overcome the same world views you have to overcome when presenting to a prosecutor
-
-☐ ==Presenting to a jury==
-
-☐ Has to start at voir dire. Not only educate the jurors on the punishment range, but also on the mitigation themes. Have to identify jurors predisposed not to listen to your mitigation theme.
-
-☐ Through your client’s story, you have to educate the juror’s to see your Client’s world and the realities they live in. Usually a juror’s view of the world miles away from the reality of your client
-
-☐ Not trying to make excuses for your Client’s conduct, trying to gain empathy from the jury
-
-☐ Try to get the target audience to understand, who must not be defined by the worst thing they ever did
-
-☐ People may forget what you tell them or what you did, but people will never forget how you made them feel.
-
-☐ Tell a cohesive, persuasive story for your client and you will be able to gain the necessary empathy for your client to gain a result that very well may save a significant portion of their life!!!!
-
-☐ ==THE CLIENT INTERVIEW: A TOPICAL CHECKLIST
-
-☐ In developing mitigation for post-Booker sentencings, our clients are often our best and most accessible source of information. In the abstract, the mitigation possibilities seem endless, and it may be difficult to decide what to ask our clients and how to ask it. This checklist is designed to give you some guidance. Although it is not intended as a script for client interviews, it may be useful for attorneys to review the checklist in connection with each case as a brainstorming tool.
-
-☐ In collecting information from clients, remember two important principles: First, try not to be too result-oriented. Sometimes, you just have to listen and let the client take the interview where he/she wants to go. You will not elicit too much useful information if you exert too much control in the conversation. Second, be alert to verbal and non-verbal cues suggesting abuse, mental illness, or cognitive impairment. See Deana Logan, Learning to Observe Signs of Mental Impairment (distributed in connection with May 2005 CJA Panel Training). Sometimes, your client won’t be able to tell you what’s mitigating, but you’ll discern it through careful observation.
-
-☐ If you have any questions about a client’s response to questions or a behaviour you observe, you may want to consult the library of materials on mental health issues in criminal cases and conducting mitigation investigation, assembled by Assistant Federal Public Defenders Denise Barrett and Frank Draper, and available at the FPD’s Baltimore office. Also consider consulting a social worker, a mitigation specialist, or a mental health professional.
-
-☐ Initial Interview
-
-☐ This basic information should be collected early on (at the initial appearance, if possible). These are the questions asked at intake by Assistant Federal Public Defenders. The answers provide the basis for establishing a “family liaison” (a close friend or family member of the client who can become an ally for the attorney during the investigation & litigation), and beginning the investigation (ordering basic documents such as education, criminal, and medical records).==
-
-☐ Charged name
-
-☐ Legal name
-
-☐ Other names used
-
-☐ Age
-
-☐ Date of birth
-
-☐ Place of birth
-
-☐ SSN
-
-☐ Immigration status
-
-☐ Address
-
-☐ With whom living
-
-☐ Marital status
-
-☐ Name/address/phone of spouse
-
-☐ Name/address/phone of children
-
-☐ Name/address/phone of other relatives/friends
-
-☐ Employment
-
-☐ Name/address/phone of employer
-
-☐ Military record
-
-☐ Schools attended
-
-☐ Highest grade completed
-
-☐ Current medical needs
-
-☐ Pending cases
-
-☐ Detainers
-
-☐ FTAs
-
-☐ Probation/Parole (& supervising officer)
-
-☐ Past arrests/convictions
-
-☐ Arrest date/time/place
-
-☐ By whom arrested
-
-☐ Circumstances or searches/seizures (consent, warrant, auto, etc)
-
-☐ Witnesses to arrest
-
-☐ Others arrested
-
-☐ Circumstances of any statements (oral, written, read rights, invoke rights, length, place, method of interrogation)
-
-☐ When taken to magistrate
-
-☐ At the initial meeting, also have the client complete release of information forms (copies distributed in connected with Mary 2005 CJA Training), so you can easily retrieve records now and later on.
-
-☐ ==Subsequent Interviews
-
-☐ During subsequent interviews, you’ll have the chance to get to know your client and his/her history. When you visit to discuss an upcoming court date or a development in the case, try to take the time to ask how the client is doing and to make some simply observations about his/her condition. Also try to introduce one or more of the topics listed below. Try to cover all of these areas over time so that you can be sure you’ve done a thorough mitigation investigation.
-
-☐ As follow-up to your client interviews, gather information from other sources, including friends, family, teachers, neighbors, employers, coworkers, coaches, counsellors, etc. Records also contain invaluable information and frequently corroborate information obtained from the client or witnesses. Consider gathering medical records, school records, jail and correctional records, juvenile records, social welfare records, military records, court records, arrest records, and attorney files.
-
-☐ You may not be able to do a complete social history investigation on each client, but be careful about making the decision that it’s not worthwhile in any individual case. Assistant Federal Public Defenders have recently received sentence reductions in gun and drug cases that, at first glance, appeared relatively ordinary.
-
-☐ Current Condition
-
-☐ Checking in on the client’s current condition is a good way of building a relationship with the client, while at the same time identifying possible mitigation. You may see signs of cognitive impairment or mental illness, or you may learn good character mitigation, such as that the client is serving as a “trusty” on his cellblock or participating in a “Reality” program for school-kids. ==
-
-☐ How are you feeling?
-
-☐ Do you have any complaints?
-
-☐ How are you getting along with the guards?
-
-☐ Any guards having problems with you?
-
-☐ How are you getting along with other inmates?
-
-☐ How are you sleeping?
-
-☐ Are you getting any exercise?
-
-☐ What have you had to eat?
-
-☐ Did you get a shower?
-
-☐ Are you making any phone calls?
-
-☐ Do you have any visits?
-
-☐ How do you spend the day?
-
-☐ Have you seen the doctor/nurse?
-
-☐ Are you taking any new medication?
-
-☐ ==Observations of Client==
-
-☐ Skin (clear, acne, pale, abrasions)
-
-☐ Eyes (dilated, rapid movements, dull, normal)
-
-☐ Hygiene (unclean, clean, food, drool, chapped lips, feces/urine, odor)
-
-☐ Appearance (dishevelled, neat, unshaven, gaunt, tired)
-
-☐ Mood (crying, lethargic, sad, agitated, hopeless, unpleasant, main, irritable, clinging)
-
-☐ Speech (monotonous, loud/soft, incoherent, tangential, shifting, derailment, flighty, stuck on single subject, pressured, minimal)
-
-☐ Thought (delusion, hallucination, paranoia, preoccupation, extreme, confabulation, inflated sense of self)
-
-☐ Feelings (fear, shame, remorse, giddy/silly, anxious, normal)
-
-☐ Movement (touching, licking, rocking, drumming fingers, leg shaking, pacing, slow/fast)
-
-☐ Tics (snorting, clearing throat, grimacing, head twitches, verbalization)
-
-☐ ==Social History
-
-☐ These topics are presented in rough chronological order, but you should feel free to pursue them in whatever order seems appropriate with a given client. Some clients will be unwilling to talk about their childhood at first, but may become more willing after they see the way you handle a discussion of their criminal history, hobbies, or employment background. If your client won’t or can’t answer a question, try asking your “ally.”
-
-☐ Birth, Growth & Development==
-
-☐ Any known complications with mother’s pregnancy (bleeding, toxemia, smoking, alcohol, drugs, physical abuse, depression, accidents, illness) [Sample Q: How was your mother’s health during her pregnancy with you?]
-
-☐ Any complications at birth (premature, respiratory difficulties, jaundice, known defects) [Sample Q: Did your mother ever complain about her labor and delivery? What does your mother say about the day you were born?]
-
-☐ Approximate age at which developmental tasks accomplished (responsive smile, rolling over, crawling, pulling to stand, walking, speaking, self-care) [Sample Q: What has your mother told you about what you were like as a baby? As a child?]
-
-☐ Relationship with parents (emotional support, nurturing, expressions of love, discipline, infliction of physical harm or pain, sexual abuse, sexual modeling, displays of nudity, invasions of privacy) [Sample Q: Tell me about your mom? How did your mom handle it when you did something wrong?]
-
-☐ Relationship with others in household
-
-☐ Relationship with peers in school and neighborhood [Sample Q: What did you do when you weren’t in school? What were your friends like? How did others treat you?]
-
-☐ Police or social workers ever come to house
-
-☐ Client or siblings ever run away
-
-☐ ==School History==
-
-☐ Age began school
-
-☐ Schools attended (dates, addresses, reason for changing schools)
-
-☐ Progress from one grade to next
-
-☐ Placement (advanced, special education)
-
-☐ Behavioral difficulties
-
-☐ Lateness, attendance
-
-☐ Performance
-
-☐ Significant teachers/coaches
-
-☐ Parental involvement in school
-
-☐ Highest grade completed
-
-☐ Extracurricular activities, clubs, sports
-
-☐ ==Environmental Factors==
-
-☐ All addresses where client lived
-
-☐ Name, age, current address of all people with whom client lived
-
-☐ Physical conditions in which client grew up (type of neighborhood, housing conditions, availability of hear, number of rooms, number of people in residence) [Sample Q: Tell me about where you grew up?]
-
-☐ Exposure to toxins (smoking, lead, folk remedies, solvents, glue, industrial area, agricultural area) [Sample Q: Where did you play when you were small?]
-
-☐ Client, family, or caretaker ever in an occupation at risk for neurotoxic exposure (agricultural, chemical, pharmaceutical, degreaser, dry cleaner, dental hygienist, electronics, plastics, painter, rayon, steel, transportation, foundry, scrap metal)
-
-☐ ==Medical & Mental Health History==
-
-☐ Kind of health care child/family received (ER, doctor, clinic)
-
-☐ Injuries, accidents, illnesses, including during childhood
-
-☐ Head trauma (blows, car accidents, falls, sports injuries)
-
-☐ Fevers, headaches
-
-☐ MRI, CAT scan PET, EEG, x-ray of head, neuropsych or psych testing
-
-☐ Hospitalizations
-
-☐ Emergency room visits
-
-☐ Alcohol/drug use [Sample Q: Tell me about the first time you ever used drugs or alcohol?]
-
-☐ Alcohol/drug treatment (where, when)
-
-☐ Mental health evaluations, court-related or otherwise)
-
-☐ Mental health treatment (where, when, who treated)
-
-☐ Medications
-
-☐ ==Military History==
-
-☐ Ever rejected for military service
-
-☐ Name, branch, and dates of service
-
-☐ Highest rank obtained & rank at discharge
-
-☐ Type of discharge
-
-☐ Significant military experiences [Sample Q: What stands out to you when you remember being in the Army?]
-
-☐ Vaccinations, overseas experience, special training
-
-☐ Veteran’s care, post-military trauma or illness
-
-☐ ==Court History==
-
-☐ Prior juvenile or criminal charges (jurisdiction, disposition, name of attorney, date of offense, date of arrest, character of offense, length and place of incarceration or juvenile placement, name of parole/probation officer)
-
-☐ Prison and/or probation record (disciplinary record, compliance with rules, ever granted privileges, work history, participation in programs, ever evaluated or treated, medications administered, noteworthy relationships)
-
-☐ Plaintiff or defendant in civil case
-
-☐ Witness in any court proceeding
-
-☐ Filed bankruptcy
-
-☐ Child support proceedings
-
-☐ Paternity proceedings
-
-☐ ==Contact with Government Agencies==
-
-☐ Arrests, other police contact
-
-☐ Benefits (food stamps, disability, unemployment, social security)
-
-☐ Child welfare
-
-☐ Veteran’s Administration
-
-☐ INS
-
-☐ ==Employment History==
-
-☐ Employment record (name, address, supervisor, dates of employment, reasons for leaving)
-
-☐ Problems with employers/co-workers
-
-☐ Lengthy periods of unemployment (why, collect benefits) [Sample Q: What did you do when you weren’t working? How did you pay the bills?]
-
-☐ Workmen’s compensation claims
-
-☐ ==Religious Background/Community Activity==
-
-☐ Attendance as child/adult (where, name of church, personnel, activities)
-
-☐ Other community groups/service
-
-☐ ==Hobbies==
-
-☐ What client likes to do in spare time
-
-☐ ==Friends & Family==
-
-☐ Name, age, address of parents, step-parents, grandparents, siblings, and other relatives
-
-☐ Name, age, address of friends or mentors [Sample Q: Who are your three best friends/favorite teachers/closest family members?]
-
-☐ Nature and quality of relationships with friends
-
-☐ Name, age, address of boyfriends/girlfriends, current & former spouses
-
-☐ Nature and quality of relationships with “significant others”
-
-☐ Family/caretaker ever diagnosed (or treated or suspected) with mental illness, other illness, injury
-
-☐ Family/caretaker have seizures, memory loss, uncontrolled temper/rages, “crazy behavior,” signs of retardation, etc.
-
-☐ Use of drugs/alcohol by family member/caretaker
-
-☐ Criminal records of family/friends
-
-☐ Court involvement of family/friends
-
-☐ Family/caretaker receive government benefits, have contact with child protective services or other social service agency
-
-☐ ==Juvenile Sealing of Records Check List==
-
-☐ File Folder created
-
+<a id='item-enter-client-sealing-of-records-in-contacts-sos-and-outlook'></a>
 ☐ Enter Client Sealing of Records in Contacts (SOS and Outlook)
 
+<a id='item-draft-motion-to-seal-records-order'></a>
 ☐ Draft Motion to Seal Records/Order
 
+<a id='item-contact-client-need-to-review-motion-and-sign-notarize-verification'></a>
 ☐ Contact Client – Need to Review Motion and Sign/ Notarize verification
 
+<a id='item-client-notification-for-signature'></a>
 ☐ Client notification for signature
 
+<a id='item-client-coming-to-office-to-sign'></a>
 ☐ Client coming to office to sign
 
+<a id='item-client-wants-motion-mailed'></a>
 ☐ Client wants Motion mailed
 
+<a id='item-draft-form-letter-and-mail-motion-to-seal-records-to-client'></a>
 ☐ Draft form letter and mail Motion to Seal Records to Client
 
+<a id='item-received-motion-and-executed-verification'></a>
 ☐ Received Motion and Executed verification
 
+<a id='item-make-3-copies-of-motion-and-verification-one-for-office-original-and-copy-for-court'></a>
 ☐ Make 3 Copies of Motion and Verification. (One for office, Original and Copy for Court)
 
+<a id='item-court-process-and-follow-up-for-hearing-date'></a>
 ☐ Court Process and follow up for hearing date:
 
+<a id='item-file-motion-with-court-and-receive-court-date-for-hearing'></a>
 ☐ File Motion with court and receive court date for hearing
 
+<a id='item-received-motion-and-notice-of-hearing-from-attorney'></a>
 ☐ Received Motion and Notice of Hearing from Attorney
 
+<a id='item-make-copies-of-motion-and-notice-of-hearing-for-each-agency'></a>
 ☐ Make copies of Motion and Notice of Hearing for each Agency
 
+<a id='item-calendar-date-of-hearing-for-motion-of-sealing'></a>
 ☐ Calendar date of Hearing for Motion of Sealing
 
+<a id='item-draft-notice-of-hearing-to-each-agency-and-enclose-copy-of-file-stamped-motion-and-notice-of-hearing'></a>
 ☐ Draft Notice of Hearing to each agency and enclose copy of file stamped Motion and Notice of Hearing.
 
+<a id='item-send-regular-mail'></a>
 ☐ ==Send regular mail==
 
+<a id='item-hearing-for-motion-to-seal'></a>
 ☐ Hearing for Motion to Seal:
 
+<a id='item-hearing-date-motion-submitted-to-court'></a>
 ☐ Hearing date – Motion submitted to court
 
+<a id='item-date-to-pick-up-order'></a>
 ☐ Date to pick up Order
 
+<a id='item-received-final-motion-and-order-for-sealing-granted'></a>
 ☐ Received final Motion and Order for Sealing – granted
 
+<a id='item-attorney-to-bring-back-original-certified-motion-orders-one-for-each-agency-plus-one-for-office-and-one-for-the-client-harris-county'></a>
 ☐ Attorney to bring back Original Certified Motion /orders (one for each agency, plus one for office and one for the client (Harris County)
 
+<a id='item-make-additional-copies-of-certified-motion-and-order-if-needed-for-each-agency'></a>
 ☐ Make additional copies of Certified Motion and Order if needed for each Agency
 
+<a id='item-draft-form-letter-to-each-agency-and-to-client-order-granted'></a>
 ☐ Draft form letter to each agency and to Client – Order granted
 
+<a id='item-copy-of-order-with-form-letter-mailed-to-agency-s-certified-mail-return-receipt-requested'></a>
 ☐ Copy of Order with form letter mailed to Agency’s, Certified Mail Return Receipt Requested
 
+<a id='item-green-cards'></a>
 ☐ Green Cards
 
+<a id='item-initial-orderreceived'></a>
 ☐ Initial OrderReceived
 
+<a id='item-sent-green-card'></a>
 ☐ Sent:Green Card:
 
+<a id='item-hon-devon-anderson-harris-county-da'></a>
 ☐ ==Hon. Devon Anderson/Harris County DA
 
+<a id='item-tom-brooks-harris-county-juvenile-probation'></a>
 ☐ Tom Brooks/Harris County Juvenile Probation
 
+<a id='item-chris-daniel-harris-county-district-clerk'></a>
 ☐ Chris Daniel/Harris County District Clerk
 
+<a id='item-houston-police-department'></a>
 ☐ Houston Police Department
 
+<a id='item-harris-county-sheriff-s-department'></a>
 ☐ Harris County Sheriff’s Department
 
+<a id='item-harris-county-constable-precinct'></a>
 ☐ Harris County Constable Precinct _____
 
+<a id='item-harris-county-fire-marshall'></a>
 ☐ Harris County Fire Marshall
 
+<a id='item-other-law-enforcement-agency'></a>
 ☐ Other Law Enforcement Agency _____________________________
 
+<a id='item-school'></a>
 ☐ School ___________________________________________________
 
+<a id='item-school-district-isd'></a>
 ☐ School District, _________________________________ ISD
 
+<a id='item-n-c-i-c-fbi'></a>
 ☐ N.C.I.C./FBI
 
+<a id='item-t-c-i-c'></a>
 ☐ T.C.I.C.
 
+<a id='item-texas-department-of-public-safety-expungements'></a>
 ☐ Texas Department of Public Safety/Expungements
 
+<a id='item-texas-education-agency'></a>
 ☐ Texas Education Agency==
 
+<a id='item-all-green-cards-signed-and-received-in-office'></a>
 ☐ All green cards signed and received in office
 
+<a id='item-attached-green-card-to-each-matching-agency-and-scan-in-computer'></a>
 ☐ Attached Green card to each matching agency and scan in computer.
 
+<a id='item-close-file'></a>
 ☐ Close File
 
+<a id='item-attorney-signed-off'></a>
 ☐ Attorney signed off
-
-☐ ==Disaster Checklist==
-
-☐ Find quiet moment
-
-☐ Make/Pour/Order coffee/liquor
-
-☐ Sip and clear mind
-
-☐ Decide whom you can trust with this information
-
-☐ Download forms and fill out (and make 2 copies) for:
-
-☐ Power of Attorney (limited or durable)
-
-☐ Health care Power of Attorney
-
-☐ Will, if you prefer not to leave things to the State
-
-☐ Make 2 lists and copies of all the following, electronic or hard copy
-
-☐ Insurance policies with numbers [btw, consider disability and general umbrella insurance policies for disasters and illness/injury]
-
-☐ Bank accounts, with acct numbers, including IOLTA
-
-☐ Investment/IRA accounts
-
-☐ Deeds and car titles
-
-☐ Assets people may not know about [safes, safe deposit, envelopes of cash
-
-☐ Clients and status of accounts/cases and all passwords to your computers
-
-☐ Office leases/contracts
-
-☐ Credits cards/lines of credit
-
-☐ Make or arrange for electronic copies via scan or upload or portable drive of all office files, including client contact info
-
-☐ ==[Note – locate in your mind coffee shops with wireless, FEDex branches, and public libraries so you will not be shut out of online access]==
-
-☐ Make 2 copies of the following keys and gather them
-
-☐ office
-
-☐ safe or locking file cabinet
-
-☐ car
-
-☐ safe deposit box
-
-☐ home or apartment
-
-☐ Call person you picked
-
-☐ Prepare list of instructions in event of injury/illness
-
-☐ Bring them hard drives, passwords, keys, list, instructions etc. listed above
-
-☐ Take second set of copies to your home and put it in safe place, such as a shoe box, labelled “In case I get hit by a big yellow bus”.
-
-☐ Relax, sip coffee/drink.
-
-
-\newpage
-
-<a id='level-1-uncategorized-so-far-open-file'></a>
-# [Main Checklist](#item-uncategorized-so-far) | [Uncategorized so far:](#level-1-uncategorized-so-far) | Open File
-☐ If hourly: Timesheet in file.
-
-☐ Include Criminal Pleadings
-
-☐ Criminal Information and any other documents
-
-☐ Determine all Court dates and list
-
-☐ Place Court dates into calendar
-
-☐ Pull all applicable statutes
-
-☐ Pull sample jury charge
-
-☐ Request discovery.
-
-☐ Start file memo.
-
-
-\newpage
-
-<a id='level-1-uncategorized-so-far-review-discovery'></a>
-# [Main Checklist](#item-uncategorized-so-far) | [Uncategorized so far:](#level-1-uncategorized-so-far) | Review Discovery
-☐ List possible witnesses and their connections.
-
-☐ Update file memo.
-
-
-\newpage
-
-<a id='level-1-uncategorized-so-far-plea-offers'></a>
-# [Main Checklist](#item-uncategorized-so-far) | [Uncategorized so far:](#level-1-uncategorized-so-far) | Plea Offers?
-☐ Convey offer to client.
-
-☐ Answer client's concerns.
-
-☐ Get client's response.
-
-☐ Update file memo.
-
-
-\newpage
-
-<a id='level-1-uncategorized-so-far-object'></a>
-# [Main Checklist](#item-uncategorized-so-far) | [Uncategorized so far:](#level-1-uncategorized-so-far) | Object
-☐ Move to Strike
 
 
 \newpage

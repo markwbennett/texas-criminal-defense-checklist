@@ -55,32 +55,6 @@ def count_indent(line):
             break
     return indent
 
-def is_comment_or_command(line):
-    """
-    Check if a line is a comment or command (starts with #).
-    
-    Args:
-        line (str): The line to check
-        
-    Returns:
-        bool: True if the line is a comment or command, False otherwise
-    """
-    stripped = line.strip()
-    return stripped.startswith('#')
-
-def is_end_command(line):
-    """
-    Check if a line is the #end command.
-    
-    Args:
-        line (str): The line to check
-        
-    Returns:
-        bool: True if the line is the #end command, False otherwise
-    """
-    stripped = line.strip().lower()
-    return stripped == '#end'
-
 def get_path_hierarchy(lines, current_index):
     """
     Build the full path hierarchy for a given line by walking backwards through the file.
@@ -175,7 +149,7 @@ def get_items_at_level(lines, start_index, target_indent, max_indent=None):
     i = start_index
     while i < len(lines):
         line = lines[i]
-        if not line.strip() or is_comment_or_command(line):
+        if not line.strip():
             i += 1
             continue
         
@@ -238,81 +212,50 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
         content.append("# Main Checklist")
         content.append("<a id='level-1'></a>")
     else:
-        # Add anchor for current level before the heading
-        current_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in hierarchy]))
+        # Create title for sub-pages
+        current_id = generate_anchor_id('level-1-' + hierarchy[-1].lower().replace(' ', '-'))
+        parent_item_id = generate_anchor_id('item-' + hierarchy[-1].lower().replace(' ', '-'))
         content.append(f"<a id='{current_id}'></a>")
-        
-        # Build breadcrumb navigation
-        breadcrumb = []
-        current_path = []
-        
-        # Add "Main Checklist" as first item
-        main_id = generate_anchor_id('level-1')
-        breadcrumb.append(f"[Main Checklist](#{main_id})")
-        
-        # Add intermediate levels
-        for i, part in enumerate(hierarchy[:-1]):
-            current_path.append(part)
-            # Link to the level heading instead of the item
-            level_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in current_path]))
-            breadcrumb.append(f"[{part}](#{level_id})")
-        
-        # Add current level (without link)
-        breadcrumb.append(hierarchy[-1])
-        
-        # Create title with breadcrumb navigation
-        content.append(f"# {' | '.join(breadcrumb)}")
+        content.append(f"# [Main Checklist](#{parent_item_id}) | {hierarchy[-1]}")
     
     # Add items to the current checklist
-    for item, idx in items:
-        if is_comment_or_command(item):
-            continue
-            
-        # Check if this item has children
-        has_children = False
-        if idx + 1 < len(lines):
-            next_line = lines[idx + 1]
-            next_indent = count_indent(next_line)
-            if next_indent > current_indent:
-                has_children = True
-        
-        # Generate item ID and add anchor
-        item_id = generate_anchor_id('item-' + item.lower().replace(' ', '-'))
-        content.append(f"<a id='{item_id}'></a>")
-        
-        # Add item with link if it has children
-        if has_children:
-            new_hierarchy = hierarchy + [item]
-            # Link to the level heading instead of the item
-            sub_list_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in new_hierarchy]))
+    for item, _ in items:
+        if not hierarchy:
+            item_id = generate_anchor_id('item-' + item.lower().replace(' ', '-'))
+            sub_list_id = generate_anchor_id(f"level-1-{item.lower().replace(' ', '-')}")
+            content.append(f"<a id='{item_id}'></a>")
             content.append(f"☐ [{item}](#{sub_list_id})\n")
         else:
             content.append(f"☐ {item}\n")
     
-    # Add page break if there are items
+    # Only add page break if there are items
     if items:
         content.append("\n\\newpage\n")
     
-    # Process each item's children recursively
+    # Process each item's children
     for item, idx in items:
-        if is_comment_or_command(item):
-            continue
-            
-        # Check if this item has children
-        has_children = False
-        if idx + 1 < len(lines):
-            next_line = lines[idx + 1]
-            next_indent = count_indent(next_line)
-            if next_indent > current_indent:
-                has_children = True
-        
-        if has_children:
-            # Create a new hierarchy with the current item
-            new_hierarchy = hierarchy + [item]
-            
-            # Process children recursively
-            child_content = process_level(lines, idx + 1, current_indent + 1, new_hierarchy)
-            content.extend(child_content)
+        child_items = get_items_at_level(lines, idx + 1, current_indent + 1)
+        if child_items:
+            if not hierarchy:
+                new_hierarchy = [item]
+                new_id = generate_anchor_id(f"level-1-{item.lower().replace(' ', '-')}")
+                item_id = generate_anchor_id('item-' + item.lower().replace(' ', '-'))
+                content.append(f"<a id='{new_id}'></a>")
+                content.append(f"# [Main Checklist](#{item_id}) | {item}")
+                for child, _ in child_items:
+                    content.append(f"☐ {child}\n")
+                content.append("\n\\newpage\n")
+                
+                # Process Level 3 items
+                for child, child_idx in child_items:
+                    grandchild_items = get_items_at_level(lines, child_idx + 1, current_indent + 2)
+                    if grandchild_items:
+                        child_id = generate_anchor_id(f"level-1-{item.lower().replace(' ', '-')}-{child.lower().replace(' ', '-')}")
+                        content.append(f"<a id='{child_id}'></a>")
+                        content.append(f"# [Main Checklist](#{item_id}) | [{item}](#{new_id}) | {child}")
+                        for grandchild, _ in grandchild_items:
+                            content.append(f"☐ {grandchild}\n")
+                        content.append("\n\\newpage\n")
     
     return content
 
@@ -400,20 +343,16 @@ def process_markdown_to_pdf(md_file):
     html_content = """
     <html>
     <head>
-        <meta charset="UTF-8">
         <style>
             .page { page-break-after: always; }
             body { 
                 font-family: Arial, sans-serif;
                 font-size: 14pt;
-                line-height: 1.5;
             }
             h1 { 
                 color: #2c3e50;
                 font-weight: bold;
                 font-size: 14pt;
-                margin-top: 1em;
-                margin-bottom: 0.5em;
             }
             h1 a { 
                 color: #2c3e50; 
@@ -426,10 +365,6 @@ def process_markdown_to_pdf(md_file):
             }
             a:hover {
                 text-decoration: underline;
-            }
-            @page { 
-                size: letter; 
-                margin: 1in;
             }
         </style>
     </head>
@@ -448,41 +383,14 @@ def convert_to_pdf(md_file):
     Args:
         md_file (str): Path to the markdown file
     """
-    import time
-    import signal
-    
     html_content = process_markdown_to_pdf(md_file)
     pdf_file = os.path.splitext(md_file)[0] + ".pdf"
     
-    # Define a timeout handler
-    def timeout_handler(signum, frame):
-        raise TimeoutError("PDF generation timed out after 60 seconds")
-    
-    # Set a timeout of 60 seconds
-    signal.signal(signal.SIGALRM, timeout_handler)
-    signal.alarm(60)
-    
-    try:
-        # Create PDF with optimized settings
-        HTML(string=html_content).write_pdf(
-            pdf_file,
-            optimize_size=('fonts', 'images'),
-            presentational_hints=True
-        )
-    except TimeoutError:
-        print("PDF generation timed out. The document may be too large or complex.")
-        print("Try breaking it into smaller sections or simplifying the content.")
-    except Exception as e:
-        print(f"Error generating PDF: {e}")
-    finally:
-        # Disable the alarm
-        signal.alarm(0)
-    
-    # Check if PDF was created
-    if os.path.exists(pdf_file):
-        print(f"PDF created successfully: {pdf_file}")
-    else:
-        print("Failed to create PDF. Check the error messages above.")
+    # Create PDF
+    HTML(string=html_content).write_pdf(
+        pdf_file,
+        stylesheets=[CSS(string='@page { size: letter; margin: 1in; }')]
+    )
 
 def convert_to_markdown(input_file, output_file):
     """
@@ -500,12 +408,6 @@ def convert_to_markdown(input_file, output_file):
     """
     with open(input_file, 'r') as f:
         lines = f.readlines()
-    
-    # Check for #end command and truncate lines if found
-    for i, line in enumerate(lines):
-        if is_end_command(line):
-            lines = lines[:i]
-            break
     
     # Create output directory
     output_dir = os.path.splitext(input_file)[0]
