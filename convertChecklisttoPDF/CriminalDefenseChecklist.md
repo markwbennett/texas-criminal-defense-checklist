@@ -11,7 +11,7 @@ created: 2025-04-10
 <a id='item-open-file'></a>
 ☐ [Open File](#level-1-open-file)
 
-<a id='item-stabilize-case'></a>
+<a id='item-stabilize-case'></a>œ
 ☐ [Stabilize Case](#level-1-stabilize-case)
 
 <a id='item-is-the-case-an-unindicted-felony'></a>
