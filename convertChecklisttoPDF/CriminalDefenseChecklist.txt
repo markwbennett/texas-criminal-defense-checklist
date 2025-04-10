@@ -923,253 +923,249 @@ Prepare for disaster.
 		Probable cause for arrest
 		HGN  officer must be certified to administer (scientific evidence, see Emerson v. State, 880 S.W. 2d 759 (TCCA 1994)
 	DIC-24: STATUTORY WARNING
-	Current version?
-	9/11 – good
-	9/05 – lacks proper warnings (Trans. Code sec. 724.015)
-	Check for:
-	Information at top against driver’s license
-	Date of arrest against DIC-23, DIC-56 and breath test slip
-	Time of arrest  15 minute observation (37 Tex. Admin. Code § 19.4)
-	Amend. v. State, 2010 WL 1782240 (Tec. App.—Dallas, no pet.)
-	Object – breath test slip & DIC-56
-	Ask judge to take judicial notice of pertinent section in Breath Alcohol Testing Manual
+		Check for:
+		Information at top against driver’s license
+		Date of arrest against DIC-23, DIC-56 and breath test slip
+		Time of arrest  15 minute observation (37 Tex. Admin. Code § 19.4)
+		Amend. v. State, 2010 WL 1782240 (Tec. App.—Dallas, no pet.)
+		Object – breath test slip & DIC-56
+		Ask judge to take judicial notice of pertinent section in Breath Alcohol Testing Manual
 	DIC-56: BREATH TEST TECHNICAL SUPERVISOR (“TS”) AFFIDAVIT
-	Admissible by statute (Tec. Trans. Code 524.038)
-	Check information against breath test slip
-	Breath Test Officer’s (“BTO”) name
-	Certificate number (as Intoxilyzer Operator)
-	Location of Intoxilyzer & serial number
-	Client’s name and date of birth
-	Date of test
-	Both test results
-	TS’s signature
-	Notary stamp
-	Signature of notary
-	Date notarized
-	Notary stamp expiration date
+		Admissible by statute (Tec. Trans. Code 524.038)
+		Check information against breath test slip
+		Breath Test Officer’s (“BTO”) name
+		Certificate number (as Intoxilyzer Operator)
+		Location of Intoxilyzer & serial number
+		Client’s name and date of birth
+		Date of test
+		Both test results
+		TS’s signature
+		Notary stamp
+		Signature of notary
+		Date notarized
+		Notary stamp expiration date
 	BREATH TEST SLIP – Tex. Admin. Code, Title 37, Chapter 17
-	Valid test:
-	No “invalid” message
-	Results clearly printed
-	All air blanks 0.000
-	Signature of BTO
-	Check entered information
-	Name of client
-	Date of birth
-	Date of test
-	Name of operator
-	Certificate number
-	Arresting agency
-	Reference sample too far off predicated reference
-	Must be certified
+		Valid test:
+		No “invalid” message
+		Results clearly printed
+		All air blanks 0.000
+		Signature of BTO
+		Check entered information
+		Name of client
+		Date of birth
+		Date of test
+		Name of operator
+		Certificate number
+		Arresting agency
+		Reference sample too far off predicated reference
+		Must be certified
 	DRIVER RECORD
-	Must be certified
+		Must be certified
 	Enhancements for prior conviction/ALR suspension w/in 10 years:
-	Failure = 1 year suspension (Tex. Trans. Code §524.022)
-	Refusal = 2 year (Tex. Trans. Code §724.035)
+		Failure = 1 year suspension (Tex. Trans. Code §524.022)
+		Refusal = 2 year (Tex. Trans. Code §724.035)
 	SUBPOENA  when you can’t win a paper case
-	Prepare subpoena (http://www.soah.state.tx.us/)
-	Stopping officer
-	Arresting Officer
-	BTO & Tech Supervisor (Tex. Trans. Code §524.039)
-	Must show “good cause”  file affidavit based on personal knowledge that establishes genuine issue of validity of results
-	Requires witness’ presence to resolve (1 Tex. Admin. Code §159.101)
-	Request must be made at least 5 days prior to hearing
-	Fax to DPW on day issued (1 Tex. Admin. Code §159.103(f)(1))
-	Serve witness with subpoena
-	Five calendar days before hearing (1 Tex. Admin. Code §159.103(f)(2))
-	File signed return w/ $10.00 witness fee check (plus mileage fee) to SOAH
-	Fax return to DPS
-	No later than 3 calendar days prior to hearing (1 Tex. Admin. Code §159.103(f)(3))
-	Witness fails to show after proper service = object to Hearsay when documents entered
-	Ask for return of witness fee check
+		Prepare subpoena (http://www.soah.state.tx.us/)
+		Stopping officer
+		Arresting Officer
+		BTO & Tech Supervisor (Tex. Trans. Code §524.039)
+		Must show “good cause”  file affidavit based on personal knowledge that establishes genuine issue of validity of results
+		Requires witness’ presence to resolve (1 Tex. Admin. Code §159.101)
+		Request must be made at least 5 days prior to hearing
+		Fax to DPW on day issued (1 Tex. Admin. Code §159.103(f)(1))
+		Serve witness with subpoena
+		Five calendar days before hearing (1 Tex. Admin. Code §159.103(f)(2))
+		File signed return w/ $10.00 witness fee check (plus mileage fee) to SOAH
+		Fax return to DPS
+		No later than 3 calendar days prior to hearing (1 Tex. Admin. Code §159.103(f)(3))
+		Witness fails to show after proper service = object to Hearsay when documents entered
+		Ask for return of witness fee check
 	VIDEO – Officer must authenticate
-	Play portion
-	Ask if he:
-	Recognizes people on video
-	Can identify people
-	Can verify this is the video he made on date of arrest
-	Enter into evidence
-	Make judge watch in hearing room
-	Occupational License Checklist
-	Contact Clerk about Additional Requirements at Filing (driving record, etc.)
-	Contact Client Regarding Obtaining Occupational License and notify of following:
-	Suspension of License, No driving (arrest), Length of Suspension, Reinstatement fees to DPS, Filing Fee, SALCE, any other Requirements of court, i.e. Interlock, etc.
-	Client needs to provide in writing:
-	Hours needed to drive (12 in a day, 4 at a time, possible driving log)
-	Counties needed to drive and copy of SR-22
-	get SR-22 from Client
-	Client Signature/Notarization on Petition
-	File Petition with Court
-	Calendar Hearing Date
-	Client must bring original SR-22 and any other requirements by the Court
-	Pick up Order from Court
-	Client must carry certified copy of Occupational License Order with them at all times
-	certified copy may only be used as a license for 30 days
-	Client must pay reinstatement and occupational license fees and mail an original form SR-22 and certified copy of Petition and Order to DPS in order to get an Occupational License
-	NOTES ____________________________________________________________________________
+		Play portion
+		Ask if he:
+		Recognizes people on video
+		Can identify people
+		Can verify this is the video he made on date of arrest
+		Enter into evidence
+		Make judge watch in hearing room
+	Occupational License Checklist
+		Contact Clerk about Additional Requirements at Filing (driving record, etc.)
+		Contact Client Regarding Obtaining Occupational License and notify of following:
+		Suspension of License, No driving (arrest), Length of Suspension, Reinstatement fees to DPS, Filing Fee, SALCE, any other Requirements of court, i.e. Interlock, etc.
+		Client needs to provide in writing:
+		Hours needed to drive (12 in a day, 4 at a time, possible driving log)
+		Counties needed to drive and copy of SR-22
+		get SR-22 from Client
+		Client Signature/Notarization on Petition
+		File Petition with Court
+		Calendar Hearing Date
+		Client must bring original SR-22 and any other requirements by the Court
+		Pick up Order from Court
+		Client must carry certified copy of Occupational License Order with them at all times
+		certified copy may only be used as a license for 30 days
+		Client must pay reinstatement and occupational license fees and mail an original form SR-22 and certified copy of Petition and Order to DPS in order to get an Occupational License
 	
-	Mitigation – Telling the Client’s Story one Client copy - PPT
-	Imagine you are defending this guy…arrested for PCS when police are serving a Blue Warrant at Client’s house and while searching the Client incident to arrest find a baggy of meth and a baggy of cocaine in Client’s shirt pocket. Client had Blue Warrant issued because he allegedly threatened to come back to the district parole office with a gun and shoot the entire place up. Client was a true habitual with Felony convictions going all the way back to 1977. Was a FOUNDING member of the Aryan Brotherhood of Texas and still claimed membership.
-	There was another side to the story.
-	Protecting those of the Lord’s children who have fallen short of perfection from the wrath of those who have attained it. Stuart Kinnard
-	Why Mitigation in Noncapital Cases: State Bar Performance Guidelines for Non Capital Defense Representation demand mitigation investigation and presentation. (Guidelines 1.2(c); 2.2(C)(5)(h); 4.1(B)(9)(e); 4.2(B)(3); 4.3; 8.1(c); 8.6(D). The Courts have ruled Defense Counsel has a duty to investigate and present mitigation evidence in noncaptical cases.
-	US SUPREME COURT: In any criminal case, counsel must first evaluate what “conceivable line(s) of mitigating evidence” exist and then decide whether following any of those lines would likely lead to evidence that “would . . . assist the defendant at sentencing.” Wiggins v. Smith, 539 U.S. 3510, 521-22, 123 S. Ct. 2527, 156 L. Ed. 2d 471 (2003).
-	TEXAS COURTS: Failure to uncover and present mitigating evidence “cannot be justified as a tactical decision when defense counsel has not conducted a thorough investigation of the defendant’s background.” Shanklin v. State, 190 S.W.3d 154, 164 (Tex. App.—Houston [1st Dist.] 2005, pet. dism’d); see also Bazan v. State, 403 S.W.3d 8, 13 (Tex. App.-Houston [1st Dist.] 2012, pet. ref’d).
-	Mitigation in Non-Capital Cases
-	What is Mitigation
-	The mitigation investigation
-	Presenting the mitigation evidence
-	What is Mitigation
-	Alleviation; abatement or diminution of a penalty or punishment imposed by law.
-	“Mitigating circumstances” are such as do not constitute a justification or excuse of the offense in question, but which, in fairness and mercy, may be considered as extenuating or reducing the degree of moral culpability.
-	Another way to look at Mitigation…
-	Being an effective story teller for your client in order to lessen the severity of the punishment your client is facing or receives
-	Who is better to have tell your client’s story regarding your client’s punishment? You of the Prosecutor? YOU
-	Sympathy v. Empathy
-	Sympathy is defined as feelings of pity and sorry for someone else’s misfortune. Sympathy alone or mere Pity is never an effective Mitigation strategy
-	Empathy is defined as getting another to understand and share the feelings of another. You always have a much better chance of achieving a positive result for your client if you can gain the Judge’s, Prosecutor’s or both’s empathy
-	Mitigation is not trying to gain sympathy. Mitigation is about trying to gain an understanding of your client and their circumstances.
-	In order to effectively tell your client’s story, you must…
-	Know your clients story (investigation)
-	Develop a useful theme
-	How do you know your client’s story? Through a thorough and intensive mitigation investigation.
-	What are effective Mitigation Circumstances (Themes)
-	Remorse: The defendant accepts responsibility and shows remorse. For example, a defendant who confesses upon arrest and is contrite in court has this factor in his favor.
-	Lack of criminal record: The defendant doesn’t have a criminal record, or only has a relatively minor record.
-	No harm: The defendant didn’t hurt anyone and committed the crime in a manner unlikely to cause harm. An example would be if a Defendant carjacked a driver by sternly ordering her out of her car without pointing a weapon at the driver and carefully and gently helped driver out of car.
-	Minor role: The defendant played a relatively minor role in the crime. For example, suppose Defendant, a foot soldier, knowingly drove a Shotcaller in Defendant’s gang to a location where the Shotcaller made a drug deal. At sentencing for his conviction for Delivery of a controlled substance, Defendant has an argument that his small role in the criminal activity should be mitigating.
-	Victim culpability: The victim willingly participated in the crime or initiated the events leading to it. For instance, if the complaining witness started a fight by attacking Defendant and Defendant responded with more force than was necessary to defend himself, this factor would be a mitigating factor at Defendant’s sentencing.
-	Unusual circumstance: The defendant committed the crime because of a temporary emotional difficulty or significant provocation and this caused the Defendant to act incongruous to the Defendant’s normal behavior and character. Ie – The perfect storm happened on the day the Defendant committed the crime. This circumstance usually applies when a defendant acts out while under extreme stress.
-	Relative necessity: The defendant acted out of a desire to provide life necessities. This theme would be potentially used for a recently laid off Defendant with no money who stole a rotisserie chicken from the grocery store so that he could feed his starving family.
-	Addiction: Drug or alcohol addiction contributed to – but wasn’t just an incentive or excuse to commit – the crime. For instance if a someone continually committing petty thefts to fund drug usage.
-	Difficult personal history: The Defendant suffered continuous physical or sexual abuse either as a child or an adult. For example, battered woman syndrome.
-	PTSD: The Defendant served in the military and as a result suffers from PTSD. Another example, a victim of a violent crime overacts during a confrontation and injures the complaining witness.
-	Mental Illness: Defendant suffers from some form of mental illness, or has a history of mental illness. This is particularly true is not properly treated.
-	Institutional Failure: An example of institutional failure is the drug addict that has been through the criminal justice system many times but never received treatment to break the cycle of addiction.
-	Lack of Family Structure/Absent Parent: Depends on the effect the lack of family or parent has on the individual.
-	ANYTHING YOU THINK CAN GET THE TARGET AUDIENCE TO EMPATHIZE WITH YOUR CLIENT.
-	Don’t only focus on the negative aspects in Mitigation. Positives can be good mitigation themes also:
-	Someone is a good mother/father
-	Someone is a good son/daughter
-	Someone is a good sibling
-	Someone I a good spouse
-	Someone has made a positive impact in another persons life
-	Someone has served the community (ie – volunteer or a public servant)
-	Someone is extremely old or particularly young
-	Someone is a good student
-	Someone has a bright future ahead of them
-	You can combine together more than one mitigation circumstance or theme
-	For instance, someone who forced as a child to prostitute themselves by their mother, was given drugs to help her perform her required sexual acts, was never treated for her addictions despite numerous petty criminal convictions as a young adult is now charged with a crime as a young adult. You could combine as themes or mitigating circumstances – addiction, institutional failure, and difficult personal circumstance.
-	Non-Capital Counsel can take a cue from Capital Counsel in effective Mitigation Themes
-	Capital Cases, the mitigation is required to focus on sentencing that takes into account the unique characteristics of the Defendant. – Tennard v. Dretke, 542 U.S. 274 (2004)
-	The same mitigation themes and circumstance that impact capital defendant’s and have been effective for capital defendant’s exist in our client’s Non-Capital cases
-	Examples: Poverty, Mental Retardation, Untreated or self treated mental illness, Addiction, Trauma, particularly head trauma, Lack of family structure/missing parent, Childhood history of abuse
+	Mitigation – Telling the Client’s Story
+		Imagine you are defending this guy…arrested for PCS when police are serving a Blue Warrant at Client’s house and while searching the Client incident to arrest find a baggy of meth and a baggy of cocaine in Client’s shirt pocket. Client had Blue Warrant issued because he allegedly threatened to come back to the district parole office with a gun and shoot the entire place up. Client was a true habitual with Felony convictions going all the way back to 1977. Was a FOUNDING member of the Aryan Brotherhood of Texas and still claimed membership.
+		There was another side to the story.
+		Protecting those of the Lord’s children who have fallen short of perfection from the wrath of those who have attained it. Stuart Kinnard
+		Why Mitigation in Noncapital Cases: State Bar Performance Guidelines for Non Capital Defense Representation demand mitigation investigation and presentation. (Guidelines 1.2(c); 2.2(C)(5)(h); 4.1(B)(9)(e); 4.2(B)(3); 4.3; 8.1(c); 8.6(D). The Courts have ruled Defense Counsel has a duty to investigate and present mitigation evidence in noncaptical cases.
+		US SUPREME COURT: In any criminal case, counsel must first evaluate what “conceivable line(s) of mitigating evidence” exist and then decide whether following any of those lines would likely lead to evidence that “would . . . assist the defendant at sentencing.” Wiggins v. Smith, 539 U.S. 3510, 521-22, 123 S. Ct. 2527, 156 L. Ed. 2d 471 (2003).
+		TEXAS COURTS: Failure to uncover and present mitigating evidence “cannot be justified as a tactical decision when defense counsel has not conducted a thorough investigation of the defendant’s background.” Shanklin v. State, 190 S.W.3d 154, 164 (Tex. App.—Houston [1st Dist.] 2005, pet. dism’d); see also Bazan v. State, 403 S.W.3d 8, 13 (Tex. App.-Houston [1st Dist.] 2012, pet. ref’d).
+		Mitigation in Non-Capital Cases
+		What is Mitigation
+		The mitigation investigation
+		Presenting the mitigation evidence
+		What is Mitigation
+		Alleviation; abatement or diminution of a penalty or punishment imposed by law.
+		“Mitigating circumstances” are such as do not constitute a justification or excuse of the offense in question, but which, in fairness and mercy, may be considered as extenuating or reducing the degree of moral culpability.
+		Another way to look at Mitigation…
+		Being an effective story teller for your client in order to lessen the severity of the punishment your client is facing or receives
+		Who is better to have tell your client’s story regarding your client’s punishment? You of the Prosecutor? YOU
+		Sympathy v. Empathy
+		Sympathy is defined as feelings of pity and sorry for someone else’s misfortune. Sympathy alone or mere Pity is never an effective Mitigation strategy
+		Empathy is defined as getting another to understand and share the feelings of another. You always have a much better chance of achieving a positive result for your client if you can gain the Judge’s, Prosecutor’s or both’s empathy
+		Mitigation is not trying to gain sympathy. Mitigation is about trying to gain an understanding of your client and their circumstances.
+		In order to effectively tell your client’s story, you must…
+		Know your clients story (investigation)
+		Develop a useful theme
+		How do you know your client’s story? Through a thorough and intensive mitigation investigation.
+		What are effective Mitigation Circumstances (Themes)
+		Remorse: The defendant accepts responsibility and shows remorse. For example, a defendant who confesses upon arrest and is contrite in court has this factor in his favor.
+		Lack of criminal record: The defendant doesn’t have a criminal record, or only has a relatively minor record.
+		No harm: The defendant didn’t hurt anyone and committed the crime in a manner unlikely to cause harm. An example would be if a Defendant carjacked a driver by sternly ordering her out of her car without pointing a weapon at the driver and carefully and gently helped driver out of car.
+		Minor role: The defendant played a relatively minor role in the crime. For example, suppose Defendant, a foot soldier, knowingly drove a Shotcaller in Defendant’s gang to a location where the Shotcaller made a drug deal. At sentencing for his conviction for Delivery of a controlled substance, Defendant has an argument that his small role in the criminal activity should be mitigating.
+		Victim culpability: The victim willingly participated in the crime or initiated the events leading to it. For instance, if the complaining witness started a fight by attacking Defendant and Defendant responded with more force than was necessary to defend himself, this factor would be a mitigating factor at Defendant’s sentencing.
+		Unusual circumstance: The defendant committed the crime because of a temporary emotional difficulty or significant provocation and this caused the Defendant to act incongruous to the Defendant’s normal behavior and character. Ie – The perfect storm happened on the day the Defendant committed the crime. This circumstance usually applies when a defendant acts out while under extreme stress.
+		Relative necessity: The defendant acted out of a desire to provide life necessities. This theme would be potentially used for a recently laid off Defendant with no money who stole a rotisserie chicken from the grocery store so that he could feed his starving family.
+		Addiction: Drug or alcohol addiction contributed to – but wasn’t just an incentive or excuse to commit – the crime. For instance if a someone continually committing petty thefts to fund drug usage.
+		Difficult personal history: The Defendant suffered continuous physical or sexual abuse either as a child or an adult. For example, battered woman syndrome.
+		PTSD: The Defendant served in the military and as a result suffers from PTSD. Another example, a victim of a violent crime overacts during a confrontation and injures the complaining witness.
+		Mental Illness: Defendant suffers from some form of mental illness, or has a history of mental illness. This is particularly true is not properly treated.
+		Institutional Failure: An example of institutional failure is the drug addict that has been through the criminal justice system many times but never received treatment to break the cycle of addiction.
+		Lack of Family Structure/Absent Parent: Depends on the effect the lack of family or parent has on the individual.
+		ANYTHING YOU THINK CAN GET THE TARGET AUDIENCE TO EMPATHIZE WITH YOUR CLIENT.
+		Don’t only focus on the negative aspects in Mitigation. Positives can be good mitigation themes also:
+		Someone is a good mother/father
+		Someone is a good son/daughter
+		Someone is a good sibling
+		Someone I a good spouse
+		Someone has made a positive impact in another persons life
+		Someone has served the community (ie – volunteer or a public servant)
+		Someone is extremely old or particularly young
+		Someone is a good student
+		Someone has a bright future ahead of them
+		You can combine together more than one mitigation circumstance or theme
+		For instance, someone who forced as a child to prostitute themselves by their mother, was given drugs to help her perform her required sexual acts, was never treated for her addictions despite numerous petty criminal convictions as a young adult is now charged with a crime as a young adult. You could combine as themes or mitigating circumstances – addiction, institutional failure, and difficult personal circumstance.
+		Non-Capital Counsel can take a cue from Capital Counsel in effective Mitigation Themes
+		Capital Cases, the mitigation is required to focus on sentencing that takes into account the unique characteristics of the Defendant. – Tennard v. Dretke, 542 U.S. 274 (2004)
+		The same mitigation themes and circumstance that impact capital defendant’s and have been effective for capital defendant’s exist in our client’s Non-Capital cases
+		Examples: Poverty, Mental Retardation, Untreated or self treated mental illness, Addiction, Trauma, particularly head trauma, Lack of family structure/missing parent, Childhood history of abuse
 	How do you perform a mitigation investigation
-	If at all possible, use a mitigation specialist (should be able to get one appointed under Ake and Greggs or make sure you build the cost into your fee)
-	Incorporate a mitigation interview questions into counsels initial client interview
-	Get a detailed family tree with contacts
-	Mitigation/Punishment Witness interviews
-	Identify and gather useful documents
-	Potential People to Interview in Mitigation Investigation
-	Client
-	Client’s family
-	Current Neighbors of Client
-	Friends
-	Preachers/Ministers
-	Coaches
-	Teachers
-	Former Probation officers
-	Former parole officers
-	CPS workers is SPC was involved in Client’s life
-	Employers/Co-Workers
-	Why a Mitigation Specialist
-	They are going to have expertise in gathering the documents and information necessary to tell the client’s story effectively
-	They will have a network of experts needed to help develop the Clients story
-	Mitigation specialists can help “connect the dots” and organize all the mitigation facts into a cohesive persuasive story
-	Mitigation Specialists are trained to determine a Client’s deficits and create a plan to remedy or cure those deficits
-	Client Resistance to Mitigation Interview Questions
-	Clients don’t want to talk about mitigation or punishment because “I’m innocent” or “I didn’t do it” or some other variation
-	In order to tell the client’s story, you have to get to know the client. Thus ask questions at first that help build a family tree and history, a social history, a medical history, employment history
-	Let the client know you are just trying to get to know them as a person, as trust develops so will the other mitigation questions
-	Team Building Approach to Mitigation
-	Always try to make your client “part” of the team – get them invested in their own mitigation. Give them information to gather if on bond. If incarcerated, get them to give you the names of people to go to get the information you need.
-	Use your Mitigation Specialist/Investigator to help gather documents and interview witnesses
-	Look for younger attorneys who need experience and draft them to assist
-	Develop your own network of experts and consult with them as needed
-	3 main areas of mitigation to look at
-	All the good the client has done in the past. This includes the client’s view of what good he has done, even if his view is not consistent with what society would think is good
-	All the bad, sad and painful things that have happened to the client in their lifetime. Ie – What is the worst memory you have a childhood?
-	Diagnostic questions designed to identify things such as head injuries, illness, substance abuse. Ie – do you remember as a kid ever having to go to the hospital? What for?
-	Questions you can ask to help develop possible mitigation evidence or themes
-	Are you on medications? If so what kinds and for how long?
-	Ever gone to the hospital? If so what for? Which hospital? When? Where?
-	Ever been diagnosed with a mental illness? If so what? When? By which doctor?
-	Ever been hospitalized for mental health reasons? What for? When? Which hospital? By which doctor?
-	Were you the victim of abuse (physical and/or sexual)? When? By whom? Did you report it to anyone and if so, who?
-	What is your happiest memory?
-	What is your favorite memory growing up?
-	What is your earliest memory?
-	What is something about you that you think would surprise me?
-	Develop a family tree
-	The best people to tell you about your client are the ones who have known him all his life.
-	Family members can tell you about things so traumatic to the client the client is repressing memories
-	When a client is trying to minimize events or his actions in the past, family can help disprove the minimizations or help reveal the truth
-	Family members can lead you to other potential sources of information such as friends of the client growing up, coaches or other close associates.
-	The Family interview
-	You have to build a relationship with the family to gain their trust
-	You will have to overcome the family’s initial desire to only emphasize the good of their loved one or minimize the bad
-	Realize that you will be potentially asking the family to reveal trauma, and this can be re-traumatizing. This can not be rushed. Requires building trust.
-	Do not judge
-	Ask open ended questions
-	Most importantly…LISTEN
-	Mitigation Witness Interviews
-	You have to build a relationship just like with the family to gain their trust
-	Don’t be afraid to ask difficult questions. This is information you need
-	Just like with the family, do not judge
-	Ask open ended questions
-	Most importantly….LISTEN
-	Goal of family/Witness interviews
-	Getting to learn the client’s story so you can effectively tell the client’s story
-	Allow the defense/mitigation team to be able to see the Client through the eyes of people who see the Client not as a criminal but as a human being. Have to be able to humanize the client in order to effectively tell a story to gain empathy for the client.
-	Releases you will need your client to sign
-	A general HIPPA release
-	A FURPA release for educational background
-	HIPPA release specific to MHMR
-	If a military veteran – a Veterans Administration release, a release to get the client’s military records
-	These are documents you will need to start performing a paper mitigation investigation
-	Information helpful/needed to build a proper mitigation case
-	Medical history
-	Family tree
-	Mental health history
-	Education history
-	Employment history
-	Military History
-	Criminal History
-	Full investigation into the crime itself
-	Presenting the Mitigation
-	Sometimes you will be presenting it to the Prosecutor pre-trial
-	Sometimes you will be presenting it to a judge after a trial or punishment hearing
-	Sometimes will have to present it to a jury after a trial
-	This is where you connect the dots
-	This is where you turn all the facts and data you have into a cohesive, persuasive story
-	This is where you have to apply what you know into appropriate mitigation themes/mitigation circumstances
-	The Ultimate goal is to tell your Client’s story in such a way that gets the intended target of your story gains empathy for your client
-	Presenting to the prosecutor
-	Have to overcome prosecutors automatic prejudice against client – have to gain empathy for your client
-	Have to overcome prosecutor’s world view. Their view of justice is true justice. They are always in their minds fair – even when they are not being fair. Most any mitigation circumstance, alone, is an excuse and only an excuse. The Defendant is a liar and will lie to everyone. The defendant’s family are enablers.
-	If you succeed in getting the prosecutor to see your client as a human being and not just another “Defendant” you can get the prosecutor to start empathizing with your client
-	Presenting to a Judge
-	Once again, your story has to gain empathy from the judge
-	Judges have to get re-elected, so your story should help convince a judge to take a chance on your client and that act of “kindness” won’t be rewarded by the client coming back to haunt the judge
-	Sometimes have to overcome the same world views you have to overcome when presenting to a prosecutor
-	Presenting to a jury
-	Has to start at voir dire. Not only educate the jurors on the punishment range, but also on the mitigation themes. Have to identify jurors predisposed not to listen to your mitigation theme.
-	Through your client’s story, you have to educate the juror’s to see your Client’s world and the realities they live in. Usually a juror’s view of the world miles away from the reality of your client
-	Not trying to make excuses for your Client’s conduct, trying to gain empathy from the jury
-	Try to get the target audience to understand, who must not be defined by the worst thing they ever did
-	People may forget what you tell them or what you did, but people will never forget how you made them feel.
-	Tell a cohesive, persuasive story for your client and you will be able to gain the necessary empathy for your client to gain a result that very well may save a significant portion of their life!!!!
+				If at all possible, use a mitigation specialist (should be able to get one appointed under Ake and Greggs or make sure you build the cost into your fee)
+				Incorporate a mitigation interview questions into counsels initial client interview
+				Get a detailed family tree with contacts
+				Mitigation/Punishment Witness interviews
+				Identify and gather useful documents
+				Potential People to Interview in Mitigation Investigation
+			Client
+			Client’s family
+			Current Neighbors of Client
+			Friends
+			Preachers/Ministers
+			Coaches
+			Teachers
+			Former Probation officers
+			Former parole officers
+			CPS workers is SPC was involved in Client’s life
+			Employers/Co-Workers
+		Why a Mitigation Specialist
+		They are going to have expertise in gathering the documents and information necessary to tell the client’s story effectively
+		They will have a network of experts needed to help develop the Clients story
+		Mitigation specialists can help “connect the dots” and organize all the mitigation facts into a cohesive persuasive story
+		Mitigation Specialists are trained to determine a Client’s deficits and create a plan to remedy or cure those deficits
+		Client Resistance to Mitigation Interview Questions
+		Clients don’t want to talk about mitigation or punishment because “I’m innocent” or “I didn’t do it” or some other variation
+		In order to tell the client’s story, you have to get to know the client. Thus ask questions at first that help build a family tree and history, a social history, a medical history, employment history
+		Let the client know you are just trying to get to know them as a person, as trust develops so will the other mitigation questions
+		Team Building Approach to Mitigation
+		Always try to make your client “part” of the team – get them invested in their own mitigation. Give them information to gather if on bond. If incarcerated, get them to give you the names of people to go to get the information you need.
+		Use your Mitigation Specialist/Investigator to help gather documents and interview witnesses
+		Look for younger attorneys who need experience and draft them to assist
+		Develop your own network of experts and consult with them as needed
+		3 main areas of mitigation to look at
+		All the good the client has done in the past. This includes the client’s view of what good he has done, even if his view is not consistent with what society would think is good
+		All the bad, sad and painful things that have happened to the client in their lifetime. Ie – What is the worst memory you have a childhood?
+		Diagnostic questions designed to identify things such as head injuries, illness, substance abuse. Ie – do you remember as a kid ever having to go to the hospital? What for?
+		Questions you can ask to help develop possible mitigation evidence or themes
+		Are you on medications? If so what kinds and for how long?
+		Ever gone to the hospital? If so what for? Which hospital? When? Where?
+		Ever been diagnosed with a mental illness? If so what? When? By which doctor?
+		Ever been hospitalized for mental health reasons? What for? When? Which hospital? By which doctor?
+		Were you the victim of abuse (physical and/or sexual)? When? By whom? Did you report it to anyone and if so, who?
+		What is your happiest memory?
+		What is your favorite memory growing up?
+		What is your earliest memory?
+		What is something about you that you think would surprise me?
+		Develop a family tree
+		The best people to tell you about your client are the ones who have known him all his life.
+		Family members can tell you about things so traumatic to the client the client is repressing memories
+		When a client is trying to minimize events or his actions in the past, family can help disprove the minimizations or help reveal the truth
+		Family members can lead you to other potential sources of information such as friends of the client growing up, coaches or other close associates.
+		The Family interview
+		You have to build a relationship with the family to gain their trust
+		You will have to overcome the family’s initial desire to only emphasize the good of their loved one or minimize the bad
+		Realize that you will be potentially asking the family to reveal trauma, and this can be re-traumatizing. This can not be rushed. Requires building trust.
+		Do not judge
+		Ask open ended questions
+		Most importantly…LISTEN
+		Mitigation Witness Interviews
+		You have to build a relationship just like with the family to gain their trust
+		Don’t be afraid to ask difficult questions. This is information you need
+		Just like with the family, do not judge
+		Ask open ended questions
+		Most importantly….LISTEN
+		Goal of family/Witness interviews
+		Getting to learn the client’s story so you can effectively tell the client’s story
+		Allow the defense/mitigation team to be able to see the Client through the eyes of people who see the Client not as a criminal but as a human being. Have to be able to humanize the client in order to effectively tell a story to gain empathy for the client.
+		Releases you will need your client to sign
+		A general HIPPA release
+		A FURPA release for educational background
+		HIPPA release specific to MHMR
+		If a military veteran – a Veterans Administration release, a release to get the client’s military records
+		These are documents you will need to start performing a paper mitigation investigation
+		Information helpful/needed to build a proper mitigation case
+		Medical history
+		Family tree
+		Mental health history
+		Education history
+		Employment history
+		Military History
+		Criminal History
+		Full investigation into the crime itself
+		Presenting the Mitigation
+		Sometimes you will be presenting it to the Prosecutor pre-trial
+		Sometimes you will be presenting it to a judge after a trial or punishment hearing
+		Sometimes will have to present it to a jury after a trial
+		This is where you connect the dots
+		This is where you turn all the facts and data you have into a cohesive, persuasive story
+		This is where you have to apply what you know into appropriate mitigation themes/mitigation circumstances
+		The Ultimate goal is to tell your Client’s story in such a way that gets the intended target of your story gains empathy for your client
+		Presenting to the prosecutor
+		Have to overcome prosecutors automatic prejudice against client – have to gain empathy for your client
+		Have to overcome prosecutor’s world view. Their view of justice is true justice. They are always in their minds fair – even when they are not being fair. Most any mitigation circumstance, alone, is an excuse and only an excuse. The Defendant is a liar and will lie to everyone. The defendant’s family are enablers.
+		If you succeed in getting the prosecutor to see your client as a human being and not just another “Defendant” you can get the prosecutor to start empathizing with your client
+		Presenting to a Judge
+		Once again, your story has to gain empathy from the judge
+		Judges have to get re-elected, so your story should help convince a judge to take a chance on your client and that act of “kindness” won’t be rewarded by the client coming back to haunt the judge
+		Sometimes have to overcome the same world views you have to overcome when presenting to a prosecutor
+		Presenting to a jury
+		Has to start at voir dire. Not only educate the jurors on the punishment range, but also on the mitigation themes. Have to identify jurors predisposed not to listen to your mitigation theme.
+		Through your client’s story, you have to educate the juror’s to see your Client’s world and the realities they live in. Usually a juror’s view of the world miles away from the reality of your client
+		Not trying to make excuses for your Client’s conduct, trying to gain empathy from the jury
+		Try to get the target audience to understand, who must not be defined by the worst thing they ever did
+		People may forget what you tell them or what you did, but people will never forget how you made them feel.
+		Tell a cohesive, persuasive story for your client and you will be able to gain the necessary empathy for your client to gain a result that very well may save a significant portion of their life!!!!
 	THE CLIENT INTERVIEW: A TOPICAL CHECKLIST
 	In developing mitigation for post-Booker sentencings, our clients are often our best and most accessible source of information. In the abstract, the mitigation possibilities seem endless, and it may be difficult to decide what to ask our clients and how to ask it. This checklist is designed to give you some guidance. Although it is not intended as a script for client interviews, it may be useful for attorneys to review the checklist in connection with each case as a brainstorming tool.
 	In collecting information from clients, remember two important principles: First, try not to be too result-oriented. Sometimes, you just have to listen and let the client take the interview where he/she wants to go. You will not elicit too much useful information if you exert too much control in the conversation. Second, be alert to verbal and non-verbal cues suggesting abuse, mental illness, or cognitive impairment. See Deana Logan, Learning to Observe Signs of Mental Impairment (distributed in connection with May 2005 CJA Panel Training). Sometimes, your client won’t be able to tell you what’s mitigating, but you’ll discern it through careful observation.
