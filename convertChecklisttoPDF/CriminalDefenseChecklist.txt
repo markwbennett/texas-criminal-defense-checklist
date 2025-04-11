@@ -1210,117 +1210,113 @@ Prepare for disaster.
 	As follow-up to your client interviews, gather information from other sources, including friends, family, teachers, neighbors, employers, coworkers, coaches, counsellors, etc. Records also contain invaluable information and frequently corroborate information obtained from the client or witnesses. Consider gathering medical records, school records, jail and correctional records, juvenile records, social welfare records, military records, court records, arrest records, and attorney files.
 	You may not be able to do a complete social history investigation on each client, but be careful about making the decision that it’s not worthwhile in any individual case. Assistant Federal Public Defenders have recently received sentence reductions in gun and drug cases that, at first glance, appeared relatively ordinary.
 	Current Condition
-	Checking in on the client’s current condition is a good way of building a relationship with the client, while at the same time identifying possible mitigation. You may see signs of cognitive impairment or mental illness, or you may learn good character mitigation, such as that the client is serving as a “trusty” on his cellblock or participating in a “Reality” program for school-kids. 
-	How are you feeling?
-	Do you have any complaints?
-	How are you getting along with the guards?
-	Any guards having problems with you?
-	How are you getting along with other inmates?
-	How are you sleeping?
-	Are you getting any exercise?
-	What have you had to eat?
-	Did you get a shower?
-	Are you making any phone calls?
-	Do you have any visits?
-	How do you spend the day?
-	Have you seen the doctor/nurse?
-	Are you taking any new medication?
+		How are you feeling?
+		Do you have any complaints?
+		How are you getting along with the guards?
+		Any guards having problems with you?
+		How are you getting along with other inmates?
+		How are you sleeping?
+		Are you getting any exercise?
+		What have you had to eat?
+		Did you get a shower?
+		Are you making any phone calls?
+		Do you have any visits?
+		How do you spend the day?
+		Have you seen the doctor/nurse?
+		Are you taking any new medication?
 	Observations of Client
-	Skin (clear, acne, pale, abrasions)
-	Eyes (dilated, rapid movements, dull, normal)
-	Hygiene (unclean, clean, food, drool, chapped lips, feces/urine, odor)
-	Appearance (dishevelled, neat, unshaven, gaunt, tired)
-	Mood (crying, lethargic, sad, agitated, hopeless, unpleasant, main, irritable, clinging)
-	Speech (monotonous, loud/soft, incoherent, tangential, shifting, derailment, flighty, stuck on single subject, pressured, minimal)
-	Thought (delusion, hallucination, paranoia, preoccupation, extreme, confabulation, inflated sense of self)
-	Feelings (fear, shame, remorse, giddy/silly, anxious, normal)
-	Movement (touching, licking, rocking, drumming fingers, leg shaking, pacing, slow/fast)
-	Tics (snorting, clearing throat, grimacing, head twitches, verbalization)
+		Skin (clear, acne, pale, abrasions)
+		Eyes (dilated, rapid movements, dull, normal)
+		Hygiene (unclean, clean, food, drool, chapped lips, feces/urine, odor)
+		Appearance (dishevelled, neat, unshaven, gaunt, tired)
+		Mood (crying, lethargic, sad, agitated, hopeless, unpleasant, main, irritable, clinging)
+		Speech (monotonous, loud/soft, incoherent, tangential, shifting, derailment, flighty, stuck on single subject, pressured, minimal)
+		Thought (delusion, hallucination, paranoia, preoccupation, extreme, confabulation, inflated sense of self)
+		Feelings (fear, shame, remorse, giddy/silly, anxious, normal)
+		Movement (touching, licking, rocking, drumming fingers, leg shaking, pacing, slow/fast)
+		Tics (snorting, clearing throat, grimacing, head twitches, verbalization)
 	Social History
-	These topics are presented in rough chronological order, but you should feel free to pursue them in whatever order seems appropriate with a given client. Some clients will be unwilling to talk about their childhood at first, but may become more willing after they see the way you handle a discussion of their criminal history, hobbies, or employment background. If your client won’t or can’t answer a question, try asking your “ally.”
-	Birth, Growth & Development
-	Any known complications with mother’s pregnancy (bleeding, toxemia, smoking, alcohol, drugs, physical abuse, depression, accidents, illness) [Sample Q: How was your mother’s health during her pregnancy with you?]
-	Any complications at birth (premature, respiratory difficulties, jaundice, known defects) [Sample Q: Did your mother ever complain about her labor and delivery? What does your mother say about the day you were born?]
-	Approximate age at which developmental tasks accomplished (responsive smile, rolling over, crawling, pulling to stand, walking, speaking, self-care) [Sample Q: What has your mother told you about what you were like as a baby? As a child?]
-	Relationship with parents (emotional support, nurturing, expressions of love, discipline, infliction of physical harm or pain, sexual abuse, sexual modeling, displays of nudity, invasions of privacy) [Sample Q: Tell me about your mom? How did your mom handle it when you did something wrong?]
-	Relationship with others in household
-	Relationship with peers in school and neighborhood [Sample Q: What did you do when you weren’t in school? What were your friends like? How did others treat you?]
-	Police or social workers ever come to house
-	Client or siblings ever run away
-	School History
-	Age began school
-	Schools attended (dates, addresses, reason for changing schools)
-	Progress from one grade to next
-	Placement (advanced, special education)
-	Behavioral difficulties
-	Lateness, attendance
-	Performance
-	Significant teachers/coaches
-	Parental involvement in school
-	Highest grade completed
-	Extracurricular activities, clubs, sports
+		Birth, Growth & Development
+		Any known complications with mother’s pregnancy (bleeding, toxemia, smoking, alcohol, drugs, physical abuse, depression, accidents, illness) [Sample Q: How was your mother’s health during her pregnancy with you?]
+		Any complications at birth (premature, respiratory difficulties, jaundice, known defects) [Sample Q: Did your mother ever complain about her labor and delivery? What does your mother say about the day you were born?]
+		Approximate age at which developmental tasks accomplished (responsive smile, rolling over, crawling, pulling to stand, walking, speaking, self-care) [Sample Q: What has your mother told you about what you were like as a baby? As a child?]
+		Relationship with parents (emotional support, nurturing, expressions of love, discipline, infliction of physical harm or pain, sexual abuse, sexual modeling, displays of nudity, invasions of privacy) [Sample Q: Tell me about your mom? How did your mom handle it when you did something wrong?]
+		Relationship with others in household
+		Relationship with peers in school and neighborhood [Sample Q: What did you do when you weren’t in school? What were your friends like? How did others treat you?]
+		Police or social workers ever come to house
+		Client or siblings ever run away
+		School History
+		Age began school
+		Schools attended (dates, addresses, reason for changing schools)
+		Progress from one grade to next
+		Placement (advanced, special education)
+		Behavioral difficulties
+		Lateness, attendance
+		Performance
+		Significant teachers/coaches
+		Parental involvement in school
+		Highest grade completed
+		Extracurricular activities, clubs, sports
 	Environmental Factors
-	All addresses where client lived
-	Name, age, current address of all people with whom client lived
-	Physical conditions in which client grew up (type of neighborhood, housing conditions, availability of hear, number of rooms, number of people in residence) [Sample Q: Tell me about where you grew up?]
-	Exposure to toxins (smoking, lead, folk remedies, solvents, glue, industrial area, agricultural area) [Sample Q: Where did you play when you were small?]
-	Client, family, or caretaker ever in an occupation at risk for neurotoxic exposure (agricultural, chemical, pharmaceutical, degreaser, dry cleaner, dental hygienist, electronics, plastics, painter, rayon, steel, transportation, foundry, scrap metal)
+		All addresses where client lived
+		Name, age, current address of all people with whom client lived
+		Physical conditions in which client grew up (type of neighborhood, housing conditions, availability of hear, number of rooms, number of people in residence) [Sample Q: Tell me about where you grew up?]
+		Exposure to toxins (smoking, lead, folk remedies, solvents, glue, industrial area, agricultural area) [Sample Q: Where did you play when you were small?]
+		Client, family, or caretaker ever in an occupation at risk for neurotoxic exposure (agricultural, chemical, pharmaceutical, degreaser, dry cleaner, dental hygienist, electronics, plastics, painter, rayon, steel, transportation, foundry, scrap metal)
 	Medical & Mental Health History
-	Kind of health care child/family received (ER, doctor, clinic)
-	Injuries, accidents, illnesses, including during childhood
-	Head trauma (blows, car accidents, falls, sports injuries)
-	Fevers, headaches
-	MRI, CAT scan PET, EEG, x-ray of head, neuropsych or psych testing
-	Hospitalizations
-	Emergency room visits
-	Alcohol/drug use [Sample Q: Tell me about the first time you ever used drugs or alcohol?]
-	Alcohol/drug treatment (where, when)
-	Mental health evaluations, court-related or otherwise)
-	Mental health treatment (where, when, who treated)
-	Medications
+		Kind of health care child/family received (ER, doctor, clinic)
+		Injuries, accidents, illnesses, including during childhood
+		Head trauma (blows, car accidents, falls, sports injuries)
+		Fevers, headaches
+		MRI, CAT scan PET, EEG, x-ray of head, neuropsych or psych testing
+		Hospitalizations
+		Emergency room visits
+		Alcohol/drug use [Sample Q: Tell me about the first time you ever used drugs or alcohol?]
+		Alcohol/drug treatment (where, when)
+		Mental health evaluations, court-related or otherwise)
+		Mental health treatment (where, when, who treated)
+		Medications
 	Military History
-	Ever rejected for military service
-	Name, branch, and dates of service
-	Highest rank obtained & rank at discharge
-	Type of discharge
-	Significant military experiences [Sample Q: What stands out to you when you remember being in the Army?]
-	Vaccinations, overseas experience, special training
-	Veteran’s care, post-military trauma or illness
+		Ever rejected for military service
+		Name, branch, and dates of service
+		Highest rank obtained & rank at discharge
+		Type of discharge
+		Significant military experiences [Sample Q: What stands out to you when you remember being in the Army?]
+		Vaccinations, overseas experience, special training
+		Veteran’s care, post-military trauma or illness
 	Court History
-	Prior juvenile or criminal charges (jurisdiction, disposition, name of attorney, date of offense, date of arrest, character of offense, length and place of incarceration or juvenile placement, name of parole/probation officer)
-	Prison and/or probation record (disciplinary record, compliance with rules, ever granted privileges, work history, participation in programs, ever evaluated or treated, medications administered, noteworthy relationships)
-	Plaintiff or defendant in civil case
-	Witness in any court proceeding
-	Filed bankruptcy
-	Child support proceedings
-	Paternity proceedings
-	Contact with Government Agencies
-	Arrests, other police contact
-	Benefits (food stamps, disability, unemployment, social security)
-	Child welfare
-	Veteran’s Administration
-	INS
+		Prior juvenile or criminal charges (jurisdiction, disposition, name of attorney, date of offense, date of arrest, character of offense, length and place of incarceration or juvenile placement, name of parole/probation officer)
+		Prison and/or probation record (disciplinary record, compliance with rules, ever granted privileges, work history, participation in programs, ever evaluated or treated, medications administered, noteworthy relationships)
+		Plaintiff or defendant in civil case
+		Witness in any court proceeding
+		Filed bankruptcy
+		Child support proceedings
+		Paternity proceedings
+		Contact with Government Agencies
+		Arrests, other police contact
+		Benefits (food stamps, disability, unemployment, social security)
+		Child welfare
+		Veteran’s Administration
+		INS
 	Employment History
-	Employment record (name, address, supervisor, dates of employment, reasons for leaving)
-	Problems with employers/co-workers
-	Lengthy periods of unemployment (why, collect benefits) [Sample Q: What did you do when you weren’t working? How did you pay the bills?]
-	Workmen’s compensation claims
+		Employment record (name, address, supervisor, dates of employment, reasons for leaving)
+		Problems with employers/co-workers
+		Lengthy periods of unemployment (why, collect benefits) [Sample Q: What did you do when you weren’t working? How did you pay the bills?]
+		Workmen’s compensation claims
 	Religious Background/Community Activity
-	Attendance as child/adult (where, name of church, personnel, activities)
+		Attendance as child/adult (where, name of church, personnel, activities)
 	Other community groups/service
 	Hobbies
 	What client likes to do in spare time
 	Friends & Family
-	Name, age, address of parents, step-parents, grandparents, siblings, and other relatives
-	Name, age, address of friends or mentors [Sample Q: Who are your three best friends/favorite teachers/closest family members?]
-	Nature and quality of relationships with friends
-	Name, age, address of boyfriends/girlfriends, current & former spouses
-	Nature and quality of relationships with “significant others”
-	Family/caretaker ever diagnosed (or treated or suspected) with mental illness, other illness, injury
-	Family/caretaker have seizures, memory loss, uncontrolled temper/rages, “crazy behavior,” signs of retardation, etc.
-	Use of drugs/alcohol by family member/caretaker
-	Criminal records of family/friends
-	Court involvement of family/friends
-	Family/caretaker receive government benefits, have contact with child protective services or other social service agency
-	
-
+		Name, age, address of parents, step-parents, grandparents, siblings, and other relatives
+		Name, age, address of friends or mentors [Sample Q: Who are your three best friends/favorite teachers/closest family members?]
+		Nature and quality of relationships with friends
+		Name, age, address of boyfriends/girlfriends, current & former spouses
+		Nature and quality of relationships with “significant others”
+		Family/caretaker ever diagnosed (or treated or suspected) with mental illness, other illness, injury
+		Family/caretaker have seizures, memory loss, uncontrolled temper/rages, “crazy behavior,” signs of retardation, etc.
+		Use of drugs/alcohol by family member/caretaker
+		Criminal records of family/friends
+		Court involvement of family/friends
+		Family/caretaker receive government benefits, have contact with child protective services or other social service agency
