@@ -543,8 +543,20 @@ if __name__ == "__main__":
         input_file = default_input
         output_file = os.path.splitext(default_input)[0] + ".md"
     
+    # If input_file is not an absolute path, look in the script's directory
+    if not os.path.isabs(input_file) and not os.path.exists(input_file):
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        potential_path = os.path.join(script_dir, input_file)
+        if os.path.exists(potential_path):
+            input_file = potential_path
+            if len(sys.argv) <= 2:  # If output file wasn't explicitly specified
+                output_file = os.path.join(script_dir, output_file)
+    
     if not os.path.exists(input_file):
         print(f"Error: Input file '{input_file}' not found.")
+        print(f"Current working directory: {os.getcwd()}")
+        print(f"Script directory: {os.path.dirname(os.path.abspath(__file__))}")
         sys.exit(1)
     
+    print(f"Processing {input_file} to {output_file}")
     convert_to_markdown(input_file, output_file) 

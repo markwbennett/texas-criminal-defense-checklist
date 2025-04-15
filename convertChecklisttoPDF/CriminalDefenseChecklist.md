@@ -1,17 +1,20 @@
 ---
 title: Criminal Defense Checklist
-created: 2025-04-10
+created: 2025-04-14
 ---
 
 # Main Checklist
 <a id='level-1'></a>
+<a id='item'></a>
+☐ $
+
 <a id='item-prospective-client-meeting'></a>
 ☐ [Prospective Client Meeting](#level-1-prospective-client-meeting)
 
 <a id='item-open-file'></a>
 ☐ [Open File](#level-1-open-file)
 
-<a id='item-stabilize-case'></a>œ
+<a id='item-stabilize-case'></a>
 ☐ [Stabilize Case](#level-1-stabilize-case)
 
 <a id='item-is-the-case-an-unindicted-felony'></a>
@@ -56,6 +59,9 @@ created: 2025-04-10
 <a id='item-clear-client-s-record'></a>
 ☐ [Clear Client's record.](#level-1-clear-client-s-record)
 
+<a id='item-prepare-for-disaster'></a>
+☐ [Prepare for disaster.](#level-1-prepare-for-disaster)
+
 
 \newpage
 
@@ -63,9 +69,6 @@ created: 2025-04-10
 # [Main Checklist](#level-1) | Prospective Client Meeting
 <a id='item-conflict-check'></a>
 ☐ Conflict Check
-
-<a id='item-client-information'></a>
-☐ Client Information
 
 <a id='item-language-interpreter-needed'></a>
 ☐ Language (interpreter needed?)
@@ -82,14 +85,14 @@ created: 2025-04-10
 <a id='item-questionnaire'></a>
 ☐ [Questionnaire](#level-1-prospective-client-meeting-questionnaire)
 
-<a id='item-spheres-of-influence-sheet-interview'></a>
-☐ Spheres of Influence Sheet [interview]
+<a id='item-spheres-of-influence-sheet'></a>
+☐ Spheres of Influence Sheet
 
-<a id='item-skills-assessment-what-they-like-to-do-are-good-at-etc-interview'></a>
-☐ Skills Assessment (what they like to do, are good at, etc.) [interview]
+<a id='item-skills-assessment-what-they-like-to-do-are-good-at-etc'></a>
+☐ Skills Assessment (what they like to do, are good at, etc.)
 
-<a id='item-medical-records-what-hospitals-hippa-subpoena'></a>
-☐ Medical Records (what hospitals, HIPPA) [subpoena]
+<a id='item-medical-records-what-hospitals-hipaa-subpoena'></a>
+☐ Medical Records (what hospitals, HIPAA) [subpoena]
 
 <a id='item-school-records-releases-transcripts-college-and-primary-secondary-school-records-subpoena'></a>
 ☐ School Records (releases, transcripts, college and primary/secondary school records) [subpoena]
@@ -110,25 +113,25 @@ created: 2025-04-10
 ☐ Psychological Eval (include explanation about all doing it, not to be ashamed, etc.)
 
 <a id='item-drug-tests'></a>
-☐ •Drug Tests?
+☐ Drug Tests?
 
 <a id='item-classes'></a>
-☐ •Classes?
+☐ Classes?
 
 <a id='item-community-service-hours'></a>
-☐ •Community Service Hours?
+☐ Community Service Hours?
 
 <a id='item-discuss-consequences-of-conviction'></a>
-☐ [Discuss consequences of Conviction:](#level-1-prospective-client-meeting-discuss-consequences-of-conviction)
+☐ [Discuss consequences of conviction.](#level-1-prospective-client-meeting-discuss-consequences-of-conviction)
 
 <a id='item-identify-mental-health-problems'></a>
 ☐ Identify mental-health problems
 
-<a id='item-tell-client-how-to-dress-for-court'></a>
-☐ Tell Client how to dress for court
+<a id='item-identify-brain-issues'></a>
+☐ Identify brain issues
 
 <a id='item-tell-client-what-to-expect'></a>
-☐ Tell Client what to expect
+☐ [Tell Client what to expect](#level-1-prospective-client-meeting-tell-client-what-to-expect)
 
 <a id='item-double-check-with-client-key-information'></a>
 ☐ [Double check with client key information.](#level-1-prospective-client-meeting-double-check-with-client-key-information)
@@ -154,7 +157,7 @@ created: 2025-04-10
 ☐ Back up contact information_
 
 <a id='item-other-active-cases'></a>
-☐ [Other active cases](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases)
+☐ [Other active cases:*](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases)
 
 <a id='item-education-status'></a>
 ☐ Education status_
@@ -169,7 +172,7 @@ created: 2025-04-10
 \newpage
 
 <a id='level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases'></a>
-# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction) | Other active cases
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction) | Other active cases:*
 <a id='item-other-cases-in-county'></a>
 ☐ Other cases in county?__
 
@@ -182,189 +185,13 @@ created: 2025-04-10
 
 \newpage
 
-<a id='level-1-prospective-client-meeting-questionnaire'></a>
-# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Questionnaire
-<a id='item-please-fill-out-this-questionnaire-as-completely-as-possible-front-and-back-it-is-important-that-you-answer-each-question-fully-it-is-imperative-that-you-be-candid-and-truthful-you-should-answer-all-questions-relevant-to-your-case-if-a-question-does-not-apply-to-your-particular-situation-please-indicate-by-marking-the-question-n-a-since-your-answers-are-being-made-to-your-attorney-you-are-assured-of-confidentiality-and-are-protected-by-the-attorney-client-privilege'></a>
-☐ Please fill out this questionnaire as completely as possible (front and back). It is important that you answer each question fully. It is imperative that you be candid and truthful! You should answer all questions relevant to your case. If a question does not apply to your particular situation, please indicate by marking the question “N/A”. Since your answers are being made to your attorney, you are assured of confidentiality and are protected by the attorney-client privilege.
-
-<a id='item-referred-by'></a>
-☐ Referred by:_
-
-<a id='item-why-do-you-need-an-attorney'></a>
-☐ Why do you need an attorney?__
-
-<a id='item-about-you-client-defendant'></a>
-☐ About You (Client/Defendant)
-
-<a id='item-full-legal-name-first-middle-last-maiden'></a>
-☐ Full Legal Name (First – Middle – Last – Maiden)
-
-<a id='item'></a>
-☐ _
-
-<a id='item-birth-date'></a>
-☐ Birth Date_
-
-<a id='item-city-and-state-where-born'></a>
-☐ City and State where born
-
-<a id='item-us-citizen-yes-or-no'></a>
-☐ US Citizen? Yes or No
-
-<a id='item-social-security'></a>
-☐ Social Security #
-
-<a id='item-driver-s-license'></a>
-☐ Driver’s License #
-
-<a id='item-address-street-city-county-state-zip'></a>
-☐ Address (Street – City – County – State – Zip)
-
-<a id='item-home-phone'></a>
-☐ Home phone
-
-<a id='item-work-phone'></a>
-☐ Work phone
-
-<a id='item-cell-phone'></a>
-☐ Cell phone
-
-<a id='item-fax-number'></a>
-☐ Fax number
-
-<a id='item-email'></a>
-☐ Email
-
-<a id='item-check-here-if-you-would-like-updates-regarding-your-case-sent-to-your-email-address'></a>
-☐ ==*Check HERE ____ if you would like updates regarding your case sent to your email address.* ==
-
-<a id='item-spouses-name'></a>
-☐ Spouses Name
-
-<a id='item-spouse-telephone-number'></a>
-☐ Spouse Telephone number
-
-<a id='item-emergency-contacts-name-phone'></a>
-☐ Emergency Contacts (Name, Phone)
-
-<a id='item-emergency-contacts-name-phone'></a>
-☐ Emergency Contacts (Name, Phone)
-
-<a id='item-employer'></a>
-☐ Employer
-
-<a id='item-work-address'></a>
-☐ Work address
-
-<a id='item-education-level'></a>
-☐ Education Level
-
-<a id='item-have-you-ever-been-arrested-before'></a>
-☐ Have you ever been arrested before
-
-<a id='item-for-what'></a>
-☐ For what
-
-<a id='item-have-you-ever-been-convicted-of-a-criminal-offense-or-placed-on-deferred-adjudication-or-probation-if-so-please-list-offenses-dates-and-place-of-conviction-city-and-state'></a>
-☐ Have you ever been convicted of a criminal offense or placed on deferred adjudication or probation? If so, please list offenses, dates, and place of conviction (city and state).
-
-<a id='item-are-you-currently-on-probation-or-parole'></a>
-☐ Are you currently on probation or parole?
-
-<a id='item-if-so-where-when-and-for-what'></a>
-☐ If so, where/when and for what?
-
-<a id='item-about-your-case'></a>
-☐ About Your Case
-
-<a id='item-date-of-arrest'></a>
-☐ Date of Arrest
-
-<a id='item-arresting-agency'></a>
-☐ Arresting Agency
-
-<a id='item-place-of-arrest'></a>
-☐ Place of Arrest
-
-<a id='item-charge-s'></a>
-☐ Charge(s)
-
-<a id='item-court'></a>
-☐ Court
-
-<a id='item-next-court-date'></a>
-☐ Next Court Date
-
-<a id='item-complaining-witness-or-victim-if-known'></a>
-☐ Complaining Witness or Victim (if known)
-
-<a id='item-your-relationship-to-complaining-witness'></a>
-☐ Your relationship to Complaining Witness
-
-<a id='item-c-w-s-phone-number'></a>
-☐ C/W’s Phone number
-
-<a id='item-address'></a>
-☐ Address
-
-<a id='item-list-co-defendants-charged-and-uncharged'></a>
-☐ List Co-Defendants (charged and uncharged)
-
-<a id='item-list-any-witnesses-to-offense-not-character-witnesses-along-with-their-telephone-numbers'></a>
-☐ List Any Witnesses to Offense (not character witnesses) along with their telephone numbers
-
-<a id='item-have-you-consulted-or-retained-another-attorney-on-this-matter-prior-to-coming-to-this-office'></a>
-☐ Have you consulted or retained another attorney on this matter prior to coming to this office?
-
-<a id='item-if-so-please-state-who-and-when'></a>
-☐ If so, please state who and when
-
-<a id='item-bonding-company'></a>
-☐ Bonding Company
-
-<a id='item-amount-of-bond'></a>
-☐ Amount of Bond
-
-<a id='item-guarantor-of-payment-person-responsible-for-payment'></a>
-☐ Guarantor of Payment (Person Responsible for Payment)
-
-<a id='item-full-legal-name-first-middle-last-maiden'></a>
-☐ Full Legal Name (First – Middle – Last – Maiden)
-
-<a id='item-birth-date'></a>
-☐ Birth Date
-
-<a id='item-relationship-to-defendant'></a>
-☐ Relationship to Defendant
-
-<a id='item-social-security'></a>
-☐ Social Security #
-
-<a id='item-driver-s-license'></a>
-☐ Driver’s License #
-
-<a id='item-address-street-city-county-state-zip'></a>
-☐ Address (Street – City – County – State – Zip)
-
-<a id='item-home-phone'></a>
-☐ Home phone
-
-<a id='item-work-phone'></a>
-☐ Work phone
-
-<a id='item-employer'></a>
-☐ Employer
-
-<a id='item-work-address'></a>
-☐ Work address
-
-
-\newpage
-
 <a id='level-1-prospective-client-meeting-discuss-consequences-of-conviction'></a>
-# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Discuss consequences of Conviction:
-<a id='item-jail'></a>
-☐ Jail
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Discuss consequences of conviction.
+<a id='item-incarceration'></a>
+☐ Incarceration
+
+<a id='item-conditions-of-probation'></a>
+☐ Conditions of probation
 
 <a id='item-court-costs'></a>
 ☐ Court Costs
@@ -397,7 +224,7 @@ created: 2025-04-10
 \newpage
 
 <a id='level-1-prospective-client-meeting-discuss-consequences-of-conviction-driver-s-license-suspension'></a>
-# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Discuss consequences of Conviction:](#level-1-prospective-client-meeting-discuss-consequences-of-conviction) | Driver’s License Suspension
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Discuss consequences of conviction.](#level-1-prospective-client-meeting-discuss-consequences-of-conviction) | Driver’s License Suspension
 <a id='item-admin-date'></a>
 ☐ Admin Date
 
@@ -406,6 +233,26 @@ created: 2025-04-10
 
 <a id='item-180-restricted'></a>
 ☐ 180 Restricted
+
+
+\newpage
+
+<a id='level-1-prospective-client-meeting-tell-client-what-to-expect'></a>
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Tell Client what to expect
+<a id='item-patience'></a>
+☐ Patience
+
+<a id='item-multiple-court-appearances'></a>
+☐ Multiple court appearances
+
+<a id='item-may-or-may-not-be-waived'></a>
+☐ May or may not be waived
+
+<a id='item-how-to-dress-for-court'></a>
+☐ How to dress for court
+
+<a id='item-don-t-volunteer-don-t-lie-to-me'></a>
+☐ Don't volunteer, don't lie to me.
 
 
 \newpage
@@ -419,10 +266,10 @@ created: 2025-04-10
 ☐ Criminal history
 
 <a id='item-mental-health-medical-health'></a>
-☐ Mental health /Medical Health
+☐ Mental health / Medical Health
 
-<a id='item-have-client-sign-hippa-and-ferpa'></a>
-☐ Have client sign HIPPA and FERPA
+<a id='item-have-client-sign-hipaa-and-ferpa'></a>
+☐ Have client sign HIPAA and FERPA
 
 <a id='item-military-history'></a>
 ☐ Military history
@@ -440,12 +287,6 @@ created: 2025-04-10
 
 <a id='item-pull-all-applicable-statutes'></a>
 ☐ Pull all applicable statutes
-
-<a id='item-max-sentences-fines'></a>
-☐ Max sentences/fines?
-
-<a id='item-diversion-programs-available'></a>
-☐ Diversion programs available?
 
 <a id='item-codefendants'></a>
 ☐ Codefendants?
@@ -470,6 +311,12 @@ created: 2025-04-10
 
 <a id='item-is-client-noncitizen'></a>
 ☐ [Is client noncitizen?](#level-1-open-file-is-client-noncitizen)
+
+<a id='item-initial-legal-review'></a>
+☐ [Initial Legal Review](#level-1-open-file-initial-legal-review)
+
+<a id='item-special-subpoenas-needed'></a>
+☐ [Special subpoenas needed?](#level-1-open-file-special-subpoenas-needed)
 
 <a id='item-start-file-memo'></a>
 ☐ Start file memo.
@@ -510,13 +357,79 @@ created: 2025-04-10
 
 \newpage
 
+<a id='level-1-open-file-initial-legal-review'></a>
+# [Main Checklist](#level-1) | [Open File](#level-1-open-file) | Initial Legal Review
+<a id='item-jurisdiction-correct'></a>
+☐ Jurisdiction correct?
+
+<a id='item-statute-of-limitations'></a>
+☐ Statute of limitations?
+
+<a id='item-speedy-trial-issues'></a>
+☐ Speedy trial issues?
+
+<a id='item-motion-to-suppress'></a>
+☐ Motion to suppress?
+
+<a id='item-challenges-to-statute'></a>
+☐ Challenges to statute?
+
+<a id='item-do-any-defenses-need-experts-notices-motions'></a>
+☐ Do any defenses need experts/notices/motions?
+
+<a id='item-can-client-aid-and-assist-in-own-defense'></a>
+☐ Can client aid and assist in own defense
+
+<a id='item-initial-sentencing-assessment'></a>
+☐ [Initial sentencing assessment](#level-1-open-file-initial-legal-review-initial-sentencing-assessment)
+
+
+\newpage
+
+<a id='level-1-open-file-initial-legal-review-initial-sentencing-assessment'></a>
+# [Main Checklist](#level-1) | [Open File](#level-1-open-file) | [Initial Legal Review](#level-1-open-file-initial-legal-review) | Initial sentencing assessment
+<a id='item-max-min-penalties'></a>
+☐ Max/Min penalties
+
+<a id='item-consecutive-concurrent'></a>
+☐ Consecutive/concurrent
+
+<a id='item-same-separate-criminal-episodes'></a>
+☐ Same/Separate criminal episodes?
+
+<a id='item-max-sentences-fines'></a>
+☐ Max sentences/fines?
+
+<a id='item-diversion-programs-available'></a>
+☐ Diversion programs available?
+
+
+\newpage
+
+<a id='level-1-open-file-special-subpoenas-needed'></a>
+# [Main Checklist](#level-1) | [Open File](#level-1-open-file) | Special subpoenas needed?
+<a id='item-gps-data'></a>
+☐ GPS data
+
+<a id='item-medical-records'></a>
+☐ Medical records
+
+
+\newpage
+
 <a id='level-1-stabilize-case'></a>
 # [Main Checklist](#level-1) | Stabilize Case
+<a id='item-do-not-talk-to-anyone-about-case'></a>
+☐ Do not talk to anyone about case.
+
 <a id='item-instruct-client-and-allies-on-what-to-do-if-police-call'></a>
 ☐ Instruct client and allies on what to do if police call.
 
 <a id='item-bond'></a>
 ☐ [Bond](#level-1-stabilize-case-bond)
+
+<a id='item-instruct-client-on-social-media'></a>
+☐ Instruct client on social media.
 
 
 \newpage
@@ -560,20 +473,17 @@ created: 2025-04-10
 
 <a id='level-1-discovery-and-investigation'></a>
 # [Main Checklist](#level-1) | Discovery and Investigation
-<a id='item-make-witness-list-from-client-family-neighbors-and-state-s-file-or-consider-meeting-with-investigator-investigation-see-below'></a>
-☐ Make witness list from Client, family/neighbors, and State’s file / OR; Consider meeting with Investigator / Investigation, See below
+<a id='item-witness-assessment'></a>
+☐ [Witness Assessment](#level-1-discovery-and-investigation-witness-assessment)
 
 <a id='item-visit-scene'></a>
 ☐ Visit Scene
 
+<a id='item-make-a-timeline-of-the-incident'></a>
+☐ [Make a Timeline of the Incident](#level-1-discovery-and-investigation-make-a-timeline-of-the-incident)
+
 <a id='item-are-there-cell-phones-involved'></a>
-☐ Are there cell phones involved?
-
-<a id='item-send-cell-phone-company-letter-to-preserve-texts-and-gps-location'></a>
-☐ Send cell phone company letter  to preserve texts and GPS location.
-
-<a id='item-subpoena-cell-phone-records'></a>
-☐ Subpoena cell phone records
+☐ [Are there cell phones involved?](#level-1-discovery-and-investigation-are-there-cell-phones-involved)
 
 <a id='item-get-cops-cell-numbers'></a>
 ☐ Get cops’ cell numbers
@@ -583,6 +493,9 @@ created: 2025-04-10
 
 <a id='item-is-it-a-dwi-case'></a>
 ☐ [Is it a DWI case?](#level-1-discovery-and-investigation-is-it-a-dwi-case)
+
+<a id='item-are-police-location-and-travel-important'></a>
+☐ [Are police location and travel important?](#level-1-discovery-and-investigation-are-police-location-and-travel-important)
 
 <a id='item-priors'></a>
 ☐ [Priors?](#level-1-discovery-and-investigation-priors)
@@ -614,14 +527,57 @@ created: 2025-04-10
 <a id='item-probable-cause-affidavits'></a>
 ☐ Probable cause affidavits
 
+<a id='item-view-evidence-in-custody'></a>
+☐ [View evidence in custody.](#level-1-discovery-and-investigation-view-evidence-in-custody)
+
 <a id='item-lab-reports'></a>
 ☐ Lab Reports
 
 <a id='item-dna-serology-reports'></a>
 ☐ DNA Serology Reports
 
+<a id='item-subpoenas'></a>
+☐ Subpoenas
+
 <a id='item-jail-documents-pretrial-reports'></a>
-☐ [Jail documents / pretrial reports](#level-1-discovery-and-investigation-jail-documents-pretrial-reports)
+☐ Jail documents / pretrial reports
+
+<a id='item-any-follow-up-police-reports'></a>
+☐ Any follow-up police reports
+
+<a id='item-911-dispatch-recordings'></a>
+☐ [911 / dispatch recordings](#level-1-discovery-and-investigation-911-dispatch-recordings)
+
+<a id='item-social-media'></a>
+☐ Social media
+
+<a id='item-news-articles'></a>
+☐ [News articles](#level-1-discovery-and-investigation-news-articles)
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-make-a-timeline-of-the-incident'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Make a Timeline of the Incident
+<a id='item-movements-actions-possible-in-the-timeframe'></a>
+☐ Movements/Actions possible in the timeframe?
+
+<a id='item-match-the-witness-statements'></a>
+☐ Match the witness statements?
+
+<a id='item-any-witnesses-that-would-take-exception-to-the-timeline'></a>
+☐ Any witnesses that would take exception to the timeline?
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-are-there-cell-phones-involved'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Are there cell phones involved?
+<a id='item-send-cell-phone-company-letter-to-preserve-texts-and-gps-location'></a>
+☐ Send cell phone company letter  to preserve texts and GPS location.
+
+<a id='item-subpoena-cell-phone-records'></a>
+☐ Subpoena cell phone records
 
 
 \newpage
@@ -650,6 +606,20 @@ created: 2025-04-10
 
 <a id='item-911-received'></a>
 ☐ 911 Received
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-are-police-location-and-travel-important'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | Are police location and travel important?
+<a id='item-get-patrol-car-gps-records'></a>
+☐ Get patrol car GPS records.
+
+<a id='item-get-patrol-car-dashcam-bwc-that-includes-metadata'></a>
+☐ Get patrol car dashcam / bwc that includes metadata.
+
+<a id='item-map-police-coordinates-to-google-map-for-visualization'></a>
+☐ Map police coordinates to Google map for visualization.
 
 
 \newpage
@@ -704,6 +674,34 @@ created: 2025-04-10
 
 <a id='item-juvenile-tdcj-records'></a>
 ☐ Juvenile /TDCJ records
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-view-evidence-in-custody'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | View evidence in custody.
+<a id='item-request-court-order'></a>
+☐ Request court order.
+
+<a id='item-get-court-order'></a>
+☐ Get court order.
+
+<a id='item-communicate-court-order-to-agency'></a>
+☐ Communicate court order to agency.
+
+
+\newpage
+
+<a id='level-1-discovery-and-investigation-911-dispatch-recordings'></a>
+# [Main Checklist](#level-1) | [Discovery and Investigation](#level-1-discovery-and-investigation) | 911 / dispatch recordings
+<a id='item-subpoena-to'></a>
+☐ Subpoena to:
+
+<a id='item-if-made-to-county-traci-mullins-records-custodian-1301-franklin-houston-77002-include-cause-number-offense-report-address-and-date-and-even-phone-number-that-called-911-if-you-have-it'></a>
+☐ If made to County: Traci Mullins, records custodian, 1301 Franklin, Houston 77002. Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it
+
+<a id='item-if-made-to-city-of-houston-hec-custodian-of-records-5320-n-shepherd-room-1022-houston-texas-77091-contact-joe-laud-cityofhouston-net-if-there-are-any-problems-e-g-runaround-include-cause-number-offense-report-address-and-date-and-even-phone-number-that-called-911-if-you-have-it'></a>
+☐ If made to City of Houston: HEC, Custodian of Records, 5320 N. Shepherd, Room 1022. Houston, Texas 77091. Contact Joe.Laud@CityOfHouston.net if there are any problems (e.g., runaround). Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it
 
 
 \newpage
@@ -808,16 +806,30 @@ created: 2025-04-10
 ☐ Motion to Suppress
 
 <a id='item-motion-to-quash'></a>
-☐ Motion to quash.
+☐ [Motion to quash.](#level-1-consider-pretrial-motions-motion-to-quash)
 
 <a id='item-ake-motions'></a>
 ☐ [Ake motions:](#level-1-consider-pretrial-motions-ake-motions)
 
 <a id='item-trial-specific-motions'></a>
-☐ [Trial-specific motions](#level-1-consider-pretrial-motions-trial-specific-motions)
+☐ [Trial-specific motions.](#level-1-consider-pretrial-motions-trial-specific-motions)
 
-<a id='item-28-01-hearing-set'></a>
-☐ [28.01 hearing set?](#level-1-consider-pretrial-motions-28-01-hearing-set)
+<a id='item-28-01-hearing-set-calendar-motion-filing-deadline'></a>
+☐ 28.01 hearing set? Calendar motion-filing deadline.
+
+
+\newpage
+
+<a id='level-1-consider-pretrial-motions-motion-to-quash'></a>
+# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Motion to quash.
+<a id='item-charge-track-statute'></a>
+☐ Charge track statute?
+
+<a id='item-separate-offenses-in-separate-counts-or-indictments'></a>
+☐ Separate offenses in separate counts or indictments?
+
+<a id='item-all-notice-of'></a>
+☐ All notice of
 
 
 \newpage
@@ -834,15 +846,15 @@ created: 2025-04-10
 \newpage
 
 <a id='level-1-consider-pretrial-motions-trial-specific-motions'></a>
-# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Trial-specific motions
+# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | Trial-specific motions.
 <a id='item-subpoena-applications'></a>
-☐ Subpoena applications
+☐ Subpoena applications.
 
 <a id='item-notices-of-business-records'></a>
-☐ Notices of business records
+☐ Notices of business records.
 
 <a id='item-motion-in-limine'></a>
-☐ Motion in Limine
+☐ Motion in Limine.
 
 <a id='item-trial-brief'></a>
 ☐ Trial brief.
@@ -851,18 +863,10 @@ created: 2025-04-10
 ☐ Juror questionnaire.
 
 <a id='item-punishment-election'></a>
-☐ Punishment election
+☐ Punishment election.
 
 <a id='item-application-for-probation'></a>
-☐ Application for probation
-
-
-\newpage
-
-<a id='level-1-consider-pretrial-motions-28-01-hearing-set'></a>
-# [Main Checklist](#level-1) | [Consider pretrial motions.](#level-1-consider-pretrial-motions) | 28.01 hearing set?
-<a id='item-file-timely-motions'></a>
-☐ File timely motions.
+☐ Application for probation.
 
 
 \newpage
@@ -922,8 +926,17 @@ created: 2025-04-10
 
 <a id='level-1-trial'></a>
 # [Main Checklist](#level-1) | Trial
+<a id='item-trial-materials-preparation'></a>
+☐ [Trial Materials Preparation](#level-1-trial-trial-materials-preparation)
+
 <a id='item-preservation-of-error-generally'></a>
 ☐ [Preservation of error, generally](#level-1-trial-preservation-of-error-generally)
+
+<a id='item-special-problems'></a>
+☐ [Special Problems:](#level-1-trial-special-problems)
+
+<a id='item-jury-charge-conference'></a>
+☐ [Jury charge conference:](#level-1-trial-jury-charge-conference)
 
 <a id='item-judgment-issued'></a>
 ☐ Judgment issued.
@@ -931,11 +944,55 @@ created: 2025-04-10
 <a id='item-sentencing-date'></a>
 ☐ Sentencing date.
 
-<a id='item-special-problems'></a>
-☐ [Special Problems:](#level-1-trial-special-problems)
-
 <a id='item-notice-of-appeal'></a>
 ☐ Notice of Appeal
+
+
+\newpage
+
+<a id='level-1-trial-trial-materials-preparation'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | Trial Materials Preparation
+<a id='item-finalize-themes-and-exhibit-list'></a>
+☐ Finalize themes and exhibit list
+
+<a id='item-jury-instructions'></a>
+☐ Jury Instructions
+
+<a id='item-exhibits'></a>
+☐ Exhibits
+
+<a id='item-witness-list'></a>
+☐ Witness list
+
+<a id='item-motions-in-limine'></a>
+☐ Motions in limine
+
+<a id='item-legal-resources'></a>
+☐ Legal Resources
+
+<a id='item-jury-instructions'></a>
+☐ Jury instructions
+
+<a id='item-proposed-jury-charge'></a>
+☐ Proposed jury charge.
+
+<a id='item-briefs-on-anticipated-evidentiary-issues'></a>
+☐ Briefs on anticipated evidentiary issues.
+
+<a id='item-exhibits'></a>
+☐ Exhibits
+
+<a id='item-audio-player'></a>
+☐ Audio player
+
+<a id='item-video-player'></a>
+☐ Video player
+
+<a id='item-interpreters'></a>
+☐ Interpreters
+
+<a id='item-closing-materials'></a>
+☐ Closing Materials
 
 
 \newpage
@@ -979,16 +1036,16 @@ created: 2025-04-10
 ☐ Trained to write
 
 <a id='item-purpose'></a>
-☐ Purpose
+☐ Purpose:*
 
 <a id='item-four-principles'></a>
-☐ [Four principles:](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report-four-principles)
+☐ [Four principles:*](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report-four-principles)
 
 
 \newpage
 
 <a id='level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report-four-principles'></a>
-# [Main Checklist](#level-1) | [Trial](#level-1-trial) | [Special Problems:](#level-1-trial-special-problems) | [Cop cross-exam](#level-1-trial-special-problems-cop-cross-exam) | [Establish reliability of report](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report) | Four principles:
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | [Special Problems:](#level-1-trial-special-problems) | [Cop cross-exam](#level-1-trial-special-problems-cop-cross-exam) | [Establish reliability of report](#level-1-trial-special-problems-cop-cross-exam-establish-reliability-of-report) | Four principles:*
 <a id='item-chronological-if-the-report-says-a-then-b-a-happened-before-b'></a>
 ☐ Chronological (if the report says “A, then B,” A happened before B)
 
@@ -1000,6 +1057,17 @@ created: 2025-04-10
 
 <a id='item-literal'></a>
 ☐ Literal
+
+
+\newpage
+
+<a id='level-1-trial-jury-charge-conference'></a>
+# [Main Checklist](#level-1) | [Trial](#level-1-trial) | Jury charge conference:
+<a id='item-read-every-word'></a>
+☐ Read every word.
+
+<a id='item-compare-to-your-pattern-charge'></a>
+☐ Compare to your pattern charge.
 
 
 \newpage
@@ -1057,8 +1125,8 @@ created: 2025-04-10
 <a id='item-petition-for-nondisclosure'></a>
 ☐ [Petition for Nondisclosure](#level-1-clear-client-s-record-petition-for-nondisclosure)
 
-<a id='item-juvenile-sealing-of-records-check-list'></a>
-☐ [Juvenile Sealing of Records Check List==](#level-1-clear-client-s-record-juvenile-sealing-of-records-check-list)
+<a id='item-juvenile-sealing-of-records'></a>
+☐ [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records)
 
 
 \newpage
@@ -1129,8 +1197,8 @@ created: 2025-04-10
 
 \newpage
 
-<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-check-list'></a>
-# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | Juvenile Sealing of Records Check List==
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | Juvenile Sealing of Records
 <a id='item-file-folder-created'></a>
 ☐ File Folder created
 
@@ -1180,7 +1248,7 @@ created: 2025-04-10
 ☐ Draft Notice of Hearing to each agency and enclose copy of file stamped Motion and Notice of Hearing.
 
 <a id='item-send-regular-mail'></a>
-☐ ==Send regular mail==
+☐ Send regular mail
 
 <a id='item-hearing-for-motion-to-seal'></a>
 ☐ Hearing for Motion to Seal:
@@ -1203,59 +1271,8 @@ created: 2025-04-10
 <a id='item-draft-form-letter-to-each-agency-and-to-client-order-granted'></a>
 ☐ Draft form letter to each agency and to Client – Order granted
 
-<a id='item-copy-of-order-with-form-letter-mailed-to-agency-s-certified-mail-return-receipt-requested'></a>
-☐ Copy of Order with form letter mailed to Agency’s, Certified Mail Return Receipt Requested
-
-<a id='item-green-cards'></a>
-☐ Green Cards
-
-<a id='item-initial-orderreceived'></a>
-☐ Initial OrderReceived
-
-<a id='item-sent-green-card'></a>
-☐ Sent:Green Card:
-
-<a id='item-hon-devon-anderson-harris-county-da'></a>
-☐ ==Hon. Devon Anderson/Harris County DA
-
-<a id='item-tom-brooks-harris-county-juvenile-probation'></a>
-☐ Tom Brooks/Harris County Juvenile Probation
-
-<a id='item-chris-daniel-harris-county-district-clerk'></a>
-☐ Chris Daniel/Harris County District Clerk
-
-<a id='item-houston-police-department'></a>
-☐ Houston Police Department
-
-<a id='item-harris-county-sheriff-s-department'></a>
-☐ Harris County Sheriff’s Department
-
-<a id='item-harris-county-constable-precinct'></a>
-☐ Harris County Constable Precinct _____
-
-<a id='item-harris-county-fire-marshall'></a>
-☐ Harris County Fire Marshall
-
-<a id='item-other-law-enforcement-agency'></a>
-☐ Other Law Enforcement Agency _____________________________
-
-<a id='item-school'></a>
-☐ School ___________________________________________________
-
-<a id='item-school-district-isd'></a>
-☐ School District, _________________________________ ISD
-
-<a id='item-n-c-i-c-fbi'></a>
-☐ N.C.I.C./FBI
-
-<a id='item-t-c-i-c'></a>
-☐ T.C.I.C.
-
-<a id='item-texas-department-of-public-safety-expungements'></a>
-☐ Texas Department of Public Safety/Expungements
-
-<a id='item-texas-education-agency'></a>
-☐ Texas Education Agency==
+<a id='item-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested'></a>
+☐ [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested)
 
 <a id='item-all-green-cards-signed-and-received-in-office'></a>
 ☐ All green cards signed and received in office
@@ -1268,6 +1285,317 @@ created: 2025-04-10
 
 <a id='item-attorney-signed-off'></a>
 ☐ Attorney signed off
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested
+<a id='item-harris-county-da'></a>
+☐ [Harris County DA*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-da)
+
+<a id='item-harris-county-juvenile-probation'></a>
+☐ [Harris County Juvenile Probation*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-juvenile-probation)
+
+<a id='item-harris-county-district-clerk'></a>
+☐ [Harris County District Clerk*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-district-clerk)
+
+<a id='item-houston-police-department'></a>
+☐ [Houston Police Department*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-houston-police-department)
+
+<a id='item-harris-county-sheriff-s-department'></a>
+☐ [Harris County Sheriff’s Department*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-sheriff-s-department)
+
+<a id='item-harris-county-constable-precinct'></a>
+☐ [Harris County Constable Precinct _*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-constable-precinct)
+
+<a id='item-harris-county-fire-marshall'></a>
+☐ [Harris County Fire Marshall*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-fire-marshall)
+
+<a id='item-other-law-enforcement-agency'></a>
+☐ [Other Law Enforcement Agency _*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-other-law-enforcement-agency)
+
+<a id='item-school'></a>
+☐ [School _*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-school)
+
+<a id='item-school-district-isd'></a>
+☐ [School District, _________________________________ ISD*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-school-district-isd)
+
+<a id='item-n-c-i-c-fbi'></a>
+☐ [N.C.I.C./FBI*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-n-c-i-c-fbi)
+
+<a id='item-t-c-i-c'></a>
+☐ [T.C.I.C.*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-t-c-i-c)
+
+<a id='item-texas-department-of-public-safety-expungements'></a>
+☐ [Texas Department of Public Safety/Expungements*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-texas-department-of-public-safety-expungements)
+
+<a id='item-texas-education-agency'></a>
+☐ [Texas Education Agency*](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-texas-education-agency)
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-da'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County DA*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-juvenile-probation'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Juvenile Probation*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-district-clerk'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County District Clerk*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-houston-police-department'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Houston Police Department*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-sheriff-s-department'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Sheriff’s Department*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-constable-precinct'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Constable Precinct _*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-fire-marshall'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Fire Marshall*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-other-law-enforcement-agency'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Other Law Enforcement Agency _*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-school'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | School _*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-school-district-isd'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | School District, _________________________________ ISD*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-n-c-i-c-fbi'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | N.C.I.C./FBI*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-t-c-i-c'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | T.C.I.C.*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-texas-department-of-public-safety-expungements'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Texas Department of Public Safety/Expungements*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-texas-education-agency'></a>
+# [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Texas Education Agency*
+<a id='item-sent'></a>
+☐ Sent: _
+
+<a id='item-received'></a>
+☐ Received: _
+
+
+\newpage
+
+<a id='level-1-prepare-for-disaster'></a>
+# [Main Checklist](#level-1) | Prepare for disaster.
+<a id='item-find-quiet-moment'></a>
+☐ Find quiet moment
+
+<a id='item-make-pour-order-coffee-liquor'></a>
+☐ Make/Pour/Order coffee/liquor
+
+<a id='item-sip-and-clear-mind'></a>
+☐ Sip and clear mind
+
+<a id='item-decide-whom-you-can-trust-with-this-information'></a>
+☐ Decide whom you can trust with this information
+
+<a id='item-download-forms-and-fill-out-and-make-2-copies'></a>
+☐ [Download forms and fill out (and make 2 copies)](#level-1-prepare-for-disaster-download-forms-and-fill-out-and-make-2-copies)
+
+<a id='item-make-2-lists-and-copies-of-all-the-following-electronic-or-hard-copy'></a>
+☐ [Make 2 lists and copies of all the following, electronic or hard copy](#level-1-prepare-for-disaster-make-2-lists-and-copies-of-all-the-following-electronic-or-hard-copy)
+
+<a id='item-make-or-arrange-for-electronic-copies-via-scan-or-upload-or-portable-drive-of-all-office-files-including-client-contact-info'></a>
+☐ Make or arrange for electronic copies via scan or upload or portable drive of all office files, including client contact info
+
+<a id='item-locate-in-your-mind-coffee-shops-with-wireless-fedex-branches-and-public-libraries-so-you-will-not-be-shut-out-of-online-access'></a>
+☐ Locate in your mind coffee shops with wireless, FEDex branches, and public libraries so you will not be shut out of online access.
+
+<a id='item-make-2-copies-of-the-following-keys-and-gather-them'></a>
+☐ [Make 2 copies of the following keys and gather them](#level-1-prepare-for-disaster-make-2-copies-of-the-following-keys-and-gather-them)
+
+<a id='item-prepare-list-of-instructions-in-event-of-injury-illness'></a>
+☐ Prepare list of instructions in event of injury/illness
+
+<a id='item-call-person-you-picked'></a>
+☐ Call person you picked
+
+<a id='item-bring-them-hard-drives-passwords-keys-list-instructions-etc-listed-above'></a>
+☐ Bring them hard drives, passwords, keys, list, instructions etc. listed above
+
+<a id='item-take-second-set-of-copies-to-your-home-and-put-it-in-safe-place-such-as-a-shoe-box-labelled-in-case-i-get-hit-by-a-big-yellow-bus'></a>
+☐ Take second set of copies to your home and put it in safe place, such as a shoe box, labelled “In case I get hit by a big yellow bus”.
+
+<a id='item-relax-sip-coffee-drink'></a>
+☐ Relax, sip coffee/drink.
+
+
+\newpage
+
+<a id='level-1-prepare-for-disaster-download-forms-and-fill-out-and-make-2-copies'></a>
+# [Main Checklist](#level-1) | [Prepare for disaster.](#level-1-prepare-for-disaster) | Download forms and fill out (and make 2 copies)
+<a id='item-power-of-attorney-limited-or-durable'></a>
+☐ Power of Attorney (limited or durable)
+
+<a id='item-health-care-power-of-attorney'></a>
+☐ Health care Power of Attorney
+
+<a id='item-will-if-you-prefer-not-to-leave-things-to-the-state'></a>
+☐ Will, if you prefer not to leave things to the State
+
+
+\newpage
+
+<a id='level-1-prepare-for-disaster-make-2-lists-and-copies-of-all-the-following-electronic-or-hard-copy'></a>
+# [Main Checklist](#level-1) | [Prepare for disaster.](#level-1-prepare-for-disaster) | Make 2 lists and copies of all the following, electronic or hard copy
+<a id='item-insurance-policies-with-numbers-btw-consider-disability-and-general-umbrella-insurance-policies-for-disasters-and-illness-injury'></a>
+☐ Insurance policies with numbers [btw, consider disability and general umbrella insurance policies for disasters and illness/injury]
+
+<a id='item-bank-accounts-with-acct-numbers-including-iolta'></a>
+☐ Bank accounts, with acct numbers, including IOLTA
+
+<a id='item-investment-ira-accounts'></a>
+☐ Investment/IRA accounts
+
+<a id='item-deeds-and-car-titles'></a>
+☐ Deeds and car titles
+
+<a id='item-assets-people-may-not-know-about-safes-safe-deposit-envelopes-of-cash'></a>
+☐ Assets people may not know about [safes, safe deposit, envelopes of cash
+
+<a id='item-clients-and-status-of-accounts-cases-and-all-passwords-to-your-computers'></a>
+☐ Clients and status of accounts/cases and all passwords to your computers
+
+<a id='item-office-leases-contracts'></a>
+☐ Office leases/contracts
+
+<a id='item-credits-cards-lines-of-credit'></a>
+☐ Credits cards/lines of credit
+
+
+\newpage
+
+<a id='level-1-prepare-for-disaster-make-2-copies-of-the-following-keys-and-gather-them'></a>
+# [Main Checklist](#level-1) | [Prepare for disaster.](#level-1-prepare-for-disaster) | Make 2 copies of the following keys and gather them
+<a id='item-office'></a>
+☐ office
+
+<a id='item-safe-or-locking-file-cabinet'></a>
+☐ safe or locking file cabinet
+
+<a id='item-car'></a>
+☐ car
+
+<a id='item-safe-deposit-box'></a>
+☐ safe deposit box
+
+<a id='item-home-or-apartment'></a>
+☐ home or apartment
 
 
 \newpage

@@ -1,7 +1,7 @@
-# Tab for increasing outline level. _ will convert to an underline for the rest of the line. _ on a line alone will be a full-width underline. # signals a command (End) or a comment. If a line begins with *, everything following until returning to the next higher level will be in a list together.
+# Tab for increasing outline level. _ will convert to an underline for the rest of the line. _ on a line alone will be a full-width underline. # signals a command (END, LIST, FORM) or a comment. If a line ends with *, the sublist should be included on the same page.
+$ 
 Prospective Client Meeting
 	Conflict Check
-	Client Information
 	Language (interpreter needed?)
 	Education Level
 	Special needs
@@ -9,7 +9,7 @@ Prospective Client Meeting
 		Phone_
 		Address_
 		Back up contact information_
-		Other active cases
+		Other active cases:*
 			Other cases in county?__
 			Other cases elsewhere?__
 			Other probation/parole/PPS matters?__
@@ -17,67 +17,73 @@ Prospective Client Meeting
 		Military status_
 		Immigration status_
 	Questionnaire
-		Please fill out this questionnaire as completely as possible (front and back). It is important that you answer each question fully. It is imperative that you be candid and truthful! You should answer all questions relevant to your case. If a question does not apply to your particular situation, please indicate by marking the question “N/A”. Since your answers are being made to your attorney, you are assured of confidentiality and are protected by the attorney-client privilege.
-		Referred by:_
-		Why do you need an attorney?__
-		About You (Client/Defendant)
-		Full Legal Name (First – Middle – Last – Maiden)
-		_
-		Birth Date_
-		City and State where born
-		US Citizen? Yes or No
-		Social Security #
-		Driver’s License #
-		Address (Street – City – County – State – Zip)
-		Home phone
-		Work phone
-		Cell phone
-		Fax number
-		Email
-		*Check HERE ____ if you would like updates regarding your case sent to your email address.* 
-		Spouses Name
-		Spouse Telephone number
-		Emergency Contacts (Name, Phone)
-		Emergency Contacts (Name, Phone)
-		Employer
-		Work address
-		Education Level
-		Have you ever been arrested before
-		For what
-		Have you ever been convicted of a criminal offense or placed on deferred adjudication or probation? If so, please list offenses, dates, and place of conviction (city and state).
-		Are you currently on probation or parole?
-		If so, where/when and for what?
-		About Your Case
-		Date of Arrest
-		Arresting Agency
-		Place of Arrest
-		Charge(s)
-		Court
-		Next Court Date
-		Complaining Witness or Victim (if known)
-		Your relationship to Complaining Witness
-		C/W’s Phone number
-		Address
-		List Co-Defendants (charged and uncharged)
-		List Any Witnesses to Offense (not character witnesses) along with their telephone numbers
-		Have you consulted or retained another attorney on this matter prior to coming to this office?
-		If so, please state who and when
-		Bonding Company
-		Amount of Bond
-		Guarantor of Payment (Person Responsible for Payment)
-		Full Legal Name (First – Middle – Last – Maiden)
-		Birth Date
-		Relationship to Defendant
-		Social Security #
-		Driver’s License #
-		Address (Street – City – County – State – Zip)
-		Home phone
-		Work phone
-		Employer
-		Work address
-	Spheres of Influence Sheet [interview]
-	Skills Assessment (what they like to do, are good at, etc.) [interview]
-	Medical Records (what hospitals, HIPPA) [subpoena]
+		#FORM
+			Please fill out this questionnaire as completely as possible (front and back). It is important that you answer each question fully. It is imperative that you be candid and truthful! You should answer all questions relevant to your case. If a question does not apply to your particular situation, please indicate by marking the question “N/A”. Since your answers are being made to your attorney, you are assured of confidentiality and are protected by the attorney-client privilege.
+			Referred by:_
+			Why do you need an attorney?__
+			About You (Client/Defendant):
+			Full Legal Name (First – Middle – Last – Maiden)
+			_
+			Birth Date: _
+			City and State where born: _
+			Are you a US Citizen? Yes or No
+			Social Security #: 
+			Driver’s License #: 
+			Address (Street – City – County – State – Zip)
+			_
+			_
+			_
+			Home phone: _
+			Work phone: _
+			Cell phone: _
+			Fax number: _
+			Email: _
+			Spouse's Name: _
+			Spouse's Telephone number: _
+			Emergency Contact (Name, Phone):
+			_
+			_
+			Employer: _
+			Work address: _
+			Education Level
+			Have you ever been arrested before
+			For what
+			Have you ever been convicted of a criminal offense or placed on deferred adjudication or probation? If so, please list offenses, dates, and place of conviction (city and state).
+			Are you currently on probation or parole?
+			If so, where/when and for what?
+			About Your Case
+			Date of Arrest
+			Arresting Agency
+			Place of Arrest
+			Charge(s)
+			Court
+			Next Court Date
+			What would the police say happened?
+			Complaining Witness Information
+				Defendant relationship to Complaining Witness
+				C/W’s Phone number
+				Address
+			Codefendants (charged and uncharged)
+			Other witnesses
+			Have you consulted or retained another attorney on this matter prior to coming to this office?
+			If so, please state who and when
+			Bonding Company
+			Amount of Bond
+			Guarantor of Payment (Person Responsible for Payment)
+			Full Legal Name (First – Middle – Last – Maiden)
+			Birth Date
+			Relationship to Defendant
+			Social Security #
+			Driver’s License #
+			Address (Street – City – County – State – Zip)
+			Home phone
+			Work phone
+			Employer
+			Work address
+		#FORMEND
+	Spheres of Influence Sheet
+	Skills Assessment (what they like to do, are good at, etc.)
+	Medical Records (what hospitals, HIPAA) [subpoena]
 	School Records (releases, transcripts, college and primary/secondary school records) [subpoena]
 	Criminal History (DPS) [online database search]
 	Family Background Questionnaire
@@ -87,7 +93,7 @@ Prospective Client Meeting
 	Drug Tests?
 	Classes?
 	Community Service Hours?
-	Discuss consequences of Conviction:
+	Discuss consequences of conviction.
 		Incarceration
 		Conditions of probation
 		Court Costs
@@ -103,13 +109,18 @@ Prospective Client Meeting
 		Licensing
 		Driver’s License
 	Identify mental-health problems
-	Tell Client how to dress for court
+	Identify brain issues
 	Tell Client what to expect
+		Patience
+		Multiple court appearances
+		May or may not be waived
+		How to dress for court
+		Don't volunteer, don't lie to me.
 	Double check with client key information.
 		Immigration
 		Criminal history
-		Mental health /Medical Health
-		Have client sign HIPPA and FERPA
+		Mental health / Medical Health
+		Have client sign HIPAA and FERPA
 		Military history
 	Draft agreement.
 	Get client's or payor's signature.
@@ -120,8 +131,7 @@ Open File
 		Criminal Information or Indictment
 		Probable Cause – Affidavit / Hearing
 	Pull all applicable statutes
-	Max sentences/fines?
-	Diversion programs available?
+
 	Codefendants?
 	Charges the DA missed
 	Determine all Court dates and list
@@ -136,27 +146,33 @@ Open File
 		Counsel client regarding immigration
 	Initial Legal Review
 		Jurisdiction correct?
-		Statute of limitations
+		Statute of limitations?
 		Speedy trial issues?
 		Motion to suppress?
+		Challenges to statute?
 		Do any defenses need experts/notices/motions?
 		Can client aid and assist in own defense
 		Initial sentencing assessment
 			Max/Min penalties
 			Consecutive/concurrent
 			Same/Separate criminal episodes?
-
-	Special subpoenas needed? (medical records)
+			Max sentences/fines?
+			Diversion programs available?
+	Special subpoenas needed?
+		GPS data
+		Medical records
 	Start file memo.
 	
 Stabilize Case
+	Do not talk to anyone about case.
 	Instruct client and allies on what to do if police call.
 	Bond
 		If so, Amount
 		If no bond, why not? Check Constitution and statute for bases.
 		If necessary, habeas to reduce bond.
 		Connect family with bonding company.
-
+	Instruct client on social media.
+	
 Is the case an unindicted felony?
 	Pre-indictment negotiation
 	Contact Prosecutor about grand jury packet- get it in writing
@@ -222,6 +238,7 @@ Discovery and Investigation
 		Communicate court order to agency.
 	Lab Reports
 	DNA Serology Reports
+	Subpoenas
 	Jail documents / pretrial reports
 	Any follow-up police reports
 	911 / dispatch recordings
@@ -263,19 +280,21 @@ Consider pretrial motions.
 	Motion for no solitary confinement (show particularized need)
 	Motion to Suppress
 	Motion to quash.
+		Charge track statute?
+		Separate offenses in separate counts or indictments?
+		All notice of 
 	Ake motions:
 		Investigators
 		Experts
-	Trial-specific motions
-		Subpoena applications
-		Notices of business records
-		Motion in Limine
+	Trial-specific motions.
+		Subpoena applications.
+		Notices of business records.
+		Motion in Limine.
 		Trial brief.
 		Juror questionnaire.
-		Punishment election
-		Application for probation
-	28.01 hearing set?
-		File timely motions.
+		Punishment election.
+		Application for probation.
+	28.01 hearing set? Calendar motion-filing deadline.
 
 Build a team
 	Cocounsel
@@ -295,24 +314,44 @@ Guilty Plea
 		Explain
 
 Trial
+	Trial Materials Preparation
+		Finalize themes and exhibit list
+		Jury Instructions
+		Exhibits
+		Witness list
+		Motions in limine
+		Legal Resources
+		Jury instructions
+		Proposed jury charge.
+		Briefs on anticipated evidentiary issues.
+		Exhibits
+		Audio player
+		Video player
+		Interpreters
+		Closing Materials
+
 	Preservation of error, generally
 		Object
 		Move to Strike
 		Request that jury be instructed to disregard
 		Move for Mistrial
-	Judgment issued.
-	Sentencing date.
 	Special Problems:
 		Cop cross-exam
 			Establish reliability of report
 				Trained to write
-				Purpose
-				Four principles:
+				Purpose:*
+				Four principles:*
 					Chronological (if the report says “A, then B,” A happened before B)
 					Complete (if it’s not in the offense report, you didn’t think it important)
 					True (if it’s in the offense report, it happened)
 					Literal
+	Jury charge conference:
+		Read every word.
+		Compare to your pattern charge.
+	Judgment issued.
+	Sentencing date.
 	Notice of Appeal
+
 
 Appeal
 	Notice of Appeal
@@ -376,24 +415,49 @@ Clear Client's record.
 		Attorney to bring back Original Certified Motion /orders (one for each agency, plus one for office and one for the client (Harris County)
 		Make additional copies of Certified Motion and Order if needed for each Agency
 		Draft form letter to each agency and to Client – Order granted
-		Copy of Order with form letter mailed to Agency’s, Certified Mail Return Receipt Requested
-		Green Cards
-		Initial OrderReceived
-		Sent:Green Card:
-		Harris County DA
-		Harris County Juvenile Probation
-		Harris County District Clerk
-		Houston Police Department
-		Harris County Sheriff’s Department
-		Harris County Constable Precinct _____
-		Harris County Fire Marshall
-		Other Law Enforcement Agency _____________________________
-		School ___________________________________________________
-		School District, _________________________________ ISD
-		N.C.I.C./FBI
-		T.C.I.C.
-		Texas Department of Public Safety/Expungements
-		Texas Education Agency
+		Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested
+			Harris County DA*
+				Sent: _
+				Received: _
+			Harris County Juvenile Probation*
+				Sent: _
+				Received: _
+			Harris County District Clerk*
+				Sent: _
+				Received: _
+			Houston Police Department*
+				Sent: _
+				Received: _
+			Harris County Sheriff’s Department*
+				Sent: _
+				Received: _
+			Harris County Constable Precinct _*
+				Sent: _
+				Received: _
+			Harris County Fire Marshall*
+				Sent: _
+				Received: _
+			Other Law Enforcement Agency _*
+				Sent: _
+				Received: _
+			School _*
+				Sent: _
+				Received: _
+			School District, _________________________________ ISD*
+				Sent: _
+				Received: _
+			N.C.I.C./FBI*
+				Sent: _
+				Received: _
+			T.C.I.C.*
+				Sent: _
+				Received: _
+			Texas Department of Public Safety/Expungements*
+				Sent: _
+				Received: _
+			Texas Education Agency*
+				Sent: _
+				Received: _
 		All green cards signed and received in office
 		Attached Green card to each matching agency and scan in computer.
 		Close File
@@ -440,7 +504,7 @@ Prepare for disaster.
 		Facebook and other social networks, from LinkedIn to MySpace for Client / Witnesses
 		CW Info.:
 		Criminal History (DPS) [online database search]
-		Affidavit of Non-Prosecution? [interview]
+		Affidavit of Non-Prosecution?
 		Visit scene with investigator
 		Subpoenas to defense witnesses
 		Investigator to gather:
@@ -513,20 +577,7 @@ Prepare for disaster.
 			Letters of reference
 			Job information
 			Financial
-	Trial Materials Preparation
-		Finalize themes and exhibit list
-		Jury Instructions
-		Exhibits
-		Witness list
-		Motions in limine
-		Legal Resources
-		Jury instructions
-		Briefs on anticipated evidentiary issues.
-		Exhibits
-		Audio player
-		Video player
-		Interpreters
-		Closing Materials
+
 
 	Checklists for Investigation (almost entirely merged with list above)
 		If applicable, consider Motions for Continuance for more investigation or additional funds for experts
