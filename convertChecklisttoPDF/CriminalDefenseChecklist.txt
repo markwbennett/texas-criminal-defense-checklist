@@ -164,14 +164,15 @@ Open File
 	Start file memo.
 	
 Stabilize Case
-	Do not talk to anyone about case.
-	Instruct client and allies on what to do if police call.
-	Bond
+	Instruct Client:
+		Do not talk to anyone about case.
+		What to do if police call.
+		Social media behavior.
+	Bail
 		If so, Amount
-		If no bond, why not? Check Constitution and statute for bases.
+		If no bail, why not? Check Constitution and statute for bases.
 		If necessary, habeas to reduce bond.
 		Connect family with bonding company.
-	Instruct client on social media.
 	
 Is the case an unindicted felony?
 	Pre-indictment negotiation
