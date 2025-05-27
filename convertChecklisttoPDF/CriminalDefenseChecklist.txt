@@ -1,5 +1,5 @@
 # Tab for increasing outline level. _ will convert to an underline for the rest of the line. _ on a line alone will be a full-width underline. # signals a command (END, LIST, FORM) or a comment. If a line ends with *, the sublist should be included on the same page.
-$ 
+
 Prospective Client Meeting
 	Conflict Check
 	Language (interpreter needed?)
@@ -496,8 +496,6 @@ Prepare for disaster.
 	Relax, sip coffee/drink.
 
 #End
-
-
 
 	Investigation request.
 		Witness list- Interview all Witnesses
