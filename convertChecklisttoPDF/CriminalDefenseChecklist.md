@@ -1,13 +1,10 @@
 ---
 title: Criminal Defense Checklist
-created: 2025-04-14
+created: 2025-05-11
 ---
 
 # Main Checklist
 <a id='level-1'></a>
-<a id='item'></a>
-☐ $
-
 <a id='item-prospective-client-meeting'></a>
 ☐ [Prospective Client Meeting](#level-1-prospective-client-meeting)
 
@@ -148,39 +145,39 @@ created: 2025-04-14
 <a id='level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction'></a>
 # [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])
 <a id='item-phone'></a>
-☐ Phone_
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Phone</span><span class="field-underline"></span></div>
 
 <a id='item-address'></a>
-☐ Address_
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Address</span><span class="field-underline"></span></div>
 
 <a id='item-back-up-contact-information'></a>
-☐ Back up contact information_
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Back up contact information</span><span class="field-underline"></span></div>
 
 <a id='item-other-active-cases'></a>
-☐ [Other active cases:*](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases)
+☐ [Other active cases:_*](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases)
 
 <a id='item-education-status'></a>
-☐ Education status_
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Education status</span><span class="field-underline"></span></div>
 
 <a id='item-military-status'></a>
-☐ Military status_
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Military status</span><span class="field-underline"></span></div>
 
 <a id='item-immigration-status'></a>
-☐ Immigration status_
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Immigration status</span><span class="field-underline"></span></div>
 
 
 \newpage
 
 <a id='level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction-other-active-cases'></a>
-# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction) | Other active cases:*
+# [Main Checklist](#level-1) | [Prospective Client Meeting](#level-1-prospective-client-meeting) | [Client Information Form and Client Info in File (SSN, TDL, address at time of offense [for expunction])](#level-1-prospective-client-meeting-client-information-form-and-client-info-in-file-ssn-tdl-address-at-time-of-offense-for-expunction) | Other active cases:_*
 <a id='item-other-cases-in-county'></a>
-☐ Other cases in county?__
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Other cases in county?_</span><span class="field-underline"></span></div>
 
 <a id='item-other-cases-elsewhere'></a>
-☐ Other cases elsewhere?__
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Other cases elsewhere?_</span><span class="field-underline"></span></div>
 
 <a id='item-other-probation-parole-pps-matters'></a>
-☐ Other probation/parole/PPS matters?__
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Other probation/parole/PPS matters?_</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -478,6 +475,9 @@ created: 2025-04-14
 
 <a id='item-visit-scene'></a>
 ☐ Visit Scene
+
+<a id='item-homicide-cases-visit-medical-examiner-s-office'></a>
+☐ (Homicide Cases) Visit Medical Examiner's office
 
 <a id='item-make-a-timeline-of-the-incident'></a>
 ☐ [Make a Timeline of the Incident](#level-1-discovery-and-investigation-make-a-timeline-of-the-incident)
@@ -1339,10 +1339,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-da'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County DA*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1350,10 +1350,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-juvenile-probation'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Juvenile Probation*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1361,10 +1361,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-district-clerk'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County District Clerk*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1372,10 +1372,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-houston-police-department'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Houston Police Department*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1383,10 +1383,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-sheriff-s-department'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Sheriff’s Department*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1394,10 +1394,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-constable-precinct'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Constable Precinct _*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1405,10 +1405,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-harris-county-fire-marshall'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Harris County Fire Marshall*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1416,10 +1416,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-other-law-enforcement-agency'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Other Law Enforcement Agency _*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1427,10 +1427,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-school'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | School _*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1438,10 +1438,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-school-district-isd'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | School District, _________________________________ ISD*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1449,10 +1449,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-n-c-i-c-fbi'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | N.C.I.C./FBI*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1460,10 +1460,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-t-c-i-c'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | T.C.I.C.*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1471,10 +1471,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-texas-department-of-public-safety-expungements'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Texas Department of Public Safety/Expungements*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage
@@ -1482,10 +1482,10 @@ created: 2025-04-14
 <a id='level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested-texas-education-agency'></a>
 # [Main Checklist](#level-1) | [Clear Client's record.](#level-1-clear-client-s-record) | [Juvenile Sealing of Records](#level-1-clear-client-s-record-juvenile-sealing-of-records) | [Copy of Order with form letter mailed to Agencies, Certified Mail Return Receipt Requested](#level-1-clear-client-s-record-juvenile-sealing-of-records-copy-of-order-with-form-letter-mailed-to-agencies-certified-mail-return-receipt-requested) | Texas Education Agency*
 <a id='item-sent'></a>
-☐ Sent: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Sent:</span><span class="field-underline"></span></div>
 
 <a id='item-received'></a>
-☐ Received: _
+<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">Received:</span><span class="field-underline"></span></div>
 
 
 \newpage

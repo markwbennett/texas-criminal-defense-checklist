@@ -9,7 +9,7 @@ Prospective Client Meeting
 		Phone_
 		Address_
 		Back up contact information_
-		Other active cases:_*
+		Other active cases:*
 			Other cases in county?__
 			Other cases elsewhere?__
 			Other probation/parole/PPS matters?__
@@ -131,10 +131,11 @@ Open File
 		Criminal Information or Indictment
 		Probable Cause – Affidavit / Hearing
 	Pull all applicable statutes
+
 	Codefendants?
-	Charges the DA missed?
-	Determine all court dates and list
-	Place court dates into calendar
+	Charges the DA missed
+	Determine all Court dates and list
+	Place Court dates into calendar
 		Next appearance
 		Other deadlines
 	Pull sample jury charge
@@ -181,15 +182,15 @@ Is the case an unindicted felony?
 
 Discovery and Investigation
 	Witness Assessment
-		Make witness list from Client, family/neighbors, and State’s file
-		Collect statements from witnesses
-		Any additional witnesses?
-		Impeachment material
-			Criminal history
-			Other statements
+			Make witness list from Client, family/neighbors, and State’s file
+			Collect statements from witnesses
+			Any additional witnesses?
+			Impeachment material
+				Criminal history
+				Other statements
 	Visit Scene
 	(Homicide Cases) Visit Medical Examiner's office
-	Make a timeline of the incident
+	Make a Timeline of the Incident
 		Movements/Actions possible in the timeframe?
 		Match the witness statements?
 		Any witnesses that would take exception to the timeline?
@@ -276,40 +277,17 @@ Scientific and Technical Issues
 	Fingerprint Analysis Reports
 	Gunshot Residue Analysis Reports
 
-Motions practice
-	Early motions:
-		Request for discovery, 39.14
-		Ake motions
-			Investigators
-			Experts
-			Cocounsel
-		Motion to inspect things in custody of state, e.g. guns
-		Motion to inspect scene controlled by state, e.g. jail if crime happened there
-	Routine pretrial motions:
-		Election on punishment
-		Application for community supervision
-		Motion to disclose criminal records of state witnesses
-		Motion for a list of witnesses
-		Motion to rely on State's subpoenas
-		Motion for leave to file additional motions
-		Request for notice, 404, 609, 37.07 as applicable
-		Motion for grand jury testimony (if entitled)
-		Motion to discover identity of informant
-	More pretrial motions:
-		Motion for no solitary confinement (show particularized need)
-		Motion to suppress
-		Motion to set aside ("quash") indictment
-			Does charge track statute?
-			Are separate offenses in separate counts or indictments?
-			All notice of 
-		Giglio
-		Notice of insanity defense
-	Multiple defendants:
-		Bruton motion
-		Motion to sever
-		motion in limine, guilty plea of co-defendant
-		Motion to adopt objections, motions, requests of co-defendants
-	Trial motions:
+Consider pretrial motions.
+	Motion for no solitary confinement (show particularized need)
+	Motion to Suppress
+	Motion to quash.
+		Charge track statute?
+		Separate offenses in separate counts or indictments?
+		All notice of 
+	Ake motions:
+		Investigators
+		Experts
+	Trial-specific motions.
 		Subpoena applications.
 		Notices of business records.
 		Motion in Limine.
@@ -317,16 +295,6 @@ Motions practice
 		Juror questionnaire.
 		Punishment election.
 		Application for probation.
-		Theus motion
-		Motion to suppress
-		Notice of defense expert
-		Motion to limit argument
-	ASAC MOTIONS:
-		Motion to view CAC video
-		Motion to have client view CAC video
-		Request for notice, 38.37
-		Request for hearing, 38.37
-		Motion for outcry statement
 	28.01 hearing set? Calendar motion-filing deadline.
 
 Build a team

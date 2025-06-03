@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!./.venv/bin/python
 
 """
 Texas Criminal Defense Checklist Converter
@@ -32,6 +32,66 @@ import re
 from weasyprint import HTML, CSS
 from bs4 import BeautifulSoup
 import markdown
+import csv
+
+# Font constants
+FONT_FAMILY = "Arial"
+FONT_SIZE = 12
+
+# Character width data from CSV file
+def load_character_widths(csv_file):
+    """
+    Load character width data from CSV file.
+    
+    Args:
+        csv_file (str): Path to the CSV file with character width data
+        
+    Returns:
+        dict: Dictionary mapping characters to their widths
+    """
+    char_widths = {}
+    
+    try:
+        with open(csv_file, 'r') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                char = row.get('Character', '')
+                if not char:
+                    continue
+                    
+                try:
+                    width_str = row.get('Px/Pt Ratio', '')
+                    if width_str:
+                        width = float(width_str)
+                        char_widths[char] = width
+                except (ValueError, TypeError):
+                    # Skip invalid values
+                    continue
+    except Exception as e:
+        print(f"Warning: Could not load character width data: {e}")
+        return {}
+    
+    return char_widths
+
+def calculate_line_width(text, char_widths):
+    """
+    Calculate the width of a line of text using character width data.
+    
+    Args:
+        text (str): The text to calculate width for
+        char_widths (dict): Dictionary mapping characters to their widths
+        
+    Returns:
+        float: The calculated width of the text
+    """
+    width = 0
+    for char in text:
+        if char in char_widths:
+            width += char_widths[char] * FONT_SIZE
+        else:
+            # Use average character width if character not in data
+            width += 0.5 * FONT_SIZE
+    return width
 
 def count_indent(line):
     """
@@ -224,6 +284,17 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
     Returns:
         list: Lines of markdown content for this level
     """
+    # Find the path to the CSV file
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_file = os.path.join(os.path.dirname(script_dir), "arial_px_pt_ratios.csv")
+    
+    # Load character width data
+    char_widths = load_character_widths(csv_file)
+    
+    # Maximum width in pixels (letter size with 1-inch margins)
+    page_width_inches = 8.5 - 2  # Letter width minus 1-inch margins
+    max_width = page_width_inches * 72  # Convert to points (72 points per inch)
+    
     if hierarchy is None:
         hierarchy = []
         
@@ -280,14 +351,27 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
         item_id = generate_anchor_id('item-' + item.lower().replace(' ', '-'))
         content.append(f"<a id='{item_id}'></a>")
         
-        # Add item with link if it has children
-        if has_children:
-            new_hierarchy = hierarchy + [item]
-            # Link to the level heading instead of the item
-            sub_list_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in new_hierarchy]))
-            content.append(f"☐ [{item}](#{sub_list_id})\n")
+        # Check if the item needs underscores
+        if item.endswith('_'):
+            # Handle items with underscores using a flex container
+            base_item = item[:-1].strip()  # Remove trailing underscore and extra spaces
+            
+            # Create HTML markup for a flex container to handle the underline
+            if has_children:
+                new_hierarchy = hierarchy + [item]
+                sub_list_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in new_hierarchy]))
+                content.append(f'<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">[{base_item}](#{sub_list_id})</span><span class="field-underline"></span></div>\n')
+            else:
+                content.append(f'<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">{base_item}</span><span class="field-underline"></span></div>\n')
         else:
-            content.append(f"☐ {item}\n")
+            # Add item with link if it has children (standard behavior without underscores)
+            if has_children:
+                new_hierarchy = hierarchy + [item]
+                # Link to the level heading instead of the item
+                sub_list_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in new_hierarchy]))
+                content.append(f"☐ [{item}](#{sub_list_id})\n")
+            else:
+                content.append(f"☐ {item}\n")
     
     # Add page break if there are items
     if items:
@@ -332,6 +416,17 @@ def process_children(lines, start_index, indent_level, hierarchy):
     Returns:
         list: Lines of markdown content for the children
     """
+    # Find the path to the CSV file
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_file = os.path.join(os.path.dirname(script_dir), "arial_px_pt_ratios.csv")
+    
+    # Load character width data
+    char_widths = load_character_widths(csv_file)
+    
+    # Maximum width in pixels (letter size with 1-inch margins)
+    page_width_inches = 8.5 - 2  # Letter width minus 1-inch margins
+    max_width = page_width_inches * 72  # Convert to points (72 points per inch)
+    
     content = []
     items = get_items_at_level(lines, start_index, indent_level, indent_level)
     
@@ -348,7 +443,13 @@ def process_children(lines, start_index, indent_level, hierarchy):
         content.append(f"# {title}")
         
         for item, _ in items:
-            content.append(f"- [ ] {item}")
+            # Check if the item needs underscores
+            if item.endswith('_'):
+                # Handle items with underscores using a flex container
+                base_item = item[:-1].strip()  # Remove trailing underscore and extra spaces
+                content.append(f'<div class="field-container"><span class="checkbox">☐</span> <span class="field-label">{base_item}</span><span class="field-underline"></span></div>')
+            else:
+                content.append(f"- [ ] {item}")
         content.append("\n\\newpage\n")
     
     return content
@@ -383,7 +484,18 @@ def process_markdown_to_pdf(md_file):
             
         # Parse the page with markdown extensions
         html = markdown.markdown(page, extensions=['extra'])
+        
+        # Fix issue with paragraph tags wrapping field containers
+        # Markdown parser often wraps divs in <p> tags, which can break the layout
+        html = html.replace('<p><div class="field-container">', '<div class="field-container">')
+        html = html.replace('</div></p>', '</div>')
+        
         soup = BeautifulSoup(html, 'html.parser')
+        
+        # Clean up any remaining nested paragraphs inside field containers
+        for field_container in soup.select('.field-container'):
+            for p in field_container.select('p'):
+                p.unwrap()  # Remove the paragraph tag but keep its contents
         
         # Add page anchor
         page_div = soup.new_tag('div')
@@ -404,14 +516,14 @@ def process_markdown_to_pdf(md_file):
         <style>
             .page { page-break-after: always; }
             body { 
-                font-family: Arial, sans-serif;
-                font-size: 14pt;
+                font-family: """ + FONT_FAMILY + """, sans-serif;
+                font-size: """ + str(FONT_SIZE) + """pt;
                 line-height: 1.5;
             }
             h1 { 
                 color: #2c3e50;
                 font-weight: bold;
-                font-size: 14pt;
+                font-size: """ + str(FONT_SIZE) + """pt;
                 margin-top: 1em;
                 margin-bottom: 0.5em;
             }
@@ -426,6 +538,33 @@ def process_markdown_to_pdf(md_file):
             }
             a:hover {
                 text-decoration: underline;
+            }
+            /* Field container styles for flex-based layout */
+            .field-container {
+                display: flex;
+                align-items: center; /* Change from baseline to center for better vertical alignment */
+                width: 100%;
+                margin-bottom: 0.5em;
+                position: relative; /* Add relative positioning */
+                padding-top: 0.1em; /* Add small padding to adjust vertical position */
+            }
+            .field-label {
+                margin-right: 0.5em;
+            }
+            .checkbox {
+                margin-right: 0.5em;
+            }
+            .field-underline {
+                flex-grow: 1;
+                border-bottom: 1px solid black;
+                min-width: 300px;
+                height: 0; /* Change from 1px to 0 to improve alignment */
+                margin-bottom: 0.1em; /* Add a small bottom margin for vertical position */
+            }
+            /* Fix paragraph margins within flex containers */
+            .field-container p {
+                margin: 0;
+                padding: 0;
             }
             @page { 
                 size: letter; 
@@ -453,6 +592,12 @@ def convert_to_pdf(md_file):
     
     html_content = process_markdown_to_pdf(md_file)
     pdf_file = os.path.splitext(md_file)[0] + ".pdf"
+    
+    # Save the HTML content for inspection
+    html_inspection_file = os.path.splitext(md_file)[0] + "_inspection.html"
+    with open(html_inspection_file, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    print(f"Saved HTML for inspection: {html_inspection_file}")
     
     # Define a timeout handler
     def timeout_handler(signum, frame):
