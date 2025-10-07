@@ -1,4 +1,0 @@
-# Test Checklist
-
-Long Item Name With Underscores _
-Short Name _

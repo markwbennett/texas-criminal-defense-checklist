@@ -1,4 +1,0 @@
-# Test Checklist
-
-☐ Long Label with a lot of text that might potentially cause wrapping issues with underscores at the end of the line _
-☐ Normal Item _

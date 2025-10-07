@@ -1,1 +1,0 @@
-The convert script will take a file in checklist format (nested levels of tab-indented TTD) and convert it to .MD, and from there to PDF, with a page break after each checklist, and each checklist linking to the next checklist up in the hierarchy and links to its own subchecklists.
