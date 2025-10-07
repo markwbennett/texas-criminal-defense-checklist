@@ -26,9 +26,9 @@ Prospective Client Meeting
 			_
 			Birth Date: _
 			City and State where born: _
-			Are you a US Citizen? Yes or No
-			Social Security #:
-			Driver's License #:
+			Are you a US Citizen? Yes or No_
+			Social Security #:_
+			Driver's License #:_
 			Address (Street – City – County – State – Zip)
 			_
 			_
@@ -45,41 +45,43 @@ Prospective Client Meeting
 			_
 			Employer: _
 			Work address: _
-			Education Level
-			Have you ever been arrested before
-			For what
-			Have you ever been convicted of a criminal offense or placed on deferred adjudication or probation? If so, please list offenses, dates, and place of conviction (city and state).
-			Are you currently on probation or parole?
-			If so, where/when and for what?
+			Education Level_
+			Have you ever been arrested before_
+			For what_
+			Have you ever been convicted of a criminal offense or placed on deferred adjudication or probation? If so, please list offenses, dates, and place of conviction (city and state).__
+			Are you currently on probation or parole?_
+			If so, where/when and for what?__
 			About Your Case
-			Date of Arrest
-			Arresting Agency
-			Place of Arrest
-			Charge(s)
-			Court
-			Next Court Date
-			What would the police say happened?
+			Date of Arrest_
+			Arresting Agency_
+			Place of Arrest_
+			Charge(s)_
+			Court_
+			Next Court Date_
+			What would the police say happened?__
 			Complaining Witness Information
-				Defendant relationship to Complaining Witness
-				C/W's Phone number
-				Address
-			Codefendants (charged and uncharged)
-			Other witnesses
-			Have you consulted or retained another attorney on this matter prior to coming to this office?
-			If so, please state who and when
-			Bonding Company
-			Amount of Bond
+				Defendant relationship to Complaining Witness_
+				C/W's Phone number_
+				Address_
+			Codefendants (charged and uncharged)_
+			Other witnesses_
+			Have you consulted or retained another attorney on this matter prior to coming to this office?_
+			If so, please state who and when_
+			Bonding Company_
+			Amount of Bond_
 			Guarantor of Payment (Person Responsible for Payment)
-			Full Legal Name (First – Middle – Last – Maiden)
-			Birth Date
-			Relationship to Defendant
-			Social Security #
-			Driver's License #
+			Full Legal Name (First – Middle – Last – Maiden)_
+			Birth Date_
+			Relationship to Defendant_
+			Social Security #_
+			Driver's License #_
 			Address (Street – City – County – State – Zip)
-			Home phone
-			Work phone
-			Employer
-			Work address
+			_
+			_
+			Home phone_
+			Work phone_
+			Employer_
+			Work address_
 		#FORMEND
 	Spheres of Influence Sheet
 	Skills Assessment (what they like to do, are good at, etc.)
