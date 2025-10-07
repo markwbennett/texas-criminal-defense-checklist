@@ -36,8 +36,12 @@
 - Clean, organized interface
 
 ### ✓ Print Support
-- Print-friendly formatting
-- Use browser Print to PDF for permanent records
+- Print-friendly formatting for checklists
+- **Printable Forms** - Click "Print Form" button on any #FORM section to generate a fillable PDF
+  - Opens in new window with client info pre-filled
+  - Underscored fields become fillable lines
+  - Save as PDF using browser's print dialog
+  - IACLS branding included
 
 ## How to Modify the Template
 

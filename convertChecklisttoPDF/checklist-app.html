@@ -303,9 +303,38 @@
             border-left: 3px solid #3498db;
             padding: 15px;
             margin: 10px 0 10px 20px;
+            position: relative;
+        }
+
+        .form-section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .form-section-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .form-section-content {
             font-family: monospace;
             font-size: 12px;
             white-space: pre-wrap;
+            color: #666;
+        }
+
+        .print-form-btn {
+            padding: 5px 15px;
+            font-size: 12px;
+            background: #27ae60;
+        }
+
+        .print-form-btn:hover {
+            background: #229954;
         }
 
         .note {
@@ -675,8 +704,10 @@
                     if (inForm && formParent) {
                         formParent.children.push({
                             type: 'form',
+                            title: formParent.title || 'Form',
                             content: formContent.join('\n'),
-                            level: formParent.level + 1
+                            level: formParent.level + 1,
+                            id: generateId((formParent.title || 'form') + '-form')
                         });
                     }
                     inForm = false;
@@ -921,7 +952,28 @@
                 if (item.type === 'form') {
                     const formDiv = document.createElement('div');
                     formDiv.className = 'form-section';
-                    formDiv.textContent = item.content;
+
+                    const headerDiv = document.createElement('div');
+                    headerDiv.className = 'form-section-header';
+
+                    const titleSpan = document.createElement('span');
+                    titleSpan.className = 'form-section-title';
+                    titleSpan.textContent = item.title;
+
+                    const printBtn = document.createElement('button');
+                    printBtn.className = 'print-form-btn';
+                    printBtn.textContent = '🖨️ Print Form';
+                    printBtn.onclick = () => printForm(item);
+
+                    headerDiv.appendChild(titleSpan);
+                    headerDiv.appendChild(printBtn);
+
+                    const contentDiv = document.createElement('div');
+                    contentDiv.className = 'form-section-content';
+                    contentDiv.textContent = item.content;
+
+                    formDiv.appendChild(headerDiv);
+                    formDiv.appendChild(contentDiv);
                     return formDiv;
                 }
 
@@ -978,19 +1030,6 @@
 
                 contentDiv.appendChild(titleSpan);
                 itemDiv.appendChild(contentDiv);
-
-                // Fillable field
-                if (item.fillable) {
-                    const fieldDiv = document.createElement('div');
-                    fieldDiv.className = 'item-field';
-                    const input = document.createElement('input');
-                    input.type = 'text';
-                    input.value = currentClient.state[item.id]?.value || '';
-                    input.placeholder = 'Enter value...';
-                    input.onchange = () => handleFieldChange(item.id, input.value);
-                    fieldDiv.appendChild(input);
-                    itemDiv.appendChild(fieldDiv);
-                }
 
                 // Children
                 if (item.children && item.children.length > 0) {
@@ -1211,6 +1250,176 @@
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
+        }
+
+        function printForm(formItem) {
+            // Parse form content to identify fillable fields
+            const lines = formItem.content.split('\n');
+            let formHtml = '';
+
+            for (const line of lines) {
+                const trimmed = line.trim();
+                if (!trimmed) {
+                    formHtml += '<br>';
+                    continue;
+                }
+
+                // Check if line has fillable field (ends with _)
+                if (trimmed.endsWith('_')) {
+                    const label = trimmed.slice(0, -1).trim();
+                    if (label.includes(':')) {
+                        // Format: "Label: _" -> "Label: __________"
+                        const parts = label.split(':');
+                        formHtml += `<div class="form-field"><span class="field-label">${escapeHtml(parts[0])}:</span><span class="field-line"></span></div>`;
+                    } else if (label) {
+                        // Format: "Label_" -> "Label __________"
+                        formHtml += `<div class="form-field"><span class="field-label">${escapeHtml(label)}</span><span class="field-line"></span></div>`;
+                    } else {
+                        // Format: "_" -> full width line
+                        formHtml += `<div class="form-field-full"><span class="field-line-full"></span></div>`;
+                    }
+                } else if (trimmed.endsWith('__')) {
+                    // Double underscore = multiline field
+                    const label = trimmed.slice(0, -2).trim();
+                    formHtml += `<div class="form-field"><span class="field-label">${escapeHtml(label)}</span></div>`;
+                    formHtml += `<div class="form-field-multiline"></div>`;
+                } else {
+                    // Regular text
+                    formHtml += `<div class="form-text">${escapeHtml(trimmed)}</div>`;
+                }
+            }
+
+            // Create printable form window
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>${escapeHtml(formItem.title)} - ${escapeHtml(currentClient.name)}</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.75in;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #000;
+        }
+
+        .form-header h1 {
+            font-size: 18pt;
+            margin-bottom: 5px;
+        }
+
+        .form-header .org {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .client-info {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f5f5f5;
+            border: 1px solid #ccc;
+        }
+
+        .client-info strong {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .form-text {
+            margin: 8px 0;
+        }
+
+        .form-field {
+            display: flex;
+            align-items: baseline;
+            margin: 12px 0;
+            page-break-inside: avoid;
+        }
+
+        .field-label {
+            margin-right: 8px;
+            white-space: nowrap;
+        }
+
+        .field-line {
+            flex: 1;
+            border-bottom: 1px solid #000;
+            min-width: 200px;
+            height: 12px;
+        }
+
+        .form-field-full {
+            margin: 12px 0;
+        }
+
+        .field-line-full {
+            display: block;
+            border-bottom: 1px solid #000;
+            height: 12px;
+            width: 100%;
+        }
+
+        .form-field-multiline {
+            border: 1px solid #000;
+            min-height: 80px;
+            margin: 8px 0 16px 20px;
+            page-break-inside: avoid;
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+
+        .print-instructions {
+            background: #fffacd;
+            border: 1px solid #f0e68c;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-header">
+        <h1>${escapeHtml(formItem.title)}</h1>
+        <div class="org">Institute for Advanced Criminal Law Studies</div>
+        <div class="org" style="font-size: 9pt;">IACLS.ORG</div>
+    </div>
+
+    <div class="client-info">
+        <div><strong>Client:</strong> ${escapeHtml(currentClient.name)}</div>
+        ${currentClient.caseNumber ? `<div><strong>Case Number:</strong> ${escapeHtml(currentClient.caseNumber)}</div>` : ''}
+        <div><strong>Date:</strong> ${new Date().toLocaleDateString()}</div>
+    </div>
+
+    <div class="print-instructions no-print">
+        <strong>Instructions:</strong> Use your browser's Print function (Ctrl/Cmd+P) and select "Save as PDF" to create a fillable PDF form.
+        <button onclick="window.print()" style="margin-left: 20px; padding: 5px 15px;">🖨️ Print / Save as PDF</button>
+    </div>
+
+    <div class="form-content">
+        ${formHtml}
+    </div>
+</body>
+</html>
+            `);
+            printWindow.document.close();
         }
 
         // Keyboard shortcuts
