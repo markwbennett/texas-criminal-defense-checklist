@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminal Defense Checklist</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        button:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+        }
+
+        button.secondary {
+            background: #95a5a6;
+        }
+
+        button.secondary:hover {
+            background: #7f8c8d;
+        }
+
+        button.danger {
+            background: #e74c3c;
+        }
+
+        button.danger:hover {
+            background: #c0392b;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        #welcome-screen {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        #welcome-screen h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        #welcome-screen p {
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        #template-upload {
+            display: none;
+        }
+
+        #template-info {
+            background: #e8f5e9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .client-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .client-card {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+
+        .client-card:hover {
+            background: #d5dbdb;
+            border-color: #3498db;
+        }
+
+        .client-card h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .client-card .progress {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .client-card .actions {
+            margin-top: 10px;
+            display: flex;
+            gap: 5px;
+        }
+
+        .client-card button {
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        #checklist-container {
+            display: none;
+        }
+
+        .checklist-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .checklist-header h2 {
+            margin: 0;
+        }
+
+        .checklist-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .checklist-item {
+            margin-left: 20px;
+            margin-bottom: 8px;
+        }
+
+        .checklist-item.level-0 {
+            margin-left: 0;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .item-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 5px;
+            border-radius: 3px;
+            transition: background 0.2s;
+        }
+
+        .item-content:hover {
+            background: #f8f9fa;
+        }
+
+        .item-content input[type="checkbox"] {
+            margin-top: 4px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .item-text {
+            flex: 1;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .item-text.completed {
+            color: #95a5a6;
+            text-decoration: line-through;
+        }
+
+        .item-field input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            margin-top: 5px;
+        }
+
+        .item-progress {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-left: 5px;
+        }
+
+        .toggle-icon {
+            cursor: pointer;
+            user-select: none;
+            width: 20px;
+            text-align: center;
+            color: #7f8c8d;
+        }
+
+        .children-collapsed {
+            display: none;
+        }
+
+        .form-section {
+            background: #f8f9fa;
+            border-left: 3px solid #3498db;
+            padding: 15px;
+            margin: 10px 0 10px 20px;
+            font-family: monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+        }
+
+        .note {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-left: 28px;
+            font-size: 14px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: #ecf0f1;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            transition: width 0.3s;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-content h3 {
+            margin-bottom: 15px;
+        }
+
+        .modal-content input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            header, .header-actions, .checklist-actions, button {
+                display: none !important;
+            }
+
+            .card {
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+
+            .checklist-item {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 20px;
+            }
+
+            .checklist-header {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+
+            .client-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Criminal Defense Checklist Manager</h1>
+            <div id="template-status"></div>
+            <div class="header-actions">
+                <label for="template-upload">
+                    <button type="button" onclick="document.getElementById('template-upload').click()">
+                        📁 Load Template
+                    </button>
+                </label>
+                <input type="file" id="template-upload" accept=".txt">
+                <button id="new-client-btn" onclick="showNewClientModal()" disabled>
+                    ➕ New Client
+                </button>
+                <button onclick="showImportModal()">
+                    📥 Import Client
+                </button>
+            </div>
+        </header>
+
+        <div id="welcome-screen" class="card">
+            <h2>Welcome to the Criminal Defense Checklist Manager</h2>
+            <p>To get started, please load your checklist template file:</p>
+            <label for="template-upload-main">
+                <button type="button" onclick="document.getElementById('template-upload').click()">
+                    📁 Load Template File
+                </button>
+            </label>
+            <p style="margin-top: 20px; font-size: 14px; color: #7f8c8d;">
+                Select the <strong>CriminalDefenseChecklist.txt</strong> file
+            </p>
+        </div>
+
+        <div id="clients-screen" style="display: none;">
+            <div class="card">
+                <h2>Your Clients</h2>
+                <div id="client-list" class="client-list"></div>
+                <div id="no-clients" style="text-align: center; padding: 40px; color: #95a5a6;">
+                    No clients yet. Click "New Client" to create your first checklist.
+                </div>
+            </div>
+        </div>
+
+        <div id="checklist-container">
+            <div class="card">
+                <div class="checklist-header">
+                    <div>
+                        <h2 id="client-name"></h2>
+                        <div id="overall-progress"></div>
+                    </div>
+                    <div class="checklist-actions">
+                        <button onclick="saveChecklist()">💾 Save</button>
+                        <button onclick="exportClient()">📤 Export</button>
+                        <button onclick="printChecklist()">🖨️ Print</button>
+                        <button onclick="backToClients()">← Back</button>
+                    </div>
+                </div>
+
+                <input type="text" class="search-box" id="search-box"
+                       placeholder="🔍 Search checklist items..."
+                       onkeyup="searchChecklist(this.value)">
+
+                <div id="checklist-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Client Modal -->
+    <div id="new-client-modal" class="modal">
+        <div class="modal-content">
+            <h3>Create New Client Checklist</h3>
+            <input type="text" id="client-name-input" placeholder="Client Name">
+            <input type="text" id="case-number-input" placeholder="Case Number (optional)">
+            <div class="modal-actions">
+                <button class="secondary" onclick="closeModal('new-client-modal')">Cancel</button>
+                <button onclick="createClient()">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import Modal -->
+    <div id="import-modal" class="modal">
+        <div class="modal-content">
+            <h3>Import Client Data</h3>
+            <input type="file" id="import-file" accept=".json">
+            <div class="modal-actions">
+                <button class="secondary" onclick="closeModal('import-modal')">Cancel</button>
+                <button onclick="importClient()">Import</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global state
+        let template = null;
+        let currentClient = null;
+        let clients = [];
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            loadClients();
+            checkForCachedTemplate();
+
+            document.getElementById('template-upload').addEventListener('change', handleTemplateUpload);
+        });
+
+        function checkForCachedTemplate() {
+            const cached = localStorage.getItem('template');
+            if (cached) {
+                try {
+                    template = JSON.parse(cached);
+                    updateTemplateStatus();
+                    if (clients.length > 0) {
+                        showClientsScreen();
+                    }
+                } catch (e) {
+                    console.error('Failed to load cached template:', e);
+                }
+            }
+        }
+
+        function handleTemplateUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+                try {
+                    template = parseTemplate(content);
+                    localStorage.setItem('template', JSON.stringify(template));
+                    updateTemplateStatus();
+                    if (clients.length > 0) {
+                        showClientsScreen();
+                    } else {
+                        showClientsScreen();
+                    }
+                    alert('Template loaded successfully!');
+                } catch (error) {
+                    alert('Error parsing template: ' + error.message);
+                    console.error(error);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function parseTemplate(content) {
+            const lines = content.split('\n');
+            const root = { title: 'Root', children: [], level: -1 };
+            const stack = [root];
+            let inForm = false;
+            let formContent = [];
+            let formParent = null;
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+
+                // Check for #End command
+                if (line.trim().toLowerCase() === '#end') {
+                    break;
+                }
+
+                // Check for #FORM start
+                if (line.trim().toUpperCase() === '#FORM') {
+                    inForm = true;
+                    formContent = [];
+                    formParent = stack[stack.length - 1];
+                    continue;
+                }
+
+                // Check for #FORMEND
+                if (line.trim().toUpperCase() === '#FORMEND') {
+                    if (inForm && formParent) {
+                        formParent.children.push({
+                            type: 'form',
+                            content: formContent.join('\n'),
+                            level: formParent.level + 1
+                        });
+                    }
+                    inForm = false;
+                    formContent = [];
+                    formParent = null;
+                    continue;
+                }
+
+                // If in form, collect content
+                if (inForm) {
+                    formContent.push(line);
+                    continue;
+                }
+
+                // Skip empty lines and comments (except #Note:)
+                if (!line.trim()) continue;
+                if (line.trim().startsWith('#') && !line.trim().startsWith('#Note:')) continue;
+
+                // Count indentation (tabs)
+                const level = (line.match(/^\t*/)[0] || '').length;
+                const content = line.trim();
+
+                // Handle #Note: as special text
+                if (content.startsWith('#Note:')) {
+                    const noteText = content.substring(6).trim();
+                    stack[stack.length - 1].children.push({
+                        type: 'note',
+                        text: noteText,
+                        level: level
+                    });
+                    continue;
+                }
+
+                // Check for fillable field (ends with _)
+                const hasFillable = content.endsWith('_');
+                const keepOnPage = content.endsWith('*');
+                const title = content.replace(/[_*]+$/, '').trim();
+
+                const item = {
+                    title: title,
+                    level: level,
+                    type: 'checkbox',
+                    children: [],
+                    fillable: hasFillable,
+                    keepOnPage: keepOnPage,
+                    id: generateId(title)
+                };
+
+                // Maintain hierarchy stack
+                while (stack.length > 0 && stack[stack.length - 1].level >= level) {
+                    stack.pop();
+                }
+
+                stack[stack.length - 1].children.push(item);
+                stack.push(item);
+            }
+
+            return root.children;
+        }
+
+        function generateId(text) {
+            return text.toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-|-$/g, '');
+        }
+
+        function updateTemplateStatus() {
+            const status = document.getElementById('template-status');
+            if (template) {
+                const itemCount = countItems(template);
+                status.innerHTML = `<div id="template-info">✓ Template loaded (${itemCount} items)</div>`;
+                document.getElementById('new-client-btn').disabled = false;
+            } else {
+                status.innerHTML = '';
+                document.getElementById('new-client-btn').disabled = true;
+            }
+        }
+
+        function countItems(items) {
+            let count = 0;
+            for (const item of items) {
+                if (item.type === 'checkbox') count++;
+                if (item.children) count += countItems(item.children);
+            }
+            return count;
+        }
+
+        // Client management
+        function loadClients() {
+            const stored = localStorage.getItem('clients');
+            if (stored) {
+                try {
+                    clients = JSON.parse(stored);
+                } catch (e) {
+                    clients = [];
+                }
+            }
+        }
+
+        function saveClients() {
+            localStorage.setItem('clients', JSON.stringify(clients));
+        }
+
+        function showNewClientModal() {
+            if (!template) {
+                alert('Please load a template first');
+                return;
+            }
+            document.getElementById('new-client-modal').classList.add('active');
+            document.getElementById('client-name-input').value = '';
+            document.getElementById('case-number-input').value = '';
+            document.getElementById('client-name-input').focus();
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+
+        function createClient() {
+            const name = document.getElementById('client-name-input').value.trim();
+            const caseNumber = document.getElementById('case-number-input').value.trim();
+
+            if (!name) {
+                alert('Please enter a client name');
+                return;
+            }
+
+            const client = {
+                id: Date.now().toString(),
+                name: name,
+                caseNumber: caseNumber,
+                created: new Date().toISOString(),
+                modified: new Date().toISOString(),
+                checklist: JSON.parse(JSON.stringify(template)),
+                state: {} // Track checked items and field values
+            };
+
+            clients.push(client);
+            saveClients();
+            closeModal('new-client-modal');
+            loadClient(client.id);
+        }
+
+        function showClientsScreen() {
+            document.getElementById('welcome-screen').style.display = 'none';
+            document.getElementById('clients-screen').style.display = 'block';
+            document.getElementById('checklist-container').style.display = 'none';
+            renderClientList();
+        }
+
+        function renderClientList() {
+            const container = document.getElementById('client-list');
+            const noClients = document.getElementById('no-clients');
+
+            if (clients.length === 0) {
+                container.innerHTML = '';
+                noClients.style.display = 'block';
+                return;
+            }
+
+            noClients.style.display = 'none';
+            container.innerHTML = clients.map(client => {
+                const progress = calculateProgress(client);
+                return `
+                    <div class="client-card" onclick="loadClient('${client.id}')">
+                        <h3>${escapeHtml(client.name)}</h3>
+                        ${client.caseNumber ? `<div style="font-size:12px;color:#666;">Case: ${escapeHtml(client.caseNumber)}</div>` : ''}
+                        <div class="progress">${progress.completed} / ${progress.total} completed (${progress.percentage}%)</div>
+                        <div style="font-size:12px;color:#999;">Modified: ${new Date(client.modified).toLocaleDateString()}</div>
+                        <div class="actions">
+                            <button onclick="event.stopPropagation(); exportClientById('${client.id}')">Export</button>
+                            <button class="danger" onclick="event.stopPropagation(); deleteClient('${client.id}')">Delete</button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function calculateProgress(client) {
+            let total = 0;
+            let completed = 0;
+
+            function count(items) {
+                for (const item of items) {
+                    if (item.type === 'checkbox') {
+                        total++;
+                        if (client.state[item.id]?.checked) {
+                            completed++;
+                        }
+                    }
+                    if (item.children) {
+                        count(item.children);
+                    }
+                }
+            }
+
+            count(client.checklist);
+            return {
+                total,
+                completed,
+                percentage: total > 0 ? Math.round((completed / total) * 100) : 0
+            };
+        }
+
+        function loadClient(clientId) {
+            currentClient = clients.find(c => c.id === clientId);
+            if (!currentClient) return;
+
+            document.getElementById('welcome-screen').style.display = 'none';
+            document.getElementById('clients-screen').style.display = 'none';
+            document.getElementById('checklist-container').style.display = 'block';
+
+            document.getElementById('client-name').textContent =
+                currentClient.name + (currentClient.caseNumber ? ` - ${currentClient.caseNumber}` : '');
+
+            renderChecklist();
+            updateOverallProgress();
+        }
+
+        function backToClients() {
+            if (currentClient) {
+                currentClient.modified = new Date().toISOString();
+                saveClients();
+            }
+            currentClient = null;
+            showClientsScreen();
+        }
+
+        function deleteClient(clientId) {
+            if (!confirm('Are you sure you want to delete this client checklist?')) return;
+
+            clients = clients.filter(c => c.id !== clientId);
+            saveClients();
+            renderClientList();
+        }
+
+        function renderChecklist() {
+            const container = document.getElementById('checklist-content');
+            container.innerHTML = '';
+
+            function renderItem(item, level = 0) {
+                if (item.type === 'form') {
+                    const formDiv = document.createElement('div');
+                    formDiv.className = 'form-section';
+                    formDiv.textContent = item.content;
+                    return formDiv;
+                }
+
+                if (item.type === 'note') {
+                    const noteDiv = document.createElement('div');
+                    noteDiv.className = 'note';
+                    noteDiv.textContent = item.text;
+                    return noteDiv;
+                }
+
+                const itemDiv = document.createElement('div');
+                itemDiv.className = `checklist-item level-${level}`;
+                itemDiv.dataset.itemId = item.id;
+
+                const contentDiv = document.createElement('div');
+                contentDiv.className = 'item-content';
+
+                // Toggle icon for items with children
+                if (item.children && item.children.length > 0) {
+                    const toggle = document.createElement('span');
+                    toggle.className = 'toggle-icon';
+                    toggle.textContent = '▶'; // Start collapsed
+                    toggle.onclick = () => toggleChildren(itemDiv);
+                    contentDiv.appendChild(toggle);
+                } else {
+                    const spacer = document.createElement('span');
+                    spacer.style.width = '20px';
+                    spacer.style.display = 'inline-block';
+                    contentDiv.appendChild(spacer);
+                }
+
+                // Checkbox
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.checked = currentClient.state[item.id]?.checked || false;
+                checkbox.onchange = () => handleCheckboxChange(item.id, checkbox.checked);
+                contentDiv.appendChild(checkbox);
+
+                // Title
+                const titleSpan = document.createElement('span');
+                titleSpan.className = 'item-text';
+                if (checkbox.checked) titleSpan.classList.add('completed');
+                titleSpan.textContent = item.title;
+                titleSpan.onclick = () => checkbox.click();
+
+                // Add progress indicator for items with children
+                if (item.children && item.children.length > 0) {
+                    const progress = getItemProgress(item);
+                    const progressSpan = document.createElement('span');
+                    progressSpan.className = 'item-progress';
+                    progressSpan.textContent = `(${progress.completed}/${progress.total})`;
+                    titleSpan.appendChild(progressSpan);
+                }
+
+                contentDiv.appendChild(titleSpan);
+                itemDiv.appendChild(contentDiv);
+
+                // Fillable field
+                if (item.fillable) {
+                    const fieldDiv = document.createElement('div');
+                    fieldDiv.className = 'item-field';
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.value = currentClient.state[item.id]?.value || '';
+                    input.placeholder = 'Enter value...';
+                    input.onchange = () => handleFieldChange(item.id, input.value);
+                    fieldDiv.appendChild(input);
+                    itemDiv.appendChild(fieldDiv);
+                }
+
+                // Children
+                if (item.children && item.children.length > 0) {
+                    const childrenDiv = document.createElement('div');
+                    childrenDiv.className = 'children children-collapsed'; // Start collapsed
+                    for (const child of item.children) {
+                        const childElement = renderItem(child, level + 1);
+                        if (childElement) childrenDiv.appendChild(childElement);
+                    }
+                    itemDiv.appendChild(childrenDiv);
+                }
+
+                return itemDiv;
+            }
+
+            for (const item of currentClient.checklist) {
+                const element = renderItem(item, 0);
+                if (element) container.appendChild(element);
+            }
+        }
+
+        function toggleChildren(itemDiv) {
+            const children = itemDiv.querySelector('.children');
+            const toggle = itemDiv.querySelector('.toggle-icon');
+            if (!children || !toggle) return;
+
+            if (children.classList.contains('children-collapsed')) {
+                children.classList.remove('children-collapsed');
+                toggle.textContent = '▼';
+            } else {
+                children.classList.add('children-collapsed');
+                toggle.textContent = '▶';
+            }
+        }
+
+        function handleCheckboxChange(itemId, checked) {
+            if (!currentClient.state[itemId]) {
+                currentClient.state[itemId] = {};
+            }
+            currentClient.state[itemId].checked = checked;
+
+            // Update parent checkboxes
+            updateParentCheckboxes();
+            updateOverallProgress();
+            saveChecklist();
+
+            // Re-render to update styling and progress
+            renderChecklist();
+        }
+
+        function handleFieldChange(itemId, value) {
+            if (!currentClient.state[itemId]) {
+                currentClient.state[itemId] = {};
+            }
+            currentClient.state[itemId].value = value;
+            saveChecklist();
+        }
+
+        function updateParentCheckboxes() {
+            function checkParent(item) {
+                if (!item.children || item.children.length === 0) return;
+
+                let allChecked = true;
+                for (const child of item.children) {
+                    if (child.type === 'checkbox') {
+                        if (!currentClient.state[child.id]?.checked) {
+                            allChecked = false;
+                        }
+                    }
+                    checkParent(child);
+                }
+
+                // Auto-check parent if all children are checked
+                if (allChecked && item.type === 'checkbox') {
+                    if (!currentClient.state[item.id]) {
+                        currentClient.state[item.id] = {};
+                    }
+                    currentClient.state[item.id].checked = true;
+                }
+            }
+
+            for (const item of currentClient.checklist) {
+                checkParent(item);
+            }
+        }
+
+        function getItemProgress(item) {
+            let total = 0;
+            let completed = 0;
+
+            function count(items) {
+                for (const child of items) {
+                    if (child.type === 'checkbox') {
+                        total++;
+                        if (currentClient.state[child.id]?.checked) {
+                            completed++;
+                        }
+                    }
+                    if (child.children) {
+                        count(child.children);
+                    }
+                }
+            }
+
+            if (item.children) count(item.children);
+            return { total, completed };
+        }
+
+        function updateOverallProgress() {
+            const progress = calculateProgress(currentClient);
+            const progressDiv = document.getElementById('overall-progress');
+            progressDiv.innerHTML = `
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: ${progress.percentage}%"></div>
+                </div>
+                <div style="font-size: 14px; color: #666;">
+                    ${progress.completed} / ${progress.total} items completed (${progress.percentage}%)
+                </div>
+            `;
+        }
+
+        function saveChecklist() {
+            if (!currentClient) return;
+            currentClient.modified = new Date().toISOString();
+            saveClients();
+        }
+
+        function searchChecklist(query) {
+            if (!query.trim()) {
+                // Show all items
+                document.querySelectorAll('.checklist-item').forEach(item => {
+                    item.style.display = '';
+                });
+                return;
+            }
+
+            const lowerQuery = query.toLowerCase();
+            document.querySelectorAll('.checklist-item').forEach(item => {
+                const text = item.querySelector('.item-text')?.textContent.toLowerCase() || '';
+                if (text.includes(lowerQuery)) {
+                    item.style.display = '';
+                    // Show parents
+                    let parent = item.parentElement;
+                    while (parent) {
+                        if (parent.classList.contains('children')) {
+                            parent.classList.remove('children-collapsed');
+                        }
+                        parent = parent.parentElement;
+                    }
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function exportClient() {
+            if (!currentClient) return;
+            exportClientById(currentClient.id);
+        }
+
+        function exportClientById(clientId) {
+            const client = clients.find(c => c.id === clientId);
+            if (!client) return;
+
+            const data = JSON.stringify(client, null, 2);
+            const blob = new Blob([data], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${client.name.replace(/[^a-z0-9]/gi, '_')}_checklist.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function showImportModal() {
+            document.getElementById('import-modal').classList.add('active');
+        }
+
+        function importClient() {
+            const fileInput = document.getElementById('import-file');
+            const file = fileInput.files[0];
+            if (!file) {
+                alert('Please select a file');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const client = JSON.parse(e.target.result);
+
+                    // Validate client data
+                    if (!client.name || !client.checklist) {
+                        throw new Error('Invalid client data');
+                    }
+
+                    // Generate new ID to avoid conflicts
+                    client.id = Date.now().toString();
+                    client.modified = new Date().toISOString();
+
+                    clients.push(client);
+                    saveClients();
+                    closeModal('import-modal');
+                    showClientsScreen();
+                    alert('Client imported successfully!');
+                } catch (error) {
+                    alert('Error importing client: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function printChecklist() {
+            window.print();
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + S to save
+            if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+                e.preventDefault();
+                if (currentClient) {
+                    saveChecklist();
+                    alert('Checklist saved!');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

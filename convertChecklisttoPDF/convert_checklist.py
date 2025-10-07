@@ -118,10 +118,10 @@ def count_indent(line):
 def is_comment_or_command(line):
     """
     Check if a line is a comment or command (starts with #).
-    
+
     Args:
         line (str): The line to check
-        
+
     Returns:
         bool: True if the line is a comment or command, False otherwise
     """
@@ -131,15 +131,81 @@ def is_comment_or_command(line):
 def is_end_command(line):
     """
     Check if a line is the #end command.
-    
+
     Args:
         line (str): The line to check
-        
+
     Returns:
         bool: True if the line is the #end command, False otherwise
     """
     stripped = line.strip().lower()
     return stripped == '#end'
+
+def is_form_start(line):
+    """
+    Check if a line starts a FORM section.
+
+    Args:
+        line (str): The line to check
+
+    Returns:
+        bool: True if the line is #FORM, False otherwise
+    """
+    return line.strip().upper() == '#FORM'
+
+def is_form_end(line):
+    """
+    Check if a line ends a FORM section.
+
+    Args:
+        line (str): The line to check
+
+    Returns:
+        bool: True if the line is #FORMEND, False otherwise
+    """
+    return line.strip().upper() == '#FORMEND'
+
+def process_form_section(lines, start_index):
+    """
+    Process a form section between #FORM and #FORMEND markers.
+
+    Forms are kept together on one page and rendered as plain text without checkboxes.
+
+    Args:
+        lines (list): All lines from the input file
+        start_index (int): Index of the #FORM line
+
+    Returns:
+        tuple: (list of markdown content lines, index after #FORMEND)
+    """
+    content = []
+    content.append('<div class="form-section">')
+
+    i = start_index + 1
+    while i < len(lines):
+        line = lines[i]
+
+        if is_form_end(line):
+            content.append('</div>\n')
+            return (content, i + 1)
+
+        # Skip comment lines within the form
+        if is_comment_or_command(line):
+            i += 1
+            continue
+
+        # Preserve the line but strip leading tabs/spaces for form content
+        stripped = line.lstrip('\t ')
+        if stripped:
+            content.append(stripped.rstrip() + '  ')  # Two spaces for line break in markdown
+        else:
+            content.append('')  # Preserve blank lines
+
+        i += 1
+
+    # If we get here, #FORMEND was not found
+    content.append('</div>\n')
+    return (content, i)
 
 def get_path_hierarchy(lines, current_index):
     """
@@ -334,11 +400,30 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
         # Create title with breadcrumb navigation
         content.append(f"# {' | '.join(breadcrumb)}")
     
+    # Track items that have FORM sections (so we don't recursively process their children)
+    items_with_forms = set()
+
     # Add items to the current checklist
     for item, idx in items:
         if is_comment_or_command(item):
             continue
-            
+
+        # Check if the next line is a FORM section
+        if idx + 1 < len(lines) and is_form_start(lines[idx + 1]):
+            # Generate item ID and add anchor
+            item_id = generate_anchor_id('item-' + item.lower().replace(' ', '-'))
+            content.append(f"<a id='{item_id}'></a>")
+            content.append(f"☐ **{item}**\n")
+
+            # Process the form section
+            form_content, next_idx = process_form_section(lines, idx + 1)
+            content.extend(form_content)
+            content.append('')  # Add blank line after form
+
+            # Mark this item as having a form so we don't process its children recursively
+            items_with_forms.add(idx)
+            continue
+
         # Check if this item has children
         has_children = False
         if idx + 1 < len(lines):
@@ -381,7 +466,11 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
     for item, idx in items:
         if is_comment_or_command(item):
             continue
-            
+
+        # Skip recursive processing for items with FORM sections (already processed above)
+        if idx in items_with_forms:
+            continue
+
         # Check if this item has children
         has_children = False
         if idx + 1 < len(lines):
@@ -389,7 +478,7 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
             next_indent = count_indent(next_line)
             if next_indent > current_indent:
                 has_children = True
-        
+
         if has_children:
             # Create a new hierarchy with the current item
             new_hierarchy = hierarchy + [item]
@@ -566,8 +655,19 @@ def process_markdown_to_pdf(md_file):
                 margin: 0;
                 padding: 0;
             }
-            @page { 
-                size: letter; 
+            /* Form section styles */
+            .form-section {
+                border: 1px solid #ccc;
+                padding: 1em;
+                margin: 1em 0;
+                background-color: #f9f9f9;
+                page-break-inside: avoid; /* Keep form sections together on one page */
+            }
+            .form-section p {
+                margin: 0.25em 0;
+            }
+            @page {
+                size: letter;
                 margin: 1in;
             }
         </style>
