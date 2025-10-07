@@ -272,14 +272,6 @@
             text-decoration: line-through;
         }
 
-        .item-field input {
-            width: 100%;
-            padding: 5px;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            margin-top: 5px;
-        }
-
         .item-progress {
             font-size: 12px;
             color: #7f8c8d;
@@ -596,6 +588,7 @@
         let template = null;
         let currentClient = null;
         let clients = [];
+        let expandedItems = new Set(); // Track which items are expanded
 
         // Initialize app
         document.addEventListener('DOMContentLoaded', function() {
@@ -916,6 +909,9 @@
             currentClient = clients.find(c => c.id === clientId);
             if (!currentClient) return;
 
+            // Clear expanded items when switching clients
+            expandedItems.clear();
+
             document.getElementById('welcome-screen').style.display = 'none';
             document.getElementById('clients-screen').style.display = 'none';
             document.getElementById('checklist-container').style.display = 'block';
@@ -1034,7 +1030,16 @@
                 // Children
                 if (item.children && item.children.length > 0) {
                     const childrenDiv = document.createElement('div');
-                    childrenDiv.className = 'children children-collapsed'; // Start collapsed
+                    // Check if this item should be expanded
+                    const isExpanded = expandedItems.has(item.id);
+                    childrenDiv.className = isExpanded ? 'children' : 'children children-collapsed';
+
+                    // Update toggle icon to match state
+                    const toggleIcon = itemDiv.querySelector('.toggle-icon');
+                    if (toggleIcon) {
+                        toggleIcon.textContent = isExpanded ? '▼' : '▶';
+                    }
+
                     for (const child of item.children) {
                         const childElement = renderItem(child, level + 1);
                         if (childElement) childrenDiv.appendChild(childElement);
@@ -1056,12 +1061,16 @@
             const toggle = itemDiv.querySelector('.toggle-icon');
             if (!children || !toggle) return;
 
+            const itemId = itemDiv.dataset.itemId;
+
             if (children.classList.contains('children-collapsed')) {
                 children.classList.remove('children-collapsed');
                 toggle.textContent = '▼';
+                expandedItems.add(itemId);
             } else {
                 children.classList.add('children-collapsed');
                 toggle.textContent = '▶';
+                expandedItems.delete(itemId);
             }
         }
 
@@ -1078,14 +1087,6 @@
 
             // Re-render to update styling and progress
             renderChecklist();
-        }
-
-        function handleFieldChange(itemId, value) {
-            if (!currentClient.state[itemId]) {
-                currentClient.state[itemId] = {};
-            }
-            currentClient.state[itemId].value = value;
-            saveChecklist();
         }
 
         function updateParentCheckboxes() {
