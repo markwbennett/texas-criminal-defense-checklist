@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criminal Defense Checklist</title>
+    <meta name="description" content="Interactive criminal defense checklist manager by the Institute for Advanced Criminal Law Studies">
+    <meta name="author" content="Institute for Advanced Criminal Law Studies">
+    <title>Criminal Defense Checklist | IACLS.org</title>
     <style>
         * {
             box-sizing: border-box;
@@ -32,9 +34,51 @@
             border-radius: 8px;
         }
 
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .iacls-logo {
+            width: 80px;
+            height: 80px;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .iacls-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
         header h1 {
             font-size: 24px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            color: #bdc3c7;
+            margin-bottom: 5px;
+        }
+
+        .iacls-link {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .iacls-link:hover {
+            text-decoration: underline;
         }
 
         .header-actions {
@@ -359,9 +403,42 @@
             }
         }
 
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media print {
+            footer {
+                display: none;
+            }
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
+            }
+
+            .header-top {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .iacls-logo {
+                width: 60px;
+                height: 60px;
             }
 
             header h1 {
@@ -383,7 +460,17 @@
 <body>
     <div class="container">
         <header>
-            <h1>Criminal Defense Checklist Manager</h1>
+            <div class="header-top">
+                <div class="iacls-logo">
+                    <!-- IACLS Logo - Replace src with base64 data or URL to logo -->
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23000'/%3E%3Cpath d='M150 80 L200 50 L250 80 L240 100 L200 85 L160 100 Z M180 120 L150 200 L170 210 L200 140 L230 210 L250 200 L220 120 Z M130 250 Q130 300 200 320 Q270 300 270 250 L250 240 Q250 280 200 295 Q150 280 150 240 Z' fill='%23fff'/%3E%3Ctext x='200' y='360' font-family='serif' font-size='32' fill='%23fff' text-anchor='middle' font-weight='bold'%3EIACLS.ORG%3C/text%3E%3C/svg%3E" alt="IACLS Logo">
+                </div>
+                <div class="header-text">
+                    <h1>Criminal Defense Checklist Manager</h1>
+                    <div class="header-subtitle">Institute for Advanced Criminal Law Studies</div>
+                    <a href="https://iacls.org" target="_blank" class="iacls-link">iacls.org</a>
+                </div>
+            </div>
             <div id="template-status"></div>
             <div class="header-actions">
                 <label for="template-upload">
@@ -403,6 +490,9 @@
 
         <div id="welcome-screen" class="card">
             <h2>Welcome to the Criminal Defense Checklist Manager</h2>
+            <p style="color: #7f8c8d; margin-bottom: 20px;">
+                Developed by the Institute for Advanced Criminal Law Studies
+            </p>
             <p>To get started, please load your checklist template file:</p>
             <label for="template-upload-main">
                 <button type="button" onclick="document.getElementById('template-upload').click()">
@@ -483,6 +573,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             loadClients();
             checkForCachedTemplate();
+            autoLoadDefaultTemplate();
 
             document.getElementById('template-upload').addEventListener('change', handleTemplateUpload);
         });
@@ -499,6 +590,35 @@
                 } catch (e) {
                     console.error('Failed to load cached template:', e);
                 }
+            }
+        }
+
+        function autoLoadDefaultTemplate() {
+            // If no cached template, try to load the default template file
+            if (!template) {
+                fetch('CriminalDefenseChecklist.txt')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Default template file not found');
+                        }
+                        return response.text();
+                    })
+                    .then(content => {
+                        template = parseTemplate(content);
+                        localStorage.setItem('template', JSON.stringify(template));
+                        updateTemplateStatus();
+                        if (clients.length > 0) {
+                            showClientsScreen();
+                        } else {
+                            showClientsScreen();
+                        }
+                    })
+                    .catch(error => {
+                        console.log('No default template found, user must upload manually:', error);
+                        // Template will need to be loaded manually
+                    });
+            } else if (clients.length > 0) {
+                showClientsScreen();
             }
         }
 
@@ -1106,5 +1226,14 @@
             }
         });
     </script>
+
+    <footer>
+        <p>
+            Developed by the <a href="https://iacls.org" target="_blank">Institute for Advanced Criminal Law Studies</a>
+        </p>
+        <p style="font-size: 12px; margin-top: 10px;">
+            © 2025 IACLS.ORG | <a href="https://iacls.org" target="_blank">Visit IACLS.org</a>
+        </p>
+    </footer>
 </body>
 </html>
