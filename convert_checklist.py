@@ -352,7 +352,7 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
     """
     # Find the path to the CSV file
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_file = os.path.join(os.path.dirname(script_dir), "arial_px_pt_ratios.csv")
+    csv_file = os.path.join(script_dir, "arial_px_pt_ratios.csv")
     
     # Load character width data
     char_widths = load_character_widths(csv_file)
@@ -507,7 +507,7 @@ def process_children(lines, start_index, indent_level, hierarchy):
     """
     # Find the path to the CSV file
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_file = os.path.join(os.path.dirname(script_dir), "arial_px_pt_ratios.csv")
+    csv_file = os.path.join(script_dir, "arial_px_pt_ratios.csv")
     
     # Load character width data
     char_widths = load_character_widths(csv_file)
