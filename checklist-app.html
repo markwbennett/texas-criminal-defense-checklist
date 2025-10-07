@@ -18,6 +18,82 @@
             line-height: 1.6;
             color: #333;
             background: #f5f5f5;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* Dark theme */
+        body.dark-theme {
+            background: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        body.dark-theme .card {
+            background: #2d2d2d;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        body.dark-theme header {
+            background: #1a1a1a;
+            border: 1px solid #3a3a3a;
+        }
+
+        body.dark-theme .client-card {
+            background: #3a3a3a;
+            color: #e0e0e0;
+        }
+
+        body.dark-theme .client-card:hover {
+            background: #4a4a4a;
+        }
+
+        body.dark-theme .form-section {
+            background: #2a2a2a;
+            border-left-color: #3498db;
+        }
+
+        body.dark-theme .form-section-content {
+            color: #b0b0b0;
+        }
+
+        body.dark-theme .note {
+            color: #888;
+        }
+
+        body.dark-theme .item-content:hover {
+            background: #3a3a3a;
+        }
+
+        body.dark-theme .search-box,
+        body.dark-theme input {
+            background: #3a3a3a;
+            color: #e0e0e0;
+            border-color: #555;
+        }
+
+        body.dark-theme .modal {
+            background: rgba(0,0,0,0.8);
+        }
+
+        body.dark-theme .modal-content {
+            background: #2d2d2d;
+            color: #e0e0e0;
+        }
+
+        body.dark-theme .progress-bar {
+            background: #3a3a3a;
+        }
+
+        body.dark-theme .header-subtitle {
+            color: #999;
+        }
+
+        body.dark-theme .iacls-link {
+            color: #5dade2;
+        }
+
+        body.dark-theme #template-info {
+            background: #1e4620;
+            color: #a8e6a3;
         }
 
         .container {
@@ -505,6 +581,9 @@
                 <button onclick="showImportModal()">
                     📥 Import Client
                 </button>
+                <button id="theme-toggle" onclick="toggleTheme()">
+                    🌙 Dark
+                </button>
             </div>
         </header>
 
@@ -595,6 +674,7 @@
             loadClients();
             checkForCachedTemplate();
             autoLoadDefaultTemplate();
+            loadTheme();
 
             document.getElementById('template-upload').addEventListener('change', handleTemplateUpload);
         });
@@ -1421,6 +1501,28 @@
 </html>
             `);
             printWindow.document.close();
+        }
+
+        // Theme management
+        function loadTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-theme');
+                updateThemeButton();
+            }
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            const isDark = document.body.classList.contains('dark-theme');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            updateThemeButton();
+        }
+
+        function updateThemeButton() {
+            const button = document.getElementById('theme-toggle');
+            const isDark = document.body.classList.contains('dark-theme');
+            button.textContent = isDark ? '☀️ Light' : '🌙 Dark';
         }
 
         // Keyboard shortcuts
