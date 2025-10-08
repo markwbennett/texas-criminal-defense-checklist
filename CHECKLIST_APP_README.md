@@ -89,10 +89,23 @@ Main Section
 - Chrome, Firefox, Safari = different storage
 - Use Export/Import to move between browsers
 
-### Backup Your Data:
-1. Click "Export" on each client
-2. Save the `.json` files somewhere safe
-3. To restore: Click "Import Client" and select the file
+### ⚠️ IMPORTANT: Backup Your Data Regularly
+
+**Browser localStorage can be cleared by:**
+- Clearing browser cache/cookies
+- Browser updates or crashes
+- Switching browsers
+- Computer issues
+
+**To protect your data:**
+1. **Export each client regularly** (weekly or after significant updates)
+2. Click "Export" on each client card
+3. Save the `.json` files to a safe location (cloud storage, external drive)
+4. Keep multiple versions for important cases
+
+**To restore:**
+- Click "Import Client" and select your backup `.json` file
+- All checklist progress and data will be restored
 
 ## Troubleshooting
 

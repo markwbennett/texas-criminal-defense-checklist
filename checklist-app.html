@@ -96,6 +96,12 @@
             color: #a8e6a3;
         }
 
+        body.dark-theme .backup-warning {
+            background: #3a2f1f !important;
+            border-left-color: #f39c12 !important;
+            color: #ffd78a !important;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -604,6 +610,12 @@
         </div>
 
         <div id="clients-screen" style="display: none;">
+            <div class="card backup-warning" style="background: #fff3cd; border-left: 4px solid #ffc107; margin-bottom: 15px;">
+                <p style="margin: 0; font-size: 14px; color: #856404;">
+                    <strong>⚠️ Important:</strong> Data is stored in your browser. Export your clients regularly to avoid data loss!
+                    Click "Export" on each client to save a backup .json file.
+                </p>
+            </div>
             <div class="card">
                 <h2>Your Clients</h2>
                 <div id="client-list" class="client-list"></div>

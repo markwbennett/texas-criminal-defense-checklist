@@ -16,7 +16,7 @@ A self-contained, browser-based checklist manager with:
 - **Smart checkboxes** - Parent items auto-complete when all children are checked
 - **Template-driven** - Loads from `CriminalDefenseChecklist.txt` (user-editable)
 - **Progress tracking** - Visual indicators show completion percentage
-- **Data persistence** - Auto-saves to browser localStorage with export/import to JSON
+- **Data persistence** - Auto-saves to browser localStorage with export/import to JSON (**Export regularly for backups!**)
 - **Printable forms** - Generate fillable PDF forms for questionnaires and intake documents
 - **Collapsible sections** - Clean, organized interface with expand/collapse
 - **Search functionality** - Quickly find checklist items
