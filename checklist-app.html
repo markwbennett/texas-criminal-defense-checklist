@@ -411,6 +411,18 @@
             background: #229954;
         }
 
+        .print-section-btn {
+            padding: 3px 8px;
+            font-size: 11px;
+            background: #95a5a6;
+            margin-left: 10px;
+            border-radius: 3px;
+        }
+
+        .print-section-btn:hover {
+            background: #7f8c8d;
+        }
+
         .note {
             color: #7f8c8d;
             font-style: italic;
@@ -641,7 +653,7 @@
                     <div class="checklist-actions">
                         <button onclick="saveChecklist()">💾 Save</button>
                         <button onclick="exportClient()">📤 Export</button>
-                        <button onclick="printChecklist()">🖨️ Print</button>
+                        <button onclick="printChecklist()">🖨️ Print All</button>
                         <button onclick="backToClients()">← Back</button>
                     </div>
                 </div>
@@ -1138,6 +1150,20 @@
                 }
 
                 contentDiv.appendChild(titleSpan);
+
+                // Add print button for items with children
+                if (item.children && item.children.length > 0) {
+                    const printBtn = document.createElement('button');
+                    printBtn.className = 'print-section-btn';
+                    printBtn.textContent = '🖨️';
+                    printBtn.title = 'Print this section';
+                    printBtn.onclick = (e) => {
+                        e.stopPropagation();
+                        printSection(item);
+                    };
+                    contentDiv.appendChild(printBtn);
+                }
+
                 itemDiv.appendChild(contentDiv);
 
                 // Children
@@ -1421,13 +1447,282 @@
         }
 
         function printChecklist() {
-            window.print();
+            // Print entire checklist (all items expanded)
+            let allSectionsHtml = '';
+
+            function buildSectionHtml(item, level = 0) {
+                let html = '';
+                const indent = level * 30; // 30px per level
+
+                if (item.type === 'note') {
+                    html += `<div style="margin-left: ${indent}px; font-style: italic; color: #666; margin: 8px 0;">${escapeHtml(item.text)}</div>`;
+                    return html;
+                }
+
+                if (item.type === 'form') {
+                    html += `<div style="margin-left: ${indent}px; background: #f8f9fa; padding: 10px; margin: 10px 0; border-left: 3px solid #3498db;">`;
+                    html += `<div style="font-weight: bold; margin-bottom: 8px;">${escapeHtml(item.title)}</div>`;
+                    html += `<div style="font-family: monospace; font-size: 10pt; white-space: pre-wrap;">${escapeHtml(item.content)}</div>`;
+                    html += `</div>`;
+                    return html;
+                }
+
+                if (item.type === 'checkbox') {
+                    const isChecked = currentClient.state[item.id]?.checked || false;
+                    const checkbox = isChecked ? '☑' : '☐';
+                    const textDecoration = isChecked ? 'text-decoration: line-through; color: #999;' : '';
+
+                    html += `<div style="margin-left: ${indent}px; margin: 6px 0; display: flex; align-items: baseline;">`;
+                    html += `<span style="margin-right: 8px; font-size: 14pt;">${checkbox}</span>`;
+                    html += `<span style="${textDecoration}">${escapeHtml(item.title)}</span>`;
+                    html += `</div>`;
+
+                    // Recursively add children
+                    if (item.children && item.children.length > 0) {
+                        for (const child of item.children) {
+                            html += buildSectionHtml(child, level + 1);
+                        }
+                    }
+                }
+
+                return html;
+            }
+
+            // Build HTML for all top-level items
+            for (const item of currentClient.checklist) {
+                allSectionsHtml += buildSectionHtml(item);
+            }
+
+            // Create printable window
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Checklist - ${escapeHtml(currentClient.name)}</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.75in;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #000;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #000;
+        }
+
+        .section-header h1 {
+            font-size: 18pt;
+            margin-bottom: 5px;
+        }
+
+        .section-header .org {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .client-info {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f5f5f5;
+            border: 1px solid #ccc;
+        }
+
+        .client-info strong {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .print-instructions {
+            background: #fffacd;
+            border: 1px solid #f0e68c;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 10pt;
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section-header">
+        <h1>Complete Criminal Defense Checklist</h1>
+        <div class="org">Institute for Advanced Criminal Law Studies</div>
+        <div class="org" style="font-size: 9pt;">IACLS.ORG</div>
+    </div>
+
+    <div class="client-info">
+        <div><strong>Client:</strong> ${escapeHtml(currentClient.name)}</div>
+        ${currentClient.caseNumber ? `<div><strong>Case Number:</strong> ${escapeHtml(currentClient.caseNumber)}</div>` : ''}
+        <div><strong>Date:</strong> ${new Date().toLocaleDateString()}</div>
+    </div>
+
+    <div class="print-instructions no-print">
+        <strong>Instructions:</strong> Use your browser's Print function (Ctrl/Cmd+P) and select "Save as PDF" to save the complete checklist.
+        <button onclick="window.print()" style="margin-left: 20px; padding: 5px 15px;">🖨️ Print / Save as PDF</button>
+    </div>
+
+    <div class="section-content">
+        ${allSectionsHtml}
+    </div>
+</body>
+</html>
+            `);
+            printWindow.document.close();
         }
 
         function escapeHtml(text) {
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
+        }
+
+        function printSection(item) {
+            // Recursively build HTML for item and all descendants
+            function buildSectionHtml(item, level = 0) {
+                let html = '';
+                const indent = level * 30; // 30px per level
+
+                if (item.type === 'note') {
+                    html += `<div style="margin-left: ${indent}px; font-style: italic; color: #666; margin: 8px 0;">${escapeHtml(item.text)}</div>`;
+                    return html;
+                }
+
+                if (item.type === 'form') {
+                    html += `<div style="margin-left: ${indent}px; background: #f8f9fa; padding: 10px; margin: 10px 0; border-left: 3px solid #3498db;">`;
+                    html += `<div style="font-weight: bold; margin-bottom: 8px;">${escapeHtml(item.title)}</div>`;
+                    html += `<div style="font-family: monospace; font-size: 10pt; white-space: pre-wrap;">${escapeHtml(item.content)}</div>`;
+                    html += `</div>`;
+                    return html;
+                }
+
+                if (item.type === 'checkbox') {
+                    const isChecked = currentClient.state[item.id]?.checked || false;
+                    const checkbox = isChecked ? '☑' : '☐';
+                    const textDecoration = isChecked ? 'text-decoration: line-through; color: #999;' : '';
+
+                    html += `<div style="margin-left: ${indent}px; margin: 6px 0; display: flex; align-items: baseline;">`;
+                    html += `<span style="margin-right: 8px; font-size: 14pt;">${checkbox}</span>`;
+                    html += `<span style="${textDecoration}">${escapeHtml(item.title)}</span>`;
+                    html += `</div>`;
+
+                    // Recursively add children
+                    if (item.children && item.children.length > 0) {
+                        for (const child of item.children) {
+                            html += buildSectionHtml(child, level + 1);
+                        }
+                    }
+                }
+
+                return html;
+            }
+
+            const sectionHtml = buildSectionHtml(item);
+
+            // Create printable window
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>${escapeHtml(item.title)} - ${escapeHtml(currentClient.name)}</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.75in;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #000;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #000;
+        }
+
+        .section-header h1 {
+            font-size: 18pt;
+            margin-bottom: 5px;
+        }
+
+        .section-header .org {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .client-info {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f5f5f5;
+            border: 1px solid #ccc;
+        }
+
+        .client-info strong {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .print-instructions {
+            background: #fffacd;
+            border: 1px solid #f0e68c;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 10pt;
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section-header">
+        <h1>${escapeHtml(item.title)}</h1>
+        <div class="org">Institute for Advanced Criminal Law Studies</div>
+        <div class="org" style="font-size: 9pt;">IACLS.ORG</div>
+    </div>
+
+    <div class="client-info">
+        <div><strong>Client:</strong> ${escapeHtml(currentClient.name)}</div>
+        ${currentClient.caseNumber ? `<div><strong>Case Number:</strong> ${escapeHtml(currentClient.caseNumber)}</div>` : ''}
+        <div><strong>Date:</strong> ${new Date().toLocaleDateString()}</div>
+    </div>
+
+    <div class="print-instructions no-print">
+        <strong>Instructions:</strong> Use your browser's Print function (Ctrl/Cmd+P) and select "Save as PDF" to save this section.
+        <button onclick="window.print()" style="margin-left: 20px; padding: 5px 15px;">🖨️ Print / Save as PDF</button>
+    </div>
+
+    <div class="section-content">
+        ${sectionHtml}
+    </div>
+</body>
+</html>
+            `);
+            printWindow.document.close();
         }
 
         function printForm(formItem) {
