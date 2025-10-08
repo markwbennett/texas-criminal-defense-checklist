@@ -1,4 +1,4 @@
-# Texas Criminal Defense Checklist
+# Texas Criminal-Defense Checklist
 
 A comprehensive, hierarchical checklist for criminal defense practice in Texas, developed by the **Institute for Advanced Criminal Law Studies (IACLS)**.
 

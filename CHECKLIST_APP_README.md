@@ -1,4 +1,4 @@
-# Criminal Defense Checklist Web Application
+# Criminal-Defense Checklist Web Application
 
 ## Quick Start
 

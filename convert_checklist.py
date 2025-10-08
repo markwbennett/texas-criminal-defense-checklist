@@ -1,7 +1,7 @@
 #!./.venv/bin/python
 
 """
-Texas Criminal Defense Checklist Converter
+Texas Criminal-Defense Checklist Converter
 
 This script converts a hierarchical text-based checklist into a structured markdown document
 and then generates a PDF with proper formatting, navigation, and page breaks.
@@ -759,7 +759,7 @@ def convert_to_markdown(input_file, output_file):
     # Generate content
     index_content = []
     index_content.append("---")
-    index_content.append("title: Criminal Defense Checklist")
+    index_content.append("title: Criminal-Defense Checklist")
     index_content.append("created: " + datetime.now().strftime("%Y-%m-%d"))
     index_content.append("---")
     index_content.append("")
