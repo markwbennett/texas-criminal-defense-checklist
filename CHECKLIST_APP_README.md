@@ -175,8 +175,10 @@ When exporting, you'll be asked if you want to encrypt the backup:
 - **Keyboard Shortcut:** Ctrl/Cmd + S saves the current checklist
 - **Collapse sections** you're not working on to reduce clutter
 - **Use Search** to quickly find specific items
-- **Export regularly** as backup
+- **Export regularly** as backup (use "Export All" weekly)
 - **Print to PDF** for permanent records or court submissions
+- **Clear Storage** when using shared/public computers for security
+- **Use encryption** when storing backups in cloud services
 
 ## System Requirements
 

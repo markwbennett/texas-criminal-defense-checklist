@@ -102,6 +102,19 @@
             color: #ffd78a !important;
         }
 
+        body.dark-theme .privilege-notice {
+            background: #1e3a20 !important;
+            border-left-color: #27ae60 !important;
+        }
+
+        body.dark-theme .privilege-notice h3 {
+            color: #5ddb6a !important;
+        }
+
+        body.dark-theme .privilege-notice p {
+            color: #a8e6a3 !important;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -608,8 +621,21 @@
                 <button id="theme-toggle" onclick="toggleTheme()">
                     🌙 Dark
                 </button>
+                <button class="danger" onclick="clearLocalStorage()">
+                    🗑️ Clear Storage
+                </button>
             </div>
         </header>
+
+        <div class="card privilege-notice" style="background: #e8f5e9; border-left: 4px solid #27ae60;">
+            <h3 style="color: #1e7e34; margin-bottom: 10px;">🔒 Attorney-Client Privilege Protected</h3>
+            <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #155724;">
+                This application stores all client data <strong>exclusively on your local computer</strong> in your browser's private storage.
+                No data is ever transmitted to any server or third party. All information remains confidential and protected by attorney-client privilege.
+                Optional password encryption provides additional security for backup files stored in cloud services or shared locations.
+                For maximum security, use encrypted backups and clear your browser's local storage when using shared computers.
+            </p>
+        </div>
 
         <div id="welcome-screen" class="card">
             <h2>Welcome to the Criminal Defense Checklist Manager</h2>
@@ -2198,6 +2224,44 @@
             const button = document.getElementById('theme-toggle');
             const isDark = document.body.classList.contains('dark-theme');
             button.textContent = isDark ? '☀️ Light' : '🌙 Dark';
+        }
+
+        // Clear local storage
+        function clearLocalStorage() {
+            const clientCount = clients.length;
+
+            if (clientCount === 0) {
+                if (confirm('Clear all application data including template cache and theme preference?')) {
+                    localStorage.clear();
+                    alert('Local storage cleared. Reloading page...');
+                    location.reload();
+                }
+                return;
+            }
+
+            // Warn about backing up first
+            const message = `⚠️ WARNING: You have ${clientCount} client(s) stored locally.\n\n` +
+                `Before clearing, you should:\n` +
+                `1. Click "📦 Export All" to backup your data\n` +
+                `2. Save the backup file securely\n\n` +
+                `Clearing will permanently delete:\n` +
+                `- All ${clientCount} client checklist(s)\n` +
+                `- Template cache\n` +
+                `- Theme preference\n\n` +
+                `Have you backed up your data?\n\n` +
+                `Click OK to proceed with clearing (CANNOT BE UNDONE)\n` +
+                `Click Cancel to go back and export first`;
+
+            if (confirm(message)) {
+                // Double confirmation
+                if (confirm(`FINAL CONFIRMATION: Delete all ${clientCount} client(s) permanently?`)) {
+                    localStorage.clear();
+                    clients = [];
+                    template = null;
+                    alert('Local storage cleared. Reloading page...');
+                    location.reload();
+                }
+            }
         }
 
         // Keyboard shortcuts
