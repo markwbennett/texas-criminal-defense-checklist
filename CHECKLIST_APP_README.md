@@ -26,8 +26,10 @@
 
 ### ✓ Data Management
 - Auto-saves to browser localStorage
-- Export client data to JSON file (for backup/sharing)
-- Import client data from JSON file
+- **Export All** - Backup all clients in one file (recommended weekly)
+- **Import All** - Restore all clients from backup
+- Export individual client data to JSON file
+- Import individual client data from JSON file
 - Delete/archive old cases
 
 ### ✓ Search & Navigate
@@ -98,14 +100,21 @@ Main Section
 - Computer issues
 
 **To protect your data:**
-1. **Export each client regularly** (weekly or after significant updates)
-2. Click "Export" on each client card
-3. Save the `.json` files to a safe location (cloud storage, external drive)
-4. Keep multiple versions for important cases
+
+**Option 1: Export All (Recommended - Easiest)**
+1. Click **"📦 Export All"** button in the header
+2. Save the backup file (named `all_clients_backup_YYYY-MM-DD.json`)
+3. Store in a safe location (cloud storage, external drive)
+4. Repeat weekly or after significant updates
+
+**Option 2: Export Individual Clients**
+1. Click "Export" on each client card
+2. Save individual `.json` files
+3. Useful for sharing specific cases or selective backups
 
 **To restore:**
-- Click "Import Client" and select your backup `.json` file
-- All checklist progress and data will be restored
+- **Restore all clients:** Click "📂 Import All" and select your backup file (replaces all current data)
+- **Restore one client:** Click "📥 Import Client" and select an individual `.json` file (adds to existing clients)
 
 ## Troubleshooting
 

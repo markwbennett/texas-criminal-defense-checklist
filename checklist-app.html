@@ -587,6 +587,12 @@
                 <button onclick="showImportModal()">
                     📥 Import Client
                 </button>
+                <button onclick="exportAllClients()">
+                    📦 Export All
+                </button>
+                <button onclick="showImportAllModal()">
+                    📂 Import All
+                </button>
                 <button id="theme-toggle" onclick="toggleTheme()">
                     🌙 Dark
                 </button>
@@ -670,6 +676,21 @@
             <div class="modal-actions">
                 <button class="secondary" onclick="closeModal('import-modal')">Cancel</button>
                 <button onclick="importClient()">Import</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import All Modal -->
+    <div id="import-all-modal" class="modal">
+        <div class="modal-content">
+            <h3>Import All Clients</h3>
+            <p style="color: #e74c3c; margin-bottom: 10px;">
+                <strong>Warning:</strong> This will replace all existing clients with the imported data.
+            </p>
+            <input type="file" id="import-all-file" accept=".json">
+            <div class="modal-actions">
+                <button class="secondary" onclick="closeModal('import-all-modal')">Cancel</button>
+                <button onclick="importAllClients()">Import All</button>
             </div>
         </div>
     </div>
@@ -1330,6 +1351,70 @@
                     alert('Client imported successfully!');
                 } catch (error) {
                     alert('Error importing client: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function exportAllClients() {
+            if (clients.length === 0) {
+                alert('No clients to export');
+                return;
+            }
+
+            const data = JSON.stringify(clients, null, 2);
+            const blob = new Blob([data], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            const timestamp = new Date().toISOString().split('T')[0];
+            a.download = `all_clients_backup_${timestamp}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            alert(`Exported ${clients.length} client(s) successfully!`);
+        }
+
+        function showImportAllModal() {
+            document.getElementById('import-all-modal').classList.add('active');
+        }
+
+        function importAllClients() {
+            const fileInput = document.getElementById('import-all-file');
+            const file = fileInput.files[0];
+            if (!file) {
+                alert('Please select a file');
+                return;
+            }
+
+            if (!confirm('This will REPLACE all existing clients. Are you sure?')) {
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const importedClients = JSON.parse(e.target.result);
+
+                    // Validate it's an array
+                    if (!Array.isArray(importedClients)) {
+                        throw new Error('Invalid backup file format (expected array)');
+                    }
+
+                    // Validate each client
+                    for (const client of importedClients) {
+                        if (!client.name || !client.checklist) {
+                            throw new Error('Invalid client data in backup file');
+                        }
+                    }
+
+                    // Replace all clients
+                    clients = importedClients;
+                    saveClients();
+                    closeModal('import-all-modal');
+                    showClientsScreen();
+                    alert(`Successfully imported ${clients.length} client(s)!`);
+                } catch (error) {
+                    alert('Error importing clients: ' + error.message);
                 }
             };
             reader.readAsText(file);
