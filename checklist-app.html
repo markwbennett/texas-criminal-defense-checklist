@@ -707,12 +707,46 @@
         </div>
     </div>
 
+    <!-- Export Encryption Modal -->
+    <div id="export-encryption-modal" class="modal">
+        <div class="modal-content">
+            <h3>Encrypt Backup</h3>
+            <p style="font-size: 14px; color: #666; margin-bottom: 15px;">
+                Enter a password to encrypt this backup. <strong>Keep this password safe!</strong> Without it, the backup cannot be restored.
+            </p>
+            <input type="password" id="export-password" placeholder="Enter encryption password">
+            <input type="password" id="export-password-confirm" placeholder="Confirm password">
+            <div class="modal-actions">
+                <button class="secondary" onclick="closeModal('export-encryption-modal')">Cancel</button>
+                <button onclick="confirmEncryptedExport()">Encrypt & Export</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import Decryption Modal -->
+    <div id="import-decryption-modal" class="modal">
+        <div class="modal-content">
+            <h3>Decrypt Backup</h3>
+            <p style="font-size: 14px; color: #666; margin-bottom: 15px;">
+                This file is encrypted. Enter the password to decrypt and import.
+            </p>
+            <input type="password" id="import-password" placeholder="Enter decryption password">
+            <div class="modal-actions">
+                <button class="secondary" onclick="closeModal('import-decryption-modal')">Cancel</button>
+                <button onclick="confirmDecryptedImport()">Decrypt & Import</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Global state
         let template = null;
         let currentClient = null;
         let clients = [];
         let expandedItems = new Set(); // Track which items are expanded
+        let pendingExportData = null; // For encryption flow
+        let pendingImportData = null; // For decryption flow
+        let pendingImportType = null; // 'single' or 'all'
 
         // Initialize app
         document.addEventListener('DOMContentLoaded', function() {
@@ -1334,14 +1368,19 @@
             const client = clients.find(c => c.id === clientId);
             if (!client) return;
 
-            const data = JSON.stringify(client, null, 2);
-            const blob = new Blob([data], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `${client.name.replace(/[^a-z0-9]/gi, '_')}_checklist.json`;
-            a.click();
-            URL.revokeObjectURL(url);
+            // Ask if user wants encryption
+            if (confirm('Do you want to encrypt this backup with a password?\n\n⚠️ If you lose the password, the backup cannot be recovered.\n\nClick OK for encrypted backup, Cancel for unencrypted.')) {
+                pendingExportData = {
+                    type: 'single',
+                    data: client,
+                    filename: `${client.name.replace(/[^a-z0-9]/gi, '_')}_checklist_ENCRYPTED.json`
+                };
+                showEncryptionModal();
+            } else {
+                // Export unencrypted
+                const data = JSON.stringify(client, null, 2);
+                downloadFile(data, `${client.name.replace(/[^a-z0-9]/gi, '_')}_checklist.json`);
+            }
         }
 
         function showImportModal() {
@@ -1359,7 +1398,19 @@
             const reader = new FileReader();
             reader.onload = function(e) {
                 try {
-                    const client = JSON.parse(e.target.result);
+                    const parsed = JSON.parse(e.target.result);
+
+                    // Check if encrypted
+                    if (parsed.encrypted && parsed.version) {
+                        pendingImportData = parsed;
+                        pendingImportType = 'single';
+                        closeModal('import-modal');
+                        showDecryptionModal();
+                        return;
+                    }
+
+                    // Unencrypted import
+                    const client = parsed;
 
                     // Validate client data
                     if (!client.name || !client.checklist) {
@@ -1388,16 +1439,32 @@
                 return;
             }
 
-            const data = JSON.stringify(clients, null, 2);
+            const timestamp = new Date().toISOString().split('T')[0];
+
+            // Ask if user wants encryption
+            if (confirm('Do you want to encrypt this backup with a password?\n\n⚠️ If you lose the password, the backup cannot be recovered.\n\nClick OK for encrypted backup, Cancel for unencrypted.')) {
+                pendingExportData = {
+                    type: 'all',
+                    data: clients,
+                    filename: `all_clients_backup_ENCRYPTED_${timestamp}.json`
+                };
+                showEncryptionModal();
+            } else {
+                // Export unencrypted
+                const data = JSON.stringify(clients, null, 2);
+                downloadFile(data, `all_clients_backup_${timestamp}.json`);
+                alert(`Exported ${clients.length} client(s) successfully!`);
+            }
+        }
+
+        function downloadFile(data, filename) {
             const blob = new Blob([data], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            const timestamp = new Date().toISOString().split('T')[0];
-            a.download = `all_clients_backup_${timestamp}.json`;
+            a.download = filename;
             a.click();
             URL.revokeObjectURL(url);
-            alert(`Exported ${clients.length} client(s) successfully!`);
         }
 
         function showImportAllModal() {
@@ -1419,7 +1486,19 @@
             const reader = new FileReader();
             reader.onload = function(e) {
                 try {
-                    const importedClients = JSON.parse(e.target.result);
+                    const parsed = JSON.parse(e.target.result);
+
+                    // Check if encrypted
+                    if (parsed.encrypted && parsed.version) {
+                        pendingImportData = parsed;
+                        pendingImportType = 'all';
+                        closeModal('import-all-modal');
+                        showDecryptionModal();
+                        return;
+                    }
+
+                    // Unencrypted import
+                    const importedClients = parsed;
 
                     // Validate it's an array
                     if (!Array.isArray(importedClients)) {
@@ -1893,6 +1972,210 @@
 </html>
             `);
             printWindow.document.close();
+        }
+
+        // Encryption/Decryption functions
+        async function encryptData(data, password) {
+            const encoder = new TextEncoder();
+            const dataBuffer = encoder.encode(JSON.stringify(data));
+
+            // Derive key from password using PBKDF2
+            const passwordBuffer = encoder.encode(password);
+            const importedKey = await crypto.subtle.importKey(
+                'raw',
+                passwordBuffer,
+                { name: 'PBKDF2' },
+                false,
+                ['deriveBits', 'deriveKey']
+            );
+
+            // Generate a random salt
+            const salt = crypto.getRandomValues(new Uint8Array(16));
+
+            // Derive encryption key
+            const key = await crypto.subtle.deriveKey(
+                {
+                    name: 'PBKDF2',
+                    salt: salt,
+                    iterations: 100000,
+                    hash: 'SHA-256'
+                },
+                importedKey,
+                { name: 'AES-GCM', length: 256 },
+                false,
+                ['encrypt']
+            );
+
+            // Generate random IV
+            const iv = crypto.getRandomValues(new Uint8Array(12));
+
+            // Encrypt the data
+            const encryptedBuffer = await crypto.subtle.encrypt(
+                { name: 'AES-GCM', iv: iv },
+                key,
+                dataBuffer
+            );
+
+            // Combine salt + iv + encrypted data
+            const result = new Uint8Array(salt.length + iv.length + encryptedBuffer.byteLength);
+            result.set(salt, 0);
+            result.set(iv, salt.length);
+            result.set(new Uint8Array(encryptedBuffer), salt.length + iv.length);
+
+            // Convert to base64
+            const base64 = btoa(String.fromCharCode(...result));
+
+            return {
+                encrypted: true,
+                version: 1,
+                data: base64
+            };
+        }
+
+        async function decryptData(encryptedObj, password) {
+            const encoder = new TextEncoder();
+            const decoder = new TextDecoder();
+
+            // Decode base64
+            const combined = Uint8Array.from(atob(encryptedObj.data), c => c.charCodeAt(0));
+
+            // Extract salt, IV, and encrypted data
+            const salt = combined.slice(0, 16);
+            const iv = combined.slice(16, 28);
+            const encryptedData = combined.slice(28);
+
+            // Derive key from password
+            const passwordBuffer = encoder.encode(password);
+            const importedKey = await crypto.subtle.importKey(
+                'raw',
+                passwordBuffer,
+                { name: 'PBKDF2' },
+                false,
+                ['deriveBits', 'deriveKey']
+            );
+
+            const key = await crypto.subtle.deriveKey(
+                {
+                    name: 'PBKDF2',
+                    salt: salt,
+                    iterations: 100000,
+                    hash: 'SHA-256'
+                },
+                importedKey,
+                { name: 'AES-GCM', length: 256 },
+                false,
+                ['decrypt']
+            );
+
+            // Decrypt
+            const decryptedBuffer = await crypto.subtle.decrypt(
+                { name: 'AES-GCM', iv: iv },
+                key,
+                encryptedData
+            );
+
+            const decryptedText = decoder.decode(decryptedBuffer);
+            return JSON.parse(decryptedText);
+        }
+
+        function showEncryptionModal() {
+            document.getElementById('export-password').value = '';
+            document.getElementById('export-password-confirm').value = '';
+            document.getElementById('export-encryption-modal').classList.add('active');
+            document.getElementById('export-password').focus();
+        }
+
+        async function confirmEncryptedExport() {
+            const password = document.getElementById('export-password').value;
+            const confirmPassword = document.getElementById('export-password-confirm').value;
+
+            if (!password) {
+                alert('Please enter a password');
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                alert('Passwords do not match');
+                return;
+            }
+
+            if (password.length < 8) {
+                alert('Password must be at least 8 characters long');
+                return;
+            }
+
+            try {
+                const encrypted = await encryptData(pendingExportData.data, password);
+                const data = JSON.stringify(encrypted, null, 2);
+                downloadFile(data, pendingExportData.filename);
+
+                const isAll = pendingExportData.type === 'all';
+                closeModal('export-encryption-modal');
+                pendingExportData = null;
+
+                if (isAll) {
+                    alert(`Exported and encrypted ${clients.length} client(s) successfully!`);
+                } else {
+                    alert('Client exported and encrypted successfully!');
+                }
+            } catch (error) {
+                alert('Encryption failed: ' + error.message);
+            }
+        }
+
+        async function attemptDecryption(encryptedObj, password, isAll) {
+            try {
+                const decryptedData = await decryptData(encryptedObj, password);
+
+                if (isAll) {
+                    // Validate it's an array
+                    if (!Array.isArray(decryptedData)) {
+                        throw new Error('Invalid backup file format');
+                    }
+
+                    // Replace all clients
+                    clients = decryptedData;
+                    saveClients();
+                    alert(`Successfully imported ${clients.length} client(s)!`);
+                } else {
+                    // Single client
+                    if (!decryptedData.name || !decryptedData.checklist) {
+                        throw new Error('Invalid client data');
+                    }
+
+                    // Generate new ID
+                    decryptedData.id = Date.now().toString();
+                    decryptedData.modified = new Date().toISOString();
+
+                    clients.push(decryptedData);
+                    saveClients();
+                    alert('Client imported successfully!');
+                }
+
+                closeModal('import-decryption-modal');
+                showClientsScreen();
+                pendingImportData = null;
+                pendingImportType = null;
+            } catch (error) {
+                alert('Decryption failed. Wrong password or corrupted file.');
+            }
+        }
+
+        function showDecryptionModal() {
+            document.getElementById('import-password').value = '';
+            document.getElementById('import-decryption-modal').classList.add('active');
+            document.getElementById('import-password').focus();
+        }
+
+        function confirmDecryptedImport() {
+            const password = document.getElementById('import-password').value;
+
+            if (!password) {
+                alert('Please enter the decryption password');
+                return;
+            }
+
+            attemptDecryption(pendingImportData, password, pendingImportType === 'all');
         }
 
         // Theme management

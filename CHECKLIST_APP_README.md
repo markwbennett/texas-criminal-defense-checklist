@@ -28,6 +28,7 @@
 - Auto-saves to browser localStorage
 - **Export All** - Backup all clients in one file (recommended weekly)
 - **Import All** - Restore all clients from backup
+- **Optional Password Encryption** - Encrypt backups with AES-256 for security
 - Export individual client data to JSON file
 - Import individual client data from JSON file
 - Delete/archive old cases
@@ -115,6 +116,42 @@ Main Section
 **To restore:**
 - **Restore all clients:** Click "📂 Import All" and select your backup file (replaces all current data)
 - **Restore one client:** Click "📥 Import Client" and select an individual `.json` file (adds to existing clients)
+
+### Password Encryption (Optional)
+
+When exporting, you'll be asked if you want to encrypt the backup:
+
+**Encrypting backups:**
+1. Click "Export" or "Export All"
+2. Choose "OK" when asked about encryption
+3. Enter a strong password (minimum 8 characters)
+4. Confirm password
+5. File saved with "_ENCRYPTED" in filename
+
+**Security features:**
+- AES-256-GCM encryption (military-grade)
+- PBKDF2 key derivation (100,000 iterations)
+- Random salt and IV per backup
+- No password recovery possible
+
+**⚠️ CRITICAL: If you lose the password, the backup is permanently unrecoverable!**
+
+**When to use encryption:**
+- Storing backups in cloud storage (Dropbox, Google Drive)
+- Emailing backups to yourself
+- Sharing backup files with others
+- Any situation where file might be accessed by unauthorized persons
+
+**Importing encrypted backups:**
+1. Select the encrypted file
+2. App automatically detects encryption
+3. Enter your password
+4. Data decrypted and restored
+
+**Unencrypted backups:**
+- Choose "Cancel" when asked about encryption
+- Simpler, no password to remember
+- Only use if storing backups in secure location
 
 ## Troubleshooting
 
