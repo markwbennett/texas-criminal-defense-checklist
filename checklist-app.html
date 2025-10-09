@@ -610,12 +610,7 @@
             </div>
             <div id="template-status"></div>
             <div class="header-actions">
-                <label for="template-upload">
-                    <button type="button" onclick="document.getElementById('template-upload').click()">
-                        📁 Load Template
-                    </button>
-                </label>
-                <input type="file" id="template-upload" accept=".txt">
+                <input type="file" id="template-upload" accept=".txt" style="display: none;">
                 <button id="new-client-btn" onclick="showNewClientModal()" disabled>
                     ➕ New Client
                 </button>
@@ -652,15 +647,7 @@
             <p style="color: #7f8c8d; margin-bottom: 20px;">
                 Developed by the Institute for Advanced Criminal Law Studies
             </p>
-            <p>To get started, please load your checklist template file:</p>
-            <label for="template-upload-main">
-                <button type="button" onclick="document.getElementById('template-upload').click()">
-                    📁 Load Template File
-                </button>
-            </label>
-            <p style="margin-top: 20px; font-size: 14px; color: #7f8c8d;">
-                Select the <strong>CriminalDefenseChecklist.txt</strong> file
-            </p>
+            <p>Loading default template...</p>
         </div>
 
         <div id="clients-screen" style="display: none;">
@@ -798,13 +785,22 @@
             const cached = localStorage.getItem('template');
             if (cached) {
                 try {
-                    template = JSON.parse(cached);
+                    const parsedTemplate = JSON.parse(cached);
+                    // Validate that the template actually has items
+                    if (!parsedTemplate || !Array.isArray(parsedTemplate) || parsedTemplate.length === 0) {
+                        console.error('Cached template is empty or invalid');
+                        localStorage.removeItem('template');
+                        return;
+                    }
+                    template = parsedTemplate;
                     updateTemplateStatus();
                     if (clients.length > 0) {
                         showClientsScreen();
                     }
                 } catch (e) {
                     console.error('Failed to load cached template:', e);
+                    // Clear corrupted template from cache
+                    localStorage.removeItem('template');
                 }
             }
         }
@@ -830,8 +826,20 @@
                         }
                     })
                     .catch(error => {
-                        console.log('No default template found, user must upload manually:', error);
-                        // Template will need to be loaded manually
+                        console.error('Failed to load default template:', error);
+                        // Update welcome screen with error message
+                        const welcomeScreen = document.getElementById('welcome-screen');
+                        if (welcomeScreen) {
+                            welcomeScreen.innerHTML = `
+                                <h2>Error Loading Template</h2>
+                                <p style="color: #e74c3c;">
+                                    Failed to load the checklist template. Please refresh the page to try again.
+                                </p>
+                                <p style="color: #7f8c8d; font-size: 14px;">
+                                    Error: ${error.message}
+                                </p>
+                            `;
+                        }
                     });
             } else if (clients.length > 0) {
                 showClientsScreen();
@@ -953,7 +961,14 @@
                 stack.push(item);
             }
 
-            return root.children;
+            const result = root.children;
+
+            // Validate that we actually parsed some items
+            if (!result || result.length === 0) {
+                throw new Error('Template is empty or invalid - no checklist items found');
+            }
+
+            return result;
         }
 
         function generateId(text) {
@@ -1000,10 +1015,6 @@
         }
 
         function showNewClientModal() {
-            if (!template) {
-                alert('Please load a template first');
-                return;
-            }
             document.getElementById('new-client-modal').classList.add('active');
             document.getElementById('client-name-input').value = '';
             document.getElementById('case-number-input').value = '';
@@ -1020,6 +1031,13 @@
 
             if (!name) {
                 alert('Please enter a client name');
+                return;
+            }
+
+            // Validate template exists and has items
+            if (!template || !Array.isArray(template) || template.length === 0) {
+                alert('Error: Template is not loaded properly. Please refresh the page to reload the default template.');
+                console.error('Cannot create client - invalid template:', template);
                 return;
             }
 
