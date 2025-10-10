@@ -731,7 +731,7 @@
         <div id="welcome-screen" class="card welcome-screen">
             <h2>Welcome to the Criminal Defense Checklist (Paginated)</h2>
             <p>Manage your case checklists with secure encryption and progress tracking.</p>
-            <p>This version shows one checklist section at a time for easier navigation.</p>
+            <p id="welcome-subtitle">This version shows one checklist section at a time for easier navigation.</p>
             <button class="btn btn-primary" onclick="showClientsScreen()">Get Started</button>
         </div>
 
@@ -1954,9 +1954,19 @@
 
         function updateWelcomeScreenText() {
             const welcomeTitle = document.querySelector('#welcome-screen h2');
+            const welcomeSubtitle = document.getElementById('welcome-subtitle');
+
             if (welcomeTitle) {
                 const modeText = viewMode === 'paginated' ? 'Paginated' : 'Single Page';
                 welcomeTitle.textContent = `Welcome to the Criminal Defense Checklist (${modeText})`;
+            }
+
+            if (welcomeSubtitle) {
+                if (viewMode === 'paginated') {
+                    welcomeSubtitle.textContent = 'This version shows one checklist section at a time for easier navigation.';
+                } else {
+                    welcomeSubtitle.textContent = 'This version shows all checklist sections on one page for easier overview.';
+                }
             }
         }
 
