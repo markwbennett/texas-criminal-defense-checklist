@@ -1492,7 +1492,7 @@
 
                 const label = document.createElement('span');
                 label.className = 'item-text';
-                label.textContent = item.text;
+                label.textContent = item.text || item.title || '';
                 label.onclick = () => {
                     checkbox.checked = !checkbox.checked;
                     toggleItem(item.id, checkbox.checked);
