@@ -1435,7 +1435,7 @@
             nextBtn.style.display = 'none';
         }
 
-        function renderItem(container, item, level = 0) {
+        function renderItem(container, item, level = 0, inSinglePageView = false) {
             if (item.type === 'form') {
                 const formDiv = document.createElement('div');
                 formDiv.className = 'form-section';
@@ -1484,18 +1484,44 @@
                     itemContent.classList.add('item-has-children');
                 }
 
+                // Add collapse/expand arrow for items with children (only in single-page view)
+                if (inSinglePageView && item.children && item.children.length > 0) {
+                    const arrow = document.createElement('span');
+                    arrow.className = 'collapse-arrow';
+                    arrow.textContent = expandedItems.has(item.id) ? '▼' : '▶';
+                    arrow.style.cursor = 'pointer';
+                    arrow.style.marginRight = '8px';
+                    arrow.style.userSelect = 'none';
+                    arrow.style.display = 'inline-block';
+                    arrow.style.width = '12px';
+                    arrow.onclick = (e) => {
+                        e.stopPropagation();
+                        toggleExpanded(item.id);
+                    };
+                    itemContent.appendChild(arrow);
+                }
+
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = item.id;
                 checkbox.checked = currentClient.state[item.id]?.checked || false;
-                checkbox.onchange = (e) => toggleItem(item.id, e.target.checked);
+                checkbox.onchange = (e) => {
+                    e.stopPropagation();
+                    toggleItem(item.id, e.target.checked);
+                };
 
                 const label = document.createElement('span');
                 label.className = 'item-text';
                 label.textContent = item.text || item.title || '';
-                label.onclick = () => {
-                    checkbox.checked = !checkbox.checked;
-                    toggleItem(item.id, checkbox.checked);
+                label.onclick = (e) => {
+                    // In single-page view with children, clicking label toggles expansion
+                    if (inSinglePageView && item.children && item.children.length > 0) {
+                        e.stopPropagation();
+                        toggleExpanded(item.id);
+                    } else {
+                        checkbox.checked = !checkbox.checked;
+                        toggleItem(item.id, checkbox.checked);
+                    }
                 };
 
                 if (checkbox.checked) {
@@ -1514,18 +1540,32 @@
 
                 itemDiv.appendChild(itemContent);
 
-                // Render children
+                // Render children (only if expanded in single-page view, or always in paginated view)
                 if (item.children && item.children.length > 0) {
                     const childrenDiv = document.createElement('div');
                     childrenDiv.className = 'item-children';
+
+                    // In single-page view, only show children if expanded
+                    const shouldShow = !inSinglePageView || expandedItems.has(item.id);
+                    childrenDiv.style.display = shouldShow ? 'block' : 'none';
+
                     item.children.forEach(child => {
-                        renderItem(childrenDiv, child, level + 1);
+                        renderItem(childrenDiv, child, level + 1, inSinglePageView);
                     });
                     itemDiv.appendChild(childrenDiv);
                 }
 
                 container.appendChild(itemDiv);
             }
+        }
+
+        function toggleExpanded(itemId) {
+            if (expandedItems.has(itemId)) {
+                expandedItems.delete(itemId);
+            } else {
+                expandedItems.add(itemId);
+            }
+            renderCurrentView();
         }
 
         function toggleItem(itemId, checked) {
@@ -1871,7 +1911,7 @@
 
             container.innerHTML = '<h2 style="margin-bottom: 20px;">Complete Checklist</h2>';
 
-            // Render all sections in one page
+            // Render all sections in one page (collapsed by default)
             currentClient.checklist.forEach((section, index) => {
                 const sectionDiv = document.createElement('div');
                 sectionDiv.style.marginBottom = '40px';
@@ -1880,19 +1920,44 @@
                     sectionDiv.style.borderBottom = '2px solid #ecf0f1';
                 }
 
+                // Collapsible section header
+                const headerDiv = document.createElement('div');
+                headerDiv.style.display = 'flex';
+                headerDiv.style.alignItems = 'center';
+                headerDiv.style.cursor = 'pointer';
+                headerDiv.style.marginBottom = '15px';
+
+                const arrow = document.createElement('span');
+                arrow.textContent = expandedItems.has(section.id) ? '▼' : '▶';
+                arrow.style.marginRight = '12px';
+                arrow.style.fontSize = '16px';
+                arrow.style.userSelect = 'none';
+                arrow.style.display = 'inline-block';
+                arrow.style.width = '16px';
+
                 const titleDiv = document.createElement('h3');
                 titleDiv.textContent = section.title || section.text;
                 titleDiv.style.color = '#2c3e50';
-                titleDiv.style.marginBottom = '15px';
+                titleDiv.style.margin = '0';
                 titleDiv.id = section.id;
-                sectionDiv.appendChild(titleDiv);
+
+                headerDiv.appendChild(arrow);
+                headerDiv.appendChild(titleDiv);
+                headerDiv.onclick = () => toggleExpanded(section.id);
+
+                sectionDiv.appendChild(headerDiv);
+
+                // Section content (collapsible)
+                const contentDiv = document.createElement('div');
+                contentDiv.style.display = expandedItems.has(section.id) ? 'block' : 'none';
 
                 if (section.children && section.children.length > 0) {
                     section.children.forEach(child => {
-                        renderItem(sectionDiv, child, 0);
+                        renderItem(contentDiv, child, 0, true); // Pass true for inSinglePageView
                     });
                 }
 
+                sectionDiv.appendChild(contentDiv);
                 container.appendChild(sectionDiv);
             });
         }
