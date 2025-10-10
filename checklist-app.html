@@ -743,9 +743,10 @@
                 </div>
                 <div id="client-list" class="client-list"></div>
                 <button class="btn btn-primary" onclick="showNewClientModal()">+ New Client Checklist</button>
-                <div style="margin-top: 20px;">
+                <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
                     <button class="btn btn-secondary" onclick="showEncryptionModal()">📤 Export All (Encrypted)</button>
                     <button class="btn btn-secondary" onclick="document.getElementById('import-input').click()">📥 Import</button>
+                    <button class="btn btn-danger" onclick="resetAllData()">🗑️ Reset Data</button>
                     <input type="file" id="import-input" style="display: none;" accept=".json" onchange="importData(this)">
                 </div>
             </div>
@@ -1868,6 +1869,45 @@
             } catch (error) {
                 alert('Decryption failed. Please check your password.');
             }
+        }
+
+        // Reset all data
+        function resetAllData() {
+            const confirmMessage =
+                '⚠️ WARNING: This will permanently delete ALL client data!\n\n' +
+                '📥 IMPORTANT: Export all client files first to avoid data loss.\n\n' +
+                'This action cannot be undone. Are you sure you want to continue?';
+
+            if (!confirm(confirmMessage)) {
+                return;
+            }
+
+            // Double confirmation
+            const doubleConfirm = confirm(
+                '🔴 FINAL WARNING!\n\n' +
+                'This is your last chance to cancel.\n\n' +
+                'Click OK to permanently delete all data, or Cancel to keep your data safe.'
+            );
+
+            if (!doubleConfirm) {
+                return;
+            }
+
+            // Clear all data
+            localStorage.removeItem('criminalDefenseClients');
+            localStorage.removeItem('template');
+            localStorage.removeItem('darkTheme');
+            localStorage.removeItem('viewMode');
+
+            // Reset application state
+            clients = [];
+            currentClient = null;
+            template = null;
+
+            alert('✅ All data has been reset. The page will now reload.');
+
+            // Reload the page to reset everything
+            window.location.reload();
         }
 
         // Handle URL hash navigation
