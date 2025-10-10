@@ -803,7 +803,7 @@
         // Initialize data
         let clients = [];
         let currentClient = null;
-        let currentSection = 'home'; // Track current section
+        let currentPath = []; // Track navigation path as array of item IDs ['home'] or ['section1', 'itemA', 'itemii']
         let pendingExportData = null;
         let pendingImportData = null;
         let template = null; // The checklist template loaded from file
@@ -1088,7 +1088,7 @@
 
             // Render based on view mode
             if (viewMode === 'paginated') {
-                navigateToSection('home');
+                navigateToPath(['home']);
             } else {
                 renderSinglePageView();
             }
@@ -1102,7 +1102,7 @@
                 saveClients();
             }
             currentClient = null;
-            currentSection = 'home';
+            currentPath = [];
             showClientsScreen();
         }
 
@@ -1151,70 +1151,228 @@
 
         // Navigation functions
         function navigateToHome() {
-            navigateToSection('home');
+            navigateToPath(['home']);
         }
 
-        function navigateToSection(sectionId) {
-            currentSection = sectionId;
-            window.location.hash = sectionId;
-            renderCurrentSection();
+        function navigateToPath(path) {
+            currentPath = [...path];
+            window.location.hash = path.join('/');
+            renderCurrentView();
             updateOverallProgress();
             window.scrollTo(0, 0);
         }
 
-        function navigatePrev() {
-            const sections = getSectionList();
-            const currentIndex = sections.findIndex(s => s.id === currentSection);
-            if (currentIndex > 0) {
-                navigateToSection(sections[currentIndex - 1].id);
+        function navigateToItem(itemId) {
+            // Find the path to this item in the hierarchy
+            const path = findPathToItem(currentClient.checklist, itemId);
+            if (path) {
+                navigateToPath(path);
             }
         }
 
-        function navigateNext() {
-            const sections = getSectionList();
-            const currentIndex = sections.findIndex(s => s.id === currentSection);
-            if (currentIndex < sections.length - 1) {
-                navigateToSection(sections[currentIndex + 1].id);
+        function findPathToItem(items, targetId, currentPath = []) {
+            for (const item of items) {
+                const newPath = [...currentPath, item.id];
+
+                if (item.id === targetId) {
+                    return newPath;
+                }
+
+                if (item.children && item.children.length > 0) {
+                    const found = findPathToItem(item.children, targetId, newPath);
+                    if (found) return found;
+                }
             }
+            return null;
         }
 
-        function getSectionList() {
-            // Return flat list of all navigable sections
-            const sections = [{ id: 'home', title: 'Master Checklist' }];
+        function getItemByPath(path) {
+            if (!path || path.length === 0 || path[0] === 'home') {
+                return null; // Home/master list
+            }
 
-            currentClient.checklist.forEach(item => {
-                sections.push({
-                    id: item.id,
-                    title: item.title || item.text
-                });
-            });
+            let items = currentClient.checklist;
+            let currentItem = null;
 
-            return sections;
+            for (const itemId of path) {
+                currentItem = items.find(item => item.id === itemId);
+                if (!currentItem) return null;
+                items = currentItem.children || [];
+            }
+
+            return currentItem;
         }
 
-        function renderCurrentSection() {
+        function getParentPath() {
+            if (currentPath.length <= 1) return ['home'];
+            return currentPath.slice(0, -1);
+        }
+
+        function renderCurrentView() {
+            if (viewMode === 'single-page') {
+                renderSinglePageView();
+                return;
+            }
+
+            // Paginated view
             const container = document.getElementById('checklist-content');
             const breadcrumb = document.getElementById('breadcrumb');
             const navButtons = document.getElementById('nav-buttons');
             const sectionTitleDisplay = document.getElementById('section-title-display');
 
-            if (currentSection === 'home') {
-                // Render master checklist (list of all sections)
+            if (currentPath.length === 0 || currentPath[0] === 'home') {
+                // Render master checklist (list of all top-level sections)
                 renderMasterChecklist(container);
                 breadcrumb.innerHTML = '<strong>Master Checklist</strong>';
+                breadcrumb.style.display = 'block';
                 sectionTitleDisplay.textContent = 'Master Checklist';
                 navButtons.style.display = 'none';
             } else {
-                // Render specific section
-                const section = findSectionById(currentSection);
-                if (section) {
-                    renderSection(container, section);
-                    renderBreadcrumb(breadcrumb, section);
-                    sectionTitleDisplay.textContent = section.title || section.text;
+                // Render specific item and its children
+                const item = getItemByPath(currentPath);
+                if (item) {
+                    renderHierarchicalPage(container, item, currentPath);
+                    renderBreadcrumbPath(breadcrumb, currentPath);
+                    breadcrumb.style.display = 'block';
+                    sectionTitleDisplay.textContent = item.title || item.text;
                     navButtons.style.display = 'flex';
                     updateNavButtons();
                 }
             }
+        }
+
+        function renderHierarchicalPage(container, item, path) {
+            container.innerHTML = '';
+
+            // Render page title
+            const titleDiv = document.createElement('h2');
+            titleDiv.textContent = item.title || item.text;
+            titleDiv.style.marginBottom = '20px';
+            container.appendChild(titleDiv);
+
+            if (!item.children || item.children.length === 0) {
+                container.innerHTML += '<p style="color: #7f8c8d;">No items in this section.</p>';
+                return;
+            }
+
+            // Separate children into sublists (items with children) and regular items
+            const sublists = [];
+            const regularItems = [];
+
+            item.children.forEach(child => {
+                if (child.type === 'checkbox' && child.children && child.children.length > 0) {
+                    sublists.push(child);
+                } else {
+                    regularItems.push(child);
+                }
+            });
+
+            // Render sublists as navigation links
+            if (sublists.length > 0) {
+                const sublistSection = document.createElement('div');
+                sublistSection.style.marginBottom = '30px';
+
+                const sublistTitle = document.createElement('h3');
+                sublistTitle.textContent = 'Sublists';
+                sublistTitle.style.color = '#2c3e50';
+                sublistTitle.style.marginBottom = '15px';
+                sublistTitle.style.fontSize = '18px';
+                sublistSection.appendChild(sublistTitle);
+
+                const sublistGrid = document.createElement('div');
+                sublistGrid.className = 'section-list';
+
+                sublists.forEach(subitem => {
+                    const progress = calculateItemProgress(subitem);
+                    const link = document.createElement('a');
+                    link.href = `#${[...path, subitem.id].join('/')}`;
+                    link.className = 'section-link';
+                    link.onclick = (e) => {
+                        e.preventDefault();
+                        navigateToPath([...path, subitem.id]);
+                    };
+
+                    link.innerHTML = `
+                        <div class="section-title">${subitem.title || subitem.text}</div>
+                        <div class="section-progress">${progress.percentage}% complete (${progress.checked}/${progress.total} items)</div>
+                    `;
+
+                    sublistGrid.appendChild(link);
+                });
+
+                sublistSection.appendChild(sublistGrid);
+                container.appendChild(sublistSection);
+            }
+
+            // Render regular items (items without children or non-checkbox items)
+            if (regularItems.length > 0) {
+                const itemsSection = document.createElement('div');
+
+                if (sublists.length > 0) {
+                    const itemsTitle = document.createElement('h3');
+                    itemsTitle.textContent = 'Checklist Items';
+                    itemsTitle.style.color = '#2c3e50';
+                    itemsTitle.style.marginBottom = '15px';
+                    itemsTitle.style.marginTop = '20px';
+                    itemsTitle.style.fontSize = '18px';
+                    itemsSection.appendChild(itemsTitle);
+                }
+
+                regularItems.forEach(child => {
+                    renderItem(itemsSection, child, 0);
+                });
+
+                container.appendChild(itemsSection);
+            }
+        }
+
+        function calculateItemProgress(item) {
+            let total = 0;
+            let checked = 0;
+
+            function countItems(it) {
+                if (it.type === 'checkbox') {
+                    total++;
+                    if (currentClient.state[it.id]?.checked) {
+                        checked++;
+                    }
+                }
+                if (it.children) {
+                    it.children.forEach(countItems);
+                }
+            }
+
+            countItems(item);
+
+            return {
+                total,
+                checked,
+                percentage: total > 0 ? Math.round((checked / total) * 100) : 0
+            };
+        }
+
+        function renderBreadcrumbPath(breadcrumb, path) {
+            const parts = ['<a href="#home" onclick="navigateToHome(); return false;">Master Checklist</a>'];
+
+            let accumulatedPath = [];
+            for (const itemId of path) {
+                if (itemId === 'home') continue;
+
+                accumulatedPath.push(itemId);
+                const item = getItemByPath(accumulatedPath);
+                if (item) {
+                    const pathStr = accumulatedPath.join('/');
+                    const isLast = accumulatedPath.length === path.length;
+
+                    if (isLast) {
+                        parts.push(`<strong>${item.title || item.text}</strong>`);
+                    } else {
+                        parts.push(`<a href="#${pathStr}" onclick="navigateToPath(${JSON.stringify(accumulatedPath)}); return false;">${item.title || item.text}</a>`);
+                    }
+                }
+            }
+
+            breadcrumb.innerHTML = parts.join(' <span>›</span> ');
         }
 
         function renderMasterChecklist(container) {
@@ -1227,13 +1385,13 @@
             const sectionList = container.querySelector('.section-list');
 
             currentClient.checklist.forEach(item => {
-                const progress = calculateSectionProgress(item);
+                const progress = calculateItemProgress(item);
                 const link = document.createElement('a');
                 link.href = `#${item.id}`;
                 link.className = 'section-link';
                 link.onclick = (e) => {
                     e.preventDefault();
-                    navigateToSection(item.id);
+                    navigateToPath([item.id]);
                 };
 
                 link.innerHTML = `
@@ -1245,77 +1403,18 @@
             });
         }
 
-        function calculateSectionProgress(section) {
-            let total = 0;
-            let checked = 0;
-
-            function countItems(items) {
-                items.forEach(item => {
-                    if (item.type === 'checkbox') {
-                        total++;
-                        if (currentClient.state[item.id]?.checked) {
-                            checked++;
-                        }
-                    }
-                    if (item.children) {
-                        countItems(item.children);
-                    }
-                });
-            }
-
-            if (section.children) {
-                countItems(section.children);
-            } else if (section.type === 'checkbox') {
-                total = 1;
-                checked = currentClient.state[section.id]?.checked ? 1 : 0;
-            }
-
-            return {
-                total,
-                checked,
-                percentage: total > 0 ? Math.round((checked / total) * 100) : 0
-            };
-        }
-
-        function findSectionById(sectionId) {
-            return currentClient.checklist.find(item => item.id === sectionId);
-        }
-
-        function renderBreadcrumb(breadcrumb, section) {
-            breadcrumb.innerHTML = `
-                <a href="#home" onclick="navigateToHome(); return false;">Master Checklist</a>
-                <span>›</span>
-                <strong>${section.title || section.text}</strong>
-            `;
-        }
-
         function updateNavButtons() {
-            const sections = getSectionList();
-            const currentIndex = sections.findIndex(s => s.id === currentSection);
-
             const prevBtn = document.getElementById('prev-btn');
             const nextBtn = document.getElementById('next-btn');
 
-            prevBtn.disabled = currentIndex <= 1; // 0 is home
-            nextBtn.disabled = currentIndex >= sections.length - 1;
-        }
+            // For now, simplify navigation - just enable "up" button
+            const parentPath = getParentPath();
+            prevBtn.textContent = '← Back';
+            prevBtn.disabled = false;
+            prevBtn.onclick = () => navigateToPath(parentPath);
 
-        function renderSection(container, section) {
-            container.innerHTML = '';
-
-            // Render section title
-            const titleDiv = document.createElement('div');
-            titleDiv.innerHTML = `<h2 style="margin-bottom: 20px;">${section.title || section.text}</h2>`;
-            container.appendChild(titleDiv);
-
-            // Render children
-            if (section.children && section.children.length > 0) {
-                section.children.forEach(child => {
-                    renderItem(container, child, 0);
-                });
-            } else {
-                container.innerHTML += '<p style="color: #7f8c8d;">No items in this section.</p>';
-            }
+            // Disable next for now (could add sibling navigation later)
+            nextBtn.style.display = 'none';
         }
 
         function renderItem(container, item, level = 0) {
@@ -1697,9 +1796,17 @@
 
         // Handle URL hash navigation
         window.addEventListener('hashchange', () => {
+            if (!currentClient || viewMode !== 'paginated') return;
+
             const hash = window.location.hash.slice(1);
-            if (hash && currentClient && viewMode === 'paginated') {
-                navigateToSection(hash || 'home');
+            if (hash) {
+                // Hash is a path like "section1/itemA/itemii"
+                const path = hash.split('/');
+                if (path[0] && path[0] !== 'home') {
+                    navigateToPath(path);
+                } else {
+                    navigateToPath(['home']);
+                }
             }
         });
 
@@ -1712,7 +1819,7 @@
             if (currentClient) {
                 // Re-render with new view mode
                 if (viewMode === 'paginated') {
-                    navigateToSection(currentSection || 'home');
+                    navigateToPath(currentPath.length > 0 ? currentPath : ['home']);
                 } else {
                     renderSinglePageView();
                 }
