@@ -197,6 +197,10 @@
             display: block;
         }
 
+        body.dark-theme .iacls-logo {
+            filter: brightness(0) invert(1);
+        }
+
         .header-title {
             flex: 1;
         }
@@ -1929,6 +1933,7 @@
             viewMode = viewMode === 'paginated' ? 'single-page' : 'paginated';
             localStorage.setItem('viewMode', viewMode);
             updateViewModeButton();
+            updateWelcomeScreenText();
 
             if (currentClient) {
                 // Re-render with new view mode
@@ -1947,12 +1952,21 @@
             }
         }
 
+        function updateWelcomeScreenText() {
+            const welcomeTitle = document.querySelector('#welcome-screen h2');
+            if (welcomeTitle) {
+                const modeText = viewMode === 'paginated' ? 'Paginated' : 'Single Page';
+                welcomeTitle.textContent = `Welcome to the Criminal Defense Checklist (${modeText})`;
+            }
+        }
+
         function loadViewMode() {
             const saved = localStorage.getItem('viewMode');
             if (saved) {
                 viewMode = saved;
             }
             updateViewModeButton();
+            updateWelcomeScreenText();
         }
 
         function renderSinglePageView() {
