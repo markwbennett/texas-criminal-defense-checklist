@@ -1604,8 +1604,42 @@
         }
 
         function updateParentCheckboxes() {
-            // Implement parent checkbox logic if needed
-            // This would check/uncheck parent items based on children
+            // Update parent checkboxes based on children's checked state
+            function updateItem(item) {
+                if (!item.children || item.children.length === 0) {
+                    return;
+                }
+
+                // Recursively update all children first
+                item.children.forEach(child => {
+                    if (child.type === 'checkbox') {
+                        updateItem(child);
+                    }
+                });
+
+                // Count checked children (only checkbox type items)
+                const checkboxChildren = item.children.filter(child => child.type === 'checkbox');
+                if (checkboxChildren.length === 0) {
+                    return;
+                }
+
+                const allChildrenChecked = checkboxChildren.every(child =>
+                    currentClient.state[child.id]?.checked === true
+                );
+
+                // Update parent's checked state
+                if (!currentClient.state[item.id]) {
+                    currentClient.state[item.id] = {};
+                }
+                currentClient.state[item.id].checked = allChildrenChecked;
+            }
+
+            // Update all items in the checklist
+            currentClient.checklist.forEach(item => {
+                if (item.type === 'checkbox') {
+                    updateItem(item);
+                }
+            });
         }
 
         function saveChecklist() {
