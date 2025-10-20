@@ -499,6 +499,9 @@
             width: 18px;
             height: 18px;
             flex-shrink: 0;
+            position: relative;
+            z-index: 10;
+            pointer-events: auto;
         }
 
         .item-text {
@@ -1547,8 +1550,15 @@
                         e.stopPropagation();
                         toggleExpanded(item.id);
                     } else {
+                        e.stopPropagation();
                         checkbox.checked = !checkbox.checked;
-                        checkbox.onchange(new Event('change', { target: checkbox }));
+
+                        // Manually call the checkbox logic
+                        if (item.children && item.children.length > 0) {
+                            toggleItemAndChildren(item, checkbox.checked);
+                        } else {
+                            toggleItem(item.id, checkbox.checked);
+                        }
                     }
                 };
 
