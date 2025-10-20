@@ -1619,22 +1619,86 @@
         }
 
         function toggleItem(itemId, checked) {
+            console.log('toggleItem called:', itemId, checked);
+
             if (!currentClient.state[itemId]) {
                 currentClient.state[itemId] = {};
             }
             currentClient.state[itemId].checked = checked;
 
+            console.log('State after setting:', currentClient.state[itemId]);
+
             // Save immediately to ensure state persists
             saveChecklist();
 
+            // Update parent checkboxes based on children
             updateParentCheckboxes();
+
+            console.log('State after updateParentCheckboxes:', currentClient.state[itemId]);
+
             updateOverallProgress();
 
-            // Re-render to update styling
-            renderCurrentView();
+            // Update UI without full re-render
+            updateCheckboxUI(itemId, checked);
+        }
+
+        function updateCheckboxUI(itemId, checked) {
+            const checkboxElement = document.getElementById(itemId);
+            if (checkboxElement) {
+                checkboxElement.checked = checked;
+                const label = checkboxElement.nextElementSibling;
+                if (label && label.classList.contains('item-text')) {
+                    if (checked) {
+                        label.classList.add('checked');
+                    } else {
+                        label.classList.remove('checked');
+                    }
+                }
+            }
+
+            // Update parent checkboxes in UI too
+            const item = findItemById(currentClient.checklist, itemId);
+            if (item) {
+                updateParentCheckboxesUI(item);
+            }
+        }
+
+        function findItemById(items, targetId) {
+            for (const item of items) {
+                if (item.id === targetId) {
+                    return item;
+                }
+                if (item.children) {
+                    const found = findItemById(item.children, targetId);
+                    if (found) return found;
+                }
+            }
+            return null;
+        }
+
+        function updateParentCheckboxesUI(item) {
+            // Find and update all parent checkboxes in the DOM
+            currentClient.checklist.forEach(topItem => {
+                updateItemUI(topItem);
+            });
+        }
+
+        function updateItemUI(item) {
+            if (item.type !== 'checkbox') return;
+
+            const state = currentClient.state[item.id];
+            if (state) {
+                updateCheckboxUI(item.id, state.checked);
+            }
+
+            if (item.children) {
+                item.children.forEach(child => updateItemUI(child));
+            }
         }
 
         function toggleItemAndChildren(item, checked) {
+            console.log('toggleItemAndChildren called:', item.id, checked);
+
             // Set the item itself
             if (!currentClient.state[item.id]) {
                 currentClient.state[item.id] = {};
@@ -1662,12 +1726,12 @@
 
             setChildren(item, checked);
 
+            saveChecklist();
             updateParentCheckboxes();
             updateOverallProgress();
-            saveChecklist();
 
-            // Re-render to update styling
-            renderCurrentView();
+            // Update UI without full re-render
+            updateItemUI(item);
         }
 
         function updateParentCheckboxes() {
