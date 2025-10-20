@@ -1528,13 +1528,21 @@
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = item.id;
-                checkbox.checked = currentClient.state[item.id]?.checked || false;
+                const isChecked = currentClient.state[item.id]?.checked === true;
+                checkbox.checked = isChecked;
+                if (isChecked) {
+                    checkbox.setAttribute('checked', 'checked');
+                }
                 checkbox.onchange = (e) => {
                     e.stopPropagation();
                     const checked = e.target.checked;
 
-                    // If this item has children, check/uncheck all children
-                    if (item.children && item.children.length > 0) {
+                    // Count only checkbox children, not notes or forms
+                    const hasCheckboxChildren = item.children &&
+                        item.children.some(child => child.type === 'checkbox');
+
+                    // If this item has checkbox children, check/uncheck all children
+                    if (hasCheckboxChildren) {
                         toggleItemAndChildren(item, checked);
                     } else {
                         toggleItem(item.id, checked);
@@ -1545,8 +1553,12 @@
                 label.className = 'item-text';
                 label.textContent = item.text || item.title || '';
                 label.onclick = (e) => {
-                    // In single-page view with children, clicking label toggles expansion
-                    if (inSinglePageView && item.children && item.children.length > 0) {
+                    // Count only checkbox children, not notes or forms
+                    const hasCheckboxChildren = item.children &&
+                        item.children.some(child => child.type === 'checkbox');
+
+                    // In single-page view with checkbox children, clicking label toggles expansion
+                    if (inSinglePageView && hasCheckboxChildren) {
                         e.stopPropagation();
                         toggleExpanded(item.id);
                     } else {
@@ -1554,7 +1566,7 @@
                         checkbox.checked = !checkbox.checked;
 
                         // Manually call the checkbox logic
-                        if (item.children && item.children.length > 0) {
+                        if (hasCheckboxChildren) {
                             toggleItemAndChildren(item, checkbox.checked);
                         } else {
                             toggleItem(item.id, checkbox.checked);
@@ -1612,9 +1624,11 @@
             }
             currentClient.state[itemId].checked = checked;
 
+            // Save immediately to ensure state persists
+            saveChecklist();
+
             updateParentCheckboxes();
             updateOverallProgress();
-            saveChecklist();
 
             // Re-render to update styling
             renderCurrentView();
