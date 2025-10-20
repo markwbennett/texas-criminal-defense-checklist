@@ -1508,6 +1508,11 @@
                     itemContent.classList.add('item-has-children');
                 }
 
+                // Debug: log clicks on the container
+                itemContent.onclick = (e) => {
+                    console.log('Item content clicked:', item.id, item.text, 'target:', e.target.tagName);
+                };
+
                 // Add collapse/expand arrow for items with children (only in single-page view)
                 if (inSinglePageView && item.children && item.children.length > 0) {
                     const arrow = document.createElement('span');
@@ -1533,9 +1538,15 @@
                 if (isChecked) {
                     checkbox.setAttribute('checked', 'checked');
                 }
-                checkbox.onchange = (e) => {
+
+                // Use both onclick and onchange to ensure we catch the event
+                const handleCheckboxClick = (e) => {
+                    console.log('Checkbox clicked:', item.id, item.text);
                     e.stopPropagation();
-                    const checked = e.target.checked;
+                    e.preventDefault();
+
+                    const newChecked = !checkbox.checked;
+                    checkbox.checked = newChecked;
 
                     // Count only checkbox children, not notes or forms
                     const hasCheckboxChildren = item.children &&
@@ -1543,11 +1554,14 @@
 
                     // If this item has checkbox children, check/uncheck all children
                     if (hasCheckboxChildren) {
-                        toggleItemAndChildren(item, checked);
+                        toggleItemAndChildren(item, newChecked);
                     } else {
-                        toggleItem(item.id, checked);
+                        toggleItem(item.id, newChecked);
                     }
                 };
+
+                checkbox.onclick = handleCheckboxClick;
+                checkbox.onchange = handleCheckboxClick;
 
                 const label = document.createElement('span');
                 label.className = 'item-text';
