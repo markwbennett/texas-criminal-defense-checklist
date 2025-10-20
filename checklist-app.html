@@ -1528,7 +1528,14 @@
                 checkbox.checked = currentClient.state[item.id]?.checked || false;
                 checkbox.onchange = (e) => {
                     e.stopPropagation();
-                    toggleItem(item.id, e.target.checked);
+                    const checked = e.target.checked;
+
+                    // If this item has children, check/uncheck all children
+                    if (item.children && item.children.length > 0) {
+                        toggleItemAndChildren(item, checked);
+                    } else {
+                        toggleItem(item.id, checked);
+                    }
                 };
 
                 const label = document.createElement('span');
@@ -1541,7 +1548,7 @@
                         toggleExpanded(item.id);
                     } else {
                         checkbox.checked = !checkbox.checked;
-                        toggleItem(item.id, checkbox.checked);
+                        checkbox.onchange(new Event('change', { target: checkbox }));
                     }
                 };
 
@@ -1594,6 +1601,42 @@
                 currentClient.state[itemId] = {};
             }
             currentClient.state[itemId].checked = checked;
+
+            updateParentCheckboxes();
+            updateOverallProgress();
+            saveChecklist();
+
+            // Re-render to update styling
+            renderCurrentView();
+        }
+
+        function toggleItemAndChildren(item, checked) {
+            // Set the item itself
+            if (!currentClient.state[item.id]) {
+                currentClient.state[item.id] = {};
+            }
+            currentClient.state[item.id].checked = checked;
+
+            // Recursively set all children
+            function setChildren(parentItem, value) {
+                if (!parentItem.children) return;
+
+                parentItem.children.forEach(child => {
+                    if (child.type === 'checkbox') {
+                        if (!currentClient.state[child.id]) {
+                            currentClient.state[child.id] = {};
+                        }
+                        currentClient.state[child.id].checked = value;
+
+                        // Recursively set grandchildren
+                        if (child.children && child.children.length > 0) {
+                            setChildren(child, value);
+                        }
+                    }
+                });
+            }
+
+            setChildren(item, checked);
 
             updateParentCheckboxes();
             updateOverallProgress();
