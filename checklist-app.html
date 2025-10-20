@@ -148,6 +148,14 @@
             color: #ffffff;
         }
 
+        .section-header-title {
+            color: #2c3e50;
+        }
+
+        body.dark-theme .section-header-title {
+            color: #ffffff;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -2196,9 +2204,9 @@
 
                 const titleDiv = document.createElement('h3');
                 titleDiv.textContent = section.title || section.text;
-                titleDiv.style.color = '#2c3e50';
                 titleDiv.style.margin = '0';
                 titleDiv.id = section.id;
+                titleDiv.className = 'section-header-title';
 
                 headerDiv.appendChild(arrow);
                 headerDiv.appendChild(titleDiv);
