@@ -889,7 +889,12 @@
         function loadClients() {
             const stored = localStorage.getItem('criminalDefenseClients');
             if (stored) {
-                clients = JSON.parse(stored);
+                try {
+                    clients = JSON.parse(stored);
+                } catch (e) {
+                    console.error('Failed to parse stored clients data:', e);
+                    clients = [];
+                }
             }
         }
 
