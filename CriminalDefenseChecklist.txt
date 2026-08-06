@@ -770,6 +770,7 @@ Trial
 			Incurable events: the mistrial motion alone preserves the complaint, and review is limited to the mistrial denial
 			Bench conferences and jury communications on the record; object to any failure to record
 			Harm record: state the concrete prejudice and why a lesser remedy would not cure it
+			See the Error Preservation section for the phase-by-phase pages
 		Special Problems:
 			Noncitizen client
 			Unexpected extraneous at trial
@@ -802,6 +803,79 @@ Trial
 			Back-time credit verified
 		Notice of Appeal
 
+
+Error Preservation
+	#Note: One page per phase. The test every time: timely, specific, on the record, ruled on (TRAP 33.1)
+	Core Rules (every phase)
+		Object as soon as the ground appears; name the evidence, the legal ground, and the relief you want
+		A general or "constitutional" objection preserves nothing
+		State each ground separately: hearsay, confrontation, Rule 403, statutory, state constitution, federal constitution
+		Get an express ruling; if the judge refuses to rule, object to the refusal on the record
+		The appellate complaint must match the trial objection
+		No magic words needed: plain English that tells the judge what you want and why you are entitled to it
+		Needs no trial objection: sufficiency of the evidence; absolute requirements; waivable-only rights (object anyway when you can)
+	Pretrial
+		Charging-instrument defects, form or substance: raise before trial or lose them (art. 1.14(b))
+		Amendment of indictment: object before it is allowed; demand the 10 days (art. 28.10)
+		Motion to suppress: plead every ground separately (Miranda; art. 38.22 warnings and recording; art. 38.21 voluntariness; art. 38.23; Fourth Amendment; art. I, sec. 9); establish standing on the record
+		Suppression hearing: demand live testimony, an express ruling, and written findings when voluntariness is contested (art. 38.22, sec. 6)
+		A definitive pretrial ruling carries forward; renew only if trial evidence materially changes the issue
+		Speedy trial: assert it in the trial court and ask for a trial (a dismissal-only request weakens the claim); build the record on delay, reasons, assertion, and prejudice
+		Limitations: forfeitable; move to dismiss before trial (art. 27.08)
+		Competency: any credible suggestion triggers the informal-inquiry duty; put dates and observations on the record; if the court declines to inquire, object and make a bill
+		Continuance: written and sworn, always; an unsworn oral motion preserves nothing beyond a separately pleaded constitutional claim
+		Severance, misjoinder, election: move pretrial when the defect shows on the face of the charge; renew the election demand when the State rests
+		Double jeopardy after mistrial: get the full mistrial record (who requested it, consent, manifest-necessity findings); raise by pretrial habeas before retrial
+		Bail denial under art. I, sec. 11-d: demand the hearing and counsel; make the State elect and prove its theory; insist on written findings
+		Art. 28.01 pretrial setting: calendar the seven-day filing cutoff
+	Jury Selection
+		Challenge to the array: written, supported by affidavit, filed before voir dire begins
+		Jury shuffle: demand it before voir dire begins
+		Commitment questions: object by name; when your own proper questions are cut off, proffer the exact questions on the record
+		Denied defense challenge for cause, all six steps before the jury is sworn: (1) clear and specific challenge; (2) peremptory used on that veniremember; (3) all peremptories exhausted; (4) additional strikes requested; (5) specific objectionable juror identified who will sit; (6) statement that the extra strike would have been used on that juror
+		Granted State challenge for cause: object specifically and rehabilitate on the record; the appellate court reads the answers, and your characterization of them is what the record lacks if you stay silent
+		Batson: raise before the jury is sworn and the panel discharged; get rulings at all three steps; strike sheets, questionnaires, and comparative-juror facts into the record
+	Evidence
+		Timely and specific, every time; move to strike when the answer outruns the objection
+		A motion in limine preserves nothing; object when the evidence is offered
+		Running objection: request it and scope it (this witness, this subject, this exhibit); watch for the same evidence from another door
+		Excluded evidence: offer of proof showing substance and admissibility, before the charge is read; question-and-answer form when credibility matters
+		Excluding your constitutional defense evidence? Say the Constitution requires admission; the evidentiary argument alone does not preserve that claim
+		Conditionally admitted evidence: calendar the missing link; move to strike when the promised connection never comes
+		Rule 403 is a separate objection from relevance; request the balancing on the record
+		Extraneous acts: demand notice (404(b), 609(f), 37.07, 38.37); object under 404(b) and 403 separately; force a genuine non-propensity purpose; request the limiting instruction at admission and again in the charge
+		Rule 412: motion outside the jury, recorded in camera examination, sealed record, offer preserved
+		Hearsay: name the statement, the declarant, and the truth it is offered to prove; count the layers, and demand an exception for each
+		Confrontation is a separate objection from hearsay; make both: the statement is testimonial, the declarant is absent, and there was no prior opportunity for cross
+		Substitute analyst: identify each report and statement conveyed; establish whether the witness performed, observed, or merely reviewed the work
+		Experts: request the Rule 705(b) hearing before the jury hears an opinion; attack qualification, reliability, and fit as three separate showings; full offer of proof for your excluded expert
+		Electronic evidence: name the authentication gap (authorship, account access, alteration, chain of custody, system reliability)
+	Trial Conduct
+		Restraints or jail clothing: object before the jury sees anything; describe on the record what was visible and for how long
+		Courtroom closure: object at the moment of closure; identify who was excluded and from what proceeding; request findings and reasonable alternatives
+		Interpreter: put the language problem on the record; the court must implement the right unless the client waives it
+		Judicial comments on the weight of the evidence: object (art. 38.05), and get the comment itself into the record verbatim
+		Defendant's presence: note any proceeding or jury communication conducted in the client's absence
+		Improper argument: object every time; request an instruction to disregard; move for mistrial; a skipped step forfeits everything below it
+		Incurable harm: the mistrial motion alone preserves the complaint, and review is limited to the mistrial denial
+		Bench conferences and all proceedings recorded; object to any failure to record
+	Jury Charge
+		Before the charge is read: dictate or file specific objections and submit requested instructions in writing; get a ruling on each
+		Preserve both erroneous inclusions and omissions
+		Unanimity: multiple incidents under one count, or disjunctive offenses? Request election and a unanimity instruction
+		Contested facts about how evidence was obtained? Request the art. 38.23 instruction (requires affirmative evidence putting a material fact in genuine dispute)
+		Lesser-included offenses: decide, and request on the record
+		Accomplice-witness corroboration instruction (art. 38.14): as a matter of law, or as a fact issue when participation is disputed
+		The stakes: preserved charge error is reviewed for some harm; unpreserved charge error only for egregious harm
+		Jury notes, the court's proposed answers, objections, and rulings all on the record; readback limited to the disputed portion
+	Punishment and Post-Verdict
+		Full range of punishment: object if the record suggests the court will not consider it, and make the record even though the claim survives without objection
+		Cumulation and stacking: object to an improper order; the claim is reviewable on direct appeal but unavailable later on habeas
+		Punishment-phase extraneous acts: require proof beyond a reasonable doubt and the instruction
+		PSI errors: object on the record
+		Costs and fines: review the judgment; when the challenge needs facts outside the record, present them by formal bill of exception
+		Motion for New Trial: file within 30 days; present within 10 days of filing; ruled within 75 days or overruled by operation of law; support outside-record grounds with affidavits and request a hearing
+		Juror testimony attacking the verdict: limited to outside influence and racial animus; develop the proof through a non-juror where possible
 
 Appeal
 	Deadlines run from sentencing in open court; calendar them the same day
