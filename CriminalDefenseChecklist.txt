@@ -140,8 +140,8 @@ Client Background Investigation
 			Skin (clear, acne, pale, abrasions)
 			Eyes (dilated, rapid movements, dull, normal)
 			Hygiene (unclean, clean, food, drool, chapped lips, feces/urine, odor)
-			Appearance (dishevelled, neat, unshaven, gaunt, tired)
-			Mood (crying, lethargic, sad, agitated, hopeless, unpleasant, main, irritable, clinging)
+			Appearance (disheveled, neat, unshaven, gaunt, tired)
+			Mood (crying, lethargic, sad, agitated, hopeless, unpleasant, mean, irritable, clinging)
 			Speech (monotonous, loud/soft, incoherent, tangential, shifting, derailment, flighty, stuck on single subject, pressured, minimal)
 			Thought (delusion, hallucination, paranoia, preoccupation, extreme, confabulation, inflated sense of self)
 			Feelings (fear, shame, remorse, giddy/silly, anxious, normal)
@@ -209,12 +209,12 @@ Client Background Investigation
 			Benefits (food stamps, disability, unemployment, social security)
 			Child welfare
 			Veteran's Administration
-			INS
+			Immigration (USCIS/ICE/DHS)
 		Employment History
 			Employment record (name, address, supervisor, dates of employment, reasons for leaving)
 			Problems with employers/co-workers
 			Lengthy periods of unemployment (why, collect benefits)
-			Workmen's compensation claims
+			Workers' compensation claims
 		Religious Background/Community Activity
 			Attendance as child/adult (where, name of church, personnel, activities)
 			Other community groups/service
@@ -253,6 +253,10 @@ Open File
 	Pull sample jury charge
 	Notice of Appearance / Appearance of counsel / Motion to Substitute
 	Request discovery, notice, and disclosure.
+		Written art. 39.14 discovery request filed and copy in file
+		Requests for notice: 404(b), 609(f), 37.07 sec. 3(g), 38.37 (as applicable)
+		Log what was produced and when; the State's duty to disclose is continuing
+		Calendar a supplemental-discovery check before every setting
 	Is client noncitizen?
 		Consult with immigration lawyer
 		Counsel client regarding immigration
@@ -281,15 +285,21 @@ Stabilize Case
 		What to do if police call.
 		Social media behavior.
 	Bail
-		If so, Amount
+		Bail set? Amount and conditions
+		Review bond conditions (interlock, GPS, no-contact, travel); move to modify onerous conditions
 		If no bail, why not? Check Constitution and statute for bases.
+			Art. I, sec. 11-d (added Nov. 2025): for the listed violent/sexual offenses the State can seek mandatory denial. Demand the hearing and counsel; make the State elect and prove its theory; insist on written findings; build the record on conditions short of detention
 		If necessary, habeas to reduce bond.
+		In custody on unindicted felony: calendar the 90-day release/bond-reduction deadline (art. 17.151)
 		Connect family with bonding company.
+	Magistration review
+		Art. 15.17 warnings given? Anything client said recorded?
+		Mental-health/IDD screening ordered (art. 16.22)? Obtain any assessment
 
 Is the case an unindicted felony?
 	Pre-indictment negotiation
 	Contact Prosecutor about grand jury packet- get it in writing
-	Get client to take polygraph exam
+	Consider private polygraph (privileged; disclose to the State only if favorable)
 	Write a grand-jury letter
 	Send grand-jury letter
 
@@ -302,7 +312,7 @@ Discovery and Investigation
 			Criminal history
 			Other statements
 		Interview all witnesses
-		Facebook and other social networks, from LinkedIn to MySpace for Client / Witnesses
+		Social media for Client / Witnesses (Facebook, Instagram, X/Twitter, TikTok, Snapchat, LinkedIn); preserve posts with screenshots and URLs
 		Compile witness list for guilt
 		Compile witness list for punishment
 	Scene and Timeline Investigation
@@ -324,13 +334,17 @@ Discovery and Investigation
 			Get patrol car GPS records.
 			Get patrol car dashcam / bwc that includes metadata.
 			Map police coordinates to Google map for visualization.
+		ALPR/license-plate-reader and city camera data near scene?
+		Doorbell and business security cameras: canvass early and send preservation letters (retention periods are short)
+		Client's phone and cloud accounts: preserve; image before any turnover decision
+		Jail calls are recorded: warn client, and request the State's collection of client's calls in discovery
 		911 / dispatch recordings
 			Subpoena to:
 			If made to County: Traci Mullins, records custodian, 1301 Franklin, Houston 77002. Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it
 			If made to City of Houston: HEC, Custodian of Records, 5320 N. Shepherd, Room 1022. Houston, Texas 77091. Contact Joe.Laud@CityOfHouston.net if there are any problems (e.g., runaround). Include cause number, offense report #, address, and date, and even phone number that called 911 if you have it
-		Dispatch tapes, MDT printouts, AVL/GPD data from patrol car, and all video and audio (including any metadata of when photos/video/audio done)
+		Dispatch tapes, MDT printouts, AVL/GPS data from patrol car, and all video and audio (including any metadata of when photos/video/audio done)
 			Subpoena to:
-			HDP: HPD, Wanda O' Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
+			HPD: HPD, Wanda O' Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
 			HCSD: Dalora Miller. Custodian of Records/Legal Department. 1200 Baker, Houston, TX 77002
 		Social media
 		News articles
@@ -343,13 +357,13 @@ Discovery and Investigation
 		Are there medical records involved?
 		Identify healthcare providers.
 			Get HIPAA release forms from providers.
-			HIPPA release signed by client.
-			HIPPA motion filed on CW.
+			HIPAA release signed by client.
+			HIPAA motion filed on CW.
 			Medical Records Requested
 			Medical records subpoenaed.
 			Medical Records Received
-		TCLEOSE Requested
-		TCLEOSE Received
+		TCOLE records (formerly TCLEOSE) Requested
+		TCOLE records Received
 		MDTs Requested
 		MDTs Received
 		PIA Requests
@@ -378,6 +392,7 @@ Discovery and Investigation
 			911 Received
 	Specialized Discovery Requests
 		#Note: The following are detailed contact points for specific records in Houston/Harris County area
+		#Note: Contact names, addresses, fax numbers, and URLs in this section age quickly; verify each one before relying on it
 		Police personnel/civil service files of cops, including sustained complaints (3x5), as well as payroll records:
 			Public Information Act request to:
 			HPD: Roland Bienvenu, HR Dept 611 Walker, 4th Floor, Houston, TX 77002, Roland.Bienvenu@CityOfHouston.net
@@ -448,7 +463,7 @@ Discovery and Investigation
 			TDCJ Classification and Records Headquarters in Huntsville. Requests may be sent by internet email (penpacket-AT-tdcj.state.tx.us), fax (936/437-6227) or regular mail (P.O. Box 99, Huntsville, Texas 77342). However, if the request is for a state jail offender, and the requestor knows which facility that state jail offender is assigned to, the request may be sent directly to the state jail, attention Unit Warden or Classification Chief. State jail addresses and phone numbers can be obtained from the unit directory on the TDCJ website (www.tdcj.state.tx.us). Every effort will be made to process the request within seven calendar days. If the pen packet is not received in this time period, or if the request is a "rush order", you may contact Rachel Williams, TDCJ Classification and Records, at 936/437-8696 or Rachel.williams-AT-tdcj.state.tx.us."
 		Informant files, including criminal record, payment records, leniency, if he has been deactivated, if he has been untruthful, etc. (court may need to inspect in camera, in which case entire file needs to be sealed as exhibit), including running informant on Facebook and other social networks.
 			Subpoena to:
-			HDP: HPD, Wanda O' Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
+			HPD: HPD, Wanda O' Bryant, 1200 Travis, Houston, TX 77002. Specify unit, incident number, and time frame (she will not accept faxes). Voice: 713-308-8502
 			HCSD: Dalora Miller. Custodian of Records/Legal Department. 1200 Baker, Houston, TX 77002
 		CPS Records
 			NOTE: Can subpoena but invariably CPS will file a motion to quash and you will in turn need to file a motion with the trial court for an in camera inspection; thus, consider just first filing a motion for disclosure and in camera inspection to avoid hassle of a subpoena.
@@ -476,7 +491,7 @@ Discovery and Investigation
 	Investigation - Additional Considerations
 		Subpoenas to defense witnesses
 		Officer Info. (for all officers involved):
-			TCLEOSE Records
+			TCOLE Records
 			Personnel files (including complaints) [subpoena]
 			IAD investigations and results [subpoena]
 			Lawsuits filed against [?]
@@ -581,6 +596,7 @@ Motions practice
 		Motion for grand jury testimony (if entitled)
 		Motion to discover identity of informant
 	More pretrial motions:
+		Motion for speedy trial; renew it, and build the record on delay, reasons, assertion, and prejudice (preservation in the trial court is required)
 		Motion for no solitary confinement (show particularized need)
 		Motion to suppress
 		Motion to set aside ("quash") indictment
@@ -616,7 +632,7 @@ Motions practice
 
 Build a team
 	Cocounsel
-	Law lawyer
+	Law lawyer (legal-research, motions, and charge specialist)
 	Investigators
 	Experts - General
 		Request consulting expert
@@ -663,6 +679,10 @@ Plea Offers?
 
 Guilty Plea
 	Plea Preparation
+		All discovery received and reviewed before plea; discovery acknowledgment on the record (art. 39.14)
+		Immigration consequences re-verified before plea (Padilla)
+		Deadly-weapon finding? Explain effect on parole eligibility and probation
+		Confirm plea papers match the deal: waivers, appeal rights, conditions, affirmative findings
 		Got an offer on each count?
 		Reviewed paperwork with client?
 		Filled out appeal form
@@ -741,11 +761,20 @@ Trial
 			State's Documentary Evidence (Document – Objection)
 	Trial Execution
 		Preservation of error, generally
-			Object
-			Move to Strike
-			Request that jury be instructed to disregard
-			Move for Mistrial
+			Object every time: timely, specific ground, specific relief; get an express ruling
+			State separate grounds separately (hearsay and confrontation; relevance and Rule 403; statutory, state, and federal constitutional)
+			A motion in limine preserves nothing; object when the evidence is offered
+			Running objection: request it and scope it (this witness, this subject, this exhibit); watch for the same evidence arriving elsewhere
+			Excluded evidence: offer of proof, in question-and-answer form when credibility matters, before the charge is read
+			Curable events: object, request an instruction to disregard, move for mistrial; get a ruling at each step
+			Incurable events: the mistrial motion alone preserves the complaint, and review is limited to the mistrial denial
+			Bench conferences and jury communications on the record; object to any failure to record
+			Harm record: state the concrete prejudice and why a lesser remedy would not cure it
 		Special Problems:
+			Noncitizen client
+			Unexpected extraneous at trial
+			Missing witness
+			Batson error (get the strike sheets, comparative-juror facts, and rulings at all three steps into the record)
 			Cop cross-exam
 				Establish reliability of report
 					Trained to write
@@ -758,29 +787,44 @@ Trial
 		Jury charge conference:
 			Read every word.
 			Compare to your pattern charge.
+			Submit requested instructions in writing; get a ruling on each objection and request
+			Unanimity: multiple incidents under one count, or disjunctive offenses? Request election and a unanimity instruction
+			Contested facts about how evidence was obtained? Request the art. 38.23 instruction (requires affirmative evidence putting a material fact in genuine dispute)
+			Lesser-included offenses: decide, and request on the record
 		Judgment issued.
-		Sentencing date.
+		Sentencing
+			PSI reviewed with client; errors objected to on the record
+			Punishment-evidence objections (notice, relevance, Rule 403; extraneous acts require proof beyond a reasonable doubt)
+			Full range of punishment: object if the record suggests the court will not consider it
+			Cumulation/stacking: object to an improper cumulation order
+			Allocution; in murder cases, sudden passion at punishment?
+			Fines, fees, costs, restitution: review the judgment; object to unsupported amounts
+			Back-time credit verified
 		Notice of Appeal
 
 
 Appeal
-	Notice of Appeal
-	Jury-charge error
-	Jury selection error
-
-Specific problems:
-	Noncitizen client
-	Unexpected extraneous at trial
-	Missing witness
-	Batson error
+	Deadlines run from sentencing in open court; calendar them the same day
+	Motion for New Trial: file within 30 days; present it to the court within 10 days of filing; it is overruled by operation of law if not ruled on within 75 days
+	Notice of Appeal: 30 days (90 days with a timely Motion for New Trial)
+	Certification of right to appeal signed, and accurate?
+	Trial court's permission needed (plea-bargained case)?
+	Bail pending appeal?
+	Designate the clerk's and reporter's records (include voir dire, bench conferences, exhibits)
+	Handoff memo to appellate counsel: preserved issues, off-record events, jury notes
 
 Close file
 	Withdraw
 	Send closing letter.
+	Final invoice; trust-account reconciliation
+	Return client documents; retain file per retention policy
+	Calendar expunction/nondisclosure eligibility date and notify client
 	File to storage
 
 Clear Client's record.
 	Expunge record
+		Confirm eligibility and current article numbers (the expunction chapter was renumbered by H.B. 4504, eff. Jan. 1, 2025)
+		Not yet eligible? Calendar the waiting-period or limitations date
 		Identify agencies involved
 		Look for other cases that can be expunged while you're doing one
 		Get Client SSN, TDL, address at time of arrest, address now.
@@ -794,12 +838,17 @@ Clear Client's record.
 		Purge SSN, credit card numbers from file
 
 	Petition for Nondisclosure
-		Eligibility Checklist
-			Petitioner must have received successful discharge and dismissal of DADJ AND
-			The court where petition filed is the court that granted the DADJ
-			Petitioner complied with waiting period from date of discharge/dismissal (5 years for felonies; 2 years for misdemeanors under PC Ch. 20-22, 25, 42 or 46), and immediately for all other misdemeanors
-			There are some offenses for which Petitioner is NEVER eligible if convicted or placed on deferred – check Penal Code, ie Indecency with a Child, Aggravated Sexual Assault, etc.)
-			Even if eligible, Petitioner becomes Disqualified IF: during period of DADJ or waiting period thereafter, Petitioner gets convicted or placed on DADJ for any offense (other than traffic offense punishable by fine only).
+		#Note: The law changed materially in 2015-2017. Multiple paths now exist under Gov't Code ch. 411, subch. E-1, including paths for convictions, DWI, and specialty courts. Verify current section numbers before filing; the subchapter is amended nearly every session
+		Map the client to the right path before assuming ineligibility
+			Automatic nondisclosure (no petition) for certain first-offense misdemeanor deferred adjudications
+			Deferred-adjudication petition (the traditional route)
+			Conviction-based paths for certain misdemeanors
+			DWI paths (completed sentence or deferred; restrictions, including accident and interlock conditions)
+			Veterans treatment court and other specialty-court paths
+		Check disqualifying offenses (e.g., family violence, sex offenses, listed violent offenses) and disqualifying criminal history under the current statute
+		Confirm the waiting period for the specific path
+		Confirm the petition goes to the court that handled the case
+		New offense during the case or waiting period (other than fine-only traffic)? Re-check eligibility
 	Juvenile Sealing of Records
 		File Folder created
 		Enter Client Sealing of Records in Contacts (SOS and Outlook)
@@ -844,7 +893,7 @@ Clear Client's record.
 			Harris County Constable Precinct _*
 				Sent: _
 				Received: _
-			Harris County Fire Marshall*
+			Harris County Fire Marshal*
 				Sent: _
 				Received: _
 			Other Law Enforcement Agency _*
@@ -1007,16 +1056,19 @@ Offense-Specific Checklists
 				Request 609 (f) Notice
 				Motion to Suppress, if any
 				Copies of All Motions to Client
+			Blood-draw case?
+				Warrant or claimed exception? Litigate warrant defects and any warrantless-draw theory
+				Request the full lab batch discovery (see crime-lab list in the general checklist)
 			ALR Process
 				ALR Hearing to be Requested- Refer to ALR Folder
 				ALR Discovery
 				ALR Continuance
 				ALR Subpoena
 				Order ALR record
-				Order TCLEOSE
+				Order TCOLE records
 				Order Personnel file
 			Trial Prep (DWI-Specific)
-				TCLEOSE Information on Law Enforcement Witnesses Requested/Received
+				TCOLE Information on Law Enforcement Witnesses Requested/Received
 				Request ALR Transcript for Impeachment – if necessary
 				Scene Photos / Scene Visit / Google Earth Photo of scene
 				Subpoena hostile witnesses, if any
