@@ -424,13 +424,13 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
             items_with_forms.add(idx)
             continue
 
-        # Check if this item has children
+        # Check if this item has children (skip blank lines when looking ahead)
         has_children = False
-        if idx + 1 < len(lines):
-            next_line = lines[idx + 1]
-            next_indent = count_indent(next_line)
-            if next_indent > current_indent:
-                has_children = True
+        j = idx + 1
+        while j < len(lines) and not lines[j].strip():
+            j += 1
+        if j < len(lines) and count_indent(lines[j]) > current_indent:
+            has_children = True
         
         # Generate item ID and add anchor
         item_id = generate_anchor_id('item-' + item.lower().replace(' ', '-'))
@@ -471,13 +471,13 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
         if idx in items_with_forms:
             continue
 
-        # Check if this item has children
+        # Check if this item has children (skip blank lines when looking ahead)
         has_children = False
-        if idx + 1 < len(lines):
-            next_line = lines[idx + 1]
-            next_indent = count_indent(next_line)
-            if next_indent > current_indent:
-                has_children = True
+        j = idx + 1
+        while j < len(lines) and not lines[j].strip():
+            j += 1
+        if j < len(lines) and count_indent(lines[j]) > current_indent:
+            has_children = True
 
         if has_children:
             # Create a new hierarchy with the current item
@@ -580,11 +580,17 @@ def process_markdown_to_pdf(md_file):
         html = html.replace('</div></p>', '</div>')
         
         soup = BeautifulSoup(html, 'html.parser')
-        
+
         # Clean up any remaining nested paragraphs inside field containers
         for field_container in soup.select('.field-container'):
             for p in field_container.select('p'):
                 p.unwrap()  # Remove the paragraph tag but keep its contents
+
+        # Tag item links to sublists (but not breadcrumb links in headings) so
+        # CSS can append the sublist's page number as a cross-reference
+        for link in soup.find_all('a', href=True):
+            if link['href'].startswith('#level-1') and link.find_parent('h1') is None:
+                link['class'] = link.get('class', []) + ['sublist-ref']
         
         # Add page anchor
         page_div = soup.new_tag('div')
@@ -627,6 +633,11 @@ def process_markdown_to_pdf(md_file):
             }
             a:hover {
                 text-decoration: underline;
+            }
+            /* Page-number cross-reference for items that have sublists */
+            a.sublist-ref::after {
+                content: " (p. " target-counter(attr(href), page) ")";
+                font-size: 10pt;
             }
             /* Field container styles for flex-based layout */
             .field-container {
