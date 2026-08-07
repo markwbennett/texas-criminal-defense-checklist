@@ -1,3 +1,4 @@
+# CURRENCY: Substantively reviewed as of August 6, 2026, against the Texas statutes, rules, and case law then in effect (H.B. 4504 recodifications noted inline). Statutes and article numbers age silently; verify before relying on any item.
 # Tab for increasing outline level. _ will convert to an underline for the rest of the line. _ on a line alone will be a full-width underline. # signals a command (END, LIST, FORM) or a comment. If a line ends with *, the sublist should be included on the same page.
 
 Prospective Client Meeting
