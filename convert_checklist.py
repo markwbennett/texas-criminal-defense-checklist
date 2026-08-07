@@ -165,6 +165,69 @@ def is_form_end(line):
     """
     return line.strip().upper() == '#FORMEND'
 
+def md_to_tab_text(md: str) -> str:
+    """Convert the canonical Markdown checklist back to the tab-indented
+    outline this converter has always consumed. Inverse of scripts/txt_to_md.py.
+
+      "## X"                      -> depth-0 line
+      "- [ ] X" at s spaces       -> depth s/2 + 1
+      "- *Note:* X" at s spaces   -> "#Note: X" at depth s/2 + 1
+      "<!-- #X -->" at s spaces   -> "#X" at depth s/2 + 1
+      "> **Currency:** X"         -> "# CURRENCY: X" (skipped comment)
+      ```form fenced block at s   -> #FORM/#FORMEND at depth s/2, inner
+                                     lines re-prefixed at depth s/2 + 1
+    """
+    out = []
+    in_form = False
+    form_depth = 0
+    fence_indent = 0
+    for raw in md.split("\n"):
+        line = raw.rstrip()
+        stripped = line.strip()
+        indent = len(line) - len(line.lstrip(" "))
+        if in_form:
+            if stripped == "```":
+                out.append("\t" * form_depth + "#FORMEND")
+                in_form = False
+                continue
+            rel = raw[fence_indent:] if raw[:fence_indent].strip() == "" else stripped
+            out.append("\t" * (form_depth + 1) + rel)
+            continue
+        if stripped.startswith("```form"):
+            fence_indent = indent
+            form_depth = indent // 2
+            out.append("\t" * form_depth + "#FORM")
+            in_form = True
+            continue
+        if not stripped:
+            out.append("")
+            continue
+        if stripped.startswith("# ") and indent == 0:
+            continue  # document title
+        if stripped.startswith("> **Currency:**"):
+            out.append("# CURRENCY: " + stripped[len("> **Currency:**"):].strip())
+            continue
+        if stripped.startswith("<!--") and stripped.endswith("-->"):
+            body = stripped[4:-3].strip()
+            if body.startswith("#"):
+                out.append("\t" * (indent // 2 + 1) + body)
+            continue  # FORMAT and other non-# comments drop
+        if stripped.startswith("## "):
+            out.append(stripped[3:].strip())
+            continue
+        m = re.match(r"^- \[[ xX]\] (.*)$", stripped)
+        if m:
+            out.append("\t" * (indent // 2 + 1) + m.group(1))
+            continue
+        m = re.match(r"^- \*Note:\* (.*)$", stripped)
+        if m:
+            out.append("\t" * (indent // 2 + 1) + "#Note: " + m.group(1))
+            continue
+        # anything else: pass through at computed depth (defensive)
+        out.append("\t" * (indent // 2 + 1) + stripped)
+    return "\n".join(out)
+
+
 def process_form_section(lines, start_index):
     """
     Process a form section between #FORM and #FORMEND markers.
@@ -768,7 +831,10 @@ def convert_to_markdown(input_file, output_file):
         output_file (str): Path to write the markdown file
     """
     with open(input_file, 'r') as f:
-        lines = f.readlines()
+        content = f.read()
+    if input_file.endswith('.md'):
+        content = md_to_tab_text(content)
+    lines = [l + '\n' for l in content.split('\n')]
     
     # Check for #end command and truncate lines if found
     for i, line in enumerate(lines):
@@ -800,17 +866,17 @@ def convert_to_markdown(input_file, output_file):
     convert_to_pdf(output_file)
 
 if __name__ == "__main__":
-    default_input = "CriminalDefenseChecklist.txt"
+    default_input = "CriminalDefenseChecklist.md"
     
     if len(sys.argv) == 2:
         input_file = sys.argv[1]
-        output_file = os.path.splitext(input_file)[0] + ".md"
+        output_file = os.path.splitext(input_file)[0] + "_print.md"
     elif len(sys.argv) == 3:
         input_file = sys.argv[1]
         output_file = sys.argv[2]
     else:
         input_file = default_input
-        output_file = os.path.splitext(default_input)[0] + ".md"
+        output_file = os.path.splitext(default_input)[0] + "_print.md"
     
     # If input_file is not an absolute path, look in the script's directory
     if not os.path.isabs(input_file) and not os.path.exists(input_file):

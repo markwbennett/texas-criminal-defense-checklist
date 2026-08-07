@@ -4,3 +4,6 @@ Pipfile.lock
 .claude/
 texas-criminal-defense-checklist-main/
 PROJECT.md
+CriminalDefenseChecklist_print.md
+CriminalDefenseChecklist_print.pdf
+*_inspection.html

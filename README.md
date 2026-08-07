@@ -4,7 +4,7 @@ A comprehensive, hierarchical checklist for criminal defense practice in Texas, 
 
 ## Overview
 
-This project provides a complete criminal defense workflow checklist covering everything from initial client meeting through appeal and record clearing. The checklist includes general criminal defense procedures plus offense-specific sections (currently DWI cases, with room for expansion).
+This project provides a complete criminal defense workflow checklist covering everything from initial client meeting through appeal and record clearing, stored as a Markdown outline that GitHub renders as nested task lists. The checklist includes general criminal defense procedures plus offense-specific sections (currently DWI cases, with room for expansion).
 
 ## Components
 
@@ -14,7 +14,7 @@ A self-contained, browser-based checklist manager with:
 
 - **Per-client instances** - Create unlimited client checklists with independent state tracking
 - **Smart checkboxes** - Parent items auto-complete when all children are checked
-- **Template-driven** - Loads from `CriminalDefenseChecklist.txt` (user-editable)
+- **Template-driven** - Loads from `CriminalDefenseChecklist.md` (user-editable Markdown)
 - **Progress tracking** - Visual indicators show completion percentage
 - **Data persistence** - Auto-saves to browser localStorage with export/import to JSON (**Export regularly for backups!**)
 - **Printable forms** - Generate fillable PDF forms for questionnaires and intake documents
@@ -31,17 +31,18 @@ A self-contained, browser-based checklist manager with:
 
 See `CHECKLIST_APP_README.md` (or `.pdf`) for detailed documentation.
 
-### 2. Master Checklist Template (`CriminalDefenseChecklist.txt`)
+### 2. Master Checklist Template (`CriminalDefenseChecklist.md`)
 
-The source template file with hierarchical structure:
+The source template, in Markdown that GitHub renders natively:
 
 **Format:**
-- Tabs indicate outline levels (more tabs = deeper nesting)
-- `_` at line end = fillable field
-- `#FORM` / `#FORMEND` = form sections
-- `#Note:` = explanatory notes
-- `#End` = marks end of template
-- `#` alone = comment (not displayed)
+- `## ` headings are top-level sections
+- `- [ ] ` task-list items nest at two spaces per indent level
+- `_` at line end = fillable field; `*` at line end keeps the sublist on the same page
+- ```` ```form ```` fenced blocks = intake forms (inner tabs are depth within the form)
+- `- *Note:*` entries = explanatory notes
+- HTML comments are ignored by the tools
+- `scripts/validate_md.py` checks structural integrity (run it before committing template edits)
 
 **Structure:**
 - Prospective Client Meeting
@@ -67,7 +68,7 @@ The source template file with hierarchical structure:
 All sections maintain ≤20 items per hierarchy level for usability.
 
 **Editing the Template:**
-Moderately technical users can edit `CriminalDefenseChecklist.txt` in any text editor to modify the checklist structure. The web app will parse changes when the template is reloaded.
+Edit `CriminalDefenseChecklist.md` in any text editor or directly on GitHub, where the hierarchy renders as nested checkboxes. The web app parses changes when the template is reloaded.
 
 ### 3. PDF Generator (`convert_checklist.py`)
 
@@ -81,15 +82,18 @@ Optional Python script to generate printable PDF versions of the checklist with:
 
 **Usage:**
 ```bash
-python convert_checklist.py CriminalDefenseChecklist.txt
+python convert_checklist.py CriminalDefenseChecklist.md
 ```
+Output lands in `CriminalDefenseChecklist_print.pdf`.
 
 ## Files
 
 | File | Purpose |
 |------|---------|
 | `checklist-app.html` | Interactive web application (self-contained) |
-| `CriminalDefenseChecklist.txt` | Master checklist template (user-editable) |
+| `CriminalDefenseChecklist.md` | Master checklist template (user-editable Markdown) |
+| `scripts/txt_to_md.py` | Legacy tab-indented txt to Markdown converter |
+| `scripts/validate_md.py` | Template structure validator (round-trip check) |
 | `CHECKLIST_APP_README.md` | User guide for web application |
 | `CHECKLIST_APP_README.pdf` | Printable user guide |
 | `convert_checklist.py` | PDF generator script (optional) |
@@ -106,6 +110,6 @@ See `LICENSE` file for details.
 
 ## Contributing
 
-This checklist is designed to be customized for your practice. Edit `CriminalDefenseChecklist.txt` to add, remove, or modify sections as needed.
+This checklist is designed to be customized for your practice. Edit `CriminalDefenseChecklist.md` to add, remove, or modify sections as needed.
 
 For issues or suggestions, please open an issue on GitHub.

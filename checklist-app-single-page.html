@@ -810,7 +810,7 @@
         function autoLoadDefaultTemplate() {
             // If no cached template, try to load the default template file
             if (!template) {
-                fetch('CriminalDefenseChecklist.txt')
+                fetch('CriminalDefenseChecklist.md')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('Default template file not found');
@@ -873,7 +873,62 @@
             reader.readAsText(file);
         }
 
+                // --- Markdown checklist support -------------------------------------
+        // The canonical template is Markdown (see CriminalDefenseChecklist.md);
+        // this shim converts it to the tab-indented outline parseTemplate has
+        // always consumed. Mirrors md_to_tab_text in convert_checklist.py.
+        function looksLikeMarkdownChecklist(content) {
+            return /^##\s/m.test(content) && /^\s*- \[[ xX]\]\s/m.test(content);
+        }
+
+        function mdToTabText(md) {
+            const out = [];
+            let inForm = false, formDepth = 0, fenceIndent = 0;
+            for (const raw of md.split('\n')) {
+                const line = raw.replace(/\s+$/, '');
+                const stripped = line.trim();
+                const indent = line.length - line.replace(/^ +/, '').length;
+                if (inForm) {
+                    if (stripped === '```') {
+                        out.push('\t'.repeat(formDepth) + '#FORMEND');
+                        inForm = false;
+                        continue;
+                    }
+                    const rel = raw.slice(0, fenceIndent).trim() === '' ? raw.slice(fenceIndent) : stripped;
+                    out.push('\t'.repeat(formDepth + 1) + rel);
+                    continue;
+                }
+                if (stripped.startsWith('```form')) {
+                    fenceIndent = indent;
+                    formDepth = Math.floor(indent / 2);
+                    out.push('\t'.repeat(formDepth) + '#FORM');
+                    inForm = true;
+                    continue;
+                }
+                if (!stripped) { out.push(''); continue; }
+                if (stripped.startsWith('# ') && indent === 0) continue;
+                if (stripped.startsWith('> **Currency:**')) {
+                    out.push('# CURRENCY: ' + stripped.slice('> **Currency:**'.length).trim());
+                    continue;
+                }
+                if (stripped.startsWith('<!--') && stripped.endsWith('-->')) {
+                    const body = stripped.slice(4, -3).trim();
+                    if (body.startsWith('#')) out.push('\t'.repeat(Math.floor(indent / 2) + 1) + body);
+                    continue;
+                }
+                if (stripped.startsWith('## ')) { out.push(stripped.slice(3).trim()); continue; }
+                let m = stripped.match(/^- \[[ xX]\] (.*)$/);
+                if (m) { out.push('\t'.repeat(Math.floor(indent / 2) + 1) + m[1]); continue; }
+                m = stripped.match(/^- \*Note:\* (.*)$/);
+                if (m) { out.push('\t'.repeat(Math.floor(indent / 2) + 1) + '#Note: ' + m[1]); continue; }
+                out.push('\t'.repeat(Math.floor(indent / 2) + 1) + stripped);
+            }
+            return out.join('\n');
+        }
+        // ---------------------------------------------------------------------
+
         function parseTemplate(content) {
+            if (looksLikeMarkdownChecklist(content)) content = mdToTabText(content);
             const lines = content.split('\n');
             const root = { title: 'Root', children: [], level: -1 };
             const stack = [root];
