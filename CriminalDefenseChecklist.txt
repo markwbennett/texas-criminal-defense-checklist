@@ -256,7 +256,8 @@ Open File
 	Request discovery, notice, and disclosure.
 		Written art. 39.14 discovery request filed and copy in file
 		Requests for notice: 404(b), 609(f), 37.07 sec. 3(g), 38.37 (as applicable)
-		Log what was produced and when; the State's duty to disclose is continuing
+		Log what was produced and when; the exculpatory/impeachment/mitigation duty (39.14(h)) runs without any request, and supplemental disclosure is required whenever more surfaces (39.14(k))
+		Client access to discovery is view-only (39.14(f)): no copies except the client's own statement, identifiers redacted before viewing, and the client is never the attorney's agent
 		Calendar a supplemental-discovery check before every setting
 	Is client noncitizen?
 		Consult with immigration lawyer
@@ -291,7 +292,7 @@ Stabilize Case
 		If no bail, why not? Check Constitution and statute for bases.
 			Art. I, sec. 11-d (added Nov. 2025): for the listed violent/sexual offenses the State can seek mandatory denial. Demand the hearing and counsel; make the State elect and prove its theory; insist on written findings; build the record on conditions short of detention
 		If necessary, habeas to reduce bond.
-		In custody on unindicted felony: calendar the 90-day release/bond-reduction deadline (art. 17.151)
+		Client in custody and State not ready: calendar the art. 17.151 release/bond-reduction deadline (90 days felony; 30 days misdemeanor punishable by more than 180 days; 15 days by 180 days or less; 5 days fine-only)
 		Connect family with bonding company.
 	Magistration review
 		Art. 15.17 warnings given? Anything client said recorded?
@@ -683,6 +684,7 @@ Guilty Plea
 		All discovery received and reviewed before plea; discovery acknowledgment on the record (art. 39.14)
 		Immigration consequences re-verified before plea (Padilla)
 		Deadly-weapon finding? Explain effect on parole eligibility and probation
+		Sex-offender registration (ch. 62): determine applicability and duration before any plea
 		Confirm plea papers match the deal: waivers, appeal rights, conditions, affirmative findings
 		Got an offer on each count?
 		Reviewed paperwork with client?
@@ -791,7 +793,7 @@ Trial
 			Compare to your pattern charge.
 			Submit requested instructions in writing; get a ruling on each objection and request
 			Unanimity: multiple incidents under one count, or disjunctive offenses? Request election and a unanimity instruction
-			Contested facts about how evidence was obtained? Request the art. 38.23 instruction (requires affirmative evidence putting a material fact in genuine dispute)
+			Contested facts about how evidence was obtained? Request the art. 38.23 instruction (requires affirmative evidence putting a material fact in genuine dispute); the statute reaches evidence obtained by an officer or other person, so private-actor violations count
 			Lesser-included offenses: decide, and request on the record
 		Judgment issued.
 		Sentencing
