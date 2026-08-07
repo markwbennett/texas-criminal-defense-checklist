@@ -1,115 +1,58 @@
 # Texas Criminal-Defense Checklist
 
-A comprehensive, hierarchical checklist for criminal defense practice in Texas, developed by the **Institute for Advanced Criminal Law Studies (IACLS)**.
+A comprehensive, hierarchical checklist for criminal-defense practice in Texas, published by the **Institute for Advanced Criminal Law Studies (IACLS)**. It covers the life of a case from the first client meeting through trial, appeal, and record clearing, with error-preservation pages for each phase of trial and offense-specific sections (currently DWI).
 
-## Overview
+The checklist lives in one Markdown file, [`CriminalDefenseChecklist.md`](CriminalDefenseChecklist.md), which GitHub renders as nested task lists — browse it right here, or use it through the web app or the PDF.
 
-This project provides a complete criminal defense workflow checklist covering everything from initial client meeting through appeal and record clearing, stored as a Markdown outline that GitHub renders as nested task lists. The checklist includes general criminal defense procedures plus offense-specific sections (currently DWI cases, with room for expansion).
+## Three ways to use it
 
-## Components
+1. **Web app** — open [`checklist-app.html`](checklist-app.html) in any browser. Create a checklist per client, check items off, and export encrypted backups. Everything stays in your browser; nothing is sent anywhere. See [`CHECKLIST_APP_README.md`](CHECKLIST_APP_README.md).
+2. **PDF** — download [`CriminalDefenseChecklist.pdf`](CriminalDefenseChecklist.pdf), rebuilt automatically whenever the checklist changes. One page per sublist, with page-number cross-references and stacked breadcrumb navigation.
+3. **On GitHub** — read [`CriminalDefenseChecklist.md`](CriminalDefenseChecklist.md) directly; the section list in the header is a table of contents, and every item renders as a checkbox.
 
-### 1. Interactive Web Application (`checklist-app.html`)
+## The template format
 
-A self-contained, browser-based checklist manager with:
+`CriminalDefenseChecklist.md` is ordinary Markdown with a few conventions:
 
-- **Per-client instances** - Create unlimited client checklists with independent state tracking
-- **Smart checkboxes** - Parent items auto-complete when all children are checked
-- **Template-driven** - Loads from `CriminalDefenseChecklist.md` (user-editable Markdown)
-- **Progress tracking** - Visual indicators show completion percentage
-- **Data persistence** - Auto-saves to browser localStorage with export/import to JSON (**Export regularly for backups!**)
-- **Printable forms** - Generate fillable PDF forms for questionnaires and intake documents
-- **Collapsible sections** - Clean, organized interface with expand/collapse
-- **Search functionality** - Quickly find checklist items
-- **No installation required** - Works in any modern browser, offline-capable
-- **IACLS branding** - Professional appearance with organization logo and attribution
+| Convention | Meaning |
+|---|---|
+| `## Heading` | Top-level section (a phase of the case) |
+| `- [ ] Item`, nested two spaces per level | A checklist item |
+| Trailing `_` | Fill-in field (renders as a blank line in print) |
+| Trailing `*` | Keep this item's sublist on the same printed page |
+| `- *Note:* text` | Explanatory note, displayed but not checkable |
+| ```` ```form … ``` ```` fenced block | A client-intake form, kept together in print |
+| `<!-- comment -->` | Ignored by all the tools |
 
-**Quick Start:**
-1. Open `checklist-app.html` in your browser
-2. Template auto-loads (or click "Load Template" if needed)
-3. Click "New Client" to create a checklist
-4. Check off items as you complete them
+The blockquote at the top of the file is the currency line: the date the checklist was last substantively reviewed against Texas law. Statutes and article numbers age silently — check the date before relying on any item.
 
-See `CHECKLIST_APP_README.md` (or `.pdf`) for detailed documentation.
+## Editing and contributing
 
-### 2. Master Checklist Template (`CriminalDefenseChecklist.md`)
+Edit `CriminalDefenseChecklist.md` in any text editor or directly on GitHub, then open a pull request. Two checks run on every PR:
 
-The source template, in Markdown that GitHub renders natively:
+- `scripts/validate_md.py` verifies the file's structure (indentation continuity, balanced form fences).
+- The PDF workflow rebuilds `CriminalDefenseChecklist.pdf` after merge, so the published PDF always matches the Markdown.
 
-**Format:**
-- `## ` headings are top-level sections
-- `- [ ] ` task-list items nest at two spaces per indent level
-- `_` at line end = fillable field; `*` at line end keeps the sublist on the same page
-- ```` ```form ```` fenced blocks = intake forms (inner tabs are depth within the form)
-- `- *Note:*` entries = explanatory notes
-- HTML comments are ignored by the tools
-- `scripts/validate_md.py` checks structural integrity (run it before committing template edits)
+The checklist is designed to be customized: fork it and adjust the wording, contacts, and offense sections to your jurisdiction and practice. The Harris County contact details in the discovery section are local and age quickly — verify before relying on them.
 
-**Structure:**
-- Prospective Client Meeting
-- Client Background Investigation
-- Open File
-- Stabilize Case
-- Discovery and Investigation (with subsections)
-- Mitigation
-- Review Discovery
-- Scientific and Technical Issues
-- Motions Practice
-- Build a Team
-- Case Reassessment and Negotiation
-- Plea Offers / Guilty Plea
-- Trial (Preparation and Execution)
-- Appeal
-- Close File / Clear Client's Record
-- Prepare for Disaster
-- **Offense-Specific Checklists**
-  - DWI Cases (Initial Meeting, Pretrial, ALR Hearing, Occupational License, ALR Forms)
-  - *(Room for additional offense types)*
-
-All sections maintain ≤20 items per hierarchy level for usability.
-
-**Editing the Template:**
-Edit `CriminalDefenseChecklist.md` in any text editor or directly on GitHub, where the hierarchy renders as nested checkboxes. The web app parses changes when the template is reloaded.
-
-### 3. PDF Generator (`convert_checklist.py`)
-
-Optional Python script to generate printable PDF versions of the checklist with:
-- Hierarchical navigation with breadcrumb links
-- Page breaks between sections
-- Special formatting for forms
-- Proper underlines for fillable fields
-
-**Requirements:** Python 3 with `weasyprint`, `markdown`, `beautifulsoup4`
-
-**Usage:**
-```bash
-python convert_checklist.py CriminalDefenseChecklist.md
-```
-Output lands in `CriminalDefenseChecklist_print.pdf`.
-
-## Files
+## Repository contents
 
 | File | Purpose |
-|------|---------|
-| `checklist-app.html` | Interactive web application (self-contained) |
-| `CriminalDefenseChecklist.md` | Master checklist template (user-editable Markdown) |
-| `scripts/txt_to_md.py` | Legacy tab-indented txt to Markdown converter |
-| `scripts/validate_md.py` | Template structure validator (round-trip check) |
-| `CHECKLIST_APP_README.md` | User guide for web application |
-| `CHECKLIST_APP_README.pdf` | Printable user guide |
-| `convert_checklist.py` | PDF generator script (optional) |
-| `arial_px_pt_ratios.csv` | Character width data for PDF generation |
+|---|---|
+| `CriminalDefenseChecklist.md` | The checklist (canonical source) |
+| `CriminalDefenseChecklist.pdf` | Print edition, rebuilt automatically from the Markdown |
+| `checklist-app.html` | Interactive web app (self-contained, offline-capable) |
+| `checklist-app-single-page.html` | Legacy single-page variant of the app |
+| `convert_checklist.py` | PDF generator (`python convert_checklist.py CriminalDefenseChecklist.md`; needs `weasyprint`, `markdown`, `beautifulsoup4`) |
+| `scripts/validate_md.py` | Structure validator; run before committing template edits |
+| `scripts/txt_to_md.py` | Converter from the retired tab-indented format |
+| `arial_px_pt_ratios.csv` | Character-width data used by the PDF generator |
+| `CHECKLIST_APP_README.md` | User guide for the web app |
 
 ## Credits
 
-Developed by the **Institute for Advanced Criminal Law Studies**
-[IACLS.org](https://iacls.org)
+Developed by the **Institute for Advanced Criminal Law Studies**, [IACLS.org](https://iacls.org).
 
 ## License
 
-See `LICENSE` file for details.
-
-## Contributing
-
-This checklist is designed to be customized for your practice. Edit `CriminalDefenseChecklist.md` to add, remove, or modify sections as needed.
-
-For issues or suggestions, please open an issue on GitHub.
+See [`LICENSE`](LICENSE).
