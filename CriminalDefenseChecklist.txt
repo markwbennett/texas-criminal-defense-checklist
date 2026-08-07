@@ -378,6 +378,7 @@ Discovery and Investigation
 			Request court order.
 			Get court order.
 			Communicate court order to agency.
+		Invasive-recording or forensic-exam images in the production? Protective orders required; copies are returned or destroyed at disposition (arts. 39.152, 39.153, eff. 2025)
 		Lab Reports
 		DNA Serology Reports
 		Subpoenas
@@ -573,6 +574,7 @@ Scientific and Technical Issues
 		Call the lab analyst, ensure there are no other supplemental reports, that you have all reports, that there are no calculations or other reports pending
 		Discuss lab report data – ask analyst to pin down their interpretation of results
 	Other evidence which needs to be tested?
+	Any witness ever hypnotized by law enforcement? Statements derived from investigative hypnosis are inadmissible (art. 38.24, eff. 2023)
 	Drug / Alcohol Reports
 	Blood Analysis Reports
 	Fingerprint Analysis Reports
@@ -598,7 +600,7 @@ Motions practice
 		Motion for grand jury testimony (if entitled)
 		Motion to discover identity of informant
 	More pretrial motions:
-		Motion for speedy trial; renew it, and build the record on delay, reasons, assertion, and prejudice (preservation in the trial court is required)
+		Motion for speedy trial; renew it, and build the record on delay, reasons, assertion, and prejudice (preservation in the trial court is required). Texas has had no statutory speedy-trial clock since the Speedy Trial Act was held void in 1987; the constitutional Barker analysis is the whole claim
 		Motion for no solitary confinement (show particularized need)
 		Motion to suppress
 		Motion to set aside ("quash") indictment
@@ -900,7 +902,7 @@ Close file
 
 Clear Client's record.
 	Expunge record
-		Confirm eligibility and current article numbers (the expunction chapter was renumbered by H.B. 4504, eff. Jan. 1, 2025)
+		Confirm eligibility under current ch. 55A (renumbered from ch. 55 by H.B. 4504, eff. Jan. 1, 2025; anything citing art. 55.01 cites a repealed chapter)
 		Not yet eligible? Calendar the waiting-period or limitations date
 		Identify agencies involved
 		Look for other cases that can be expunged while you're doing one
