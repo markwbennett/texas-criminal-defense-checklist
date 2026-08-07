@@ -379,26 +379,27 @@ def process_level(lines, start_index, current_indent, hierarchy=None):
         current_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in hierarchy]))
         content.append(f"<a id='{current_id}'></a>")
         
-        # Build breadcrumb navigation
-        breadcrumb = []
+        # Build breadcrumb navigation as stacked lines, each indented
+        # one step deeper than its parent; ancestors link upward
+        crumbs = []
         current_path = []
-        
-        # Add "Main Checklist" as first item
+
         main_id = generate_anchor_id('level-1')
-        breadcrumb.append(f"[Main Checklist](#{main_id})")
-        
-        # Add intermediate levels
+        crumbs.append((0, f'<a href="#{main_id}">Main Checklist</a>'))
+
         for i, part in enumerate(hierarchy[:-1]):
             current_path.append(part)
             # Link to the level heading instead of the item
             level_id = generate_anchor_id('level-1-' + '-'.join([h.lower().replace(' ', '-') for h in current_path]))
-            breadcrumb.append(f"[{part}](#{level_id})")
-        
-        # Add current level (without link)
-        breadcrumb.append(hierarchy[-1])
-        
-        # Create title with breadcrumb navigation
-        content.append(f"# {' | '.join(breadcrumb)}")
+            crumbs.append((i + 1, f'<a href="#{level_id}">{part}</a>'))
+
+        crumbs.append((len(hierarchy) - 1 + 1, hierarchy[-1]))
+
+        crumb_html = ''.join(
+            f'<div class="crumb" style="margin-left: {depth}em">{text}</div>'
+            for depth, text in crumbs
+        )
+        content.append(f'<div class="page-title">{crumb_html}</div>')
     
     # Track items that have FORM sections (so we don't recursively process their children)
     items_with_forms = set()
@@ -589,7 +590,8 @@ def process_markdown_to_pdf(md_file):
         # Tag item links to sublists (but not breadcrumb links in headings) so
         # CSS can append the sublist's page number as a cross-reference
         for link in soup.find_all('a', href=True):
-            if link['href'].startswith('#level-1') and link.find_parent('h1') is None:
+            if (link['href'].startswith('#level-1') and link.find_parent('h1') is None
+                    and link.find_parent('div', class_='page-title') is None):
                 link['class'] = link.get('class', []) + ['sublist-ref']
         
         # Add page anchor
@@ -633,6 +635,17 @@ def process_markdown_to_pdf(md_file):
             }
             a:hover {
                 text-decoration: underline;
+            }
+            /* Stacked breadcrumb page titles */
+            .page-title {
+                color: #2c3e50;
+                font-weight: bold;
+                margin-top: 1em;
+                margin-bottom: 0.8em;
+            }
+            .page-title .crumb a {
+                color: #2c3e50;
+                font-weight: bold;
             }
             /* Page-number cross-reference for items that have sublists */
             a.sublist-ref::after {
