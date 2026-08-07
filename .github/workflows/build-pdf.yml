@@ -1,0 +1,45 @@
+name: Rebuild PDF from Markdown
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'CriminalDefenseChecklist.md'
+      - 'convert_checklist.py'
+      - 'arial_px_pt_ratios.csv'
+      - '.github/workflows/build-pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install system libraries for WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 fonts-liberation
+      - name: Install Python dependencies
+        run: pip install weasyprint markdown beautifulsoup4
+      - name: Validate structure
+        run: python scripts/validate_md.py
+      - name: Build PDF
+        run: |
+          python convert_checklist.py CriminalDefenseChecklist.md
+          cp CriminalDefenseChecklist_print.pdf CriminalDefenseChecklist.pdf
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CriminalDefenseChecklist.pdf
+          if git diff --cached --quiet; then
+            echo "PDF unchanged"
+          else
+            git commit -m "Rebuild PDF from CriminalDefenseChecklist.md [skip ci]"
+            git push
+          fi
