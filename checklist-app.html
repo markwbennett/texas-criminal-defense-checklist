@@ -349,6 +349,46 @@
             font-size: 16px;
         }
 
+        .how-to-use {
+            text-align: left;
+            max-width: 640px;
+            margin: 0 auto 28px;
+            padding: 20px 22px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .how-to-use h3 {
+            color: #2c3e50;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .how-to-use p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.65;
+            margin-bottom: 12px;
+        }
+
+        .how-to-use p:last-child {
+            margin-bottom: 0;
+        }
+
+        body.dark-theme .how-to-use {
+            background: #2a2a2a;
+            border-left-color: #5dade2;
+        }
+
+        body.dark-theme .how-to-use h3 {
+            color: #ffffff;
+        }
+
+        body.dark-theme .how-to-use p {
+            color: #b0b0b0;
+        }
+
         .client-list {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -765,6 +805,11 @@
             <h2>Welcome to the Criminal Defense Checklist (Paginated)</h2>
             <p>Manage your case checklists with secure encryption and progress tracking.</p>
             <p id="welcome-subtitle">This version shows one checklist section at a time for easier navigation.</p>
+            <div class="how-to-use">
+                <h3>How to use the checklist</h3>
+                <p>Click <strong>Get Started</strong>, then <strong>+ New Client Checklist</strong>, and enter the client’s name (and case number if you want). Open that client’s card to work the checklist: check items as you complete them, use the section list and breadcrumbs to move through phases of the case, and switch between paginated and single-page view with the button in the header. Progress saves automatically in this browser.</p>
+                <p>Nothing leaves your computer unless you export. Use <strong>Export All</strong> regularly (optionally password-encrypted) and keep the backup file somewhere safe; browser storage can be cleared by cache cleanup or switching browsers. Import restores a backup. Parent items complete when all children are checked. On the client list, use Search to find a matter quickly.</p>
+            </div>
             <button class="btn btn-primary" onclick="showClientsScreen()">Get Started</button>
         </div>
 
